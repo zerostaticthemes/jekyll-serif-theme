@@ -1,0 +1,65 @@
+ul.social {
+  height: inherit;
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  justify-content: flex-start;
+  svg {
+    fill: currentColor;
+    height: 16px;
+    width: 16px;
+  }
+  li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-right: 30px;
+    &:last-of-type {
+      margin: 0;
+    }
+    a {
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: auto;
+      padding: 8px;
+      display: block;
+      span {
+        font-size: 24px;
+      }
+    }
+  }
+}
+
+// ul.social {
+//   .social-instagram {
+//     background-image: url('/images/social/logo-instagram-blue.svg');
+//   }
+//   .social-linkedin {
+//     background-image: url('/images/social/logo-linkedin-blue.svg')
+//   }
+//   .social-twitter {
+//     background-image: url('/images/social/logo-twitter-blue.svg');
+//     background-size: 16px 16px;
+//   }
+//   .social-vimeo {
+//     background-image: url('/images/social/logo-vimeo-blue.svg');
+//   }
+// }
+
+// ul.social.social-invert {
+//   .social-instagram {
+//     background-image: url('/images/social/logo-instagram-white.svg');
+//   }
+//   .social-linkedin {
+//     background-image: url('/images/social/logo-linkedin-white.svg')
+//   }
+//   .social-twitter {
+//     background-image: url('/images/social/logo-twitter-white.svg');
+//     background-size: 16px 16px;
+//   }
+//   .social-vimeo {
+//     background-image: url('/images/social/logo-vimeo-white.svg');
+//   }
+// }

@@ -1,0 +1,15 @@
+.strip {
+  margin-top: 200px;
+  background: white;
+}
+.strip-white {
+  background: white;
+}
+.strip-diagonal {
+  transform: skewY(5deg);
+  padding-bottom: 50px;
+  margin-bottom: 65px;
+  > div {
+    transform: skewY(-5deg);
+  }
+}

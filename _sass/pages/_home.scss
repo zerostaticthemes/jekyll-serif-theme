@@ -1,0 +1,119 @@
+.page-home {
+  background-image: url('../images/undraw_taking_notes_tjaf.svg');
+  background-repeat: no-repeat;
+  background-size: 115%;
+  background-position: 49px -40px;
+  @include media-breakpoint-up(sm) {
+    background-size: 90%;
+    background-position: 159px -40px;
+  }
+  @include media-breakpoint-up(md) {
+    background-size: 70%;
+    background-position: 100% -50px;
+  }
+  @include media-breakpoint-up(lg) {
+    background-size: 60%;
+    background-position: 100% -70px;
+  }
+  .call {
+    position: relative;
+    overflow: hidden;
+    background-color: #ffffff;
+    border-radius: 4px;
+    box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1),
+      0 5px 15px rgba(0, 0, 0, 0.07);
+    width: 100%;
+    color: $secondary;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    @include media-breakpoint-up(sm) {
+      align-items: center;
+      flex-direction: row;
+      width: 90%;
+    }
+    @include media-breakpoint-up(md) {
+      width: 70%;
+    }
+    @include media-breakpoint-up(lg) {
+      width: 50%;
+    }
+    .call-box-top {
+      flex: 1 0 auto;
+      padding: 20px;
+      @include media-breakpoint-up(md) {
+        padding: 20px;
+      }
+    }
+    .call-box-bottom {
+      flex: 0 0 auto;
+      padding: 0 20px 20px 20px;
+      @include media-breakpoint-up(sm) {
+        padding: 20px;
+      }
+    }
+    .call-name {
+      font-size: 1.1rem;
+      font-weight: bold;
+    }
+    svg {
+      //       fill: lighten($primary, 30%);
+      fill: lighten($secondary, 40%);
+      position: absolute;
+      bottom: -9px;
+      right: 0;
+      width: 100px;
+      height: 100px;
+      @include media-breakpoint-up(sm) {
+        width: 120px;
+        height: 120px;
+      }
+    } // .call-box-bottom {
+    //   padding: 10px 20px;
+    //   border-bottom: 1px solid #CCC;
+    // }
+  }
+  .certified {
+    background-image: url('/images/undraw_experts3_3njd.svg');
+    background-repeat: no-repeat;
+    background-size: 120%;
+    background-position: -100px 0;
+    overflow: visible;
+    position: relative;
+    display: inherit;
+    padding-top: 220px;
+    @include media-breakpoint-up(sm) {
+      background-size: 90%;
+      padding-top: 250px;
+      background-position: -110px 30px;
+    }
+    @include media-breakpoint-up(md) {
+    }
+    @include media-breakpoint-up(lg) {
+      padding-top: 280px;
+      background-size: 85%;
+      background-position: -170px 0px;
+    }
+    h1 {
+      text-align: right;
+      float: right;
+      color: $primary;
+      margin-top: -30%;
+      color: $primary;
+      font-size: 2.4rem;
+      line-height: 1.2;
+      font-family: $font-family-heading;
+      margin-bottom: 30px;
+      @include media-breakpoint-up(sm) {
+        width: 70%;
+      }
+      @include media-breakpoint-up(md) {
+        font-size: 3rem;
+      }
+      @include media-breakpoint-up(lg) {
+        margin-top: -20%;
+        width: 70%;
+      }
+    }
+  }
+}

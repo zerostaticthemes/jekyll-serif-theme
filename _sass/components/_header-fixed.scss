@@ -1,0 +1,19 @@
+.header-fixed {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  transition: padding 225ms, box-shadow 225ms, background-color 0.3s;
+  .main-menu {
+    > ul {
+      > li {
+        > a {
+          &:hover {
+            background: $primary;
+            color: #ffffff;
+          }
+        }
+      }
+    }
+  }
+}

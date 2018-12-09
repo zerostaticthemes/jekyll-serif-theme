@@ -1,0 +1,17 @@
+.service-single {
+  h1.title {
+    font-size: 3rem;
+    font-family: $font-family-heading;
+    color: $primary;
+  }
+  .content {
+    > p {
+      &:first-of-type {
+        font-size: 24px;
+        line-height: 32px;
+        margin-bottom: 40px;
+        font-weight: 300;
+      }
+    }
+  }
+}

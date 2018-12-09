@@ -1,0 +1,34 @@
+baseurl: ''
+exclude: ['README.md']
+permalink: pretty
+title: 'Serif Jekyll Theme'
+
+collections:
+  services:
+    output: true
+    permalink: /services/:path/
+  team:
+    output: true
+    permalink: /team/:path/
+  testimonials:
+    output: true
+    permalink: /testimonials/:path/
+
+
+defaults:
+  - scope:
+      type: services
+    values:
+      layout: service
+      bodyClass: page-services-single
+  - scope:
+      type: team
+    values:
+      layout: team
+      bodyClass: page-team-single
+  - scope:
+      path: "images"
+    values:
+      image: true
+sass:
+  style: compact # possible values: nested expanded compact compressed

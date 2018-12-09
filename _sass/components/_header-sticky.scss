@@ -1,0 +1,49 @@
+.sticky {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  background-color: #ffffff;
+  color: $primary;
+  box-shadow: 0 1px 2px 0 rgba(36, 50, 66, 0.15);
+  transition: padding 225ms, box-shadow 225ms, background-color 0.3s;
+  .logo {
+    @include media-breakpoint-up(lg) {
+      opacity: 1;
+      transition: opacity 225ms;
+    }
+  }
+  .main-menu {
+    > ul {
+      > li {
+        > a {
+          &:hover {
+            background: $primary;
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+  .hamburger {
+    .hamburger-inner,
+    .hamburger-inner::before,
+    .hamburger-inner::after {
+      background: $primary;
+    }
+  }
+  .social {
+    .social-instagram {
+      background-image: url('/images/social/logo-instagram-blue.svg');
+    }
+    .social-linkedin {
+      background-image: url('/images/social/logo-linkedin-blue.svg');
+    }
+    .social-twitter {
+      background-image: url('/images/social/logo-twitter-blue.svg');
+    }
+    .social-vimeo {
+      background-image: url('/images/social/logo-vimeo-blue.svg');
+    }
+  }
+}

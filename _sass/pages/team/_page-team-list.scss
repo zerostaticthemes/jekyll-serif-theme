@@ -1,0 +1,18 @@
+.page-team-list {
+  background-image: url('../images/undraw_hang_out_h9ud.svg');
+  background-repeat: no-repeat;
+  background-size: 115%;
+  background-position: 49px -40px;
+  @include media-breakpoint-up(sm) {
+    background-size: 90%;
+    background-position: 159px -40px;
+  }
+  @include media-breakpoint-up(md) {
+    background-size: 85%;
+    background-position: 199px -80px;
+  }
+  @include media-breakpoint-up(lg) {
+    background-size: 60%;
+    background-position: 100% -110px;
+  }
+}

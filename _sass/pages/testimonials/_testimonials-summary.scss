@@ -1,0 +1,67 @@
+.testimonials-summary {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  .testimonials-image {
+    flex: 0;
+    margin-right: 10px;
+    img {
+      width: 160px;
+    }
+  }
+  .testimonials-meta {
+    flex: 1;
+    margin-bottom: 10px;
+
+    p {
+      margin: 0;
+    }
+    a {
+    }
+  }
+  .testimonials-title {
+    margin-bottom: 5px;
+  }
+  .testimonials-name {
+    font-weight: bold;
+    display: inline-block;
+  }
+  .testimonials-jobtitle {
+    display: inline-block;
+    color: $secondary;
+  }
+  .testimonials-content {
+    flex: 1 0 100%;
+
+    blockquote {
+      display: block;
+      border-width: 2px 0 0 0;
+      border-style: solid;
+      border-color: #eee;
+      padding: 1.5em 0 0.5em;
+      margin: 1.5em 0;
+      position: relative;
+    }
+    blockquote:before {
+      content: "\201C";
+      position: absolute;
+      top: 0em;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background: #fff;
+      width: 3rem;
+      height: 2rem;
+      font: 6em/1.08em "PT Sans", sans-serif;
+      color: $primary;
+      text-align: center;
+    }
+    // blockquote:after {
+    //   content: "\2013 \2003" attr(cite);
+    //   display: block;
+    //   text-align: right;
+    //   font-size: 0.875em;
+    //   color: #e74c3c;
+    // }
+  }
+}

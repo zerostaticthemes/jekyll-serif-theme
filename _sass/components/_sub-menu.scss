@@ -1,0 +1,39 @@
+.sub-menu {
+  display: none;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 100%;
+  background: #ccc;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+  color: $white;
+  z-index: 10;
+  li {
+    display: inline-block;
+    list-style: none;
+    flex: 0 0 auto;
+    a {
+      display: block;
+      padding: 0 10px 0 10px;
+      font-size: 12px;
+      line-height: 28px;
+      font-weight: 400;
+      text-transform: uppercase;
+      color: inherit;
+      &:hover {
+        color: $primary;
+        text-decoration: none;
+      }
+    }
+  }
+  li.active {
+    > a {
+      font-weight: $font-weight-thin;
+      border-bottom: 2px solid $primary;
+    }
+  }
+}

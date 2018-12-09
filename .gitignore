@@ -1,0 +1,23 @@
+# Test files
+node_modules
+npm-debug.log
+
+# Jekyll
+_site
+.jekyll-metadata
+.sass-cache
+
+# Temporary files
+tmp
+
+# Folder view configuration files
+.DS_Store
+Desktop.ini
+
+# Thumbnail cache files
+._*
+Thumbs.db
+
+# Files that might appear on external disks
+.Spotlight-V100
+.Trashes

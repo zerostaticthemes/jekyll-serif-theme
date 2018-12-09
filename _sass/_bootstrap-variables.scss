@@ -1,0 +1,71 @@
+// Grid breakpoints
+// $grid-breakpoints: (
+//         xs: 0,
+//         sm: 576px,
+//         md: 768px,
+//         lg: 992px,
+//         xl: 1200px
+// );
+
+// $container-max-widths: (
+//         sm: 768px,
+//         md: 992px,
+//         lg: 1000px,
+//         xl: 1220px
+// );
+
+$grid-gutter-width: 20px;
+
+$white: #ffffff;
+$black: #000000;
+$primary: #1c3ed3;
+$secondary: #414156;
+
+// Links
+$link-color: $primary;
+$link-decoration: none;
+$link-hover-color: lighten($primary, 20%);
+$link-hover-decoration: underline;
+
+// Fonts
+$font-family-base: 'Open Sans', 'Helvetica Neue', Arial, sans-serif,
+  -apple-system;
+$font-family-heading: 'Lora', 'Helvetica Neue', Arial, sans-serif, -apple-system;
+$font-size-base: 1rem; // Assumes the browser default, typically `16px`
+$font-weight-thin: 200;
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-bold: 700;
+$font-weight-base: $font-weight-normal;
+$line-height-base: 1.6;
+
+$headings-font-weight: 400;
+
+$spacer: 1rem;
+$spacers: ();
+$spacers: map-merge(
+  (
+    0: 0,
+    1: 10px,
+    2: 20px,
+    3: 30px,
+    4: 40px,
+    5: 50px,
+    6: 60px,
+    7: 70px,
+    8: 80px,
+    9: 90px,
+    10: 100px,
+    11: 110px,
+    12: 120px,
+    13: 130px,
+    14: 140px,
+    15: 150px,
+    16: 160px,
+    17: 170px,
+    18: 180px,
+    19: 190px,
+    20: 200px,
+  ),
+  $spacers
+);
