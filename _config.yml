@@ -1,7 +1,7 @@
 baseurl: ''
 exclude: ['README.md']
 permalink: pretty
-title: 'Serif Jekyll Theme'
+title: 'Jekyll Serif'
 
 collections:
   services:
@@ -14,7 +14,6 @@ collections:
     output: true
     permalink: /testimonials/:path/
 
-
 defaults:
   - scope:
       type: services
@@ -22,13 +21,11 @@ defaults:
       layout: service
       bodyClass: page-services-single
   - scope:
-      type: team
-    values:
-      layout: team
-      bodyClass: page-team-single
-  - scope:
       path: "images"
     values:
       image: true
+
 sass:
   style: compact # possible values: nested expanded compact compressed
+
+google_analytics_id: ""
