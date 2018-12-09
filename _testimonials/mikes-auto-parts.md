@@ -1,7 +1,5 @@
 ---
 title: 'Mikes Auto Parts'
-date: 2018-11-28T15:01:01+10:00
-draft: false
 image: ''
 businessurl: ''
 name: 'Tony Smith'

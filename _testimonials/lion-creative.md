@@ -1,7 +1,5 @@
 ---
 title: 'Lion Creative'
-date: 2018-11-28T15:05:36+10:00
-draft: false
 image: ''
 businessurl: ''
 name: 'Jessica Lion'
