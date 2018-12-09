@@ -1,4 +1,4 @@
-{{ if site.google_analytics_id }}
+{% if site.google_analytics_id %}
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics_id }}"></script>
   <script>
@@ -8,4 +8,4 @@
   
     gtag('config', '{{ site.google_analytics_id }}');
   </script>
-{{ end }}
+{% endif %}
