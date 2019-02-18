@@ -1,5 +1,6 @@
 {% if jekyll.environment == "production" %}
-
+production
+{{ site.env.NETLIFY_GOOGLE_ANALYTICS_ID }}
   {% assign gid = site.env.NETLIFY_GOOGLE_ANALYTICS_ID %}
   {{ gid }}
 
