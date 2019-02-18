@@ -21,7 +21,7 @@ defaults:
       layout: service
       bodyClass: page-services-single
   - scope:
-      path: "images"
+      path: 'images'
     values:
       image: true
 
@@ -29,3 +29,6 @@ sass:
   style: compact # possible values: nested expanded compact compressed
 
 google_analytics_id: null
+
+plugins:
+  - jekyll-environment-variables
