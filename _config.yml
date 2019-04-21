@@ -3,7 +3,9 @@ exclude: ['README.md']
 permalink: pretty
 title: 'CloudFalcon'
 subtitle: "OpsDev for the Cloud Solutions"
-url: "https://cloudfalcon.github.io"
+#url: "https://cloudfalcon.github.io"
+url: https://cloudfalcon.io
+enforce_ssl: cloudfalcon.io
 
 collections:
   services:
