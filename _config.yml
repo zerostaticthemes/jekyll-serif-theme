@@ -1,7 +1,9 @@
-baseurl: ''
+baseurl: '/'
 exclude: ['README.md']
 permalink: pretty
-title: 'Jekyll Serif'
+title: 'CloudFalcon'
+subtitle: "OpsDev for the Cloud Solutions"
+url: "https://cloudfalcon.github.io"
 
 collections:
   services:
