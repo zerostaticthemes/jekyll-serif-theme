@@ -14,7 +14,7 @@ collections:
     output: true
     permalink: /team/:path/
   testimonials:
-    output: true
+    output: false
     permalink: /testimonials/:path/
 
 defaults:
