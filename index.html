@@ -6,8 +6,8 @@ bodyClass: page-home
 
 <div class="intro pb-4">
   <div class="container">
-    <h1>CloudFalcon.io - OpsDev.</h1>
-    <p>Our business helps hundreds of customers with their accounting and taxation needs each year.</p>
+    <h1>OpsDev for Cloud Solutions.</h1>
+    <p>Everything as a code, not only infrastructure.</p>
   </div>
 </div>
 
@@ -58,7 +58,8 @@ bodyClass: page-home
     {% for feature in site.data.features %}
     <div class="col-12 col-md-6 col-lg-4 mb-2">
       <div class="feature">
-        {% if feature.image %}<div class="feature-image"><img alt="{{ feature.title }} logo" src="{{ feature.image }}" /></div> {% endif %}
+        {% if feature.image %}<div class="feature-image"><img alt="{{ feature.title }} logo"
+            src="{{ feature.image }}" /></div> {% endif %}
         <h2 class="feature-title">{{ feature.title }}</h2>
         <div class="feature-content">{{ feature.description }}</div>
       </div>
