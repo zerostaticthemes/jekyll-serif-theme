@@ -10,8 +10,8 @@ bodyClass: page-team-list
       <div class="col-12">
         <h1>Meet The Team</h1>
         <p>
-          Our team of qualified accountants and financial consultants can help
-          your business at any stage of it's growth.
+          Our OpsTeam of qualified Engineers and IT consultants can help
+          your business at any stage of it's transformation.
         </p>
       </div>
     </div>
@@ -25,18 +25,14 @@ bodyClass: page-team-list
       <div class="team team-summary">
         {% if team.image %}
         <div class="team-image">
-          <img
-            alt="{{ team.title }} logo"
-            class="img-fluid mb-2"
-            src="{{site.baseurl}}{{ team.image }}"
-          />
+          <img alt="{{ team.title }} logo" class="img-fluid mb-2" src="{{site.baseurl}}{{ team.image }}" />
         </div>
         {% endif %}
         <div class="team-meta">
           <h2 class="team-name">{{ team.title }}</h2>
           <p class="team-description">{{ team.Jobtitle }}</p>
           {% if team.Linkedinurl %}
-          <a target="_blank" href="{{ team.Linkedinurl }}">Linked In</a> 
+          <a target="_blank" href="{{ team.Linkedinurl }}">Linked In</a>
           {% endif %}
         </div>
         <div class="team-content">{{ team.content }}</div>
