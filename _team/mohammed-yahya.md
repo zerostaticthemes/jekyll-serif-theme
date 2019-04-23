@@ -1,6 +1,6 @@
 ---
 title: 'Mohammed Yahya'
-image: '/images/team/peter-van-eijk-711986-unsplash.jpg'
+image: '/images/team/mohammed-yahya.jpg'
 jobtitle: 'CEO'
 email: 'admin@cloudfalcon.io'
 linkedinurl: 'https://www.linkedin.com/in/mhmdio'
