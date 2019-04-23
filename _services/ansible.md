@@ -1,11 +1,9 @@
 ---
-title: 'Accounting'
+title: 'Ansible'
 image: '/services/noun_591323.png'
 ---
 
-Lorem markdownum aequalis strigis. _Saetigeri iubeas_, vultu huic alvum nondum
-de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae
-crimen habet Priamum nec.
+We use Simple, agentless IT automation Ansible.
 
 ## Ne verba patulosque numen vix libet
 
