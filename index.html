@@ -1,10 +1,51 @@
----
-title: Jekyll Serif - Jekyll Small Business Theme
-layout: default
-bodyClass: page-home
----
-
-<div class="intro pb-4">
+<html lang="en" class="gr__tal-labs_netlify_com"><head>
+  <meta charset="utf-8">
+  <title>tal-labs</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="/images/favicon.png">
+  <link href="/assets/css/style.css" rel="stylesheet">
+<style id="__web-inspector-hide-shortcut-style__" type="text/css">
+.__web-inspector-hide-shortcut__, .__web-inspector-hide-shortcut__ *, .__web-inspector-hidebefore-shortcut__::before, .__web-inspector-hideafter-shortcut__::after
+{
+    visibility: hidden !important;
+}
+</style></head>
+<body class="page page-home" data-gr-c-s-loaded="true">
+  <div id="main-menu-mobile" class="main-menu-mobile">
+  <ul>
+    <li><a href="/" class="current">Home</a></li>
+    <li><a href="/services/" class="">Services</a></li>
+    <li><a href="/team/" class="">Team</a></li>
+    <li><a href="/testimonials/" class="">Testimonials</a></li>
+    <li><a href="/contact/" class="">Contact</a></li>
+  </ul>
+</div>
+  <div id="wrapper" class="wrapper">
+    <div class="header header-extra">
+  <div class="container">
+    <div class="logo">
+      <a href="/"><img alt="Figurit Homepage" src="/assets/images/logo.svg"></a>
+    </div>
+    <div class="logo-mobile">
+      <a href="/"><img alt="Figurit Homepage" src="/assets/images/logo-mobile.svg"></a>
+    </div>
+    <div id="main-menu" class="main-menu">
+  <ul>
+    <li><a href="/" class="current">Home</a></li>
+    <li><a href="/services/" class="">Services</a></li>
+    <li><a href="/team/" class="">Team</a></li>
+    <li><a href="/testimonials/" class="">Testimonials</a></li>
+    <li><a href="/contact/" class="">Contact</a></li>
+  </ul>
+</div>
+    <button id="toggle-main-menu-mobile" class="hamburger hamburger--slider" type="button">
+  <span class="hamburger-box">
+    <span class="hamburger-inner"></span>
+  </span>
+</button>
+  </div>
+</div>
+    <div class="intro pb-4">
   <div class="container">
     <h1>tal-labs.</h1>
     <p>we're a startup.</p>
@@ -14,15 +55,13 @@ bodyClass: page-home
 <div class="container pt-2">
   <div class="call">
     <div class="call-box-top">
-      <div class="call-phone"><strong>Phone: </strong> {{ site.data.contact.phone }} </div>
+      <div class="call-phone"><strong>Phone: </strong> XXXX XXX XXX </div>
       <div class="call-email"><strong>Email: </strong>
-        <a href="mailto:{{ site.data.contact.email }}">
-          {{ site.data.contact.email }}
-        </a>
+        <a href="mailto:tal-labs@yandex.com">tal-labs@yandex.com</a>
       </div>
     </div>
     <div class="call-box-bottom">
-      <a href="{{site.baseurl}}/contact" class="button">Contact</a>
+      <a href="/contact" class="button">Contact</a>
     </div>
   </div>
 </div>
@@ -32,20 +71,81 @@ bodyClass: page-home
     <div class="col-12">
       <h2 class="title-3 text-dark mb-3">projects</h2>
     </div>
-    {% for service in site.services %}
+    
     <div class="col-12 col-md-4 mb-1">
       <div class="service service-summary">
         <div class="service-content">
           <h2 class="service-title">
-            <a href="{{site.baseurl}}{{ service.url }}">{{ service.title }}</a>
+            <a href="/services/accounting/">Accounting</a>
           </h2>
-          {{ service.content | markdownify | strip_html | truncate: 100 }}
+          Lorem markdownum aequalis strigis. Saetigeri iubeas, vultu huic alvum nondum
+de obside ut laniavi...
         </div>
       </div>
     </div>
-    {% endfor %}
+    
+    <div class="col-12 col-md-4 mb-1">
+      <div class="service service-summary">
+        <div class="service-content">
+          <h2 class="service-title">
+            <a href="/services/business-advisory/">Business Advisory</a>
+          </h2>
+          Lorem markdownum, dictis umbrosum dextrum, Lelegeia quamquam distantes pares
+ignisque quaerit ded...
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-12 col-md-4 mb-1">
+      <div class="service service-summary">
+        <div class="service-content">
+          <h2 class="service-title">
+            <a href="/services/business-sales/">Business Sales</a>
+          </h2>
+          Cyanee nec pedicis positi. Esse et diem forte quoque et ieiunia
+vixque dixit negari ullis stamina...
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-12 col-md-4 mb-1">
+      <div class="service service-summary">
+        <div class="service-content">
+          <h2 class="service-title">
+            <a href="/services/mergers/">Mergers</a>
+          </h2>
+          Lorem markdownum aequalis strigis. Saetigeri iubeas, vultu huic alvum nondum
+de obside ut laniavi...
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-12 col-md-4 mb-1">
+      <div class="service service-summary">
+        <div class="service-content">
+          <h2 class="service-title">
+            <a href="/services/superannuation/">Superannuation</a>
+          </h2>
+          Lorem markdownum aequalis strigis. Saetigeri iubeas, vultu huic alvum nondum
+de obside ut laniavi...
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-12 col-md-4 mb-1">
+      <div class="service service-summary">
+        <div class="service-content">
+          <h2 class="service-title">
+            <a href="/services/tax-preperation/">Tax Preperation</a>
+          </h2>
+          Lorem markdownum Achaica revolutaque amore, penitus puppes nec furit,
+clipeus fatetur, mira inter...
+        </div>
+      </div>
+    </div>
+    
     <div class="col-12 text-center">
-      <a class="button button-primary mt-2" href="{{site.baseurl}}/services">View All Services</a>
+      <a class="button button-primary mt-2" href="/services">View All Services</a>
     </div>
   </div>
 </div>
@@ -55,14 +155,71 @@ bodyClass: page-home
     <div class="col-12">
       <h2 class="title-3 text-dark mb-4">what we offer</h2>
     </div>
-    {% for feature in site.data.features %}
+    
     <div class="col-12 col-md-6 col-lg-4 mb-2">
       <div class="feature">
-        {% if feature.image %}<div class="feature-image"><img alt="{{ feature.title }} logo" src="{{ feature.image }}" /></div> {% endif %}
-        <h2 class="feature-title">{{ feature.title }}</h2>
-        <div class="feature-content">{{ feature.description }}</div>
+        <div class="feature-image"><img alt="Free Consultation logo" src="images/features/noun_branding_1885335.svg" class="__web-inspector-hide-shortcut__"></div> 
+        <h2 class="feature-title">Free Consultation</h2>
+        <div class="feature-content">New clients recieve an obligation free consultation.</div>
       </div>
     </div>
-    {% endfor %}
+    
+    <div class="col-12 col-md-6 col-lg-4 mb-2">
+      <div class="feature">
+        <div class="feature-image"><img alt="Certified Accountants logo" src="images/features/noun_The Process_1885341.svg" class="__web-inspector-hide-shortcut__"></div> 
+        <h2 class="feature-title">Certified Accountants</h2>
+        <div class="feature-content">All members of our team are certified accountants.</div>
+      </div>
+    </div>
+    
+    <div class="col-12 col-md-6 col-lg-4 mb-2">
+      <div class="feature">
+        <div class="feature-image"><img alt="Tax Compliance logo" src="images/features/noun_3d modeling_1885342.svg" class="__web-inspector-hide-shortcut__"></div> 
+        <h2 class="feature-title">Tax Compliance</h2>
+        <div class="feature-content">We stay up to date on the latest changes to the tax code.</div>
+      </div>
+    </div>
+    
   </div>
 </div>
+
+  </div>
+  <div class="footer-strip">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="footer">
+          <h3 class="footer-title">Jekyll Serif</h3>
+          <ul class="footer-menu">
+            <li><a href="/">Home</a></li>
+            <li><a href="/contact">Contact</a></li>
+            <li class="copyright">© Jekyll Serif 2019</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <div class="sub-footer-strip">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="sub-footer">
+          <ul>
+            <li><strong>Phone: </strong>XXXX XXX XXX</li>
+            <li><strong>Email: </strong><a href="mailto:zerostaticthemes@gmail.com">
+                zerostaticthemes@gmail.com</a></li>
+          </ul>
+          <ul>
+            <li><a href="https://www.zerostatic.io">www.zerostatic.io</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <script type="text/javascript" src="/assets/js/scripts.js"></script>
+  
+
+
+</body><span class="gr__tooltip"><span class="gr__tooltip-content"></span><i class="gr__tooltip-logo"></i><span class="gr__triangle"></span></span></html>
