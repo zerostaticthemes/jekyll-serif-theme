@@ -1,56 +1,10 @@
-<html lang="en" class="gr__tal-labs_netlify_com"><head>
-  <meta charset="utf-8">
-  <title>Team</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" href="/images/favicon.png">
-  <link href="/assets/css/style.css" rel="stylesheet">
-</head>
-<body class="page page-team-list" data-gr-c-s-loaded="true">
-  <div class="container">
-    <div class="logo">
-      <a href="/"><img alt="Figurit Homepage" src="https://raw.githubusercontent.com/tal-labs/jekyll-serif-theme/master/assets/images/Screenshot%202019-10-16%20at%2012.35.40%20PM.png"></a>
-    </div>
-   <div class="header header-extra">
-  <div class="container">
-    <div class="logo">
-      <a href="/"><img alt="Figurit Homepage" src="/assets/images/logo.svg"></a>
-    </div>
-    <div class="logo-mobile">
-      <a href="/"><img alt="Figurit Homepage" src="/assets/images/logo-mobile.svg"></a>
-    </div>
-    <div id="main-menu" class="main-menu">
-  <ul>
-    <li><a href="/" class="">Home</a></li>
-    <li><a href="/services/" class="current">projects</a></li>
-    <li><a href="/team/" class="">Team</a></li>
-    <li><a href="/testimonials/" class="">quotes</a></li>
-    <li><a href="/contact/" class="">Contact</a></li>
-  </ul>
-</div>
-    <button id="toggle-main-menu-mobile" class="hamburger hamburger--slider" type="button">
-  <span class="hamburger-box">
-    <span class="hamburger-inner"></span>
-  </span>
-</button>
-  </div>
-</div>
-</div>
-    <button id="toggle-main-menu-mobile" class="hamburger hamburger--slider" type="button">
-  <span class="hamburger-box">
-    <span class="hamburger-inner"></span>
-  </span>
-</button>
-  </div>
-</div>
-   
-    <button id="toggle-main-menu-mobile" class="hamburger hamburger--slider" type="button">
-  <span class="hamburger-box">
-    <span class="hamburger-inner"></span>
-  </span>
-</button>
-  </div>
-</div>
-    <div class="intro">
+---
+title: Team
+layout: default
+bodyClass: page-team-list
+---
+
+<div class="intro">
   <div class="container">
     <div class="row">
       <div class="col-12">
@@ -66,87 +20,28 @@
 
 <div class="container pb-6">
   <div class="row">
-    
+    {% for team in site.team %}
     <div class="col-12 col-md-6 mb-1">
       <div class="team team-summary">
-        
+        {% if team.image %}
         <div class="team-image">
-          <img alt="Peter Van Eijk logo" class="img-fluid mb-2" src="/images/team/peter-van-eijk-711986-unsplash.jpg">
+          <img
+            alt="{{ team.title }} logo"
+            class="img-fluid mb-2"
+            src="{{site.baseurl}}{{ team.image }}"
+          />
         </div>
-        
+        {% endif %}
         <div class="team-meta">
-          <h2 class="team-name">Peter Van Eijk</h2>
-          <p class="team-description">Director</p>
-          
-          <a target="_blank" href="https://www.linkedin.com/">LinkedIn</a> 
-          
+          <h2 class="team-name">{{ team.title }}</h2>
+          <p class="team-description">{{ team.jobtitle }}</p>
+          {% if team.linkedinurl %}
+          <a target="_blank" href="{{ team.linkedinurl }}">LinkedIn</a> 
+          {% endif %}
         </div>
-        <div class="team-content"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-
-<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-</div>
+        <div class="team-content">{{ team.content }}</div>
       </div>
     </div>
-    
-    <div class="col-12 col-md-6 mb-1">
-      <div class="team team-summary">
-        
-        <div class="team-image">
-          <img alt="Sage Kirk logo" class="img-fluid mb-2" src="/images/team/sage-kirk-485982-unsplash.jpg">
-        </div>
-        
-        <div class="team-meta">
-          <h2 class="team-name">Sage Kirk</h2>
-          <p class="team-description">Accountant</p>
-          
-          <a target="_blank" href="">LinkedIn</a> 
-          
-        </div>
-        <div class="team-content"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum arcu vitae elementum curabitur vitae nunc sed. Tortor at risus viverra adipiscing at in.</p>
-</div>
-      </div>
-    </div>
-    
+    {% endfor %}
   </div>
 </div>
-
-  </div>
-  <div class="footer-strip">
-  <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <div class="footer">
-          <h3 class="footer-title">Jekyll Serif</h3>
-          <ul class="footer-menu">
-            <li><a href="/">Home</a></li>
-            <li><a href="/contact">Contact</a></li>
-            <li class="copyright">© Jekyll Serif 2019</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-  <div class="sub-footer-strip">
-  <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <div class="sub-footer">
-          <ul>
-            <li><strong>Phone: </strong>XXXX XXX XXX</li>
-            <li><strong>Email: </strong><a href="mailto:zerostaticthemes@gmail.com">
-                zerostaticthemes@gmail.com</a></li>
-          </ul>
-          <ul>
-            <li><a href="https://www.zerostatic.io">www.zerostatic.io</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-  <script type="text/javascript" src="/assets/js/scripts.js"></script>
-  
-
-
-</body><span class="gr__tooltip"><span class="gr__tooltip-content"></span><i class="gr__tooltip-logo"></i><span class="gr__triangle"></span></span></html>
