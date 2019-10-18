@@ -1,5 +1,5 @@
 ---
-title: 'Accounting'
+title: 'published projects'
 image: '/services/noun_591323.png'
 ---
 
