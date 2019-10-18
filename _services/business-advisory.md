@@ -1,5 +1,5 @@
 ---
-title: 'Business Advisory'
+title: 'in-design projects'
 image: '/services/default.png'
 ---
 
