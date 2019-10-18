@@ -1,5 +1,5 @@
 ---
-title: 'Business Sales'
+title: 'thought projects'
 image: '/services/default.png'
 ---
 
