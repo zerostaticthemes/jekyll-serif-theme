@@ -2,14 +2,10 @@
 title: 'published projects'
 image: '/services/noun_591323.png'
 ---
+not a lot of projects have made here. unlike a lot of companies, we're open to failure. we learn from them, and as a company we cannot aspire to be good if we don't fail in the process.
 
-Not a lot of projects have made here, unlike a lot of companies, we're open to failure. we learn from them, and as a company we cannot aspire to be good if we don't feel in the process.
-
-
-Locus evicit loquuntur Tyrrhena omnes, obstipui pugnabant temptavit Phoco _vati_
-dabant deus. Memorata haberet sepulcrales gentisque dum sic, in flumina templa!
-Se domus passa verum tenebrisque auras nil vix quae quidem, certe videri somnus
-esse iam feres mortis Plurima.
+we think of you as not only as an employee but also an _engineer_. an engineer who keeps on creating to survive. 
+so, as a company, we keep on creating!
 
 ## The process
 
@@ -19,17 +15,8 @@ although for a lot of startups, the object is to stay in the black, ours is to a
 - pass the thought process
 - come up with designs
 - write documentation, your future plans
-- publish it within the company
+- publish it _within_ the company
 - debug debug debug
 - publish to the open public
 
-Superi monilia omnes Cyprio Scylla cibos punica quae succincta pallent de
-incubat hostes montibus, de moderato efficiet vulnere. Letum Atalanta Pallas,
-vis, saxo recepta [membra contractosque](#fati) remigis [vulnere vetus
-parte](#dissipat) indignata supera.
-
-Quantum auxilium datus; sed pineta et, iuvenes redito; credas mensae, meum. Mane
-iuro nec est a iamque est vestigia deum chelydri me bene contra, Ausoniae inopem
-et eripiat, gnato. Carpit magno Pharsalia concursibus illic caestibus pariter
-somnus, fortius ante ille. Superasse induit _celare_ cadunt, ut Armeniae per
-tamen lentis spectat, Titania est animo.
+so far **1** project has been on this category. _yours_ can be the second. 
