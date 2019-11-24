@@ -1,7 +1,8 @@
+url: https://almiswakuae.com
 baseurl: ''
 exclude: ['README.md']
 permalink: pretty
-title: 'Jekyll Serif'
+title: 'Al Miswak General Trading LLC'
 
 collections:
   services:
