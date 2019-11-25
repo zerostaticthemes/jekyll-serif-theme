@@ -1,17 +1,20 @@
 [
   {
-    "title": "Free Consultation",
-    "description": "New clients recieve an obligation free consultation.",
-    "image": "images/features/noun_branding_1885335.svg"
+    "title": "Consultion",
+    "description": "We built strong experience technically and with local and ME markets,
+     which made us a solutions provider by supplying knowledge about equipment, market, and regional regulations.",
+    "image": "images/features/business-opt.svg"
   },
   {
-    "title": "Certified Accountants",
-    "description": "All members of our team are certified accountants.",
-    "image": "images/features/noun_The Process_1885341.svg"
+    "title": "Arabic Translation",
+    "description": "We understand the importance of local language and the affect on the communication with authorities and clients.
+     So we provide documents translation and  any required local assistance.",
+    "image": "images/features/translate-opt.svg"
   },
   {
-    "title": "Tax Compliance",
-    "description": "We stay up to date on the latest changes to the tax code.",
-    "image": "images/features/noun_3d modeling_1885342.svg"
+    "title": "HSE awaernes",
+    "description": "We stay up to date on HSE regulations. We support our clients with PPE items keep everybody safe and protected. 
+    In addition to that we support safety training and inspection.",
+    "image": "images/features/helmet-opt.svg"
   }
 ]
