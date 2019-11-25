@@ -1,18 +1,18 @@
 .page-services-list {
-  // background-image: url('../images/undraw_businesswoman_pc12.svg');
+  background-image: url('../images/industrial machine-opt.svg');
   background-repeat: no-repeat;
-  background-size: 115%;
-  background-position: 49px -40px;
+  background-size: 100%;
+  background-position: 50% 30px;
   @include media-breakpoint-up(sm) {
     background-size: 90%;
-    background-position: 159px -40px;
+    background-position: 50% 50px;
   }
   @include media-breakpoint-up(md) {
-    background-size: 85%;
-    background-position: 199px -80px;
+    background-size: 70%;
+    background-position: 100% 100px;
   }
   @include media-breakpoint-up(lg) {
     background-size: 60%;
-    background-position: 100% -110px;
+    background-position: 100% 50px;
   }
 }

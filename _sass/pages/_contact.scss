@@ -1,5 +1,5 @@
-.page-home {
-  background-image: url('../images/oil-rig-opt.svg');
+.page-contact {
+  background-image: url('../images/oil-rig-engineer-opt.svg');
   background-repeat: no-repeat;
   background-size: 115%;
   background-position: 50% 30px;
@@ -116,4 +116,8 @@
       }
     }
   }
+}
+ul{ list-style-type: none;}
+li strong {
+  color: $secondary;
 }
