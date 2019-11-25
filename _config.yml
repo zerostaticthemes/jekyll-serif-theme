@@ -2,7 +2,7 @@ url: https://almiswakuae.com
 baseurl: ''
 exclude: ['README.md']
 permalink: pretty
-title: 'Al Miswak General Trading LLC'
+title: 'AlMiswak General Trading'
 
 collections:
   services:
