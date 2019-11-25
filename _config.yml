@@ -11,9 +11,7 @@ collections:
   team:
     output: true
     permalink: /team/:path/
-  testimonials:
-    output: true
-    permalink: /testimonials/:path/
+
 
 defaults:
   - scope:
