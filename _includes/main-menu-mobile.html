@@ -1,9 +1,10 @@
 <div id="main-menu-mobile" class="main-menu-mobile">
   <ul>
-    <li><a href="{{site.baseurl}}/" class="{% if page.url == '/' %}current{% endif %}">About Us</a></li>
-    <li><a href="{{site.baseurl}}/products/" class="{% if page.url contains 'products' %}current{% endif %}">Products</a></li>
-    <li><a href="{{site.baseurl}}/projects/" class="{% if page.url contains 'testimonials' %}current{% endif %}">Projects</a></li>
-    <li><a href="{{site.baseurl}}/team/" class="{% if page.url contains 'team' %}current{% endif %}">Team</a></li>
-    <li><a href="{{site.baseurl}}/contact/" class="{% if page.url contains 'contact' %}current{% endif %}">Contact</a></li>
+    <li><a href="{{site.baseurl}}/" class="{% if page.url == '/' %}active{% endif %}">Home</a></li>
+    <li><a href="{{site.baseurl}}/products/" class="{% if page.url contains 'products' %}active{% endif %}">Products</a></li>
+    <li><a href="{{site.baseurl}}/projects/" class="{% if page.url contains 'testimonials' %}active{% endif %}">Projects</a></li>
+    <li><a href="{{site.baseurl}}/about/" class="{% if page.url contains 'about' %}active{% endif %}">About Us</a></li>
+    <li><a href="{{site.baseurl}}/team/" class="{% if page.url contains 'team' %}active{% endif %}">Team</a></li>
+    <li><a href="{{site.baseurl}}/contact/" class="{% if page.url contains 'contact' %}active{% endif %}">Contact</a></li>
   </ul>
 </div>

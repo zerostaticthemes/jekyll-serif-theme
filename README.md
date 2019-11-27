@@ -4,6 +4,5 @@ This is small business website using jekyll, jekyllserif theme and walls.io serv
 
 # To Do
 
-- seperate about page
 - photos for products
-- mobile logo
+- fix contact
