@@ -16,14 +16,14 @@ bodyClass: page-contact
 <div class="container pb-10">
   <div class="row">
     <div class="col-12 col-md-8">
-      <ul>
+      <ul class="list-unstyled">
         <li><strong>Phone: </strong><a href="tel:{{site.data.contact.phone}}">{{site.data.contact.phone}}</a>
                              / <wbr><a href="tel:{{site.data.contact.phone2}}">{{site.data.contact.phone2}}</a></li>
         <li><strong>Fax: </strong><a href="tel:{{site.data.contact.fax}}">{{site.data.contact.fax}}</a></li>
         <li><strong>Email: </strong><a href="mailto:{{ site.data.contact.email }}">
             {{ site.data.contact.email }}</a></li>
         {% if site.data.contact.address %}
-        <li><strong>Address: </strong>{{ site.data.contact.address }}</li>
+        <li><strong>Address: </strong><span class="text-secondary">{{ site.data.contact.address }}</span></li>
         {% endif %}
       </ul>
      </div>
