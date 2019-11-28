@@ -27,7 +27,7 @@ defaults:
 sass:
   style: compact # possible values: nested expanded compact compressed
 
-google_analytics_id: null
+google_analytics_id: UA-153508567-1
 
 plugins:
   - jekyll-environment-variables
