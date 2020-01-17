@@ -3,7 +3,7 @@
 Serif is a beautiful small business theme for Jekyll. It contains content types for the archetypical small business website. The theme is fully responsive, blazing fast and artfully illustrated.
 
 [Live Demo](https://jekyll-serif-theme.netlify.com/) | 
-[Installation](#installation)
+[Installation](#installation) | 
 [Zerostatic Themes](https://www.zerostatic.io/theme/hugo-hero/)
 
 ![Hugo Serif Theme screenshot](https://github.com/JugglerX/jekyll-serif-theme/blob/master/screenshots/screenshot-with-border.png)
