@@ -2,7 +2,9 @@
 
 Serif is a beautiful small business theme for Jekyll. It contains content types for the archetypical small business website. The theme is fully responsive, blazing fast and artfully illustrated.
 
-[Live Demo](https://jekyll-serif-theme.netlify.com/)
+[Live Demo](https://jekyll-serif-theme.netlify.com/) | 
+[Installation](#installation)
+[Zerostatic Themes](https://www.zerostatic.io/theme/hugo-hero/)
 
 ![Hugo Serif Theme screenshot](https://github.com/JugglerX/jekyll-serif-theme/blob/master/screenshots/screenshot-with-border.png)
 
@@ -21,12 +23,12 @@ Serif is a beautiful small business theme for Jekyll. It contains content types 
 - Robust example content included
 - Royalty free illustrations included
 
-## Deployment
+# Installation
 
 To run the theme locally, navigate to the theme directory and run `bundle install` to install the dependencies, then run `jekyll serve` or `bundle exec jekyll serve` to start the Jekyll server.
 
 I would recommend checking the [Deployment Methods](https://jekyllrb.com/docs/deployment-methods/) page on Jekyll website.
 
-## License
+# License
 
 If you fork or copy this theme the LICENSE file and the copyright notice on line 3 (where I am listed as the author) must not be changed. You cannot just replace the copyright line with your own name. Attribution in your README.md or on your site is also welcome but not required.
