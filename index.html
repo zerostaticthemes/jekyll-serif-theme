@@ -1,13 +1,14 @@
 ---
-title: Jekyll Serif - Jekyll Small Business Theme
+title: Ice Cool Engineering
 layout: default
 bodyClass: page-home
 ---
 
 <div class="intro pb-4">
   <div class="container">
-    <h1>Serif - Jekyll Small Business Theme.</h1>
-    <p>Our business helps hundreds of customers with their accounting and taxation needs each year.</p>
+    <h1>Ice Cool Engineering</h1>
+    <p>Ice Cool Engineering® Manufacturer and Trader of Soda Machine ★ Soda Bottling Plant ★ Deep Freezer ★ Candy Plant ★ Ice Cream Hardener ★ Water Cooler ★ Online Chiller ★ Display Counters ★ Sugarcane Juicer Machine ★ Kitchen Equipment Items
+</p>
   </div>
 </div>
 
@@ -32,20 +33,20 @@ bodyClass: page-home
     <div class="col-12">
       <h2 class="title-3 text-dark mb-3">Our Services</h2>
     </div>
-    {% for service in site.services %}
+    {% for service in site.products %}
     <div class="col-12 col-md-4 mb-1">
-      <div class="service service-summary">
-        <div class="service-content">
-          <h2 class="service-title">
-            <a href="{{site.baseurl}}{{ service.url }}">{{ service.title }}</a>
+      <div class="products service-summary">
+        <div class="products-content">
+          <h2 class="products-title">
+            <a href="{{site.baseurl}}{{ products.url }}">{{ products.title }}</a>
           </h2>
-          {{ service.content | markdownify | strip_html | truncate: 100 }}
+          {{ products.content | markdownify | strip_html | truncate: 100 }}
         </div>
       </div>
     </div>
     {% endfor %}
     <div class="col-12 text-center">
-      <a class="button button-primary mt-2" href="{{site.baseurl}}/services">View All Services</a>
+      <a class="button button-primary mt-2" href="{{site.baseurl}}/products">View All Products</a>
     </div>
   </div>
 </div>

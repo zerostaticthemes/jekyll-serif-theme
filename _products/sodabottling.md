@@ -1,9 +1,9 @@
 ---
-title: 'Accounting'
-image: '/services/noun_591323.png'
+title: "Soda Bottling Plant"
+image: "/services/default.png"
 ---
 
-Lorem markdownum aequalis strigis. _Saetigeri iubeas_, vultu huic alvum nondum
+Lorem markdownum aequalis strigis. Saetigeri iubeas, vultu huic alvum nondum
 de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae
 crimen habet Priamum nec.
 

@@ -1,17 +1,17 @@
 [
   {
-    "title": "Free Consultation",
-    "description": "New clients recieve an obligation free consultation.",
-    "image": "images/features/noun_branding_1885335.svg"
+    "title": "Soda Fountain Machine",
+    "description": "Best Quality Soda Machine Including Soda Bottling Plant",
+    "image": "images/features/soda.png"
   },
   {
-    "title": "Certified Accountants",
-    "description": "All members of our team are certified accountants.",
-    "image": "images/features/noun_The Process_1885341.svg"
+    "title": "Water Cooler",
+    "description": "High Quality Stainless Steel Water Cooler",
+    "image": "images/features/wcooler.png"
   },
   {
-    "title": "Tax Compliance",
-    "description": "We stay up to date on the latest changes to the tax code.",
-    "image": "images/features/noun_3d modeling_1885342.svg"
+    "title": "Display Counter",
+    "description": "A Good Looking Display Counter",
+    "image": "images/features/bakery.png"
   }
 ]

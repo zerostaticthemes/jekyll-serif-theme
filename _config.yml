@@ -1,24 +1,18 @@
 baseurl: ''
 exclude: ['README.md']
-permalink: pretty
-title: 'Jekyll Serif'
+permalink: siliconwebx
+title: 'Ice Cool Engineering'
 
 collections:
-  services:
+  products:
     output: true
-    permalink: /services/:path/
-  team:
-    output: true
-    permalink: /team/:path/
-  testimonials:
-    output: true
-    permalink: /testimonials/:path/
+    permalink: /products/:path/
 
 defaults:
   - scope:
-      type: services
+      type: products
     values:
-      layout: service
+      layout: products
       bodyClass: page-services-single
   - scope:
       path: 'images'

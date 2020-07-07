@@ -67,16 +67,10 @@
 
 // Pages
 @import 'pages/home';
-@import 'pages/team/team-list';
-@import 'pages/team/team-summary';
-@import 'pages/team/page-team-list';
-@import 'pages/testimonials/testimonials-list';
-@import 'pages/testimonials/testimonials-summary';
-@import 'pages/testimonials/page-testimonials-list';
-@import 'pages/services/page-services-list';
-@import 'pages/services/page-services-single';
-@import 'pages/services/service-single';
-@import 'pages/services/service-summary';
+@import 'pages/products/page-services-list';
+@import 'pages/products/page-services-single';
+@import 'pages/products/service-single';
+@import 'pages/products/service-summary';
 
 // Display breakpoints for DEV
 // body:after {
