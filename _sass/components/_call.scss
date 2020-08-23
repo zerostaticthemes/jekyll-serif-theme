@@ -1,0 +1,55 @@
+.call {
+  position: relative;
+  overflow: hidden;
+  background-color: $white-offset;
+  border-radius: 4px;
+  // box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  z-index: 2;
+  @include media-breakpoint-up(sm) {
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .call-box-top {
+    flex: 1 0 auto;
+    padding: 20px;
+    @include media-breakpoint-up(md) {
+    }
+  }
+  .call-box-bottom {
+    flex: auto;
+    padding: 20px;
+    border-top: 1px solid darken($white-offset, 5%);
+    @include media-breakpoint-up(sm) {
+      flex: 0 0 auto;
+      border: none;
+    }
+  }
+  .call-name {
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+  .call-phone {
+    margin-bottom: 5px;
+  }
+  strong {
+    font-weight: bold;
+  }
+  svg {
+    fill: lighten($secondary, 40%);
+    position: absolute;
+    bottom: -9px;
+    right: 0;
+    width: 100px;
+    height: 100px;
+    @include media-breakpoint-up(sm) {
+      width: 120px;
+      height: 120px;
+    }
+  }
+}

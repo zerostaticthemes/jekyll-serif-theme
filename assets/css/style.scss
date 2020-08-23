@@ -1,53 +1,43 @@
 ---
 # this ensures Jekyll reads the file to be transformed into CSS later
-# only Main files contain this front matter, not partials.
 ---
 
-// Font
-@import url('https://fonts.googleapis.com/css?family=Lora:400|Open+Sans:400,700');
+// Colors
+$primary: #ec605b;
+$secondary: #f88379;
+$black: #2f2f41;
+$white: #ffffff;
+$white-offset: #fff6f8;
+$steel: #5C5A5A;
+
+// Links
+$link-color: $primary;
+$link-decoration: none;
+$link-hover-color: lighten($primary, 10%);
+$link-hover-decoration: underline;
+
+// Fonts
+$font-family-base: Helvetica, Arial, sans-serif, -apple-system;
+$font-family-heading: 'Playfair Display', serif, -apple-system;
+
+// Footer
+$footer-background-color: $primary;
+$footer-text-color: $white;
+$sub-footer-background-color: darken($primary, 10%);
+$sub-footer-text-color: $white;
 
 // Bootstrap
-@import 'bootstrap/functions';
 @import 'bootstrap-variables';
-@import 'bootstrap/variables';
-@import 'bootstrap/mixins';
-@import 'bootstrap/root';
-@import 'bootstrap/reboot';
-@import 'bootstrap/grid';
-@import 'bootstrap/type';
-@import 'bootstrap/tables';
-// @import "bootstrap/images";
-// @import "bootstrap/code";
-// @import "bootstrap/forms";
-// @import "bootstrap/buttons";
-// @import "bootstrap/transitions";
-// @import "bootstrap/dropdown";
-// @import "bootstrap/button-group";
-// @import "bootstrap/input-group";
-// @import "bootstrap/custom-forms";
-// @import "bootstrap/nav";
-// @import "bootstrap/navbar";
-// @import "bootstrap/card";
-// @import "bootstrap/breadcrumb";
-// @import "bootstrap/pagination";
-// @import "bootstrap/badge";
-// @import "bootstrap/jumbotron";
-// @import "bootstrap/alert";
-// @import "bootstrap/progress";
-// @import "bootstrap/media";
-// @import "bootstrap/list-group";
-// @import "bootstrap/close";
-// @import "bootstrap/modal";
-// @import "bootstrap/tooltip";
-// @import "bootstrap/popover";
-// @import "bootstrap/carousel";
-// @import "bootstrap/print";
-@import 'bootstrap/utilities';
+@import 'bootstrap/bootstrap-reboot';
+@import 'bootstrap/bootstrap-grid';
+// @import 'bootstrap/bootstrap'; // Uncomment this line to import the entire Bootstrap library
+
 
 // Libraries
 @import 'libraries/hamburgers/hamburgers';
 
 // Components
+@import 'components/type';
 @import 'components/page';
 @import 'components/header';
 @import 'components/footer';
@@ -55,46 +45,28 @@
 @import 'components/logo';
 @import 'components/main-menu';
 @import 'components/main-menu-mobile';
-@import 'components/social';
 @import 'components/hamburger';
 @import 'components/buttons';
+@import 'components/call';
 @import 'components/title';
 @import 'components/content';
 @import 'components/intro';
+@import 'components/intro-image';
 @import 'components/strip';
-@import 'components/whitebox';
 @import 'components/feature';
+@import 'components/social';
 
 // Pages
 @import 'pages/home';
-@import 'pages/team/team-list';
 @import 'pages/team/team-summary';
-@import 'pages/team/page-team-list';
-@import 'pages/testimonials/testimonials-list';
-@import 'pages/testimonials/testimonials-summary';
-@import 'pages/testimonials/page-testimonials-list';
-@import 'pages/services/page-services-list';
 @import 'pages/services/page-services-single';
-@import 'pages/services/service-single';
-@import 'pages/services/service-summary';
 
-// Display breakpoints for DEV
-// body:after {
-//   color: #000000;
-//   font-size: 12px;
-//   padding: 5px;
-//   font-weight: bold;
-//   right: 10px;
-//   position: fixed;
-//   text-align: center;
-//   text-transform: uppercase;
-//   bottom: 10px;
-//   width: 200px;
-//   z-index: 9999;
-//   border: solid 1px #000000;
-//   @each $name, $value in $grid-breakpoints {
-//     @include media-breakpoint-up($name) {
-//       content: "#{$name} - min-width: #{$value}";
-//     }
-//   }
-// }
+body {
+  font-size: 16px;
+  line-height: 1.2;
+  font-family: $font-family-base;
+  @include media-breakpoint-up(md) {
+    font-size: 16px;
+    line-height: 1.3;
+  }
+}

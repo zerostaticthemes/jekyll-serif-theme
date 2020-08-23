@@ -1,64 +1,6 @@
-$color-main: $primary;
-$color-active: #fff;
-$color-link: #fff;
-
-$button-height: 27px;
-$button-width: 35px;
-
-.button_container {
-  position: fixed;
-  top: 5%;
-  right: 2%;
-  height: $button-height;
-  width: $button-width;
-  cursor: pointer;
-  z-index: 100;
-  transition: opacity 0.25s ease;
-
-  &:hover {
-    opacity: 0.7;
-  }
-
-  &.active {
-    .top {
-      transform: translateY(11px) translateX(0) rotate(45deg);
-      background: $color-active;
-    }
-    .middle {
-      opacity: 0;
-      background: $color-active;
-    }
-
-    .bottom {
-      transform: translateY(-11px) translateX(0) rotate(-45deg);
-      background: $color-active;
-    }
-  }
-
-  span {
-    background: $color-main;
-    border: none;
-    height: 5px;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    transition: all 0.35s ease;
-    cursor: pointer;
-
-    &:nth-of-type(2) {
-      top: 11px;
-    }
-
-    &:nth-of-type(3) {
-      top: 22px;
-    }
-  }
-}
-
 .main-menu-mobile {
   position: fixed;
-  background: $color-main;
+  background: $primary;
   top: 0;
   left: 0;
   width: 100%;
@@ -75,7 +17,7 @@ $button-width: 35px;
     opacity: 0.9;
     visibility: visible;
     height: 100%;
-    z-index: 10;
+    z-index: 20;
     li {
       animation: fadeInRight 0.5s ease forwards;
       animation-delay: 0.35s;
@@ -97,7 +39,7 @@ $button-width: 35px;
     }
   }
   ul {
-    font-size: 2rem;
+    font-size: 30px;
     font-family: $font-family-heading;
     text-align: center;
     list-style: none;
@@ -108,34 +50,20 @@ $button-width: 35px;
       display: block;
       position: relative;
       opacity: 0;
+      padding: 10px;
       a {
         display: block;
         position: relative;
-        color: $color-link;
+        color: #ffffff;
         text-decoration: none;
         overflow: hidden;
-        &:hover:after,
-        &:focus:after,
-        &:active:after {
-          width: 100%;
-        }
-
-        &:after {
-          content: '';
-          position: absolute;
-          bottom: 0;
-          left: 50%;
-          width: 0%;
-          transform: translateX(-50%);
-          height: 3px;
-          background: $color-link;
-          transition: 0.35s;
+        &:hover {
+          opacity: 0.8;
         }
       }
     }
   }
 }
-
 @keyframes fadeInRight {
   0% {
     opacity: 0;
@@ -146,7 +74,6 @@ $button-width: 35px;
     left: 0;
   }
 }
-
 .lock-scroll {
   overflow: hidden;
 }

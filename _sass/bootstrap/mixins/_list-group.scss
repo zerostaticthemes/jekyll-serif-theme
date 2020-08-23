@@ -6,13 +6,13 @@
     background-color: $background;
 
     &.list-group-item-action {
-      @include hover-focus {
+      @include hover-focus() {
         color: $color;
         background-color: darken($background, 5%);
       }
 
       &.active {
-        color: #fff;
+        color: $white;
         background-color: $color;
         border-color: $color;
       }
