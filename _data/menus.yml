@@ -3,19 +3,22 @@ main:
     url: "/"
     weight: 1
   - name: "Services"
-    url: "/services"
+    url: "/services/"
     weight: 2
   - name: "Team"
-    url: "/team"
+    url: "/team/"
     weight: 3
-  - name: "Contact"
-    url: "/contact"
+  - name: "About"
+    url: "/about/"
     weight: 4
+  - name: "Contact"
+    url: "/contact/"
+    weight: 5
 
 footer:
   - name: "Home"
     url: "/"
     weight: 1
   - name: "Contact"
-    url: "/contact"
+    url: "/contact/"
     weight: 2
