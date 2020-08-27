@@ -15,18 +15,17 @@ Serif is a modern business theme for Jekyll. It contains multiple content types 
 - Features (Data)
 - SCSS
 - Responsive design
-- Bootstrap 4 grid and media queries only
+- Bootstrap 4.3 grid and media queries only
 - Responsive menu
 - 100/100 Google Lighthouse speed score
-- Under 30KB without images or 80KB with images and illustrations ⚡
+- 100/100 Google Lighthouse seo score
+- 100/100 Google Lighthouse accessibility score
+- 100/100 Google Lighthouse best practices score
+- Under 50KB without images or 80KB with images and illustrations ⚡
+- Under 20KB without Google fonts ⚡⚡⚡
 - Robust example content included
 - Royalty free illustrations included
-
-[![Lighthouse Accessibility Badge](https://raw.githubusercontent.com/zerostaticthemes/jekyll-serif-theme/master/lighthouse/lighthouse_accessibility.svg)]
-[![Lighthouse Best Practices Badge](https://raw.githubusercontent.com/zerostaticthemes/jekyll-serif-theme/master/lighthouse/lighthouse_best-practices.svg)]
-[![Lighthouse Performance Badge](https://raw.githubusercontent.com/zerostaticthemes/jekyll-serif-theme/master/lighthouse/lighthouse_performance.svg)]
-[![Lighthouse PWA Badge](https://raw.githubusercontent.com/zerostaticthemes/jekyll-serif-theme/master/lighthouse/lighthouse_pwa.svg)]
-[![Lighthouse SEO Badge](https://raw.githubusercontent.com/zerostaticthemes/jekyll-serif-theme/master/lighthouse/lighthouse_seo.svg)]
+- Netlify & Github Pages ready
 
 # Installation
 
