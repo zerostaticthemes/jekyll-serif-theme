@@ -4,9 +4,9 @@
   <meta charset="utf-8">
   <title>{% if page.title %}{{page.title}}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="icon" type="image/png" href="{{site.baseurl}}/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" href="{{ '/images/favicon-32x32.png' | relative_url }}">
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
-  <link href="{{site.baseurl}}/assets/css/style.css" rel="stylesheet">
+  <link href="{{ '/assets/css/style.css' | relative_url }}" rel="stylesheet">
 </head>
 <body class='page {{page.bodyClass}}'>
   {% include main-menu-mobile.html %}
@@ -16,7 +16,7 @@
   </div>
   {% include footer.html %}
   {% include sub-footer.html %}
-  <script type="text/javascript" src="{{ site.baseurl }}/assets/js/scripts.js"></script>
+  <script type="text/javascript" src="{{ "/assets/js/scripts.js" | relative_url }}""></script>
   {% include google-analytics.html %}
 </body>
 </html>
