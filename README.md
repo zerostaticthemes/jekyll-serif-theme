@@ -22,6 +22,12 @@ Serif is a modern business theme for Jekyll. It contains multiple content types 
 - Robust example content included
 - Royalty free illustrations included
 
+[![Lighthouse Accessibility Badge](https://raw.githubusercontent.com/zerostaticthemes/jekyll-serif-theme/master/lighthouse/lighthouse_accessibility.svg)]
+[![Lighthouse Best Practices Badge](https://raw.githubusercontent.com/zerostaticthemes/jekyll-serif-theme/master/lighthouse/lighthouse_best-practices.svg)]
+[![Lighthouse Performance Badge](https://raw.githubusercontent.com/zerostaticthemes/jekyll-serif-theme/master/lighthouse/lighthouse_performance.svg)]
+[![Lighthouse PWA Badge](https://raw.githubusercontent.com/zerostaticthemes/jekyll-serif-theme/master/lighthouse/lighthouse_pwa.svg)]
+[![Lighthouse SEO Badge](https://raw.githubusercontent.com/zerostaticthemes/jekyll-serif-theme/master/lighthouse/lighthouse_seo.svg)]
+
 # Installation
 
 ### Installing Ruby & Jekyll
@@ -57,6 +63,13 @@ bundle exec jekyll build
 This theme contains a `netlify.toml` and has been tested to work with Netlify.
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/zerostaticthemes/jekyll-serif-theme)
+
+## Github Pages
+This theme has been tested to work with Github Pages (and Github Project Pages)
+
+If you are using this theme with Github Pages and you are using a Github Project Page then **your site will be hosted in a subfolder** you will need to update the `baseurl` in the `_config.yml` otherwise all the css, images and paths will be broken.
+
+For example the site https://zerostaticthemes.github.io/jekyll-serif-theme would have `baseurl: "/jekyll-serif-theme"`
 
 
 ## Credits
