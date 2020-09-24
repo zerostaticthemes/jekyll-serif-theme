@@ -2,11 +2,11 @@
   {
     "name": "LinkedIn",
     "link": "https://www.linkedin.com/company/carbontracker/",
-    "image": "images/social/github.svg"
+    "image": "images/social/linkedin.svg"
   },
   {
     "name": "Twitter",
-    "link": "https://twitter.com/zerostaticio",
+    "link": "https://twitter.com/CarbonTrackerAu",
     "image": "images/social/twitter.svg"
   }
 ]

@@ -1,17 +1,17 @@
 [
   {
-    "title": "Free Consultation",
-    "description": "New clients recieve an obligation free consultation.",
+    "title": "Audit Materials Used",
+    "description": "We calculate the total greenhouse gas emissions generated.",
     "image": "images/features/noun_branding_1885335.svg"
   },
   {
-    "title": "Certified Accountants",
-    "description": "All members of our team are certified accountants.",
+    "title": "Lower GHG Emissions",
+    "description": "Reduce carbon-intensive building materials used, helping the planet.",
     "image": "images/features/noun_The Process_1885341.svg"
   },
   {
-    "title": "Tax Compliance",
-    "description": "We stay up to date on the latest changes to the tax code.",
+    "title": "Get Certified",
+    "description": "Recieve a CarbonCheck certificate, available online for public access.",
     "image": "images/features/noun_3d modeling_1885342.svg"
   }
 ]
