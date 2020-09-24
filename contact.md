@@ -9,6 +9,7 @@ Please note our operating times.
 
 | Day       | Opening Hours   |
 | --------- | --------------- |
+| Monday    | 8:30am - 5:00pm |
 | Tuesday   | 8:30am - 5:00pm |
 | Wednesday | 8:30am - 5:00pm |
 | Thursday  | 8:30am - 5:00pm |
