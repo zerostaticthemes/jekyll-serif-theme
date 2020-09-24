@@ -1,7 +1,7 @@
 baseurl: ''
 exclude: ['README.md']
 permalink: pretty
-title: 'Jekyll Serif'
+title: 'CarbonTracker'
 
 google_analytics_id: null
 homepage:
@@ -9,38 +9,16 @@ homepage:
 logo:
   mobile: "images/logo/logo-mobile.svg"
   desktop: "images/logo/logo.svg"
-  desktop_height: "36px"
+  desktop_height: "50px"
 footer:
-  copyright_text: 'Free Jekyll theme by <a class="zerostatic" href="https://www.zerostatic.io">www.zerostatic.io</a>'
+  copyright_text: © 2020 CarbonTracker Pty Ltd.
 
 seo:
-  meta_og_title: "Jekyll Serif Theme"
+  meta_og_title: "CarbonTracker"
   meta_og_type: "website"
-  meta_og_url: "https://jekyll-serif-theme.netlify.app"
-  meta_og_image: "https://raw.githubusercontent.com/zerostaticthemes/jekyll-serif-theme/master/screenshots/tn.png"
-  meta_og_description: "Jekyll Serif is a modern business theme for Hugo. It contains content types for the archetypical business website. The theme is fully responsive, blazing fast and artfully illustrated."
+  meta_og_url: "https://carbontracker.com.au/"
+  meta_og_description: "CarbonTracker"
   meta_twitter_card: "summary"
-  meta_twitter_site: "@zerostaticio"
-  meta_twitter_creator: "@zerostaticio"
-
-collections:
-  services:
-    output: true
-    permalink: /services/:path/
-  team:
-    output: true
-    permalink: /team/:path/
-
-defaults:
-  - scope:
-      type: services
-    values:
-      layout: service
-      bodyClass: page-services-single
-  - scope:
-      path: 'images'
-    values:
-      image: true
 
 sass:
   style: compact # possible values: nested expanded compact compressed
