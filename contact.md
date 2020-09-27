@@ -20,14 +20,14 @@ bodyClass: page-contact
       <label for="exampleInputName">First Name:</label>
     </div>
     <div>
-      <input type="text" name="name" class="form-control" id="exampleInputName" placeholder="Enter your first name" required="required">
+      <input type="text" name="first name" class="form-control" id="exampleInputName" placeholder="Enter your first name" required="required">
     </div>
     <hr>
     <div>
       <label for="exampleInputName">Last Name:</label>
     </div>
     <div>
-      <input type="text" name="name" class="form-control" id="exampleInputName" placeholder="Enter your last name" required="required">
+      <input type="text" name="last name" class="form-control" id="exampleInputName" placeholder="Enter your last name" required="required">
     </div>
     <hr>
     <div>
