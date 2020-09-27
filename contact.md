@@ -6,7 +6,6 @@ bodyClass: page-contact
 
 <div class="text-input-style">
   <h2> Get in touch. We'll get back to you as soon as possible. </h2>
-  <form action="https://getform.io/f/80a0667b-67a3-4d1f-ab49-4da1956fb952" method="POST">
   <form action="https://getform.io/80a0667b-67a3-4d1f-ab49-4da1956fb952" method="POST" enctype="multipart/form-data" target="_blank" accept-charset="UTF-8">
     <hr>
     <div>
@@ -40,4 +39,5 @@ bodyClass: page-contact
     <hr>
     <button class="button">Submit</button>
   </form>
+
 </div>
