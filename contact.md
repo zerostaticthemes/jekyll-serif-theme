@@ -1,18 +1,42 @@
 ---
-title: Contact
+title: Contact Us
 layout: contact
 bodyClass: page-contact
 ---
-# Get in touch
 
-Please note our operating times.
-
-| Day       | Opening Hours   |
-| --------- | --------------- |
-| Monday    | 8:30am - 5:00pm |
-| Tuesday   | 8:30am - 5:00pm |
-| Wednesday | 8:30am - 5:00pm |
-| Thursday  | 8:30am - 5:00pm |
-| Friday    | 8:30am - 5:00pm |
-| Saturday  | Closed          |
-| Saturday  | Closed          |
+<div class="text-input-style">
+  <h2> Get in touch. We'll get back to you as soon as possible. </h2>
+  <form accept-charset="UTF-8" action="https://getform.io/80a0667b-67a3-4d1f-ab49-4da1956fb952" method="POST" enctype="multipart/form-data" target="_blank">
+    <hr>
+    <div>
+      <label for="exampleInputEmail1" required="required">Email address:
+      </label>
+    </div>
+    <div>
+      <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required="required">
+    </div>
+    <hr>
+    <div>
+      <label for="exampleInputName">First Name:</label>
+    </div>
+    <div>
+      <input type="text" name="name" class="form-control" id="exampleInputName" placeholder="Enter your first name" required="required">
+    </div>
+    <hr>
+    <div>
+      <label for="exampleInputName">Last Name:</label>
+    </div>
+    <div>
+      <input type="text" name="name" class="form-control" id="exampleInputName" placeholder="Enter your last name" required="required">
+    </div>
+    <hr>
+    <div>
+      <label for="exampleFormControlTextarea1">Message:</label>
+    </div>
+    <div>
+      <textarea class="msg-box" id="exampleFormControlTextarea1" placeholder="Enter your message" required="required" rows="4"></textarea>
+    </div>
+    <hr>
+    <button class="button">Submit</button>
+  </form>
+</div>
