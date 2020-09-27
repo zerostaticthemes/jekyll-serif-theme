@@ -20,11 +20,11 @@ bodyClass: page-contact
       <label for="exampleInputName">First Name:</label>
     </div>
     <div>
-      <input type="text" name="first name" class="form-control" id="exampleInputName" placeholder="Enter your first name" required="required">
+      <input type="text" name="first name" class="form-control" id="exampleInputFirstName" placeholder="Enter your first name" required="required">
     </div>
     <hr>
     <div>
-      <label for="exampleInputName">Last Name:</label>
+      <label for="exampleInputLastName">Last Name:</label>
     </div>
     <div>
       <input type="text" name="last name" class="form-control" id="exampleInputName" placeholder="Enter your last name" required="required">
@@ -34,7 +34,7 @@ bodyClass: page-contact
       <label for="exampleFormControlTextarea1">Message:</label>
     </div>
     <div>
-      <textarea class="msg-box" id="exampleFormControlTextarea1" placeholder="Enter your message" required="required" rows="4"></textarea>
+       <textarea class="msg-box" id="exampleFormControlTextarea1" name="message" placeholder="Enter your message" required="required" rows="4"></textarea>
     </div>
     <hr>
     <button class="button">Submit</button>
