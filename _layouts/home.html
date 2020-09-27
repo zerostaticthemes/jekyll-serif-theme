@@ -1,5 +1,5 @@
 ---
-title: Jekyll Serif - Jekyll Small Business Theme
+title: CarbonTracker - making a material difference.
 layout: default
 bodyClass: page-home
 ---
@@ -9,9 +9,7 @@ bodyClass: page-home
     <div class="row justify-content-start">
       <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
         {{ content }}
-        {% if site.homepage.show_call_box %}
-          {% include call.html show_button=true %}
-        {% endif %}
+        <a href="{{ site.data.contact.contact_button_link }}" class="button">Get in touch</a>
       </div>
       {% if page.intro_image %}
       <div class="col-12 col-md-5 col-lg-6 order-1 order-md-2 position-relative">
@@ -21,7 +19,6 @@ bodyClass: page-home
     </div>
   </div>
 </div>
-
 {% if site.data.features %}
 <div class="strip strip-grey">
   <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
