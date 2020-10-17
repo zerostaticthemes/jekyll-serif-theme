@@ -125,27 +125,6 @@ models:
               allowed.
             default: 10
       - type: list
-        name: defaults
-        items:
-          type: object
-          fields:
-            - type: object
-              name: scope
-              fields:
-                - type: string
-                  name: type
-                - type: string
-                  name: path
-            - type: object
-              name: values
-              fields:
-                - type: string
-                  name: layout
-                - type: string
-                  name: bodyClass
-                - type: boolean
-                  name: image
-      - type: list
         name: plugins
         label: Plugins
         hidden: true
@@ -183,8 +162,6 @@ models:
       - type: date
         name: date
       - type: string
-        name: layout
-      - type: string
         name: bodyClass
   contact:
     type: page
@@ -195,8 +172,6 @@ models:
         name: title
       - type: date
         name: date
-      - type: string
-        name: layout
       - type: string
         name: bodyClass
   service:
