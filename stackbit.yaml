@@ -1,292 +1,224 @@
 stackbitVersion: ~0.3.0
 ssgName: jekyll
-ssgVersion: '0.74.3'
+ssgVersion: '3.8.4'
 buildCommand: bundle exec jekyll build
-publishDir: "_site"
-uploadDir: "images"
-staticDir: "assets"
-pagesDir: ""
-dataDir: "_data"
+publishDir: '_site'
+staticDir: 'assets'
+uploadDir: 'images'
+dataDir: '_data'
+pagesDir: ''
+pageLayoutKey: layout
 
 models:
   config:
-    type: data
-    label: Config
-    file: exampleSite/config.toml
+    type: config
+    label: Site Configuration
     fields:
       - type: string
         name: title
-        label: Title
         required: true
       - type: string
-        name: baseURL
-        label: Base URL
-        description: Hostname (and path) to the root
+        name: baseurl
         hidden: true
       - type: string
-        name: languageCode
-        label: Language Code
+        name: permalink
+        label: Permalink
+        description: 'The output path for your pages, posts, or collections.'
+        default: '/posts/:slug:output_ext'
         hidden: true
       - type: string
-        name: themesDir
-        label: Themes Directory
-        hidden: true
-      - type: string
-        name: theme
-        label: Theme Name
-        hidden: true
+        name: google_analytics_id
       - type: object
-        name: params
-        label: Params
-        description: Site parameters
-        required: true
+        name: homepage
+        fields:
+          - type: boolean
+            name: show_call_box
+      - type: object
+        name: logo
+        fields:
+          - type: image
+            name: desktop
+            required: true
+          - type: image
+            name: mobile
+          - type: string
+            name: desktop_height
+      - type: object
+        name: footer
         fields:
           - type: string
-            name: google_analytics_id
-            label: Google Analytics ID
+            name: copyright_text
+      - type: object
+        name: seo
+        fields:
           - type: string
-            name: google_tag_manager_id
-            label: Google Tag Manager ID
+            name: meta_description
+            label: meta_description
+          - type: string
+            name: meta_og_title
+            label: meta_og_title
+          - type: string
+            name: meta_og_type
+            label: meta_og_type
+          - type: string
+            name: meta_og_url
+            label: meta_og_url
+          - type: string
+            name: meta_og_image
+            label: meta_og_image
+          - type: string
+            name: meta_og_description
+            label: meta_og_description
+          - type: string
+            name: meta_twitter_card
+            label: meta_twitter_card
+          - type: string
+            name: meta_twitter_site
+            label: meta_twitter_site
+          - type: string
+            name: meta_twitter_creator
+            label: meta_twitter_creator
+      - type: object
+        name: collections
+        fields:
           - type: object
-            name: homepage
-            label: Homepage
+            name: services
             fields:
               - type: boolean
-                name: show_call_box
-                label: Show Callbox on Homepage?
+                name: output
+              - type: string
+                name: permalink
           - type: object
-            name: logo
-            label: Params Logo
+            name: team
             fields:
-              - type: image
-                name: desktop
-                label: Logo Desktop
-                description: the path of the desktop logo image
-                required: true
-              - type: image
-                name: mobile
-                label: Logo Mobile
-                description: the path of the mobile logo image
+              - type: boolean
+                name: output
               - type: string
-                name: alt
-                label: Logo Alt Text
-              - type: string
-                name: desktop_height
-                label: Desktop Logo height in pixels
-          - type: object
-            name: homepage_meta_tags
-            label: Homepage Metatags
-            fields: 
-              - type: string
-                name: meta_description
-                label: meta_description
-              - type: string
-                name: meta_og_title
-                label: meta_og_title
-              - type: string
-                name: meta_og_type
-                label: meta_og_type
-              - type: string
-                name: meta_og_url
-                label: meta_og_url
-              - type: string
-                name: meta_og_image
-                label: meta_og_image
-              - type: string
-                name: meta_og_description
-                label: meta_og_description
-              - type: string
-                name: meta_twitter_card
-                label: meta_twitter_card
-              - type: string
-                name: meta_twitter_site
-                label: meta_twitter_site
-              - type: string
-                name: meta_twitter_creator
-                label: meta_twitter_creator
-          - type: object
-            name: footer
-            label: Footer
-            fields:
-              - type: string
-                name: copyright_text
-                label: Copyright Text
-      - type: model
-        name: menu
-        label: Menus
-        models:
-          - site_menu_item
-  site_menus:
-    type: object
-    label: Site Menus
-    description: >-
-      Site menus model, defines list of menus that can be specified from within
-      site configuration
-    fields:
+                name: permalink
+      - type: object
+        name: sass
+        label: Sass
+        hidden: true
+        fields:
+          - type: number
+            name: indentWidth
+            label: Indent Width
+            description: >-
+              Used to determine the number of spaces or tabs to be used for
+              indentation.
+            default: 4
+          - type: enum
+            name: style
+            label: Output Style
+            description: Determines the output format of the final CSS style.
+            options:
+              - nested
+              - expanded
+              - compact
+              - compressed
+            default: nested
+          - type: number
+            name: precision
+            label: Precision
+            description: >-
+              Used to determine how many digits after the decimal will be
+              allowed.
+            default: 10
       - type: list
-        name: main
-        label: Main menu
-        description: List of items for Main menu
+        name: defaults
         items:
-          type: model
-          models:
-            - site_menu_item
+          type: object
+          fields:
+            - type: object
+              name: scope
+              fields:
+                - type: string
+                  name: type
+                - type: string
+                  name: path
+            - type: object
+              name: values
+              fields:
+                - type: string
+                  name: layout
+                - type: string
+                  name: bodyClass
+                - type: boolean
+                  name: image
       - type: list
-        name: footer
-        label: Footer menu
-        description: List of items for Footer menu
-        items:
-          type: model
-          models:
-            - site_menu_item
-  site_menu_item:
-    type: object
-    label: Site Menu Item
-    labelField: name
-    description: 'Site menu item model, defines fields for a single site menu item'
-    fields:
-      - type: string
-        name: identifier
-        label: Identifier
-        description: >-
-          The identifier of a menu item could be used as a parent menu of
-          another menu item
-      - type: string
-        name: name
-        label: Title
-        description: The title of the menu item
-        required: true
-      - type: string
-        name: url
-        label: URL
-        description: The URL the menu item links to
-        required: true
-      - type: number
-        name: weight
-        label: Weight
-        description: Position for sorting
-      - type: string
-        name: parent
-        label: Parent Menu Identifier
-        description: The parent of an entry should be the identifier of another entry.
+        name: plugins
+        label: Plugins
+        hidden: true
+      - type: list
+        name: exclude
+        label: Exclude
+        description: Exclude directories and/or files from the conversion.
+        hidden: true
   home:
     type: page
     label: Home
-    file: _index.md
-    hideContent: false
-    singleInstance: true
+    layout: home
     fields:
       - type: string
         name: title
-        label: Title
-        description: The title of the page.
         required: true
+      - type: string
+        name: description
       - type: image
         name: intro_image
-        label: Intro Image
         description: Image displayed at in the pages intro section
       - type: boolean
         name: intro_image_absolute
-        label: Overflow intro image
         description: Should the image overflow or be contained
       - type: boolean
         name: intro_image_hide_on_mobile
-        label: Hide the intro image on mobile
         description: Hide the intro image on mobile screen sizes
-  pagenotfound:
+  page:
     type: page
-    label: '404'
-    file: 404/_index.md
-    hideContent: true
-    singleInstance: true
+    label: Page
+    layout: page
     fields:
       - type: string
         name: title
-        label: Title
-        description: The title of the page.
-  basicpage:
-    type: page
-    label: Basic Page
-    match: '*.md'
-    exclude:
-      - _index.md
-    fields:
-      - type: string
-        name: title
-        label: Title
-        description: The title of the page.
       - type: date
         name: date
-        label: Date
       - type: string
         name: layout
-        label: layout
-      - type: enum
-        name: menu
-        label: Menu
-        options:
-          - label: Main Menu
-            value: main
-          - label: Footer Menu
-            value: footer
-  basicpagewithintro:
+      - type: string
+        name: bodyClass
+  contact:
     type: page
-    label: Basic Page With Intro
-    match: ""
-    identifier: basicpagewithintro
+    label: Contact
+    layout: contact
     fields:
       - type: string
         name: title
-        label: Title
-        description: The title of the page.
       - type: date
         name: date
-        label: Date
-      - type: image
-        name: image
-        label: Image
       - type: string
         name: layout
-        label: layout
-      - type: enum
-        name: menu
-        label: Menu
-        options:
-          - label: Main Menu
-            value: main
-          - label: Footer Menu
-            value: footer
+      - type: string
+        name: bodyClass
   service:
     type: page
     label: Service
-    folder: services
-    exclude: _index.md
+    layout: service
     fields:
       - type: string
         name: title
-        label: Title
       - type: date
         name: date
-        label: Date
-      - type: boolean
-        name: draft
-        label: Draft
       - type: boolean
         name: featured
-        label: Featured
       - type: number
         name: weight
-        label: Weight
   services:
     type: page
-    label: Services Overview
-    file: services/_index.md
-    singleInstance: true
+    label: Services
+    layout: services
     fields:
       - type: string
         name: title
-        label: Title
-        description: The title of the page.
         required: true
       - type: image
         name: intro_image
@@ -298,52 +230,43 @@ models:
         description: Should the image overflow or be contained
       - type: boolean
         name: intro_image_hide_on_mobile
-        label: Intro Image Hide On Mobile
+        label: Hide Intro Image On Mobile?
         description: Hide the intro image on mobile screen sizes
   team:
     type: page
     label: Team
     folder: team
     exclude: _index.md
+    layout: team
     fields:
       - type: string
         name: title
-        label: Title
       - type: date
         name: date
-        label: Date
       - type: image
         name: image
-        label: Image
       - type: string
         name: jobtitle
-        label: Job Title
       - type: string
         name: linkedinurl
-        label: Linkedin URL
       - type: boolean
         name: draft
-        label: Draft
       - type: boolean
         name: featured
-        label: Featured
       - type: number
         name: weight
-        label: Weight
       - type: boolean
         name: promoted
-        label: Promoted
   teams:
     type: page
-    label: Team Overview
-    file: team/_index.md
-    singleInstance: true
+    label: Teams
+    layout: teams
     fields:
       - type: string
         name: title
-        label: Title
-        description: The title of the page.
         required: true
+      - type: string
+        name: permalink
       - type: image
         name: intro_image
         label: Intro Image
@@ -354,5 +277,5 @@ models:
         description: Should the image overflow or be contained
       - type: boolean
         name: intro_image_hide_on_mobile
-        label: Intro Image Hide On Mobile
+        label: Hide Intro Image On Mobile?
         description: Hide the intro image on mobile screen sizes
