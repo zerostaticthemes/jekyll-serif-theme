@@ -3,14 +3,14 @@ title: "Accounting"
 date: 2018-11-18T12:33:46+10:00
 featured: true
 weight: 1
-layout: service
+layout: issue
 ---
 
 Financial accounting (or financial accountancy) is the field of accounting concerned with the **summary, analysis and reporting** of financial transactions related to a business.
 
 ![Accounting Services](/images/austin-distel-nGc5RT2HmF0-unsplash.jpg)
 
-# Objectives 
+# Objectives
 
 Financial accounting and financial reporting are often used as synonyms.
 
@@ -20,9 +20,9 @@ Financial accounting and financial reporting are often used as synonyms.
 
 ## Relevance
 
-Relevance is the capacity of the financial information to influence the decision of its users. The ingredients of relevance are the predictive value and confirmatory value. Materiality is a sub-quality of relevance. 
+Relevance is the capacity of the financial information to influence the decision of its users. The ingredients of relevance are the predictive value and confirmatory value. Materiality is a sub-quality of relevance.
 
-> The ingredients of relevance are the predictive value and confirmatory value. 
+> The ingredients of relevance are the predictive value and confirmatory value.
 
 Information is considered material if its omission or misstatement could influence the economic decisions of users taken on the basis of the financial statements.
 
@@ -65,7 +65,7 @@ Cash Inflow | Outflow | Opening Balance
 > **Important:** the cash flow statement only considers the exchange of actual cash, and ignores what the person in question owes or is owed.
 
 ## Statement of financial position (balance sheet)
-The balance sheet is the financial statement showing a firm's assets, liabilities and equity (capital) at a set point in time, usually the end of the fiscal year reported on the accompanying income statement. 
+The balance sheet is the financial statement showing a firm's assets, liabilities and equity (capital) at a set point in time, usually the end of the fiscal year reported on the accompanying income statement.
 
 - **fixed assets**
     - property
