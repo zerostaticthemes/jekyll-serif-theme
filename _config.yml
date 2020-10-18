@@ -14,15 +14,14 @@ footer:
   copyright_text: '&copy; 2020 Lisa Simpson for Illinois'
 
 seo:
-
-  meta_og_title: "Lisa Simpson for Illinois"
-  meta_og_type: "website"
-  meta_og_url: "https://jekyll-serif-theme.netlify.app"
-  meta_og_image: "https://raw.githubusercontent.com/zerostaticthemes/jekyll-serif-theme/master/screenshots/tn.png"
-  meta_og_description: "This theme allows for fast deployment of political candidate websites"
-  meta_twitter_card: "summary"
-  meta_twitter_site: "@lisasimpsonforsenate"
-  meta_twitter_creator: "@VictoriaGWalter"
+  meta_og_title: 'Lisa Simpson for Illinois'
+  meta_og_type: 'website'
+  meta_og_url: 'https://jekyll-serif-theme.netlify.app'
+  meta_og_image: 'https://raw.githubusercontent.com/zerostaticthemes/jekyll-serif-theme/master/screenshots/tn.png'
+  meta_og_description: 'This theme allows for fast deployment of political candidate websites'
+  meta_twitter_card: 'summary'
+  meta_twitter_site: '@lisasimpsonforsenate'
+  meta_twitter_creator: '@VictoriaGWalter'
 
 collections:
   issues:
