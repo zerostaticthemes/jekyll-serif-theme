@@ -3,17 +3,18 @@ exclude: ['README.md']
 permalink: pretty
 title: 'Lisa Simpson for Illinois'
 
-google_analytics_id: ""
+google_analytics_id: ''
 homepage:
   show_call_box: true
 logo:
-  mobile: "images/logo/logo-mobile.svg"
-  desktop: "images/logo/logo.svg"
-  desktop_height: "36px"
+  mobile: 'images/logo/democraticlogo.png'
+  desktop: 'images/logo/democraticlogo.png'
+  desktop_height: '36px'
 footer:
   copyright_text: '&copy; 2020 Lisa Simpson for Illinois'
 
 seo:
+
   meta_og_title: "Lisa Simpson for Illinois"
   meta_og_type: "website"
   meta_og_url: "https://jekyll-serif-theme.netlify.app"
