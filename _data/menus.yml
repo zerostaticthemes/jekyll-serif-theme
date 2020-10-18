@@ -1,16 +1,16 @@
 main:
-  - name: "Services"
-    url: "/services/"
-    weight: 2
-  - name: "Team"
-    url: "/team/"
-    weight: 3
   - name: "About"
     url: "/about/"
+    weight: 2
+  - name: "Issues"
+    url: "/issues/"
+    weight: 2
+  - name: "Get Involved"
+    url: "/get_involved/"
+    weight: 2
+  - name: "Donate"
+    url: "/donate/"
     weight: 4
-  - name: "Contact"
-    url: "/contact/"
-    weight: 5
 
 footer:
   - name: "Home"
