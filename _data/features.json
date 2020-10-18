@@ -1,17 +1,20 @@
 [
   {
-    "title": "Free Consultation",
+    "title": "Fighting Corruption ",
     "description": "New clients recieve an obligation free consultation.",
-    "image": "images/features/noun_branding_1885335.svg"
+    "image": "images/features/noun_branding_1885335.svg",
+    "position": 1
   },
   {
-    "title": "Certified Accountants",
+    "title": "Living Wage",
     "description": "All members of our team are certified accountants.",
-    "image": "images/features/noun_The Process_1885341.svg"
+    "image": "images/features/noun_The Process_1885341.svg",
+    "position": 2
   },
   {
-    "title": "Tax Compliance",
+    "title": "Green Economy",
     "description": "We stay up to date on the latest changes to the tax code.",
-    "image": "images/features/noun_3d modeling_1885342.svg"
+    "image": "images/features/noun_3d modeling_1885342.svg",
+    "position": 3
   }
 ]
