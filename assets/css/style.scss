@@ -69,9 +69,10 @@ $sub-footer-text-color: $white;
 @import 'components/feature';
 
 // Pages
+
 @import 'pages/home';
 @import 'pages/team/team-summary';
-//@import "pages/issues/page-issues-single";
+@import 'pages/issues/page-issues-single';
 
 body {
   font-size: 16px;
