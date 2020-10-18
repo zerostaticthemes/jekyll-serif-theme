@@ -1,12 +1,12 @@
 [
   {
     "name": "Github",
-    "link": "https://github.com/zerostaticthemes/jekyll-serif-theme",
+    "link": "https://github.com/vgwalter/political-jekyll-template/",
     "image": "images/social/github.svg"
   },
   {
     "name": "Twitter",
-    "link": "https://twitter.com/zerostaticio",
+    "link": "https://twitter.com/victoriagwalter",
     "image": "images/social/twitter.svg"
   }
 ]

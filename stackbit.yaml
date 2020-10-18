@@ -82,7 +82,7 @@ models:
         name: collections
         fields:
           - type: object
-            name: services
+            name: issues
             fields:
               - type: boolean
                 name: output
@@ -174,10 +174,10 @@ models:
         name: date
       - type: string
         name: bodyClass
-  service:
+  issue:
     type: page
-    label: Service
-    layout: service
+    label: issue
+    layout: issue
     fields:
       - type: string
         name: title
@@ -187,10 +187,10 @@ models:
         name: featured
       - type: number
         name: weight
-  services:
+  issues:
     type: page
-    label: Services
-    layout: services
+    label: issues
+    layout: issues
     fields:
       - type: string
         name: title
