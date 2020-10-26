@@ -1,17 +1,17 @@
 [
   {
-    "title": "Free Consultation",
-    "description": "New clients recieve an obligation free consultation.",
+    "title": "AI Algorithms",
+    "description": "We use AI based image classification algorithm for classification tasks.",
     "image": "images/features/noun_branding_1885335.svg"
   },
   {
-    "title": "Certified Accountants",
-    "description": "All members of our team are certified accountants.",
-    "image": "images/features/noun_The Process_1885341.svg"
+    "title": "OHIF Viewer",
+    "description": "Open source and the best web based dicom viewer interaction.",
+    "image": "images/features/noun_3d modeling_1885342.svg"
   },
   {
-    "title": "Tax Compliance",
-    "description": "We stay up to date on the latest changes to the tax code.",
-    "image": "images/features/noun_3d modeling_1885342.svg"
+    "title": "Easy Integration",
+    "description": "API will used for easy integration to the viewer.",
+    "image": "images/features/noun_The Process_1885341.svg"
   }
 ]
