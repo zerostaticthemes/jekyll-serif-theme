@@ -1,11 +1,12 @@
 ---
-title: "Bill McDonald"
+title: "P.D.R.L. Chandrasinghe"
 date: 2018-11-19T10:47:58+10:00
 draft: false
-image: "images/team/nonsap-visuals-kMJp7620W6U-unsplash.jpg"
-jobtitle: "Graphic Designer"
-linkedinurl: ""
-weight: 7
+image: "images/team/sage-kirk-485982-unsplash.jpg"
+jobtitle: "Developer / Undergraduate"
+linkedinurl: "https://www.linkedin.com/"
+promoted: true
+weight: 4
 layout: team
 ---
 
