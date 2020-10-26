@@ -1,7 +1,7 @@
 ---
 title: "K.B.R Perera"
 date: 2018-11-19T10:47:58+10:00
-draft: false
+draft: true
 image: "images/team/banura-randika.jpg"
 jobtitle: "Developer / Undergraduate"
 linkedinurl: "https://www.linkedin.com/in/randika-banura/"

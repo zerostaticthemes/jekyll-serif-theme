@@ -26,6 +26,8 @@ seo:
 collections:
   services:
     output: true
+  products:
+    output: ture
   team:
     output: true
 

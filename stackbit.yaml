@@ -89,6 +89,13 @@ models:
               - type: string
                 name: permalink
           - type: object
+            name: products
+            fields:
+              - type: boolean
+                name: output
+              - type: string
+                name: permalink
+          - type: object
             name: team
             fields:
               - type: boolean
@@ -191,6 +198,39 @@ models:
     type: page
     label: Services
     layout: services
+    fields:
+      - type: string
+        name: title
+        required: true
+      - type: image
+        name: intro_image
+        label: Intro Image
+        description: Image displayed at in the pages intro section
+      - type: boolean
+        name: intro_image_absolute
+        label: Intro Image Position
+        description: Should the image overflow or be contained
+      - type: boolean
+        name: intro_image_hide_on_mobile
+        label: Hide Intro Image On Mobile?
+        description: Hide the intro image on mobile screen sizes
+  product:
+    type: page
+    label: Product
+    layout: product
+    fields:
+      - type: string
+        name: title
+      - type: date
+        name: date
+      - type: boolean
+        name: featured
+      - type: number
+        name: weight
+  products:
+    type: page
+    label: Products
+    layout: products
     fields:
       - type: string
         name: title
