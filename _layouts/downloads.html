@@ -22,8 +22,8 @@ bodyClass: page-services-list
   <div class="row">
     {% assign sorted_downloads = site.downloads | sort: "weight" %}
     {% for service in sorted_downloads %}
-    <div class="col-12 col-md-6 mb-3 download-item">
-      <div class="service service-summary">
+    <div class="col-12 col-md-6 mb-2">
+      <div class="service service-summary download-item">
         <div class="service-content">
           <h2 class="service-title">
             <a href="">{{ service.title }}</a>
