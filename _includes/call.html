@@ -1,19 +1,40 @@
+{% if include.show_all %}
+{% assign extra_contacts = site.data.contact.persons %}
+{% for contact in extra_contacts %}
+{% if contact %}
+<div class="call mb-2">
+    <div class="call-box-top">
+        <div class="call-name" style="margin-bottom: 5px;"><strong>Name: </strong> {{ contact.name }}</div>
+        <div class="call-phone"><strong>Phone: </strong> {{ contact.phone }}</div>
+        <div class="call-email" style="margin-bottom: 5px;"><strong>Email: </strong>
+            <a href="mailto:{{ .site.Data.contact.email }}">
+                {{ contact.email }}
+            </a>
+        </div>
+        <div class="call-title"><strong>Title: </strong> {{ contact.title }}</div>
+    </div>
+</div>
+{% endif %}
+{% endfor %}
+{% else %}
 <div class="call">
-  <div class="call-box-top">
-    {% if site.data.contact.phone %}
-        <div class="call-phone"><strong>Phone: </strong> {{ site.data.contact.phone }} </div>
-    {% endif %}
-    {% if site.data.contact.email %}
-    <div class="call-email"><strong>Email: </strong>
-      <a href="mailto:{{ .site.Data.contact.email }}">
-        {{ site.data.contact.email }}
-      </a>
+    <div class="call-box-top">
+        {% assign main_contact = site.data.contact.persons | where: "main", true %}
+        {% if main_contact %}
+        <div class="call-phone"><strong>Phone: </strong> {{ main_contact[0].phone }}</div>
+        {% endif %}
+        {% if main_contact %}
+        <div class="call-email"><strong>Email: </strong>
+            <a href="mailto:{{ .site.Data.contact.email }}">
+                {{ main_contact[0].email }}
+            </a>
+        </div>
+        {% endif %}
+    </div>
+    {% if include.show_button %}
+    <div class="call-box-bottom">
+        <a href="{{ site.data.contact.contact_button_link }}" class="button">Contact</a>
     </div>
     {% endif %}
-  </div>
-    {% if include.show_button %}
-      <div class="call-box-bottom">
-        <a href="{{ site.data.contact.contact_button_link }}" class="button">Contact</a>
-      </div>
-    {% endif %}
 </div>
+{% endif %}

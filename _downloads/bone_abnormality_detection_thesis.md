@@ -8,11 +8,7 @@ file: files/pdf-test.pdf
 blank_page: true
 ---
 
-This project is an OHIF extension
-This project is an OHIF extension
-This project is an OHIF extension
-This project is an OHIF extension
-This project is an OHIF extension
-This project is an OHIF extension
-This project is an OHIF extension
-This project is an OHIF extension
+This thesis is drafted by K.B.R. Perera(IT17134286) for the
+module of bone abnormality detection. It explain the procedure
+that followed through the research phase. And does go much deepth
+to the methodologies followed and results gained. 

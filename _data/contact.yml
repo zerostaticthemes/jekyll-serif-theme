@@ -1,3 +1,29 @@
-email: 'jekyllserif@example.com'
-phone: '1800 123 000'
+persons:
+  -
+    email: 'koliya.pulasinghe@gmail.com'
+    phone: '0777 123 456'
+    main: true
+    name: "Koliya Pulasinghe"
+    title: "Supervisor"
+  - email: 'name@gmail.com'
+    phone: '0777 123 456'
+    main: false
+    name: "Name"
+    title: "Co-Supervisor"
+  -
+    email: 'randika.banura@gmail.com'
+    phone: '0777 123 456'
+    main: false
+    name: "K.B.R. Perera"
+    title: "Undergraduate"
+  - email: 'dsanjana@gmail.com'
+    phone: '0777 123 456'
+    main: false
+    name: "Hettiarchchi D.S"
+    title: "Undergraduate"
+  - email: 'randika111222@gmail.com'
+    phone: '0777 123 456'
+    main: false
+    name: "P.D.R.L. Chandrasinghe"
+    title: "Undergraduate"
 contact_button_link: 'contact'

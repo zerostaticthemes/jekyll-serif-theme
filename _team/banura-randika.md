@@ -10,6 +10,4 @@ weight: 3
 layout: team
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Experienced Associate Software Engineer with a demonstrated history of working in the computer software industry. Skilled in PHP, Java, HTML, Leadership, and Unix. Strong engineering professional with a Bsc (Hons) Information Technology focused in Software Engineering from SLIIT. 
