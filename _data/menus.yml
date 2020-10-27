@@ -5,15 +5,18 @@ main:
   - name: "Products"
     url: "/products/"
     weight: 3
+  - name: "Downloads"
+    url: "/downloads/"
+    weight: 4
   - name: "Team"
     url: "/team/"
-    weight: 4
+    weight: 5
   - name: "About"
     url: "/about/"
-    weight: 5
+    weight: 6
   - name: "Contact"
     url: "/contact/"
-    weight: 6
+    weight: 7
 
 footer:
   - name: "Home"

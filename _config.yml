@@ -28,6 +28,8 @@ collections:
     output: true
   products:
     output: ture
+  downloads:
+    output: true
   team:
     output: true
 

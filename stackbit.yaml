@@ -227,6 +227,43 @@ models:
         name: featured
       - type: number
         name: weight
+      - type: file
+        name: file
+      - type: boolean
+        name: blank_page
+  download:
+    type: page
+    label: download
+    layout: download
+    fields:
+      - type: string
+        name: title
+      - type: date
+        name: date
+      - type: boolean
+        name: featured
+      - type: number
+        name: weight
+  downloads:
+    type: page
+    label: Downloads
+    layout: downloads
+    fields:
+      - type: string
+        name: title
+        required: true
+      - type: image
+        name: intro_image
+        label: Intro Image
+        description: Image displayed at in the pages intro section
+      - type: boolean
+        name: intro_image_absolute
+        label: Intro Image Position
+        description: Should the image overflow or be contained
+      - type: boolean
+        name: intro_image_hide_on_mobile
+        label: Hide Intro Image On Mobile?
+        description: Hide the intro image on mobile screen sizes
   products:
     type: page
     label: Products
