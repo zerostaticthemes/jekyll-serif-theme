@@ -89,6 +89,13 @@ models:
               - type: string
                 name: permalink
           - type: object
+            name: milestons
+            fields:
+              - type: boolean
+                name: output
+              - type: string
+                name: permalink
+          - type: object
             name: documents
             fields:
               - type: boolean
@@ -295,6 +302,26 @@ models:
         name: weight
       - type: file
         name: file
+  milestones:
+    type: page
+    label: Milestone
+    layout: milestones
+    fields:
+      - type: string
+        name: title
+        required: true
+      - type: image
+        name: intro_image
+        label: Intro Image
+        description: Image displayed at in the pages intro section
+      - type: boolean
+        name: intro_image_absolute
+        label: Intro Image Position
+        description: Should the image overflow or be contained
+      - type: boolean
+        name: intro_image_hide_on_mobile
+        label: Hide Intro Image On Mobile?
+        description: Hide the intro image on mobile screen sizes
   presentation:
     type: page
     label: Presentation

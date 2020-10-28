@@ -6,7 +6,7 @@ main:
     url: "/products/"
     weight: 3
   - name: "Milestones"
-    url: "#"
+    url: "/milestones/"
     weight: 3
     dropdowns:
         -
