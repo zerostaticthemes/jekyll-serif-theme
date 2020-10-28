@@ -18,17 +18,22 @@ bodyClass: page-services-list
     </div>
 </div>
 
-<div class="container pt-6 pb-6">
+<div class="container pt-6 pb-6 download-section">
     <div class="row">
         {% assign sorted_presentations = site.presentations | sort: "weight" %}
         {% for service in sorted_presentations %}
-        <div class="col-12 col-md-6 mb-3">
-            <div class="service service-summary">
+        <div class="col-12 col-md-6 mb-2">
+            <div class="service service-summary download-item">
                 <div class="service-content">
                     <h2 class="service-title">
-                        <a href="{{site.baseurl}}{{ service.url }}">{{ service.title }}</a>
+                        <a href="">{{ service.title }}</a>
                     </h2>
-                    <p>{{ service.content | markdownify | strip_html | truncate: 100 }}</p>
+                    <p>{{ service.content | markdownify | strip_html | truncate: 500 }}</p>
+                    {% if service.blank_page %}
+                    <a href="{{site.baseurl}}{{ service.file }}" target="_blank">Download file</a>
+                    {% else %}
+                    <a href="{{site.baseurl}}{{ service.file }}">Download file</a>
+                    {% endif %}
                 </div>
             </div>
         </div>
