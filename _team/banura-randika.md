@@ -10,4 +10,4 @@ weight: 3
 layout: team
 ---
 
-Experienced Associate Software Engineer with a demonstrated history of working in the computer software industry. Skilled in PHP, Java, HTML, Leadership, and Unix. Strong engineering professional with a Bsc (Hons) Information Technology focused in Software Engineering from SLIIT. 
+An associate software engineer works with a team of engineering professionals and developers to improve existing software or design new innovative applications.
