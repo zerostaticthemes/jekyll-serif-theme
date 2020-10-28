@@ -1,15 +1,15 @@
 persons:
   -
     email: 'koliya.p@sliit.lk'
-    phone: '0777 123 456'
+    phone: '0773 146 546'
     main: true
-    name: "Koliya Pulasinghe"
+    name: "Prof. Koliya Pulasinghe"
     title: "Supervisor"
   -
     email: 'archchana.k@sliit.lk'
     phone: '0777 123 456'
     main: false
-    name: "Name"
+    name: "Ms. Archchana Kugathasan"
     title: "Co-Supervisor"
   -
     email: 'randika.banura@gmail.com'
