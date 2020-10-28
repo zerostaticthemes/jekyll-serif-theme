@@ -5,28 +5,33 @@ persons:
     main: true
     name: "Prof. Koliya Pulasinghe"
     title: "Supervisor"
+    image: "images/team/koliya-pulasinghe.jpg"
   -
     email: 'archchana.k@sliit.lk'
     phone: '0777 123 456'
     main: false
     name: "Ms. Archchana Kugathasan"
     title: "Co-Supervisor"
+    image: "images/team/archchana-kugathasan.jpg"
   -
     email: 'randika.banura@gmail.com'
     phone: '0777 123 456'
     main: false
     name: "K.B.R. Perera"
     title: "Undergraduate"
+    image: "images/team/banura-randika.jpg"
   -
     email: 'dsanjana@gmail.com'
     phone: '0777 123 456'
     main: false
     name: "Hettiarchchi D.S"
     title: "Undergraduate"
+    image: "images/team/sage-kirk-485982-unsplash.jpg"
   -
     email: 'randika111222@gmail.com'
     phone: '0777 123 456'
     main: false
     name: "P.D.R.L. Chandrasinghe"
     title: "Undergraduate"
+    image: "images/team/randika-lakshan.jpg"
 contact_button_link: 'contact'

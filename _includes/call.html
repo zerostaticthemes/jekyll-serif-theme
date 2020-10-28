@@ -3,7 +3,7 @@
 {% for contact in extra_contacts %}
 {% if contact %}
 <div class="call mb-2">
-    <div class="call-box-top">
+    <div class="call-box-top col-12 col-lg-9">
         <div class="call-name" style="margin-bottom: 5px;"><strong>Name: </strong> {{ contact.name }}</div>
         <div class="call-phone"><strong>Phone: </strong> {{ contact.phone }}</div>
         <div class="call-email" style="margin-bottom: 5px;"><strong>Email: </strong>
@@ -13,6 +13,13 @@
         </div>
         <div class="call-title"><strong>Title: </strong> {{ contact.title }}</div>
     </div>
+    {% if contact.image %}
+    <div class="col-lg-3 d-none d-lg-flex justify-content-lg-around">
+        <div class="member-image">
+            <img alt="{{ contact.name }}" class="img-fluid mb-2" src="{{ contact.image | relative_url }}" />
+        </div>
+    </div>
+    {% endif %}
 </div>
 {% endif %}
 {% endfor %}
