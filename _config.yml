@@ -24,11 +24,13 @@ seo:
   meta_twitter_creator: "@randika_banura"
 
 collections:
-  services:
+  scopes:
     output: true
   products:
     output: ture
-  downloads:
+  presentations:
+    output: true
+  documents:
     output: true
   team:
     output: true

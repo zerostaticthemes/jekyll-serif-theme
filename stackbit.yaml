@@ -82,7 +82,21 @@ models:
         name: collections
         fields:
           - type: object
-            name: services
+            name: scopes
+            fields:
+              - type: boolean
+                name: output
+              - type: string
+                name: permalink
+          - type: object
+            name: documents
+            fields:
+              - type: boolean
+                name: output
+              - type: string
+                name: permalink
+          - type: object
+            name: presentaions
             fields:
               - type: boolean
                 name: output
@@ -181,10 +195,10 @@ models:
         name: date
       - type: string
         name: bodyClass
-  service:
+  scope:
     type: page
-    label: Service
-    layout: service
+    label: Scope
+    layout: scope
     fields:
       - type: string
         name: title
@@ -194,10 +208,10 @@ models:
         name: featured
       - type: number
         name: weight
-  services:
+  scopes:
     type: page
-    label: Services
-    layout: services
+    label: Scopes
+    layout: scopes
     fields:
       - type: string
         name: title
@@ -231,10 +245,10 @@ models:
         name: file
       - type: boolean
         name: blank_page
-  download:
+  document:
     type: page
-    label: download
-    layout: download
+    label: Document
+    layout: document
     fields:
       - type: string
         name: title
@@ -244,10 +258,43 @@ models:
         name: featured
       - type: number
         name: weight
-  downloads:
+  documents:
     type: page
-    label: Downloads
-    layout: downloads
+    label: Documents
+    layout: documents
+    fields:
+      - type: string
+        name: title
+        required: true
+      - type: image
+        name: intro_image
+        label: Intro Image
+        description: Image displayed at in the pages intro section
+      - type: boolean
+        name: intro_image_absolute
+        label: Intro Image Position
+        description: Should the image overflow or be contained
+      - type: boolean
+        name: intro_image_hide_on_mobile
+        label: Hide Intro Image On Mobile?
+        description: Hide the intro image on mobile screen sizes
+  presentation:
+    type: page
+    label: Presentation
+    layout: presentation
+    fields:
+      - type: string
+        name: title
+      - type: date
+        name: date
+      - type: boolean
+        name: featured
+      - type: number
+        name: weight
+  presentations:
+    type: page
+    label: Presentations
+    layout: presentations
     fields:
       - type: string
         name: title

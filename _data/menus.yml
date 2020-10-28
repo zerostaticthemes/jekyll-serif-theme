@@ -1,22 +1,22 @@
 main:
-  - name: "Services"
-    url: "/services/"
+  - name: "Scopes"
+    url: "/scopes/"
     weight: 2
   - name: "Products"
     url: "/products/"
     weight: 3
-  - name: "Downloads"
-    url: "/downloads/"
+  - name: "Documents"
+    url: "/documents/"
     weight: 4
-  - name: "Team"
+  - name: "Presentations"
+    url: "/presentations/"
+    weight: 4
+  - name: "About"
     url: "/team/"
     weight: 5
-  - name: "About"
-    url: "/about/"
-    weight: 6
   - name: "Contact"
     url: "/contact/"
-    weight: 7
+    weight: 6
 
 footer:
   - name: "Home"

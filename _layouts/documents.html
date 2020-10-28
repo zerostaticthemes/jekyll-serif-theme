@@ -20,8 +20,8 @@ bodyClass: page-services-list
 
 <div class="container pt-6 pb-6 download-section">
   <div class="row">
-    {% assign sorted_downloads = site.downloads | sort: "weight" %}
-    {% for service in sorted_downloads %}
+    {% assign sorted_documents = site.documents | sort: "weight" %}
+    {% for service in sorted_documents %}
     <div class="col-12 col-md-6 mb-2">
       <div class="service service-summary download-item">
         <div class="service-content">

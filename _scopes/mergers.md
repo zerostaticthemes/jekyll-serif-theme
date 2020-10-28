@@ -3,7 +3,7 @@ title: "Mergers"
 date: 2018-11-28T15:15:34+10:00
 featured: true
 weight: 4
-layout: service
+layout: scope
 ---
 
 Financial accounting (or financial accountancy) is the field of accounting concerned with the **summary, analysis and reporting** of financial transactions related to a business.
