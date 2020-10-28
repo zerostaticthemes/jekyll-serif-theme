@@ -6,6 +6,8 @@ intro_image_absolute: true
 intro_image_hide_on_mobile: false
 ---
 
-# Services that grow with your business
+# Scopes of the Research as follows
 
-Aliquam erat volutpat. Morbi nisl tortor, dignissim eget efficitur vel, auctor non felis. Fusce quis viverra mi. Aenean quis massa pretium, ullamcorper nisi eget, hendrerit odio.
+This explain the the scope of the research as well as each module thoroughly.
+Each section consists of Literature Review, Research Gap, Research Problem, 
+Research Objectives and Methodology.

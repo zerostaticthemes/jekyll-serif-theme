@@ -1,12 +1,12 @@
 persons:
   -
-    email: 'koliya.pulasinghe@gmail.com'
+    email: 'koliya.p@sliit.lk'
     phone: '0777 123 456'
     main: true
     name: "Koliya Pulasinghe"
     title: "Supervisor"
   -
-    email: 'name@gmail.com'
+    email: 'archchana.k@sliit.lk'
     phone: '0777 123 456'
     main: false
     name: "Name"

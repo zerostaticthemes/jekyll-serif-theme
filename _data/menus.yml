@@ -9,10 +9,24 @@ main:
     url: "/milestones/"
     weight: 3
     dropdowns:
-        -
-          name: "Project Proposal"
-          url: "/milestones/project_proposal"
-          weight: 1
+      - name: "Project Proposal"
+        url: "/milestones/project_proposal"
+        weight: 1
+      - name: "Progress Presentation 1"
+        url: "/milestones/progress_presentation_1"
+        weight: 2
+      - name: "Progress Presentation 2"
+        url: "/milestones/progress_presentation_2"
+        weight: 3
+      - name: "Demo"
+        url: "/milestones/demo"
+        weight: 4
+      - name: "Final Assessment"
+        url: "/milestones/final_assessment"
+        weight: 5
+      - name: "Viva"
+        url: "/milestones/viva"
+        weight: 6
   - name: "Documents"
     url: "/documents/"
     weight: 4

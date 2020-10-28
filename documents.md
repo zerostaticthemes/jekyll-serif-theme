@@ -6,6 +6,7 @@ intro_image_absolute: true
 intro_image_hide_on_mobile: false
 ---
 
-# Downloads that available for the research
+# Documents that available for the research
 
-Aliquam erat volutpat. Morbi nisl tortor, dignissim eget efficitur vel, auctor non felis. Fusce quis viverra mi. Aenean quis massa pretium, ullamcorper nisi eget, hendrerit odio.
+These documents include the all of the research related documents throughout the 
+research process from the start until the thesis were written. 

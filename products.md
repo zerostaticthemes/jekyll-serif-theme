@@ -6,6 +6,8 @@ intro_image_absolute: true
 intro_image_hide_on_mobile: false
 ---
 
-# Products that grow with your business
+# Products that based on the the result of the Research
 
-Aliquam erat volutpat. Morbi nisl tortor, dignissim eget efficitur vel, auctor non felis. Fusce quis viverra mi. Aenean quis massa pretium, ullamcorper nisi eget, hendrerit odio.
+This section explain various products we were able to build through out the
+research. These include a configured dicom viewer, newly built extension for the
+viewer, Prediction API and others.

@@ -2,7 +2,7 @@
 title: "P.D.R.L. Chandrasinghe"
 date: 2018-11-19T10:47:58+10:00
 draft: false
-image: "images/team/sage-kirk-485982-unsplash.jpg"
+image: "images/team/randika-lakshan.jpg"
 jobtitle: "Developer / Undergraduate"
 linkedinurl: "https://www.linkedin.com/"
 promoted: true
