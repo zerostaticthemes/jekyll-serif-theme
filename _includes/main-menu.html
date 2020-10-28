@@ -3,8 +3,41 @@
   <ul>
     {% for item in mainmenu %}
     <li class="{% if item.url == page.url %}active{% endif %}">
-      <a href="{{ item.url | relative_url }}">{{ item.name }}</a>
+      {% if item.dropdowns | length > 0 %}
+      <div class="dropdown">
+        <a href="#" onclick="myFunction()" class="dropbtn">{{ item.name }}</a>
+        <div id="myDropdown" class="dropdown-content">
+          {% for dropdown in item.dropdowns %}
+            <a href="{{dropdown.url}}">{{dropdown.name}}</a>
+          {% endfor %}
+        </div>
+      </div>
+      {% else %}
+      <a href="{{ item.url | relative_url }}"}>{{ item.name }}</a>
+      {% endif %}
     </li>
     {% endfor %}
   </ul>
 </div>
+
+<script>
+  /* When the user clicks on the button,
+  toggle between hiding and showing the dropdown content */
+  function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+  }
+
+  // Close the dropdown if the user clicks outside of it
+  window.onclick = function(event) {
+    if (!event.target.matches('.dropbtn')) {
+      var dropdowns = document.getElementsByClassName("dropdown-content");
+      var i;
+      for (i = 0; i < dropdowns.length; i++) {
+        var openDropdown = dropdowns[i];
+        if (openDropdown.classList.contains('show')) {
+          openDropdown.classList.remove('show');
+        }
+      }
+    }
+  }
+</script>

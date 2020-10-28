@@ -5,6 +5,14 @@ main:
   - name: "Products"
     url: "/products/"
     weight: 3
+  - name: "Milestones"
+    url: "#"
+    weight: 3
+    dropdowns:
+        -
+          name: "Project Proposal"
+          url: "/milestones/project_proposal"
+          weight: 1
   - name: "Documents"
     url: "/documents/"
     weight: 4

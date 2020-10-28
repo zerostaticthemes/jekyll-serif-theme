@@ -258,6 +258,8 @@ models:
         name: featured
       - type: number
         name: weight
+      - type: file
+        name: file
   documents:
     type: page
     label: Documents
@@ -278,6 +280,21 @@ models:
         name: intro_image_hide_on_mobile
         label: Hide Intro Image On Mobile?
         description: Hide the intro image on mobile screen sizes
+  milestone:
+    type: page
+    label: Milestone
+    layout: milestone
+    fields:
+      - type: string
+        name: title
+      - type: date
+        name: date
+      - type: boolean
+        name: featured
+      - type: number
+        name: weight
+      - type: file
+        name: file
   presentation:
     type: page
     label: Presentation
@@ -291,6 +308,8 @@ models:
         name: featured
       - type: number
         name: weight
+      - type: file
+        name: file
   presentations:
     type: page
     label: Presentations

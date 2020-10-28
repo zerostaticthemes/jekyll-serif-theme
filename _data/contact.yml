@@ -5,7 +5,8 @@ persons:
     main: true
     name: "Koliya Pulasinghe"
     title: "Supervisor"
-  - email: 'name@gmail.com'
+  -
+    email: 'name@gmail.com'
     phone: '0777 123 456'
     main: false
     name: "Name"
@@ -16,12 +17,14 @@ persons:
     main: false
     name: "K.B.R. Perera"
     title: "Undergraduate"
-  - email: 'dsanjana@gmail.com'
+  -
+    email: 'dsanjana@gmail.com'
     phone: '0777 123 456'
     main: false
     name: "Hettiarchchi D.S"
     title: "Undergraduate"
-  - email: 'randika111222@gmail.com'
+  -
+    email: 'randika111222@gmail.com'
     phone: '0777 123 456'
     main: false
     name: "P.D.R.L. Chandrasinghe"

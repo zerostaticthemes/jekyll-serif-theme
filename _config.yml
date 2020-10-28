@@ -30,6 +30,8 @@ collections:
     output: ture
   presentations:
     output: true
+  milestones:
+    output: true
   documents:
     output: true
   team:
