@@ -27,12 +27,22 @@ main:
       - name: "Viva"
         url: "/milestones/viva"
         weight: 6
-  - name: "Documents"
-    url: "/documents/"
+  - name: "Downloads"
+    url: "#"
     weight: 4
-  - name: "Presentations"
-    url: "/presentations/"
-    weight: 4
+    dropdowns:
+      - name: "Documents"
+        url: "/documents"
+        weight: 1
+      - name: "Presentations"
+        url: "/presentations"
+        weight: 2
+#  - name: "Documents"
+#    url: "/documents/"
+#    weight: 4
+#  - name: "Presentations"
+#    url: "/presentations/"
+#    weight: 4
   - name: "About"
     url: "/team/"
     weight: 5
