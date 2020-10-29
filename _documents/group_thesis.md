@@ -4,8 +4,8 @@ date: 2018-11-18T12:33:46+10:00
 featured: true
 weight: 5
 layout: document
-file: files/pdf-test.pdf
-blank_page: true
+file: https://drive.google.com/uc?export=download&id=1XW5bfiKUMXM3QeHEYBOuV_FPoLfUBQmF
+blank_page: false
 ---
 
 This thesis is drafted by the team of 2020-174 for the
