@@ -6,7 +6,10 @@ weight: 3
 layout: scope
 ---
 
-This is the theasis  in the part of Lung Cancer detection detection of the  research project including research problem, literature review ,objectives and  research gap.
+<p style='text-align: justify;'>
+This is the thesis  in the part of Lung Cancer detection of the  research project including research problem, literature review ,objectives and  research gap.
+</p>
+
 
 <p style='text-align: justify;'>
 Currently there are no viable solutions for the web based medical images viewing systems that also run computer aided systems that can diagnose or identify potential problems with the medical images. Even though I mainly focused on the detection using X-ray images this technique can be improved and updated for other techniques such as MRIs and ultrasound images. Current situation is that most of the work is done by a radiologist or a physician for the diagnosis part of the procedure. Picture archiving and communication systems (PACS) are the systems that are currently in use in countries like Sri lanka. They only provide a way to view the medical images by the radiologist  and do not provide any helpful diagnosis prediction on behalf of the medical practitioner. And PACS solves the problem of having to manually transfer the medical images from the capturing device to the computer that has the viewing software. With the lack of human and technical resources it is vital to get most out of the resources available in hand. Due to this, there should be a mechanism for managing the available medical resources well so that every patient who does need the attention gets it whether they are in a city, town or rural village. 

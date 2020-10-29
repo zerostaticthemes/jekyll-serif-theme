@@ -6,7 +6,10 @@ weight: 1
 layout: scope
 ---
 
+<p style='text-align: justify;'>
 This explains our overall research project including research problem, literature review ,objectives ,methodology, research gap etc. 
+</p>
+
 <p style='text-align: justify;'>
 Pneumonia, lung cancer and bone abnormalities are the diseases that arise mostly at present and X-ray is mostly used as a major screening tool that can be used for diagnosing various range of diseases.. Effective diagnosis is a significant consideration about the effective phase of treatment. In fact, a specialist radiologist may detect the disease from chest X-ray images. In certain purposes, the diagnosis may be ambiguous, such as the presence of illness that may be vague in chest X-ray pictures or may be confusing with other diseases and can be time consuming. Hence, computer-aided diagnostic systems are required to direct the clinicians, increasing the accuracy without any delay or any resource inefficiency particularly in isolated areas. In the current world there is no system to access X-ray images and patient’s details remotely. So this research mainly suggests a web application with a model of convolution neural network (CNN), designed without any planning for grouping and distinguishing the incidence of pneumonia, lung cancer and bone abnormalities from a given set of X-ray image samples. This model could help to mitigate the effectiveness and daunting difficulties often encountered in handling therapeutic issues. In this paper,The CNN algorithm and different data augmentation strategies were used to boost the classification accuracies to maximize the efficiency that will help to enhance the validity and training accuracies and to classify the precision of the CNN model and to achieve various outcomes. This work was performed using python language and has shown better results. 
 </p>

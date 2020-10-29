@@ -6,7 +6,9 @@ weight: 4
 layout: scope
 ---
 
-This is the theasis in the part of Pnrumonia detection of the research project including research problem, literature review ,objectives and research gap.
+<p style='text-align: justify;'>
+This is the thesis in the part of Pneumonia detection of the research project including research problem, literature review ,objectives and research gap.
+</p>
 
 <p style='text-align: justify;'>
 Radiology is a one of the most important area in western medicine practice. It has been used
