@@ -174,14 +174,13 @@ determine if a person is infected with pneumonia. These approaches save the
 ####  Allow access to radiologist work remotely
 
 >  <p style='text-align: justify;'>This system allows to radiologist to detect and send the report to physician remotely. 
->   </p>
+>  </p>
 
 ## Methodology
 
 ### Pneumonia Detection Algorithm
-<br>
 
-####    Data Pre-processing and Augmentation. 
+#### Data Pre-processing and Augmentation. 
 
 >   <p style='text-align: justify;'>
 Several data augmentation methods are employed several data augmentation
@@ -196,16 +195,17 @@ the image angles in a clockwise direction. Finally images are flipped horizontal
 Augmentation process helps to assist in fitting the small dataset into deep
 convolutional neural network architecture increase the efficiency and increase the
 accuracy. In addition overfitting problems are solved.
->   </p>
+>  </p>
 
 #### Model used in the Prediction
+
 >   <p style='text-align: justify;'>
 Overall model is a CNN. Overall architecture of the proposed model  consists with two major parts: the feature extractors and a classifier(sigmoid activation function).
 >   </p>
 
 ![pneumonia model](/images/scopes/pneumonia_detection/pneumonia-architecture.png "peumonia model")
 
-#### *     Feature extraction
+ *     Feature extraction
 >   <p style='text-align: justify;'>
 Each layer in the feature extraction layer takes its immediate previous layer’s output
 as input. And it’s output is passed as an input to the succeeding layers. The proposed
@@ -217,7 +217,7 @@ planes.. It is worthy to note that each plane of a layer in the network is obtai
 combining one or more planes of previous layers.
 >   </p>
 
-####  *    Classification 
+*    Classification 
 >   <p style='text-align: justify;'>Classifier is placed at the far end of the purposed Convolutional network(CNN)
 model. It is simply an artificial neural network(ANN) often called as a dense layer.
 This classifier requires individual features(vectors) to perform calculations like any
@@ -239,7 +239,7 @@ selection of libraries and frameworks focusing on machine learning , the simple 
 helps to collaborate with the rest of the team members, concise readable code,
 extensive support from high quality documentation and active community of
 developers that offer assistance. CNN was constructed using python and deployed
-using python flask in the backend. Few main libraries were used
+using python flask in the backend. Few main libraries were used.
 to implement and it’s explained in next sub section
 </p>
 * Tensorflow
@@ -254,7 +254,7 @@ Keras is a powerful and easy-to-use free open source Python library for developi
 evaluating deep learning models. It wraps the efficient numerical computation libraries
 Theano and TensorFlow and allowed us to define and train neural network models in
 just a few lines of code. So that keras was used us to train the CNN and preprocess
-the image dataset
+the image dataset.
 > </p>
 
 * OpenCv

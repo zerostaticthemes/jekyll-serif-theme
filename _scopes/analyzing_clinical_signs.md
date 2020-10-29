@@ -111,19 +111,19 @@ can be time consuming for some reasons such as the appearance of disease which c
 be unclear in chest X-ray images and can be confused with other diseases.
 </p>
 
-- In computer-aided systems , there are no web viewers which are classifying
+* In computer-aided systems , there are no web viewers which are classifying
   and detecting lung cancers, bone abnormalities and pneumonia in the lungs.
 
-- No product that has the detecting lung cancers, bone abnormalities and
+* No product that has the detecting lung cancers, bone abnormalities and
   pneumonia in the lungs and processes in one.
 
-- The working area of the radiologist has limited due to time consuming things.Patient can meet the physician only at the time duration of the appointments
+* The working area of the radiologist has limited due to time consuming things.Patient can meet the physician only at the time duration of the appointments
   and There is a no possible way to assess it at home to physician and radiologist,
   if there is a immediate situation.
 
-- The working area of the radiologist has limited due to time consuming things.
+* The working area of the radiologist has limited due to time consuming things.
 
-- If the radiologist has to leave from the hospital , then there is a no way to
+* If the radiologist has to leave from the hospital , then there is a no way to
   diagnose for a very sick person
 
 ## Research Objectives
@@ -142,33 +142,33 @@ learning approaches.
 
 #### Lung Cancer prediction in Chest X-rays Using DICOM Images
 
-- Increasing the accuracy of the reading X-ray to detect the presence of
+* Increasing the accuracy of the reading X-ray to detect the presence of
   lung cancers.
 
-- Increasing the efficiency of the reading X-ray to detect the presence of lung
+* Increasing the efficiency of the reading X-ray to detect the presence of lung
   cancers.
 
 #### Bone Abnormality Detection using X-Ray DICOM Images
 
-- To create a system to support radiologists for their work by detecting bone
+* To create a system to support radiologists for their work by detecting bone
   abnormalities from X-ray images automatically with any human intervention by
   using deep learning algorithms with hassle free web viewer for remote access
   to the system.
 
-- Create commercially viable final product that can be used in many hospitals as well
+* Create commercially viable final product that can be used in many hospitals as well
   as improving the radiology health informatics landscape for the good.
 
-- Reduce the time for bone abnormality detection.
+* Reduce the time for bone abnormality detection.
 
 #### Classifying and detecting the pneumonia from a collection of chest X-ray Images.
 
-- Construct a accurate and efficient computer-aided system using convolutional
+* Construct a accurate and efficient computer-aided system using convolutional
   neural network model trained from scratch to classify and detect the presence of
   pneumonia from a collection of chest X-ray image samples. This system allows to radiologist to detect and send the report to physician remotely.
 
-- Reduce the time for pneumonia detection.
+* Reduce the time for pneumonia detection.
 
-- Increase the accuracy of the pneumonia detections
+* Increase the accuracy of the pneumonia detections
 
 ## Methodology
 
@@ -187,13 +187,13 @@ This is our system overview diagram  </p>
 
 </p>
 
-##### *   DICOM uploading
-##### *   AI prediction algorithm
-##### *   Prediction API
-##### *   Viewing DICOM images and get the prediction result
-##### *   Sending the ereport to the physician
-##### *   Authentication and Authorization
-##### *  Uploading DICOM images
+*  DICOM uploading
+*  AI prediction algorithm
+*  Prediction API
+*  Viewing DICOM images and get the prediction result
+*  Sending the eeport to the physician
+*  Authentication and Authorization
+*  Uploading DICOM images
 
 ###   DICOM Uploading
 
@@ -204,28 +204,30 @@ This is our system overview diagram  </p>
 ### AI prediction algorithm
 
 >   <p style='text-align: justify;'>
-Three main AI prediction parts in the system.They are lung cancer, bone abnormalities and pneumonia detection.We impmented those algorithms using CNN network and Denset model.The explained description is in the indivudual scopes sections.
-
+Three main AI prediction parts in the system.They are lung cancer, bone abnormalities and pneumonia detection.We impmented those algorithms using CNN network and Denset model.The explained description is in the individual scopes sections.
+> </p>
 
 ### Prediction API
 
 >   <p style='text-align: justify;'>
 Results of the AI prediction algorithm is given by the Prediction api in python flask.So that it can be used in the viewer to display the result
-
+> </p>
 
 ### Viewing DICOM images and get the prediction result
 
 >   <p style='text-align: justify;'>
-System was implemented for viewing DICOM images and obtaining the result of the given x-ray image using React jS. Further the  radiologist can view , zoom, change brightnes/contrast etc.
+System was implemented for viewing DICOM images and obtaining the result of the given x-ray image using React jS. Further the  radiologist can view , zoom, change brightness/contrast etc.
+> </p>
 
 ### Sending the report to the physician
 >   <p style='text-align: justify;'>
 After getting the result of the DICOM image, Radiologist can add his/her comment and send the report to the physician.
+> </p>
 
 ### Authentication and Authorization
 >   <p style='text-align: justify;'>
 We used keycloak to secure the server of the system.In that the system can be authenticated and authorized from users.In this , system is asked to create a admin user , when server is initiated.After that admin can create other user levels as he wants.
-
+> </p>
 
 
 ## Technologies Used
@@ -249,18 +251,18 @@ to implement and it’s explained in next sub section
 - Keras
 
 > <p style='text-align: justify;'>
-> Keras is a powerful and easy-to-use free open source Python library for developing and
-> evaluating deep learning models. It wraps the efficient numerical computation libraries
-> Theano and TensorFlow and allowed us to define and train neural network models in
-> just a few lines of code. So that keras was used us to train the CNN and preprocess
-> the image dataset
+ Keras is a powerful and easy-to-use free open source Python library for developing and
+ evaluating deep learning models. It wraps the efficient numerical computation libraries
+ Theano and TensorFlow and allowed us to define and train neural network models in
+ just a few lines of code. So that keras was used us to train the CNN and preprocess
+ the image dataset
 > </p>
 
 - OpenCv
 
 > <p style='text-align: justify;'>
-> OpenCv was used to resize images for a same size, as training
-> datasets,testind and inserting image in the real world can be different sizes.
+OpenCv was used to resize images for a same size, as training
+datasets,testind and inserting image in the real world can be different sizes.
 > </p>
 
 ### Orthanc
