@@ -173,9 +173,61 @@ determine if a person is infected with pneumonia. These approaches save the
 
 ####  Allow access to radiologist work remotely
 
->  <p style='text-align: justify;'>This system allows to radiologist to detect and send the report to physician remotely. </p>
+>  <p style='text-align: justify;'>This system allows to radiologist to detect and send the report to physician remotely. 
+>   </p>
 
 ## Methodology
+
+### Pneumonia Detection Algorithm
+<br>
+
+####    Data Pre-processing and Augmentation. 
+
+>   <p style='text-align: justify;'>
+Several data augmentation methods are employed several data augmentation
+methods to artificially increase the size and quality of the dataset as shown in the
+figure 3.4. This process helps to solve overfitting problems and enhance the model’s
+generalization in the training.
+The rescale operation denotes image reduction or magnification in the
+augmentation process. The rotation range represents the range in which the images
+are randomly rotated during training. Width shift is the horizontal translation of the
+images and height shift is the vertical translation of the image. Also the shear range is
+the image angles in a clockwise direction. Finally images are flipped horizontally.
+Augmentation process helps to assist in fitting the small dataset into deep
+convolutional neural network architecture increase the efficiency and increase the
+accuracy. In addition overfitting problems are solved.
+>   </p>
+
+#### Model used in the Prediction
+>   <p style='text-align: justify;'>
+Overall model is a CNN. Overall architecture of the proposed model  consists with two major parts: the feature extractors and a classifier(sigmoid activation function).
+>   </p>
+
+![pneumonia model](/images/scopes/pneumonia_detection/pneumonia-architecture.png "peumonia model")
+
+#### *     Feature extraction
+>   <p style='text-align: justify;'>
+Each layer in the feature extraction layer takes its immediate previous layer’s output
+as input. And it’s output is passed as an input to the succeeding layers. The proposed
+architecture consists of the convolution, max-pooling(effective in
+variant shape absorptions and comprises sparse connections in conjunction with tied weights) and classification layers combined together .The feature extractors comprise
+convolutional layer max-pooling layer and a RELU activator between them. The
+output of the convolutional and max-pooling operations are assembled into 2d
+planes.. It is worthy to note that each plane of a layer in the network is obtained by
+combining one or more planes of previous layers.
+>   </p>
+
+####  *    Classification 
+>   <p style='text-align: justify;'>Classifier is placed at the far end of the purposed Convolutional network(CNN)
+model. It is simply an artificial neural network(ANN) often called as a dense layer.
+This classifier requires individual features(vectors) to perform calculations like any
+other classifier. Therefore the output of the feature extractor is converted into a 1D
+feature vector for the classifiers. This process is known as flattening where the output
+of the convolution operation is flattened to generate one lengthy feature vector for
+the dense layer to use in its final classification process. Classification layer contains
+a flattened layer, a dropout , two dense layers respectively, a RELU between the two
+dense layers and a sigmoid activation function that performs the classification tasks.
+>   </p>
 
 ##  Technologies Used
 
@@ -187,9 +239,13 @@ selection of libraries and frameworks focusing on machine learning , the simple 
 helps to collaborate with the rest of the team members, concise readable code,
 extensive support from high quality documentation and active community of
 developers that offer assistance. CNN was constructed using python and deployed
-using python flask in the backend. Few main libraries were used as shown in figure 3
+using python flask in the backend. Few main libraries were used
 to implement and it’s explained in next sub section
 </p>
+* Tensorflow
+
+> <p style='text-align: justify;'>One of the most famous and widely used deep learning libraries is the Google tensorflow. Google uses deep learning techniques to improve their own products, as an example google search recommendation system is a direct result of machine learning and deep learning techniques. Tensorflow architecture has three parts which are processing the data, building the model and training and estimating the outcome. This architecture is really helpful to our research as I wanted to train the X-ray images and get an outcome of whether the image contains any abnormalities or diseases. This library does contain a lot of options to image preprocessing which is a very important part of deep learning research.
+> Tensorflow also supports a large variety of algorithms including linear regression, classification, deep learning classification and much more. This has also contributed to the fact that this library is becoming more famous day by day. As C++ the main programming language used in the library it is very fast in large scale computational tasks such as image preprocessing and training using matrices. After the model creation it also helps the developers to use those models in platforms such as web, mobile and desktop. After training the possibilities are limitless as tensorflow supports every major platform including linux.</p>
 
 * Keras
 
@@ -204,7 +260,7 @@ the image dataset
 * OpenCv
 
 > <p style='text-align: justify;'>
-OpenCv was used to resize images for a same size as shown in figure 6, as training
+OpenCv was used to resize images for a same size as, as training
 datasets,testind and inserting image in the real world can be different sizes.
 > </p>
 
