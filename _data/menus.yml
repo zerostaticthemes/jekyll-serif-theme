@@ -30,6 +30,7 @@ main:
   - name: "Downloads"
     url: "#"
     weight: 4
+    mobile: false
     dropdowns:
       - name: "Documents"
         url: "/documents"
@@ -37,18 +38,20 @@ main:
       - name: "Presentations"
         url: "/presentations"
         weight: 2
-#  - name: "Documents"
-#    url: "/documents/"
-#    weight: 4
-#  - name: "Presentations"
-#    url: "/presentations/"
-#    weight: 4
+  - name: "Documents"
+    url: "/documents/"
+    weight: 4
+    desktop: false
+  - name: "Presentations"
+    url: "/presentations/"
+    weight: 5
+    desktop: false
   - name: "About"
     url: "/team/"
-    weight: 5
+    weight: 6
   - name: "Contact"
     url: "/contact/"
-    weight: 6
+    weight: 7
 
 footer:
   - name: "Home"
