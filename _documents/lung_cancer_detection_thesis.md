@@ -8,4 +8,4 @@ file: files/pdf-test.pdf
 blank_page: true
 ---
 
-Lung Pneumonia Detection Thesis
+ Pneumonia Detection Thesis
