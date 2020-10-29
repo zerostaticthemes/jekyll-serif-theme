@@ -131,24 +131,23 @@ disease which can be unclear in chest X-ray images and can be confused with othe
 diseases.
 
 </p>
-<p>
+
 • In computer-aided systems , there are no web viewers which are classifying and
 detecting the pneumonia in the lungs.
-</p>
-<p>
+
+
 • Patient can meet the physician only at the time duration of the appointments and 
 there is a no possible way to assess it at home to physician and radiologist, if there
 is a immediate situation.
-</p>
 
-<p>
+
+
 • The working area of the radiologist has limited due to time consuming things.
-</p>
 
-<p>
+
 • If the radiologist has to leave from the hospital , then there is a no way to diagnose
 for a very sick person.
-</p>
+
 
 
 
@@ -164,34 +163,31 @@ pneumonia using deep learning approaches.
 </p>
 
 ### Specific Objectives
-#### • Increasing the accuracy of the reading a X-ray to detect the presence of pneumonia.
+#### Increasing the accuracy of the reading a X-ray to detect the presence of pneumonia.
  
- <p style='text-align: justify;'>
-  Several data augmentation methods are deployed to artificially increase the
+
+*   Several data augmentation methods are deployed to artificially increase the
 size and quality of the dataset. This process helps in enhances the model’s
 generalization ability during training. the process of pneumonia detection by
 reading X-ray images can be time consuming and less accurate. The reason is
 that several other medical conditions i.e. lung cancer, excess fluid etc. can
 also show similar opacities in images. Therefore, accurate reading of images
 is highly desirable
-</p>
 
-#### • Increasing the efficiency of the radiologist
- <p style='text-align: justify;'>
 
- Unlike other methods that rely solely on transfer learning approaches or
+####  Increasing the efficiency of the radiologist
+ 
+
+ *  Unlike other methods that rely solely on transfer learning approaches or
 traditional handcrafted techniques to achieve a remarkable classification
 performance, a convolutional neural network model is constructed from
 scratch to extract features from a given chest X-ray image and classify it to
 determine if a person is infected with pneumonia. These approaches save the
 time of radiologist. 
-</p>
 
-#### • Allow access to radiologist work remotely
- <p style='text-align: justify;'>
+####  Allow access to radiologist work remotely
 
- This systen allows to radiologist to detect and send the report to physician remotely.
-</p>
+ *  This systen allows to radiologist to detect and send the report to physician remotely.
 
 
 
@@ -200,7 +196,7 @@ time of radiologist.
 
 ##  Technologies Used
 
-### • CNN Model to detect pneumonia: Python
+### CNN Model to detect pneumonia: Python
  <p style='text-align: justify;'>
 
 Python was used as the main programming language mainly due to its extensive
@@ -213,24 +209,24 @@ to implement and it’s explained in next sub section
 
 </p>
 
-#### -  keras
+* Keras
 
-<p style='text-align: justify;'>
+> <p style='text-align: justify;'>
 Keras is a powerful and easy-to-use free open source Python library for developing and
 evaluating deep learning models. It wraps the efficient numerical computation libraries
 Theano and TensorFlow and allowed us to define and train neural network models in
 just a few lines of code. So that keras was used us to train the CNN and preprocess
 the image dataset
-</p>
+> </p>
 
-#### -  OpenCv
-<p style='text-align: justify;'>
+* OpenCv
 
+> <p style='text-align: justify;'>
 OpenCv was used to resize images for a same size as shown in figure 6, as training
 datasets,testind and inserting image in the real world can be different sizes.
-</p>
+> </p>
 
-### •  Server-Orthanc
+###  Server-Orthanc
 
 <p style='text-align: justify;'>
 
@@ -239,7 +235,7 @@ with patient, physician details. We used it for storing dicom images and
 metadata.
 </p>
 
-### •  Preduction API-Python Flask
+###   Preduction API-Python Flask
 <p style='text-align: justify;'>
 Flask is a lightweight WSGI web application framework. It is designed to make getting
 started quick and easy, with the ability to scale up to complex applications. Also there
@@ -247,7 +243,7 @@ are many extensions provided by the community that make adding new functionality
 easy.So that python flask was used to return the details of the result to the frontend.
 </p>
 
-### • DICOM Viewer with AI prediction -react JS
+###  DICOM Viewer with AI prediction -react JS
 <p style='text-align: justify;'>
 React js was selected to implement the front end as it is Easy to Learn ,Use and  creating Dynamic Web Applications Becomes Easier.And the react JS has  reusable components.So that it makes more easier to extend the application with new features for future developments.So that react JS was used to implement the viewer with 
 AI prediction feature for X-ray Images
