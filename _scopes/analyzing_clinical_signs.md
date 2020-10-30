@@ -1,5 +1,5 @@
 ---
-title: "Analyzing Clinical Signs (Group)"
+title: "Analyzing Clinical Signs ()"
 date: 2018-11-18T12:33:46+10:00
 featured: true
 weight: 1
@@ -11,7 +11,7 @@ This explains our overall research project including research problem, literatur
 </p>
 
 <p style='text-align: justify;'>
-Pneumonia, lung cancer and bone abnormalities are the diseases that arise mostly at present and X-ray is mostly used as a major screening tool that can be used for diagnosing various range of diseases.. Effective diagnosis is a significant consideration about the effective phase of treatment. In fact, a specialist radiologist may detect the disease from chest X-ray images. In certain purposes, the diagnosis may be ambiguous, such as the presence of illness that may be vague in chest X-ray pictures or may be confusing with other diseases and can be time consuming. Hence, computer-aided diagnostic systems are required to direct the clinicians, increasing the accuracy without any delay or any resource inefficiency particularly in isolated areas. In the current world there is no system to access X-ray images and patient’s details remotely. So this research mainly suggests a web application with a model of convolution neural network (CNN), designed without any planning for grouping and distinguishing the incidence of pneumonia, lung cancer and bone abnormalities from a given set of X-ray image samples. This model could help to mitigate the effectiveness and daunting difficulties often encountered in handling therapeutic issues. In this paper,The CNN algorithm and different data augmentation strategies were used to boost the classification accuracies to maximize the efficiency that will help to enhance the validity and training accuracies and to classify the precision of the CNN model and to achieve various outcomes. This work was performed using python language and has shown better results. 
+Pneumonia, lung cancer and bone abnormalities are the diseases that arise mostly at present and X-ray is mostly used as a major screening tool that can be used for diagnosing various range of diseases.. Effective diagnosis is a significant consideration about the effective phase of treatment. In fact, a specialist radiologist may detect the disease from chest X-ray images. In certain purposes, the diagnosis may be ambiguous, such as the presence of illness that may be vague in chest X-ray pictures or may be confusing with other diseases and can be time consuming. Hence, computer-aided diagnostic systems are required to direct the clinicians, increasing the accuracy without any delay or any resource inefficiency particularly in isolated areas. In the current world there is no system to access X-ray images and patient’s details remotely. So this research mainly suggests a web application with a model of convolution neural network (CNN), designed without any planning for ing and distinguishing the incidence of pneumonia, lung cancer and bone abnormalities from a given set of X-ray image samples. This model could help to mitigate the effectiveness and daunting difficulties often encountered in handling therapeutic issues. In this paper,The CNN algorithm and different data augmentation strategies were used to boost the classification accuracies to maximize the efficiency that will help to enhance the validity and training accuracies and to classify the precision of the CNN model and to achieve various outcomes. This work was performed using python language and has shown better results. 
 </p>
 
 ## Literature Survey
@@ -29,7 +29,7 @@ Convolutional Neural networks (CNN) has been a hot topic in deep learning and im
 
 </p>
 
-## Rsearch Gap
+## Research Gap
 
 <p style='text-align: justify;'>
 Several types of researches have been done for the past few years about the systems
@@ -179,11 +179,11 @@ learning approaches.
  <p style='text-align: justify;'>
 This is our system overview diagram  </p>
 
-![pneumonia model](/images/scopes/group/system-architecture.png "peumonia model")
+![pneumonia model](/images/scopes//system-architecture.png "peumonia model")
 
 <p style='text-align: justify;'>
 
- There are 7 main stages in the methodoly of the system.They are
+ There are 7 main stages in the methodology of the system.They are
 
 </p>
 
@@ -191,7 +191,7 @@ This is our system overview diagram  </p>
 *  AI prediction algorithm
 *  Prediction API
 *  Viewing DICOM images and get the prediction result
-*  Sending the eeport to the physician
+*  Sending the report to the physician
 *  Authentication and Authorization
 *  Uploading DICOM images
 

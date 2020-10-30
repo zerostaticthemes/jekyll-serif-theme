@@ -60,7 +60,7 @@ images. To detect pneumonia clouds they have used Otsu thresholding which will
 segregate the healthy part of lung from the pneumonia infected cloudy regions.
 </p>
 
-## Rsearch Gap
+## Research Gap
 
 <p style='text-align: justify;'>
 Several types of researches have been done for the past few years about the systems
