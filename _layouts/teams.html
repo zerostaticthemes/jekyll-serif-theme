@@ -23,7 +23,7 @@ bodyClass: page-team-list
         {% assign promoted_teams = site.team | where: "promoted", true | sort: "weight" %}
         {% for team in promoted_teams %}
         <div class="col-12 col-md-6 mb-2">
-            <div class="team team-summary team-summary-large">
+            <div class="team team-summary team-summary-large"><a href="{{ site.baseurl }}{{ team.url }}">
                 {% if team.image %}
                 <div class="team-image">
                     <img alt="{{ team.title }}" class="img-fluid mb-2" src="{{ team.image | relative_url }}" />
@@ -37,7 +37,7 @@ bodyClass: page-team-list
                     {% endif %}
                 </div>
                 <div class="team-content">{{ team.content | truncate: 120 }}</div>
-            </div>
+            </div></a>
         </div>
         {% endfor %}
     </div>
@@ -45,7 +45,7 @@ bodyClass: page-team-list
         {% assign teams = site.team | where: "promoted", empty | sort: "weight" %}
         {% for team in teams %}
         <div class="col-12 col-md-4 mb-3">
-            <div class="team team-summary">
+            <div class="team team-summary"><a href="{{ site.baseurl }}{{ team.url }}">
                 {% if team.image %}
                 <div class="team-image">
                     <img alt="{{ team.title }}" class="img-fluid mb-2" src="{{ team.image | relative_url }}" />
@@ -55,7 +55,7 @@ bodyClass: page-team-list
                     <h2 class="team-name">{{ team.title }}</h2>
                     <p class="team-description">{{ team.jobtitle }}</p>
                 </div>
-            </div>
+            </div></a>
         </div>
         {% endfor %}
     </div>
