@@ -1,6 +1,6 @@
 ---
-title: "Superannuation"
-date: 2018-11-28T15:14:54+10:00
+title: "Civil Litigation"
+# date: 2018-11-28T15:15:34+10:00
 featured: true
 weight: 5
 layout: service
@@ -12,7 +12,7 @@ crimen habet Priamum nec.
 
 ## Ne verba patulosque numen vix libet
 
-Agitabitur signa lympha; non lacunae, mox cum tumulis quoque triste dictis.
+Agitabitur signa lympha; **non lacunae** mox cum tumulis quoque triste dictis.
 Ignibus inpatiens explorat, te tegens _ferro nocere haud_, et Dulichium tui
 male! Quo sed [fuit flexit et](#vexant-achivi) hic die solido, gloria?
 
@@ -23,7 +23,7 @@ male! Quo sed [fuit flexit et](#vexant-achivi) hic die solido, gloria?
 5. Ardua non igne caelesti coniugis cognovi diversorum
 6. Per nunc pariterque saeva vindicet
 
-Locus evicit loquuntur Tyrrhena omnes, obstipui pugnabant temptavit Phoco _vati_
+Locus evicit __loquuntur Tyrrhena omnes__, obstipui pugnabant temptavit Phoco _vati_
 dabant deus. Memorata haberet sepulcrales gentisque dum sic, in flumina templa!
 Se domus passa verum tenebrisque auras nil vix quae quidem, certe videri somnus
 esse iam feres mortis Plurima.

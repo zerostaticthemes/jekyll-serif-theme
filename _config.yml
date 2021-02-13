@@ -1,7 +1,7 @@
 baseurl: ''
 exclude: ['README.md']
 permalink: pretty
-title: 'Jekyll Serif'
+title: 'Rye Law Office'
 
 google_analytics_id: ""
 homepage:
@@ -27,7 +27,7 @@ collections:
   services:
     output: true
   team:
-    output: true
+    output: false
 
 sass:
   indentWidth: 4
