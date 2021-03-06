@@ -18,7 +18,7 @@ seo:
   meta_og_type: "website"
   meta_og_url: "https://a-significant-blog.netlify.app"
   meta_og_image: "https://raw.githubusercontent.com/zerostaticthemes/jekyll-serif-theme/master/screenshots/tn.png"
-  meta_og_description: "blabla"
+  meta_og_description: "Welcome to my Blog, I will pubblish posts about Data Science, Statistics and Machine Learning related topics."
   meta_twitter_card: "summary"
   meta_twitter_site: "@zerostaticio"
   meta_twitter_creator: "@zerostaticio"
