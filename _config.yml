@@ -1,7 +1,7 @@
-baseurl: "/jekyll-serif-theme"
+baseurl: ''
 exclude: ['README.md']
 permalink: pretty
-title: 'Jekyll Serif'
+title: 'A Significant Blog'
 
 google_analytics_id: ""
 homepage:
