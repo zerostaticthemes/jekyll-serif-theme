@@ -36,3 +36,4 @@ sass:
 
 plugins:
   - jekyll-environment-variables
+
