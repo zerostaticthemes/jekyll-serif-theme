@@ -1,12 +1,12 @@
 ---
-title: Jekyll Serif Theme
+title: A Significant Blog
 layout: home
-description: Jekyll Serif contains content types for a typical business website. The theme is fully responsive, blazing fast and artfully illustrated.
+description: Welcome to my Blog, I will pubblish posts about Data Science, Statistics and Machine Learning related topics.
 intro_image: "images/illustrations/pointing.svg"
 intro_image_absolute: true
 intro_image_hide_on_mobile: true
 ---
 
-# Serif - A Jekyll Business Theme.
+# A Significant Blog.
 
-Serif contains content types for a typical business website. The theme is fully responsive, blazing fast and artfully illustrated.
+Welcome to my Blog, I will pubblish posts about Data Science, Statistics and Machine Learning related topics.
