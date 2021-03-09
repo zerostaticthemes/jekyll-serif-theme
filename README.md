@@ -7,7 +7,7 @@ Serif is a modern business theme for Jekyll. It contains multiple content types 
 
 ![Jekyll Serif Theme screenshot](https://www.zerostatic.io/theme/jekyll-serif/jekyll-serif-screenshot.png)
 
-## Theme features
+### Theme features
 
 - Jekyll 4.1
 - Services (Collection)
@@ -27,7 +27,7 @@ Serif is a modern business theme for Jekyll. It contains multiple content types 
 - Royalty free illustrations included
 - Netlify & Github Pages ready
 
-# Installation
+## Installation
 
 ### Installing Ruby & Jekyll
  
@@ -55,32 +55,32 @@ To build the theme.
 bundle exec jekyll build
 ```
 
-# Deployment
+## Deployment
 
-## Stackbit
+### Stackbit
 
 Use Stackbit to deploy this theme. This theme contains a valid and tested `stackbit.yaml`
 
 [![Create with Stackbit](https://assets.stackbit.com/badge/create-with-stackbit.svg)](https://app.stackbit.com/create?theme=https://github.com/zerostaticthemes/jekyll-serif-theme)
 
-## Netlify
+### Netlify
 
 Use Netlify to deploy this theme. This theme contains a valid and tested `netlify.toml` - Feel free to use the 1-click deploy below.
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/zerostaticthemes/jekyll-serif-theme)
 
-## Github Pages
+### Github Pages
 This theme has been tested to work with Github Pages (and Github Project Pages). When using Github Pages you will need to update the `baseurl` in the `_config.yml` otherwise all the css, images and paths will be broken.
 
 For example the site https://zerostaticthemes.github.io/jekyll-serif-theme would have `baseurl: "/jekyll-serif-theme/"`
 
-# Other
+## Other
 
-## Credits
+### Credits
 
 - Beautiful royalty free Illustrations by Icons8 - https://icons8.com/illustrations/style--pixeltrue
 
-## License
+### License
 
 This theme is open source under the MIT license. Please be respectful 🙏🏽
 
