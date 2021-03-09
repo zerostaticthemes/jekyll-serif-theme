@@ -1,6 +1,6 @@
 stackbitVersion: ~0.3.0
 ssgName: jekyll
-ssgVersion: '4.1'
+ssgVersion: 4.1
 buildCommand: bundle exec jekyll build
 publishDir: '_site'
 staticDir: 'assets'
@@ -15,7 +15,7 @@ logicFields:
 models:
   config:
     type: config
-    label: Site Configuration
+    label: Config
     fields:
       - type: string
         name: title

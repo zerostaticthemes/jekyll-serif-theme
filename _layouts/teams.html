@@ -30,7 +30,7 @@ bodyClass: page-team-list
                 </div>
                 {% endif %}
                 <div class="team-meta">
-                    <h2 class="team-name"><a href="{{ site.baseurl }}{{ team.url }}">{{ team.title }}</a></h2>
+                    <h2 class="team-name"><a href="{{ team.url | relative_url }}">{{ team.title }}</a></h2>
                     <p class="team-description">{{ team.jobtitle }}</p>
                     {% if team.linkedinurl %}
                     <a target="_blank" href="{{ team.linkedinurl }}">LinkedIn</a>
@@ -52,7 +52,7 @@ bodyClass: page-team-list
                 </div>
                 {% endif %}
                 <div class="team-meta">
-                    <h2 class="team-name"><a href="{{ site.baseurl }}{{ team.url }}">{{ team.title }}</a></h2>
+                    <h2 class="team-name"><a href="{{ team.url | relative_url }}">{{ team.title }}</a></h2>
                     <p class="team-description">{{ team.jobtitle }}</p>
                 </div>
             </div>

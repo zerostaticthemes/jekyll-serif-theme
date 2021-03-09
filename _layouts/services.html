@@ -26,7 +26,7 @@ bodyClass: page-services-list
       <div class="service service-summary">
         <div class="service-content">
           <h2 class="service-title">
-            <a href="{{site.baseurl}}{{ service.url }}">{{ service.title }}</a>
+            <a href="{{ service.url | relative_url }}">{{ service.title }}</a>
           </h2>
           <p>{{ service.content | markdownify | strip_html | truncate: 100 }}</p>
         </div>

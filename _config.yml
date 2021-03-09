@@ -1,5 +1,4 @@
 baseurl: ''
-exclude: ['README.md']
 permalink: pretty
 title: 'Jekyll Serif'
 
@@ -36,3 +35,15 @@ sass:
 
 plugins:
   - jekyll-environment-variables
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - LICENSE.md
+  - LICENSE
+  - README.md

@@ -30,7 +30,7 @@ bodyClass: page-home
         <div class="service service-summary">
           <div class="service-content">
             <h2 class="service-title">
-              <a href="{{site.baseurl}}{{ service.url }}">{{ service.title }}</a>
+              <a href="{{ service.url | relative_url }}">{{ service.title }}</a>
             </h2>
             <p>{{ service.content | markdownify | strip_html | truncate: 100 }}</p>
           </div>
@@ -40,7 +40,7 @@ bodyClass: page-home
     </div>
     <div class="row justify-content-center">
       <div class="col-auto">
-        <a class="button button-primary" href="{{site.baseurl}}/services">View All Services</a>
+        <a class="button button-primary" href="{{ "services" | relative_url }}">View All Services</a>
       </div>
     </div>
   </div>
