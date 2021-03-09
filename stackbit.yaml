@@ -1,14 +1,17 @@
 stackbitVersion: ~0.3.0
 ssgName: jekyll
-ssgVersion: '3.8.4'
+ssgVersion: '4.1'
 buildCommand: bundle exec jekyll build
 publishDir: '_site'
 staticDir: 'assets'
 uploadDir: 'images'
 dataDir: '_data'
 pagesDir: ''
-pageLayoutKey: layout
-
+pageLayoutKey: null
+logicFields:
+  - site_menu_item.weight
+  - service.weight
+  - team.weight
 models:
   config:
     type: config
@@ -133,115 +136,150 @@ models:
         label: Exclude
         description: Exclude directories and/or files from the conversion.
         hidden: true
+  site_menus:
+    type: object
+    label: Site Menus
+    description: >-
+      Site menus model, defines list of menus that can be specified from within
+      site configuration
+    fields:
+      - type: list
+        name: main
+        label: Main menu
+        description: List of items for Main menu
+        items:
+          type: model
+          models:
+            - site_menu_item
+      - type: list
+        name: footer
+        label: Footer menu
+        description: List of items for Footer menu
+        items:
+          type: model
+          models:
+            - site_menu_item
+  site_menu_item:
+    type: object
+    label: Site Menu Item
+    labelField: name
+    description: 'Site menu item model, defines fields for a single site menu item'
+    fields:
+      - type: string
+        name: identifier
+        label: Identifier
+        description: >-
+          The identifier of a menu item could be used as a parent menu of
+          another menu item
+      - type: string
+        name: name
+        label: Title
+        description: The title of the menu item
+        required: true
+      - type: string
+        name: url
+        label: URL
+        description: The URL the menu item links to
+        required: true
+      - type: number
+        name: weight
+        label: Weight
+        description: Position for sorting
+      - type: string
+        name: parent
+        label: Parent Menu Identifier
+        description: The parent of an entry should be the identifier of another entry.
   home:
     type: page
     label: Home
-    layout: home
+    file: index.md
+    hideContent: false
+    singleInstance: true
     fields:
       - type: string
         name: title
+        label: Title
         required: true
       - type: string
         name: description
-      - type: image
-        name: intro_image
-        description: Image displayed at in the pages intro section
-      - type: boolean
-        name: intro_image_absolute
-        description: Should the image overflow or be contained
-      - type: boolean
-        name: intro_image_hide_on_mobile
-        description: Hide the intro image on mobile screen sizes
-  page:
-    type: page
-    label: Page
-    layout: page
-    fields:
-      - type: string
-        name: title
-      - type: date
-        name: date
-      - type: string
-        name: bodyClass
-  contact:
-    type: page
-    label: Contact
-    layout: contact
-    fields:
-      - type: string
-        name: title
-      - type: date
-        name: date
-      - type: string
-        name: bodyClass
-  service:
-    type: page
-    label: Service
-    layout: service
-    fields:
-      - type: string
-        name: title
-      - type: date
-        name: date
-      - type: boolean
-        name: featured
-      - type: number
-        name: weight
-  services:
-    type: page
-    label: Services
-    layout: services
-    fields:
-      - type: string
-        name: title
-        required: true
       - type: image
         name: intro_image
         label: Intro Image
         description: Image displayed at in the pages intro section
       - type: boolean
         name: intro_image_absolute
-        label: Intro Image Position
+        label: Overflow intro image
         description: Should the image overflow or be contained
       - type: boolean
         name: intro_image_hide_on_mobile
-        label: Hide Intro Image On Mobile?
+        label: Hide the intro image on mobile
         description: Hide the intro image on mobile screen sizes
-  team:
+      - type: enum
+        name: layout
+        options:
+          - label: home
+            value: home
+  basicpage:
     type: page
-    label: Team
-    folder: team
-    exclude: _index.md
-    layout: team
+    label: Basic Page
+    match: '*.md'
+    exclude: index.md
+    fields:
+      - type: string
+        name: title
+        label: Title
+        description: The title of the page.
+      - type: date
+        name: date
+        label: Date
+      - type: enum
+        name: layout
+        options:
+          - label: page
+            value: page
+          - label: contact
+            value: contact
+      - type: enum
+        name: menu
+        label: Menu
+        options:
+          - label: Main Menu
+            value: main
+          - label: Footer Menu
+            value: footer
+      - type: string
+        name: bodyClass
+  service:
+    type: page
+    label: Service
+    folder: _services
     fields:
       - type: string
         name: title
       - type: date
         name: date
-      - type: image
-        name: image
-      - type: string
-        name: jobtitle
-      - type: string
-        name: linkedinurl
       - type: boolean
         name: draft
       - type: boolean
         name: featured
       - type: number
         name: weight
-      - type: boolean
-        name: promoted
-  teams:
+      - type: enum
+        name: layout
+        options:
+          - label: service
+            value: service
+  services:
     type: page
-    label: Teams
-    layout: teams
+    label: Services Overview
+    file: services.md
+    singleInstance: true
     fields:
       - type: string
         name: title
+        label: Title
+        description: The title of the page.
         required: true
-      - type: string
-        name: permalink
       - type: image
         name: intro_image
         label: Intro Image
@@ -252,5 +290,80 @@ models:
         description: Should the image overflow or be contained
       - type: boolean
         name: intro_image_hide_on_mobile
-        label: Hide Intro Image On Mobile?
+        label: Intro Image Hide On Mobile
         description: Hide the intro image on mobile screen sizes
+      - type: enum
+        name: layout
+        options:
+          - label: services
+            value: services
+  team:
+    type: page
+    label: Team
+    folder: _team
+    fields:
+      - type: string
+        name: title
+        label: Title
+      - type: date
+        name: date
+        label: Date
+      - type: image
+        name: image
+        label: Image
+      - type: string
+        name: jobtitle
+        label: Job Title
+      - type: string
+        name: linkedinurl
+        label: Linkedin URL
+      - type: string
+        name: Twitterhandle
+        label: Twitter handle
+      - type: boolean
+        name: draft
+        label: Draft
+      - type: boolean
+        name: featured
+        label: Featured
+      - type: number
+        name: weight
+        label: Weight
+      - type: boolean
+        name: promoted
+        label: Promoted
+      - type: enum
+        name: layout
+        options:
+          - label: team
+            value: team
+  teams:
+    type: page
+    label: Team Overview
+    file: team.md
+    singleInstance: true
+    fields:
+      - type: string
+        name: title
+        label: Title
+        description: The title of the page.
+        required: true
+      - type: image
+        name: intro_image
+        label: Intro Image
+        description: Image displayed at in the pages intro section
+      - type: boolean
+        name: intro_image_absolute
+        label: Intro Image Position
+        description: Should the image overflow or be contained
+      - type: boolean
+        name: intro_image_hide_on_mobile
+        label: Intro Image Hide On Mobile
+        description: Hide the intro image on mobile screen sizes
+      - type: string
+        name: permalink
+      - type: enum
+        name: layout
+        options:
+          - label: teams
+            value: teams
