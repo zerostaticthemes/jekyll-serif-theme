@@ -1,6 +1,6 @@
 baseurl: '/english/'
 permalink: pretty
-title: 'Jekyll Serif'
+title: 'Twinai - Building end to end AI healthcare solutions'
 
 google_analytics_id: ""
 
@@ -8,22 +8,23 @@ homepage:
   show_call_box: true
 
 logo:
-  mobile: "images/logo/logo-mobile.svg"
-  desktop: "images/logo/logo.svg"
+  mobile: "images/logo/TWINAI-LOGO-MOBILE.jpeg"
+  desktop: "images/logo/TWINAI-LOGO.jpeg"
   desktop_height: "36px"
 
 footer:
-  copyright_text: 'Free Jekyll theme by <a class="zerostatic" href="https://www.zerostatic.io">www.zerostatic.io</a>'
+  copyright_text: 'Copyright by <a class="Twinai" href="https://www.twinai.tw">www.twinai.tw</a>'
 
 seo:
-  meta_og_title: "Jekyll Serif Theme"
+  meta_og_title: "Twinai - Building end to end AI healthcare solutions"
   meta_og_type: "website"
-  meta_og_url: "https://jekyll-serif.netlify.app"
+  meta_og_url: "https://www.twinai.tw"
   meta_og_image: "https://raw.githubusercontent.com/zerostaticthemes/jekyll-serif-theme/master/screenshots/tn.png"
-  meta_og_description: "Jekyll Serif is a modern business theme for Hugo. It contains content types for the archetypical business website. The theme is fully responsive, blazing fast and artfully illustrated."
+  meta_og_description: "Twinai is an enterprise AI platform that unlocks the value of your health data.
+  We build and license AI modules and create products for a portfolio of clients, including hospitals, insurance, pharma, researchers, clinics, and providers."
   meta_twitter_card: "summary"
-  meta_twitter_site: "@zerostaticio"
-  meta_twitter_creator: "@zerostaticio"
+  meta_twitter_site: "@twinai"
+  meta_twitter_creator: "@twinai"
 
 collections:
   services:
