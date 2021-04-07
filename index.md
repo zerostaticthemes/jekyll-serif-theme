@@ -6,7 +6,7 @@ We build and license AI modules and create products for a portfolio of clients, 
 
 intro_image: "images/illustrations/ai_healthcare_01.jpg"
 intro_image_absolute: true
-intro_image_hide_on_mobile: false
+intro_image_hide_on_mobile: true
 ---
 
 # We accelerate digital transformation in healthcare
