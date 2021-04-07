@@ -1,15 +1,15 @@
 ---
-title: "Peter Van Eijk"
+title: "Nagu Thogiti"
 date: 2018-11-19T10:47:58+10:00
 draft: false
 image: "images/team/peter-van-eijk-711986-unsplash.jpg"
-jobtitle: "Director"
-linkedinurl: "https://www.linkedin.com/"
+jobtitle: "SVP AI & Senior Partner"
+linkedinurl: "https://www.linkedin.com/in/naguthogiti/"
 promoted: true
 weight: 1
 layout: team
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Nagu has 20+ years of experience in building successful data science teams and digital transformation for the enterprises specializing in Financial Services, Healthcare and Leisure Travel where BigData , BigOps, Data Governance, AI and MLOps are core elements of growth.
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Nagu holds professional degrees from MIT in Cybersecurity, FinTech, IOT and BigData and AI. He is graduated from Indian Institute of Technology (IIT) and University of Southern California degrees in Mathematics and computer Science. 

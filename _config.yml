@@ -10,7 +10,7 @@ homepage:
 logo:
   mobile: "images/logo/TWINAI-LOGO-MOBILE.jpg"
   desktop: "images/logo/TWINAI-LOGO-512px.png"
-  desktop_height: "42px"
+  desktop_height: "64px"
 
 footer:
   copyright_text: 'Copyright by <a class="Twinai" href="https://www.twinai.tw">www.twinai.tw</a>'
@@ -18,7 +18,7 @@ footer:
 seo:
   meta_og_title: "Twinai - Building end to end AI healthcare solutions"
   meta_og_type: "website"
-  meta_og_url: "https://www.twinai.tw"
+  meta_og_url: "https://www.twinai.tw/english"
   meta_og_image: "https://raw.githubusercontent.com/zerostaticthemes/jekyll-serif-theme/master/screenshots/tn.png"
   meta_og_description: "Twinai is an enterprise AI platform that unlocks the value of your health data.
   We build and license AI modules and create products for a portfolio of clients, including hospitals, insurance, pharma, researchers, clinics, and providers."

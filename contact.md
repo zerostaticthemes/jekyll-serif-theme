@@ -1,16 +1,17 @@
 ---
-title: Contact
+title: Contact Us
 layout: contact
 bodyClass: page-contact
 ---
 
-Lorem markdownum aequalis strigis. Saetigeri iubeas, vultu huic alvum nondum de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae crimen habet Priamum nec.
+# Learn about starting a digital health project or licensing an AI Healthcare Solution.
 
-| Day       | Opening Hours   |
+
+| Ways to Reach Us | How  |
 | --------- | --------------- |
-| Tuesday   | 8:30am - 5:00pm |
-| Wednesday | 8:30am - 5:00pm |
-| Thursday  | 8:30am - 5:00pm |
-| Friday    | 8:30am - 5:00pm |
+| Business   | info@twinai.tw |
+| Media | media@twinai.tw |
+| Product Support  | support@twinai.tw |
+| Product Training    | education@twinai.tw |
 | Saturday  | 10:am - 4:00pm  |
 | Saturday  | Closed          |
