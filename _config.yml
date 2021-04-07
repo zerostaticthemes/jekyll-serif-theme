@@ -8,8 +8,8 @@ homepage:
   show_call_box: true
 
 logo:
-  mobile: "images/logo/TWINAI-LOGO-MOBILE.jpeg"
-  desktop: "images/logo/TWIN-AI-LOGO-360px.jpg"
+  mobile: "images/logo/TWINAI-LOGO-MOBILE.jpg"
+  desktop: "images/logo/TWINAI-LOGO-512px.jpg"
   desktop_height: "42px"
 
 footer:
