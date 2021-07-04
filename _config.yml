@@ -1,6 +1,6 @@
 baseurl: '/'
-permalink: pretty
-title: 'Jekyll Serif'
+permalink: fixioner.github.io
+title: 'Fixioner Media Network'
 
 google_analytics_id: ""
 
@@ -16,14 +16,14 @@ footer:
   copyright_text: 'Free Jekyll theme by <a class="zerostatic" href="https://www.zerostatic.io">www.zerostatic.io</a>'
 
 seo:
-  meta_og_title: "Jekyll Serif Theme"
+  meta_og_title: "Fixioner Media Network"
   meta_og_type: "website"
-  meta_og_url: "https://jekyll-serif.netlify.app"
+  meta_og_url: "https://fixioner.github.io"
   meta_og_image: "https://raw.githubusercontent.com/zerostaticthemes/jekyll-serif-theme/master/screenshots/tn.png"
   meta_og_description: "Jekyll Serif is a modern business theme for Hugo. It contains content types for the archetypical business website. The theme is fully responsive, blazing fast and artfully illustrated."
   meta_twitter_card: "summary"
-  meta_twitter_site: "@zerostaticio"
-  meta_twitter_creator: "@zerostaticio"
+  meta_twitter_site: "@fixioner"
+  meta_twitter_creator: "@fixioner"
 
 collections:
   services:
