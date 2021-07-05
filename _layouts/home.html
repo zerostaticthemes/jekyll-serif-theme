@@ -13,11 +13,12 @@ bodyClass: page-home
           {% include call.html show_button=true %}
         {% endif %}
       </div>
-      {% if page.intro_image %}
+      <!-- {% if page.intro_image %}
       <div class="col-12 col-md-5 col-lg-6 order-1 order-md-2 position-relative">
         <img alt={{ page.title }} class="intro-image{% if page.intro_image_absolute %} intro-image-absolute{% endif %}{% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}" src="{{ page.intro_image | relURL }}" />
       </div>
-      {% endif %}
+      {% endif %} -->
+      <iframe class="col-12 col-md-5 col-lg-6 order-1 order-md-2 position-relative" style="width: 100%; height: 200px; " src="//player.bilibili.com/player.html?aid=888969315&bvid=BV1nK4y1M7SM&cid=364457792&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
     </div>
   </div>
 </div>
