@@ -1,21 +1,24 @@
 main:
-  - name: "Services"
-    url: "/services/"
+  - name: "新闻"
+    url: "/news/"
     weight: 2
-  - name: "Team"
-    url: "/team/"
+  - name: "成员"
+    url: "/people/"
     weight: 3
-  - name: "About"
-    url: "/about/"
+  - name: "研究成果"
+    url: "/research/"
     weight: 4
-  - name: "Contact"
-    url: "/contact/"
+  - name: "教学"
+    url: "/teach/"
     weight: 5
+  - name: "联系我们"
+    url: "/contact/"
+    weight: 6
 
 footer:
-  - name: "Home"
+  - name: "主页"
     url: "/"
     weight: 1
-  - name: "Contact"
+  - name: "联系我们"
     url: "/contact/"
     weight: 2
