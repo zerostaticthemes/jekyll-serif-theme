@@ -11,15 +11,15 @@
 # -----------------
 en: &DEFAULT_EN
   nav:
-    - title: "Services"
+    - title: "新闻"
       section: services
-    - title: "Portfolio"
+    - title: "教学"
       section: portfolio
-    - title: "About"
+    - title: "研究成果"
       section: timeline
-    - title: "Team"
+    - title: "成员"
       section: team
-    - title: "Contact"
+    - title: "联系我们"
       section: contact
     - title: "Theme Source"
       url: https://github.com/raviriley/agency-jekyll-theme/
