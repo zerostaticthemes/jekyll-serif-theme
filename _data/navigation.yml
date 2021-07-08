@@ -21,8 +21,8 @@ en: &DEFAULT_EN
       section: team
     - title: "联系我们"
       section: contact
-    - title: "Theme Source"
-      url: https://github.com/raviriley/agency-jekyll-theme/
+    - title: "学校主页"
+      url: https://www.hitsz.edu.cn/index.html
 en-US:
   <<: *DEFAULT_EN
 en-CA:
