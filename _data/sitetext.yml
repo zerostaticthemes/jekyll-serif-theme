@@ -97,8 +97,8 @@ en: &DEFAULT_EN
     subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
     section: team
     people:
-      - name: "Kay Garland"
-        role: "Lead Designer"
+      - name: "刘朝"
+        role: "研二"
         image: assets/img/team/1.jpg
         social:
           - url: https://twitter.com
@@ -107,8 +107,8 @@ en: &DEFAULT_EN
             icon: fab fa-facebook-f
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
-      - name: "Larry Parker"
-        role: "Lead Marketer"
+      - name: "李翔"
+        role: "研二"
         image: assets/img/team/2.jpg
         social:
           - url: https://twitter.com
@@ -117,7 +117,7 @@ en: &DEFAULT_EN
             icon: fab fa-facebook-f
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
-      - name: "Diana Perterson"
+      - name: "陆之庆"
         role: "Lead Developer"
         image: assets/img/team/3.jpg
         social:
@@ -127,6 +127,17 @@ en: &DEFAULT_EN
             icon: fab fa-facebook-f
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
+            
+     - name: "顾中凯"
+        role: "研一"
+        image: assets/img/team/4.jpg
+        social:
+          - url: https://twitter.com
+            icon: fab fa-twitter
+          - url: https://facebook.com
+            icon: fab fa-facebook-f
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in       
 
   contact:
     title: "联系我们"
