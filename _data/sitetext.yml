@@ -152,7 +152,7 @@ en: &DEFAULT_EN
     message: "Message*"
     message-validation: "Please enter a message."
     subject: "Contact Form Submission"
-    submit: "Send Message"
+    submit: "提交信息"
 
   footer:
     legal: "Privacy Policy"
