@@ -99,7 +99,7 @@ en: &DEFAULT_EN
     people:
       - name: "Kay Garland"
         role: "Lead Designer"
-        image: assets/img/team/500x500.jpg
+        image: assets/img/team/1.jpg
         social:
           - url: https://twitter.com
             icon: fab fa-twitter
@@ -119,7 +119,7 @@ en: &DEFAULT_EN
             icon: fab fa-linkedin-in
       - name: "Diana Perterson"
         role: "Lead Developer"
-        image: assets/img/team/500x500.jpg
+        image: assets/img/team/3.jpg
         social:
           - url: https://twitter.com
             icon: fab fa-twitter
