@@ -17,7 +17,7 @@ remote_theme: raviriley/agency-jekyll-theme
 url    : "http://hitsz-robotic.top" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "/agency-jekyll-theme-starter" # the subpath of your site, e.g. /blog
 
-title      : "姜欣老师机器人实验室"
+title      : "智能感知机器人实验室"
 email      : x.jiang@ieee.org #this is also the email contact forms will go to
 description: "Agency Bootstrap theme converted to a Jekyll theme, plus new features: Google Analytics, Markdown support, custom pages, and more!"
 author     : Zoukai
