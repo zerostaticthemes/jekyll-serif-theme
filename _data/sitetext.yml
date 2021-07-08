@@ -11,13 +11,13 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Welcome to our Studio!
+    title: '欢迎来到我们课题组！'
     text: It's Nice To Meet You
     button: Tell Me More
     buttonlink: "#services"
 
   services:
-    title: "Services"
+    title: "新闻"
     text: "Lorem ipsum"
     section: services
     list:
@@ -129,7 +129,7 @@ en: &DEFAULT_EN
             icon: fab fa-linkedin-in
 
   contact:
-    title: "Contact Us"
+    title: "联系我们"
     text: "Lorem ipsum or call 123456789"
     section: contact
     name: "Name*"
