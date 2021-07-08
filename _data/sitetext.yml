@@ -11,9 +11,9 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: '欢迎来到我们课题组！'
-    text: It's Nice To Meet You
-    button: Tell Me More
+    title: Intelligent Perception Robotic Lab
+    text: "欢迎加入"
+    button: '了解更多'
     buttonlink: "#services"
 
   services:
