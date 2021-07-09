@@ -54,7 +54,7 @@ bodyClass: page-about
 
 ## 论文成果
 
-
+- Guo, Yuhao, Xin Jiang, and Yunhui Liu. "Deformation Control of a Deformable Object Based on Visual and Tactile Feedback." arXiv preprint arXiv:2105.14429 (2021).
 - XIAOMAN WANG, XIN JIANG* , JIE ZHAO, SHENGFAN WANG AND YUN-HUI LIU*, "Grasping Objects Mixed with Towels", IEEE Access, Vol. 8, pp. 129338-129346, 2020.(SCI)
 - Weiguo Zhou , Xin Jiang*, Xiangyang Chen, Shu Miao, Chen Chen, Sijia Mei, and Yun-Hui Liu* , "HMTNet:3D Hand Pose Estimation From Single Depth Image Based on Hand Morphological Topology", IEEE Sensors Journal, Vol. 20, No.11, pp.6004-6011, 2020 (SCI)
 - Weiguo Zhou , Xin Jiang*, and Yun-Hui Liu*, "MVPointNet: Multi-View Network for 3D Object Based on Point Cloud", IEEE Sensors Journal, Vol. 19, No.24, pp.12145-12152, 2019 (SCI)
