@@ -17,13 +17,13 @@ bodyClass: page-about
 ![kuka机器人](https://i.loli.net/2021/07/09/TAXE3hmJugNevwB.png)  
 
 **机械臂操作无标记的纸片对齐纸片中线和盒子边缘**
-<iframe  src="//player.bilibili.com/player.html?aid=376526176&bvid=BV1Ao4y1X7mt&cid=365353139&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+<iframe  src="//player.bilibili.com/player.html?aid=376526176&bvid=BV1Ao4y1X7mt&cid=365353139&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="600" > </iframe>
 
 **Vision Based Cable Assembly in Constrained Environment**
-<iframe src="//player.bilibili.com/player.html?aid=504103592&bvid=BV1ag411T7J7&cid=365309084&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>  
+<iframe src="//player.bilibili.com/player.html?aid=504103592&bvid=BV1ag411T7J7&cid=365309084&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="600"> </iframe>  
 
 **Manipulation and Deformation Control of Deformable Objects Based on Friction Control**
-<iframe src="//player.bilibili.com/player.html?aid=461547644&bvid=BV1pL411W7f8&cid=365350084&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+<iframe src="//player.bilibili.com/player.html?aid=461547644&bvid=BV1pL411W7f8&cid=365350084&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="600"> </iframe>
 
 
 
@@ -31,13 +31,13 @@ bodyClass: page-about
 室内自主装修机器人、建筑机器人
 
 **Automatic Wall Sanding Based on UR Manipulator**
-<iframe src="//player.bilibili.com/player.html?aid=504071890&bvid=BV1Ag411g7K7&cid=365351415&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+<iframe src="//player.bilibili.com/player.html?aid=504071890&bvid=BV1Ag411g7K7&cid=365351415&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="600"> </iframe>
 
 **Vision Based Automatic Putty Applying**
-<iframe src="//player.bilibili.com/player.html?aid=504073715&bvid=BV1wg411g7xK&cid=365347557&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+<iframe src="//player.bilibili.com/player.html?aid=504073715&bvid=BV1wg411g7xK&cid=365347557&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="600"> </iframe>
 
 **Development of Macro-Micro Robot with a Compliant End Effector for Putty Applyin**
-<iframe src="//player.bilibili.com/player.html?aid=888969315&bvid=BV1nK4y1M7SM&cid=364457792&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+<iframe src="//player.bilibili.com/player.html?aid=888969315&bvid=BV1nK4y1M7SM&cid=364457792&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="600"> </iframe>
 
 
 ## 论文成果
