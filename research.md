@@ -8,11 +8,11 @@ bodyClass: page-about
 
 ## 研究兴趣
 
-1. 航空、航天机器人：
+- 航空、航天机器人：
 柔性机械臂的控制、空间机器人操作的半物理仿真、基于半物理仿真的飞行模拟
 
 
-2. 机器人柔性体操作：
+- 机器人柔性体操作：
 自动配线机器人、柔性工件的自动装配
 ![kuka机器人](https://i.loli.net/2021/07/09/TAXE3hmJugNevwB.png)  
 
@@ -29,11 +29,12 @@ bodyClass: page-about
 **Manipulation and Deformation Control of Deformable Objects Based on Friction Control**
 <div style="position: relative; padding: 30% 45%;">
 <iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="//player.bilibili.com/player.html?aid=461547644&bvid=BV1pL411W7f8&cid=365350084&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" > </iframe>
-</div> 
+</div>    
 
 
 
-3. 服务机器人：
+
+- 服务机器人：
 室内自主装修机器人、建筑机器人
 
 **Automatic Wall Sanding Based on UR Manipulator**
