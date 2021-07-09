@@ -5,8 +5,8 @@ draft: false
 image: "images/team/peter-van-eijk-711986-unsplash.jpg"
 jobtitle: "研一"
 linkedinurl: "https://www.linkedin.com/"
-promoted: false
-weight: 1
+promoted: true
+weight: 3
 layout: team
 ---
 
