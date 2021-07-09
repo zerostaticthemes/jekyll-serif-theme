@@ -1,5 +1,5 @@
 ---
-title: '顾中凯'
+title: 'susan-shelton'
 date: 2018-12-20T13:45:06+10:00
 draft: false
 image: 'images/team/4.jpg'
