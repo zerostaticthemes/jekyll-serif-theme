@@ -1,9 +1,9 @@
 ---
-title: "Sage Kirk"
+title: "陈大元"
 date: 2018-11-19T10:47:58+10:00
 draft: false
 image: "images/team/1.jpg"
-jobtitle: "Accounting Partner"
+jobtitle: "科研助理"
 linkedinurl: "https://www.linkedin.com/example2"
 promoted: true
 weight: 2
