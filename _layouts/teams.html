@@ -32,6 +32,7 @@ bodyClass: page-team-list
                 <div class="team-meta">
                     <h2 class="team-name"><a href="{{ team.url | relative_url }}">{{ team.title }}</a></h2>
                     <p class="team-description">{{ team.jobtitle }}</p>
+                    <p class="team-description">{{ team.email }}</p>
                     {% if team.linkedinurl %}
                     <a target="_blank" href="{{ team.linkedinurl }}">LinkedIn</a>
                     {% endif %}
