@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Github",
+    "link": "https://github.com/Robotics-HITSZ",
+    "image": "images/social/github.svg"
+  },
+  {
+    "name": "Bilibili",
+    "link": "https://space.bilibili.com/1237032874",
+    "image": "images/social/bilibili.png"
+  }
+]
