@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>{% if page.title %}{{page.title}}{% else %}{{ site.title | escape }}{% endif %}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" type="image/png" href="{{ '/images/favicon-32x32.svg' | relative_url }}">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+  <link href="{{ '/assets/css/style.css' | relative_url }}" rel="stylesheet">
+  {% if page.description %}
+  <meta name="description" content="{{ page.description }}" />
+  {% endif %}
+  <meta property="og:title" content="{{ site.seo.meta_og_title }}" />
+  <meta property="og:type" content="{{ site.seo.meta_og_type }}" />
+  <meta property="og:url" content="{{ site.seo.meta_og_url }}" />
+  <meta property="og:image" content="{{ site.seo.meta_og_image }}" />
+  <meta property="og:description" content="{{ site.seo.meta_og_description }}" />
+  <meta name="twitter:card" content="{{ site.seo.meta_twitter_card }}" />
+  <meta name="twitter:site" content="{{ site.seo.meta_twitter_site }}" />
+  <meta name="twitter:creator" content="{{ site.seo.meta_twitter_creator }}" />
+</head>
+<body class='page {{page.bodyClass}}'>
+  {% include main-menu-mobile.html %}
+  <div id="wrapper" class="wrapper">
+    {% include header.html headerClass='header-extra' %}
+    {{content}}
+  </div>
+  {% include footer.html %}
+  {% include sub-footer.html %}
+  <script type="text/javascript" src="{{ "/assets/js/scripts.js" | relative_url }}"></script>
+  {% include google-analytics.html %}
+  {% include baidu-analytics.html %}
+</body>
+</html>
