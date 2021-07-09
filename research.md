@@ -16,7 +16,7 @@ bodyClass: page-about
 3. 服务机器人：
 室内自主装修机器人、建筑机器人
 
-<iframe height=50% weight=50% src="//player.bilibili.com/player.html?aid=376526176&bvid=BV1Ao4y1X7mt&cid=365353139&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+<iframe height=500 weight=500 src="//player.bilibili.com/player.html?aid=376526176&bvid=BV1Ao4y1X7mt&cid=365353139&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
 Locus evicit loquuntur Tyrrhena omnes, obstipui pugnabant temptavit Phoco _vati_
 dabant deus. Memorata haberet sepulcrales gentisque dum sic, in flumina templa!
