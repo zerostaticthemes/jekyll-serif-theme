@@ -1,0 +1,42 @@
+{
+  "name": "iprl-web",
+  "version": "1.0.0",
+  "description": "Web server of IPRL, Harbin Institute of Technology(Shenzhen) Robotic Laboratory.",
+  "main": "index.js",
+  "scripts": {
+    "dev":"jekyll serve --port 3000",
+    "build":"jekyll build",
+    "serve": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Robotics-HITSZ/jekyll-serif-theme.git"
+  },
+  "keywords": [
+    "Harbin",
+    "Institute",
+    "of",
+    "Technology(Shenzhen)",
+    "HIT",
+    "Jiang",
+    "Xin",
+    "姜欣",
+    "robot",
+    "AI",
+    "automation",
+    "mobile",
+    "manipulator",
+    "KUKA",
+    "UR"
+  ],
+  "author": "Dayuan Chen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Robotics-HITSZ/jekyll-serif-theme/issues"
+  },
+  "homepage": "https://github.com/Robotics-HITSZ/jekyll-serif-theme#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
