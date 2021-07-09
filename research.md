@@ -14,8 +14,16 @@ bodyClass: page-about
 
 - 机器人柔性体操作：
 自动配线机器人、柔性工件的自动装配
-![kuka机器人](https://i.loli.net/2021/07/09/TAXE3hmJugNevwB.png)  
+ 
 
+
+- 服务机器人：
+室内自主装修机器人、建筑机器人
+
+
+
+## 实验视频
+### 柔软体组项目视频
 **机械臂操作无标记的纸片对齐纸片中线和盒子边缘**
 <div style="position: relative; padding: 30% 45%;">
 <iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;"  src="//player.bilibili.com/player.html?aid=376526176&bvid=BV1Ao4y1X7mt&cid=365353139&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"  > </iframe>
@@ -29,14 +37,9 @@ bodyClass: page-about
 **Manipulation and Deformation Control of Deformable Objects Based on Friction Control**
 <div style="position: relative; padding: 30% 45%;">
 <iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="//player.bilibili.com/player.html?aid=461547644&bvid=BV1pL411W7f8&cid=365350084&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" > </iframe>
-</div>    
+</div>  
 
-
-
-
-- 服务机器人：
-室内自主装修机器人、建筑机器人
-
+### 建筑组项目视频
 **Automatic Wall Sanding Based on UR Manipulator**
 <div style="position: relative; padding: 30% 45%;">
 <iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="//player.bilibili.com/player.html?aid=504071890&bvid=BV1Ag411g7K7&cid=365351415&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" > </iframe>
@@ -52,6 +55,8 @@ bodyClass: page-about
 <iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="//player.bilibili.com/player.html?aid=888969315&bvid=BV1nK4y1M7SM&cid=364457792&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" > </iframe>
 </div> 
 
+## 实验室设备
+![kuka机器人](https://i.loli.net/2021/07/09/TAXE3hmJugNevwB.png) 
 
 ## 论文成果
 
