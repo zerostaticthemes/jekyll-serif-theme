@@ -5,6 +5,7 @@ draft: false
 image: 'images/team/2.jpg'
 jobtitle: '研二'
 linkedinurl: ""
+promoted: true
 weight: 3
 layout: team
 ---
