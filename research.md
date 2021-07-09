@@ -23,12 +23,12 @@ bodyClass: page-about
 
 **Vision Based Cable Assembly in Constrained Environment**
 <div style="position: relative; padding: 30% 45%;">
-<iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0; src="//player.bilibili.com/player.html?aid=504103592&bvid=BV1ag411T7J7&cid=365309084&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" > </iframe>  
+<iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="//player.bilibili.com/player.html?aid=504103592&bvid=BV1ag411T7J7&cid=365309084&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" > </iframe>  
 </div> 
 
 **Manipulation and Deformation Control of Deformable Objects Based on Friction Control**
 <div style="position: relative; padding: 30% 45%;">
-<iframe src="//player.bilibili.com/player.html?aid=461547644&bvid=BV1pL411W7f8&cid=365350084&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" > </iframe>
+<iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="//player.bilibili.com/player.html?aid=461547644&bvid=BV1pL411W7f8&cid=365350084&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" > </iframe>
 </div> 
 
 
@@ -38,17 +38,17 @@ bodyClass: page-about
 
 **Automatic Wall Sanding Based on UR Manipulator**
 <div style="position: relative; padding: 30% 45%;">
-<iframe src="//player.bilibili.com/player.html?aid=504071890&bvid=BV1Ag411g7K7&cid=365351415&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" > </iframe>
+<iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="//player.bilibili.com/player.html?aid=504071890&bvid=BV1Ag411g7K7&cid=365351415&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" > </iframe>
 </div> 
 
 **Vision Based Automatic Putty Applying**
 <div style="position: relative; padding: 30% 45%;">
-<iframe src="//player.bilibili.com/player.html?aid=504073715&bvid=BV1wg411g7xK&cid=365347557&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" > </iframe>
+<iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="//player.bilibili.com/player.html?aid=504073715&bvid=BV1wg411g7xK&cid=365347557&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" > </iframe>
 </div> 
 
 **Development of Macro-Micro Robot with a Compliant End Effector for Putty Applyin**
 <div style="position: relative; padding: 30% 45%;">
-<iframe src="//player.bilibili.com/player.html?aid=888969315&bvid=BV1nK4y1M7SM&cid=364457792&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" > </iframe>
+<iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="//player.bilibili.com/player.html?aid=888969315&bvid=BV1nK4y1M7SM&cid=364457792&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" > </iframe>
 </div> 
 
 
