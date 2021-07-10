@@ -20,6 +20,9 @@ main:
   - name: "联系我们"
     url: "/contact/"
     weight: 8
+ - name: "主页（测试）"
+    url: "/index_test/"
+    weight: 8   
 
 footer:
   - name: "主页"
