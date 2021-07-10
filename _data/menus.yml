@@ -1,6 +1,6 @@
 main:
   - name: "主页"
-    url: "/index/"
+    url: "/"
     weight: 2
   - name: "成员"
     url: "/people/"
