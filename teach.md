@@ -8,6 +8,7 @@ bodyClass: page-about
 
 
 ## 空间机器人与系统
+开课时间：秋季学期
 
 ## Github与Git的使用教程
 
