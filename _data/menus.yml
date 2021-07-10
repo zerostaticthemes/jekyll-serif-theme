@@ -22,7 +22,7 @@ main:
     weight: 8
  - name: "主页（测试）"
     url: "/index_test/"
-    weight: 8   
+    weight: 9   
 
 footer:
   - name: "主页"
