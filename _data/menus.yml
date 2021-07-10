@@ -7,10 +7,10 @@ main:
     weight: 3
   - name: "论文与项目"
     url: "/publications/"
-    weight: 4
-  - name: "研究领域"
+    weight: 5
+  - name: "研究内容"
     url: "/research/"
-    weight: 5  
+    weight: 4  
   - name: "教学"
     url: "/teach/"
     weight: 6
