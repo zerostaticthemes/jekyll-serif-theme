@@ -1,9 +1,8 @@
 ---
 title: "Mundana Free Jekyll Theme"
+date: 2018-02-22T17:01:34+07:00
 layout: default_mun
-pagination:
-    enabled: true
-description: "A great Jekyll theme developed by Sal @wowthemesnet."
+bodyClass: page-about
 ---
 
 
