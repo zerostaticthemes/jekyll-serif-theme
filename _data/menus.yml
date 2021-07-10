@@ -1,19 +1,25 @@
 main:
-  - name: "新闻"
-    url: "/news/"
+  - name: "主页"
+    url: "/index/"
     weight: 2
   - name: "成员"
     url: "/people/"
     weight: 3
-  - name: "研究成果"
-    url: "/research/"
+  - name: "发表成果"
+    url: "/publications/"
     weight: 4
+  - name: "研究领域"
+    url: "/research/"
+    weight: 5  
   - name: "教学"
     url: "/teach/"
-    weight: 5
+    weight: 6
+  - name: "相册"
+    url: "/album/"
+    weight: 7  
   - name: "联系我们"
     url: "/contact/"
-    weight: 6
+    weight: 8
 
 footer:
   - name: "主页"
