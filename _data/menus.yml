@@ -18,7 +18,7 @@ main:
     url: "/album/"
     weight: 7  
   - name: "联系我们"
-    url: "/index_test/"
+    url: "/test/"
     weight: 8
   
 
