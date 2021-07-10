@@ -5,7 +5,7 @@ main:
   - name: "成员"
     url: "/people/"
     weight: 3
-  - name: "发表成果"
+  - name: "论文与项目"
     url: "/publications/"
     weight: 4
   - name: "研究领域"
