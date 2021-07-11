@@ -58,11 +58,21 @@ bodyClass: page-home
 
 
 <div class="row-fluid">
-    <div class="span4"><div class="well">1<br/><br/><br/><br/><br/></div></div>
+    <div class="span4"><div class="well">
+      1
     <div class="span8">
         <div class="row-fluid">
-            <div class="span6"><div class="well">2</div></div>
-            <div class="span6"><div class="well">3</div></div>
+            <div class="span6"><div class="well">
+              {{ content }}
+          {% if site.homepage.show_call_box %}
+            {% include call.html show_button=true %}
+          {% endif %}
+              </div></div>
+            <div class="span6"><div class="well">
+              {% if page.intro_image %}
+          <img alt={{ page.title }} class="intro-image{% if page.intro_image_absolute %} intro-image-absolute{% endif %}{% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}" src="{{ page.intro_image | relURL }}" style="width: 100%;" />
+         {% endif %}
+              </div></div>
         </div>
         <div class="row-fluid">
             <div class="span6"><div class="well">4</div></div>
