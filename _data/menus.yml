@@ -15,7 +15,7 @@ main:
     url: "/teach/"
     weight: 6
   - name: "相册"
-    url: "/test/"
+    url: "/album/"
     weight: 7  
   - name: "联系我们"
     url: "/contact/"
