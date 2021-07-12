@@ -2,14 +2,13 @@ stackbitVersion: ~0.3.0
 ssgName: jekyll
 ssgVersion: "4.1"
 buildCommand: bundle exec jekyll build
-publishDir: '_site'
-staticDir: 'assets'
-uploadDir: 'images'
-dataDir: '_data'
-pagesDir: ''
+publishDir: "_site"
+staticDir: "assets"
+uploadDir: "images"
+dataDir: "_data"
+pagesDir: ""
 pageLayoutKey: null
 logicFields:
-  - site_menu_item.weight
   - service.weight
   - team.weight
 models:
@@ -28,8 +27,8 @@ models:
         hidden: true
   home:
     type: page
-    label: Home
-    file: ['index.md', 'services.md', 'team.md']
+    label: Homepage
+    file: index.md
     singleInstance: true
     fields:
       - type: string
@@ -49,29 +48,75 @@ models:
         name: intro_image_hide_on_mobile
         label: Hide the intro image on mobile
         description: Hide the intro image on mobile screen sizes
-      - type: date
+      - type: boolean
+        name: show_call_box
+        label: Show Call Box
+        description: Show contact info on homepage?
+      - type: datetime
         name: date
+        label: Date
       - type: string
         name: bodyClass
-      - type: enum
+      - type: string
         name: layout
-        options:
-          - label: home
-            value: home
-          - label: services
-            value: services
-          - label: teams
-            value: teams
+        default: "home"
+        hidden: true
+  services:
+    type: page
+    label: Services
+    file: services.md
+    singleInstance: true
+    fields:
+      - type: string
+        name: title
+        label: Title
+      - type: string
+        name: layout
+        label: Layout
+      - type: string
+        name: collection
+        label: Collection
+      - type: image
+        name: intro_image
+        label: Intro Image
+      - type: boolean
+        name: intro_image_absolute
+        label: Intro Image Absolute
+      - type: boolean
+        name: intro_image_hide_on_mobile
+        label: Intro Image Hide On Mobile
+  teams:
+    type: page
+    label: Teams
+    file: team.md
+    singleInstance: true
+    fields:
+      - type: string
+        name: title
+        label: Title
+      - type: string
+        name: layout
+        label: Layout
+      - type: string
+        name: permalink
+        label: Permalink
+      - type: boolean
+        name: intro_image_absolute
+        label: Intro Image Absolute
+      - type: boolean
+        name: intro_image_hide_on_mobile
+        label: Intro Image Hide On Mobile
   basicpage:
     type: page
     label: Basic Page
-    match: '*.md'
+    match: "*.md"
     exclude: index.md
     fields:
       - type: string
         name: title
-      - type: date
+      - type: datetime
         name: date
+        label: Date
       - type: string
         name: bodyClass
       - type: enum
@@ -85,49 +130,26 @@ models:
     type: page
     label: Service
     folder: _services
+    match: "*"
     fields:
       - type: string
         name: title
-      - type: date
+        label: Title
+      - type: datetime
         name: date
-      - type: boolean
-        name: draft
+        label: Date
       - type: boolean
         name: featured
+        label: Featured
       - type: number
         name: weight
+        label: Weight
+        subtype: int
       - type: enum
         name: layout
         options:
           - label: service
             value: service
-    type: page
-    label: Services Overview
-    file: services.md
-    singleInstance: true
-    fields:
-      - type: string
-        name: title
-        label: Title
-        description: The title of the page.
-        required: true
-      - type: image
-        name: intro_image
-        label: Intro Image
-        description: Image displayed at in the pages intro section
-      - type: boolean
-        name: intro_image_absolute
-        label: Intro Image Position
-        description: Should the image overflow or be contained
-      - type: boolean
-        name: intro_image_hide_on_mobile
-        label: Intro Image Hide On Mobile
-        description: Hide the intro image on mobile screen sizes
-      - type: enum
-        name: layout
-        options:
-          - label: services
-            value: services
   team:
     type: page
     label: Team
@@ -136,88 +158,130 @@ models:
       - type: string
         name: title
         label: Title
-      - type: date
+      - type: datetime
         name: date
         label: Date
+      - type: boolean
+        name: draft
+        label: Draft
       - type: image
         name: image
         label: Image
       - type: string
         name: jobtitle
-        label: Job Title
       - type: string
         name: linkedinurl
-        label: Linkedin URL
-      - type: string
-        name: Twitterhandle
-        label: Twitter handle
-      - type: boolean
-        name: draft
-        label: Draft
-      - type: boolean
-        name: featured
-        label: Featured
       - type: number
         name: weight
         label: Weight
+        subtype: int
+      - type: string
+        name: layout
+        label: Layout
+        hidden: true
+        default: team
       - type: boolean
         name: promoted
         label: Promoted
-      - type: enum
-        name: layout
-        options:
-          - label: team
-            value: team
-    type: page
-    label: Team Overview
-    file: team.md
-    singleInstance: true
-    fields:
-      - type: string
-        name: title
-        label: Title
-        description: The title of the page.
-        required: true
-      - type: image
-        name: intro_image
-        label: Intro Image
-        description: Image displayed at in the pages intro section
-      - type: boolean
-        name: intro_image_absolute
-        label: Intro Image Position
-        description: Should the image overflow or be contained
-      - type: boolean
-        name: intro_image_hide_on_mobile
-        label: Intro Image Hide On Mobile
-        description: Hide the intro image on mobile screen sizes
-      - type: string
-        name: permalink
-      - type: enum
-        name: layout
-        options:
-          - label: teams
-            value: teams
   contact:
     type: data
-    label: Contact Details
+    label: Contact
     file: contact.yml
     fields:
       - type: string
         name: email
+        label: Email
       - type: string
         name: phone
+        label: Phone
       - type: string
-        name: contact_button_link  
+        name: contact_button_link
+        label: Contact Button Link
+  features:
+    type: data
+    label: Features
+    file: features.json
+    isList: true
+    items:
+      type: object
+      fields:
+        - type: string
+          name: title
+          label: Title
+        - type: string
+          name: description
+          label: Description
+        - type: image
+          name: image
+          label: Image
+  menus:
+    type: data
+    label: Menus
+    file: menus.yml
+    fields:
+      - type: list
+        name: main
+        label: Main
+        items:
+          type: object
+          fields:
+            - type: string
+              name: name
+              label: Name
+            - type: string
+              name: url
+              label: Url
+            - type: number
+              name: weight
+              label: Weight
+              subtype: int
+      - type: list
+        name: footer
+        label: Footer
+        items:
+          type: object
+          fields:
+            - type: string
+              name: name
+              label: Name
+            - type: string
+              name: url
+              label: Url
+            - type: number
+              name: weight
+              label: Weight
+              subtype: int
   seo:
     type: data
-    label: SEO
+    label: Seo
     file: seo.yml
     fields:
       - type: string
         name: google_analytics_id
+        label: Google Analytics Id
       - type: string
         name: meta_twitter_site
+        label: Meta Twitter Site
       - type: string
         name: meta_twitter_creator
-      - type: string
+        label: Meta Twitter Creator
+      - type: markdown
         name: copyright_text
+        label: Copyright Text
+  social:
+    type: data
+    label: Social
+    file: social.json
+    isList: true
+    items:
+      type: object
+      fields:
+        - type: string
+          name: name
+          label: Name
+        - type: string
+          name: link
+          label: Link
+        - type: image
+          name: image
+          label: Image
