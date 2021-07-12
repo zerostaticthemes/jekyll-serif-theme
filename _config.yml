@@ -2,34 +2,28 @@ baseurl: '/'
 permalink: pretty
 title: 'Jekyll Serif'
 
-google_analytics_id: ""
-
-homepage:
-  show_call_box: true
-
 logo:
   mobile: "images/logo/logo-mobile.svg"
   desktop: "images/logo/logo.svg"
   desktop_height: "36px"
-
-footer:
-  copyright_text: 'Free Jekyll theme by <a class="zerostatic" href="https://www.zerostatic.io">www.zerostatic.io</a>'
-
-seo:
-  meta_og_title: "Jekyll Serif Theme"
-  meta_og_type: "website"
-  meta_og_url: "https://jekyll-serif.netlify.app"
-  meta_og_image: "https://raw.githubusercontent.com/zerostaticthemes/jekyll-serif-theme/master/screenshots/tn.png"
-  meta_og_description: "Jekyll Serif is a modern business theme for Hugo. It contains content types for the archetypical business website. The theme is fully responsive, blazing fast and artfully illustrated."
-  meta_twitter_card: "summary"
-  meta_twitter_site: "@zerostaticio"
-  meta_twitter_creator: "@zerostaticio"
 
 collections:
   services:
     output: true
   team:
     output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "services"
+    values:
+      layout: "service"
+  - scope:
+      path: ""
+      type: "team"
+    values:
+      layout: "team"
 
 sass:
   indentWidth: 4

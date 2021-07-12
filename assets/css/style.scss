@@ -57,9 +57,9 @@ $sub-footer-text-color: $white;
 @import 'components/social';
 
 // Pages
-@import 'pages/home';
-@import 'pages/team/team-summary';
-@import 'pages/services/page-services-single';
+@import 'pages/page-home';
+@import 'pages/page-teams';
+@import 'pages/page-service';
 
 body {
   font-size: 16px;
