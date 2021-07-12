@@ -5,10 +5,7 @@ layout: page
 bodyClass: page-about
 ---
 
-|  视频  | 机械臂操作无标记的纸片对齐纸片中线和盒子边缘   |
-|  ----  | ----  |
-|  ![Lab2019.jpg](https://i.loli.net/2021/07/10/8eCvcq9k6mbGsz3.jpg) | 机械臂机械臂机械臂机械臂机械臂机械臂机械臂机械臂机械臂机械臂机械臂机械臂 |
-|  ![Lab2019.jpg](https://i.loli.net/2021/07/10/8eCvcq9k6mbGsz3.jpg)| **Vision Based Cable Assembly in Constrained Environment** |
+
 
 ## 研究兴趣
 
