@@ -8,9 +8,9 @@ bodyClass: page-about
 
 
 
-## 研究内容
+# 研究内容
 <!--table 2-->
-<h2 id="soft-manipulation">机器人柔性体操作</h2>
+<h3 id="soft-manipulation">机器人柔性体操作</h3>
 <p>在柔软体操作领域~~~</p>
 <html>
  <!--row 1-->
@@ -68,7 +68,7 @@ bodyClass: page-about
     </table>    
 </html>
 <!--table 2-->
-<h2 id="soft-manipulation">建筑机器人</h2>
+<h3 id="soft-manipulation">建筑机器人</h3>
 <p>在建筑机器人领域~~~</p>
 <!--row1-->
 <html>
