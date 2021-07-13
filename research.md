@@ -65,7 +65,9 @@ bodyClass: page-about
             <td style="padding:0px;width:30%;vertical-align:middle;border-left-style:none;border-bottom-style:none;border-top-style:none;border-right-style:none" align="center">
              <!-- <img src="../images/research_imgs/auto_driving11.gif" alt="hpp" style="border-style: none; margin: 20px 0px -5px 0px" width="100%" />-->
             <!--   <img src="../images/research_imgs/auto_driving12.gif" alt="hpp" style="border-style: none" width="100%" />-->
-             <iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;"  src="//player.bilibili.com/player.html?aid=376526176&bvid=BV1Ao4y1X7mt&cid=365353139&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"  > </iframe>
+             <div style="position: relative; padding: 30% 45%;">
+<iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;"  src="//player.bilibili.com/player.html?aid=376526176&bvid=BV1Ao4y1X7mt&cid=365353139&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"  > </iframe>
+</div> 
             </td>
             <td style="padding:10px;width:70%;vertical-align:middle;border-left-style:none;border-bottom-style:none;border-top-style:none;border-right-style:none">
                 <papertitle><strong>机械臂操作无标记的纸片对齐纸片中线和盒子边缘</strong>
@@ -78,7 +80,9 @@ bodyClass: page-about
     <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr onmouseout="nightsight_stop()" onmouseover="nightsight_start()">
             <td style="padding:0px;width:30%;vertical-align:middle;border-left-style:none;border-bottom-style:none;border-top-style:none;border-right-style:none">
-              <iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="//player.bilibili.com/player.html?aid=504103592&bvid=BV1ag411T7J7&cid=365309084&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" > </iframe>
+              <div style="position: relative; padding: 30% 45%;">
+<iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="//player.bilibili.com/player.html?aid=504103592&bvid=BV1ag411T7J7&cid=365309084&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" > </iframe>  
+</div> 
             </td>
             <td style="padding:10px;width:70%;vertical-align:middle;border-left-style:none;border-bottom-style:none;border-top-style:none;border-right-style:none">
                 <papertitle><strong>Vision Based Cable Assembly in Constrained Environment</strong>
@@ -91,7 +95,9 @@ bodyClass: page-about
     <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr onmouseout="nightsight_stop()" onmouseover="nightsight_start()">
             <td style="padding:0px;width:30%;vertical-align:middle;border-left-style:none;border-bottom-style:none;border-top-style:none;border-right-style:none" align="center">
-             <iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="//player.bilibili.com/player.html?aid=461547644&bvid=BV1pL411W7f8&cid=365350084&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" > </iframe>
+            <div style="position: relative; padding: 30% 45%;">
+<iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="//player.bilibili.com/player.html?aid=461547644&bvid=BV1pL411W7f8&cid=365350084&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" > </iframe>
+</div>
             </td>
             <td style="padding:10px;width:70%;vertical-align:middle;border-left-style:none;border-bottom-style:none;border-top-style:none;border-right-style:none">
                 <papertitle><strong>Manipulation and Deformation Control of Deformable Objects Based on Friction Control</strong>
