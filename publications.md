@@ -8,7 +8,7 @@ bodyClass: page-about
 
 ## 论文成果
 这里是课题组近几年的发表成果。
-### 2021和预印本 
+### 2021
 - Guo, Yuhao, Xin Jiang, and Yunhui Liu. "Deformation Control of a Deformable Object Based on Visual and Tactile Feedback." arXiv preprint arXiv:2105.14429 (2021).  
 
 ### 2020
