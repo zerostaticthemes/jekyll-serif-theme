@@ -32,8 +32,8 @@ bodyClass: page-team-list
                 <div class="team-meta">
                     <h2 class="team-name"><a href="{{ team.url | relative_url }}">{{ team.title }}</a></h2>
                     <p class="team-description">{{ team.jobtitle }}</p>
-                    <p class="team-description">{{ team.email }}</p>
-                    <img alt="" class="img-fluid mb-2" src="{{ team.email | relative_url }}" width="20%" />
+                    
+                    <img alt="" class="img-fluid mb-2" src="{{ team.email | relative_url }}" width="30%" />
                     {% if team.linkedinurl %}
                     <a target="_blank" href="{{ team.linkedinurl }}">LinkedIn</a>
                     {% endif %}
