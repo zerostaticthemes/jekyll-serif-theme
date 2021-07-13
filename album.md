@@ -11,4 +11,4 @@ bodyClass: page-about
 ![kuka机器人](https://i.loli.net/2021/07/09/TAXE3hmJugNevwB.png) 
 
 
-## 实验室聚餐
+## 实验室活动
