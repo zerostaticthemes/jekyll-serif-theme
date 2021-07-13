@@ -57,17 +57,18 @@ bodyClass: page-about
 </div> 
   
 ## 测试
-<h2 id="autonomous-driving">Autonomous Driving</h2>
-<p>For autonomous driving, our research mainly focusses on the perception and localization through learning-based algorithms. Specifically, we aim to develop robust AI-based Simultaneous Localization and Mapping (SLAM) system for autonomous driving and mobile robotics under challenging environments based on multi-sensor perception. Our work includes learning-based odometry, large-scale mapping, long-term loop closure and relocalization.</p>
+<h2 id="soft-manipulation">机器人柔性体操作</h2>
+<p>在柔软体操作领域~~~</p>
 <html>
     <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr onmouseout="nightsight_stop()" onmouseover="nightsight_start()">
             <td style="padding:0px;width:30%;vertical-align:middle;border-left-style:none;border-bottom-style:none;border-top-style:none;border-right-style:none" align="center">
-              <img src="../images/research_imgs/auto_driving11.gif" alt="hpp" style="border-style: none; margin: 20px 0px -5px 0px" width="100%" />
-              <img src="../images/research_imgs/auto_driving12.gif" alt="hpp" style="border-style: none" width="100%" />
+             <!-- <img src="../images/research_imgs/auto_driving11.gif" alt="hpp" style="border-style: none; margin: 20px 0px -5px 0px" width="100%" />-->
+            <!--   <img src="../images/research_imgs/auto_driving12.gif" alt="hpp" style="border-style: none" width="100%" />-->
+             <iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;"  src="//player.bilibili.com/player.html?aid=376526176&bvid=BV1Ao4y1X7mt&cid=365353139&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"  > </iframe>
             </td>
             <td style="padding:10px;width:70%;vertical-align:middle;border-left-style:none;border-bottom-style:none;border-top-style:none;border-right-style:none">
-                <papertitle><strong>Outdoor Visual and LiDAR-based Odometry</strong>
+                <papertitle><strong>机械臂操作无标记的纸片对齐纸片中线和盒子边缘</strong>
                 </papertitle> 
               <br />
               Due to noisy pixels caused by dynamic objects in the outdoor scenes, visual odometry is heavily affected under such dynamic environments. We propose a confidence-based unsupervised visual odometry model to fully leverage the similarity and consistency of correspondent pixels, improving the robustness to dynamic objects (<a href="https://ieeexplore.ieee.org/document/9345430">TITS 2021</a>, <a href="https://ieeexplore.ieee.org/document/8968524">IROS 2019</a>). Since motion segmentation is also important to dynamic scenes, we extract features from sequential depth maps through GRU to segment dynamic objects from visual perception, which improves the odometry performance on KITTI dataset and real-site application (<a href="https://link.springer.com/chapter/10.1007/978-3-030-29911-8_39">PRICAI 2019</a>). For LiDAR-based odometry, we introduce a novel 3D point cloud learning model, named PWCLO-Net, using hierarchical embedding mask optimization. It outperforms all recent learning-based methods and outperforms the geometry-based approach, LOAM with mapping optimization, on most sequences of the KITTI odometry dataset (<a href="https://arxiv.org/abs/2012.00972">CVPR 2021</a>).            
