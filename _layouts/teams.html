@@ -21,7 +21,7 @@ bodyClass: page-team-list
 <div class="container pt-6 pb-6">
     <h2><b>教授</b></h2>
     <div class="row">
-        {% assign promoted_teams = site.team | where: "promoted", true| where: "describe", prof | sort: "weight" %}
+        {% assign promoted_teams = site.team | where: "promoted", true| where: "describe", true | sort: "weight" %}
         {% for team in promoted_teams %}
         <div class="col-12 col-md-6 mb-2">
             <div class="team team-summary team-summary-large">
@@ -46,7 +46,7 @@ bodyClass: page-team-list
     </div>
     <h2><b>科研助理</b></h2>
     <div class="row">
-        {% assign promoted_teams = site.team | where: "promoted", true| where: "describe", as | sort: "weight" %}
+        {% assign promoted_teams = site.team | where: "ar", true | where: "promoted", true | sort: "weight" %}
         {% for team in promoted_teams %}
         <div class="col-12 col-md-6 mb-2">
             <div class="team team-summary team-summary-large">
@@ -71,7 +71,7 @@ bodyClass: page-team-list
     </div>
     <h2><b>博士生</b></h2>
     <div class="row">
-        {% assign promoted_teams = site.team | where: "promoted", true| where: "describe", phd | sort: "weight" %}
+        {% assign promoted_teams = site.team | where: "doc", true | where: "promoted", true| sort: "weight" %}
         {% for team in promoted_teams %}
         <div class="col-12 col-md-6 mb-2">
             <div class="team team-summary team-summary-large">
@@ -96,7 +96,7 @@ bodyClass: page-team-list
     </div>
     <h2><b>研究生</b></h2>
     <div class="row">
-        {% assign promoted_teams = site.team | where: "promoted", true| where: "describe", master | sort: "weight" %}
+        {% assign promoted_teams = site.team | where: "master", true | where: "promoted", true|  sort: "weight" %}
         {% for team in promoted_teams %}
         <div class="col-12 col-md-6 mb-2">
             <div class="team team-summary team-summary-large">
@@ -121,7 +121,7 @@ bodyClass: page-team-list
     </div>
     <h2><b>本科生</b></h2>
     <div class="row">
-        {% assign promoted_teams = site.team | where: "promoted", true| where: "describe", grad | sort: "weight" %}
+        {% assign promoted_teams = site.team | where: "promoted", true| where: "grad", true | sort: "weight" %}
         {% for team in promoted_teams %}
         <div class="col-12 col-md-6 mb-2">
             <div class="team team-summary team-summary-large">
