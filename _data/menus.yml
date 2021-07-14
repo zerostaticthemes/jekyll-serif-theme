@@ -20,7 +20,9 @@ main:
   - name: "联系我们"
     url: "/contact/"
     weight: 8
-  
+  - name: "内网"
+    url: "https://cloud.robotics-hitsz.com"
+    weight: 9
 
 footer:
   - name: "主页"
