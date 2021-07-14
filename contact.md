@@ -14,3 +14,5 @@ bodyClass: page-contact
 | 周四   | 8:30am - 5:00pm |
 | 周五   | 8:30am - 5:00pm  |
 | 周末   | Closed          |
+
+<iframe src="map.html" width="600" height="300" frameborder="0" scrolling="no"></iframe>
