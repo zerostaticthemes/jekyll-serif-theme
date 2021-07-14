@@ -9,7 +9,7 @@ bodyClass: page-about
 
 
 # 研究内容
-## 机器人柔性体操作
+## 机器人柔软体操作
 <!--table 2-->
 <!--<h3 id="soft-manipulation">机器人柔性体操作</h3>-->
 <p>在柔软体操作领域~~~</p>
