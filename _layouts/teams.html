@@ -17,7 +17,7 @@ bodyClass: page-team-list
         </div>
     </div>
 </div>
-
+<h2>教授</h2>
 <div class="container pt-6 pb-6">
     <div class="row">
         {% assign promoted_teams = site.team | where: "promoted", true | sort: "weight" %}
@@ -43,6 +43,10 @@ bodyClass: page-team-list
         </div>
         {% endfor %}
     </div>
+    <h2>科研助理</h2>
+    <h2>博士生</h2>
+    <h2>研究生</h2>
+    <h2>本科生</h2>
     <div class="row pt-6 pb-6">
         {% assign teams = site.team | where: "promoted", empty | sort: "weight" %}
         {% for team in teams %}
