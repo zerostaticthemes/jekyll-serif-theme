@@ -127,5 +127,47 @@ bodyClass: page-about
 </html>
 
 
+<!--table 3-->
+## 机器人抓取
 
+<p>机器人抓取领域~~~</p>
+<!--row1-->
+<html>
+    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <tr onmouseout="nightsight_stop()" onmouseover="nightsight_start()">
+            <td style="padding:0px;width:30%;vertical-align:middle;border-left-style:none;border-bottom-style:none;border-top-style:none;border-right-style:none" align="center">
+             <!--此处插入视频链接或图片链接-->
+             <div style="position: relative; padding: 30% 45%;">
+                <iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="//player.bilibili.com/player.html?aid=631598830&bvid=BV1Pb4y1k7Rt&cid=368446589&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+             </div> 
+               
+            </td>
+            <td style="padding:10px;width:70%;vertical-align:middle;border-left-style:none;border-bottom-style:none;border-top-style:none;border-right-style:none">
+                <papertitle><strong>Picking Towels in Point Clouds</strong>
+                </papertitle> 
+              <br />
+              小编加速填写中~          
+            </td>
+          </tr>
+    </table>
+ <!--row2-->
+    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <tr onmouseout="nightsight_stop()" onmouseover="nightsight_start()">
+            <td style="padding:0px;width:30%;vertical-align:middle;border-left-style:none;border-bottom-style:none;border-top-style:none;border-right-style:none">
+              <!--此处插入视频链接或图片链接-->
+              <div style="position: relative; padding: 30% 45%;">
+                <iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="//player.bilibili.com/player.html?aid=759098640&bvid=BV1g64y1X7ee&cid=368448327&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" > </iframe>
+              </div> 
+            </td>
+            <td style="padding:10px;width:70%;vertical-align:middle;border-left-style:none;border-bottom-style:none;border-top-style:none;border-right-style:none">
+                <papertitle><strong>Assembly of Randomly Placed Parts Realized by Single Manipulator with a Gripper</strong>
+                </papertitle> 
+              <br />
+              小编加速填写中~              
+            </td>
+          </tr>
+    </table>
+ <!--row3-->
+   
+</html>
 
