@@ -173,7 +173,7 @@ bodyClass: page-about
             <td style="padding:0px;width:30%;vertical-align:middle;border-left-style:none;border-bottom-style:none;border-top-style:none;border-right-style:none">
               <!--此处插入视频链接或图片链接-->
               <div style="position: relative; padding: 30% 45%;">
-                <iframe  src="//player.bilibili.com/player.html?aid=759098640&bvid=BV1g64y1X7ee&cid=368448327&amp;page=1" frameborder="no" scrolling="no" width="95%" height="600" > </iframe>
+                <iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;"  src="//player.bilibili.com/player.html?aid=759098640&bvid=BV1g64y1X7ee&cid=368448327&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" > </iframe>
               </div> 
             </td>
             <td style="padding:10px;width:70%;vertical-align:middle;border-left-style:none;border-bottom-style:none;border-top-style:none;border-right-style:none">
