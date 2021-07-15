@@ -14,7 +14,8 @@ logo:
   #desktop: "images/logo/Logo.png"
   mobile: "images/index/HITWhite.png"
   desktop: "images/index/HITWhite.png"
-  desktop_height: "36px"
+  desktop_height: "72px"
+  #desktop_height: "36px"
 
 footer:
   copyright_text: '粤ICP备2021094001号</a>'
