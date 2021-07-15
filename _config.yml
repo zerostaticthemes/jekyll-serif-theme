@@ -12,8 +12,8 @@ homepage:
 logo:
   #mobile: "images/logo/Logo.png"
   #desktop: "images/logo/Logo.png"
-  mobile: "images/index/HitLong.png"
-  desktop: "images/index/HitLong.png"
+  mobile: "images/index/HITLong.png"
+  desktop: "images/index/HITLong.png"
   desktop_height: "36px"
 
 footer:
