@@ -12,8 +12,8 @@ homepage:
 logo:
   #mobile: "images/logo/Logo.png"
   #desktop: "images/logo/Logo.png"
-  mobile: "images/index/HITWhite.png"
-  desktop: "images/index/HITWhite.png"
+  mobile: "images/index/HITBW.png"
+  desktop: "images/index/HITBW.png"
   desktop_height: "72px"
   #desktop_height: "36px"
 
