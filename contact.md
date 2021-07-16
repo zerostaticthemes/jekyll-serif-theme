@@ -16,4 +16,4 @@ bodyClass: page-contact
 | 周末   | Closed          |
   
 
-<iframe width="800" height="460" frameborder='0' scrolling='no' marginheight='0' marginwidth='0' src="https://surl.amap.com/215ohbD1og1d"></iframe>
+<iframe width="800" height="460" frameborder='0' scrolling='no' marginheight='0' marginwidth='0' src="https://surl.amap.com/22phJtzLgeW"></iframe>
