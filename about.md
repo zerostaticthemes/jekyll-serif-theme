@@ -1,52 +1,28 @@
 ---
 title: 'About'
-date: 2018-02-22T17:01:34+07:00
+date: 2021-06-05T09:09:39+09:00
 layout: page
 bodyClass: page-about
 ---
 
-Lorem markdownum aequalis strigis. _Saetigeri iubeas_, vultu huic alvum nondum
-de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae
-crimen habet Priamum nec.
+kkeulmit은 차세대 개발 기술로 _귀사의 응용 & 시스템 소프트웨어_ 를 혁신합니다.
 
-## Ne verba patulosque numen vix libet
+## UX 기획 / 서비스 기획
 
-Agitabitur signa lympha; non lacunae, mox cum tumulis quoque triste dictis.
-Ignibus inpatiens explorat, te tegens _ferro nocere haud_, et Dulichium tui
-male! Quo sed [fuit flexit et](#vexant-achivi) hic die solido, gloria?
+## Software Consulting
 
-1. Cum det dixit Parcarum qui spemque est
-2. Exit ex huic
-3. Quod consiste agitataque claustraque vicina videt lacertis
-4. Loquor videt
-5. Ardua non igne caelesti coniugis cognovi diversorum
-6. Per nunc pariterque saeva vindicet
+소프트웨어 설계와 업체 선정 그리고 관리까지
+고객이 원하는 소프트웨어를 보다 쉽게 그려볼 수 있도록 돕습니다.
 
-Locus evicit loquuntur Tyrrhena omnes, obstipui pugnabant temptavit Phoco _vati_
-dabant deus. Memorata haberet sepulcrales gentisque dum sic, in flumina templa!
-Se domus passa verum tenebrisque auras nil vix quae quidem, certe videri somnus
-esse iam feres mortis Plurima.
+## SEMI EDA / Interface A
 
-## Postquam tamen
+생산 장비간 통신의 차세대 기술 interface A를 기술을 보유하고 있습니다.
+생산 데이터를 이용한 생산 에측 및 불량 검출의 신속화를 위한 기술입니다.
 
-Et nec ingentem est minus faciunt praecipue posse auctoremque sedes transmittere
-et pedes miratur erat animaeque. Tellus admonuit humanam funes, sagittis et
-licet! Inserui quamvis Clymeni.
+## SI (System Integration)
 
-- Parens est studiisque interea
-- Pro istis mediis carnes iste nec imperat
-- Te vocas orat nisi quantumque castra
-- Gestumque crepuscula esse videntur coegit
-- Ambo videtque gerat aquae ferens vagina
-- Adde leviter faciam tetigisse regunt concava in
+기획부터 디자인 그리고 개발까지 모두 수준 높은 결과물로 답변합니다.
 
-Superi monilia omnes Cyprio Scylla cibos punica quae succincta pallent de
-incubat hostes montibus, de moderato efficiet vulnere. Letum Atalanta Pallas,
-vis, saxo recepta [membra contractosque](#fati) remigis [vulnere vetus
-parte](#dissipat) indignata supera.
-
-Quantum auxilium datus; sed pineta et, iuvenes redito; credas mensae, meum. Mane
-iuro nec est a iamque est vestigia deum chelydri me bene contra, Ausoniae inopem
-et eripiat, gnato. Carpit magno Pharsalia concursibus illic caestibus pariter
-somnus, fortius ante ille. Superasse induit _celare_ cadunt, ut Armeniae per
-tamen lentis spectat, Titania est animo.
+- 명확한 납기: 고객이 원하는 날짜에 원하는 결과물을 드립니다.
+- 유지보수 비용 절감: 개발된 시스템의 유지보수 비용까지 절감해 드립니다.
+- 시스템 확장 및 재사용 용이: 향후 기존 시스템의 확장 및 재사용성이 용이 하도록 설계 및 개발합니다.
