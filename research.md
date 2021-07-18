@@ -73,11 +73,11 @@ bodyClass: page-about
             <td style="padding:0px;width:30%;vertical-align:middle;border-left-style:none;border-bottom-style:none;border-top-style:none;border-right-style:none" align="center">
               <!--此处插入视频链接或图片链接-->
             <div style="position: relative; padding: 30% 45%;">
-              <iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="//player.bilibili.com/player.html?aid=461547644&bvid=BV1pL411W7f8&cid=365350084&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" > </iframe>
+              <iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="//player.bilibili.com/player.html?aid=931694581&bvid=BV1aM4y1K7Sv&cid=372109274&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" > </iframe>
             </div>
             </td>
             <td style="padding:10px;width:70%;vertical-align:middle;border-left-style:none;border-bottom-style:none;border-top-style:none;border-right-style:none">
-                <papertitle><strong>受限环境中基于视觉的电缆装配</strong>
+                <papertitle><strong>基于视觉的柔软体形状伺服控制</strong>
                 </papertitle> 
               <br />
               增加电缆了的避障规划，可以根据环境约束状况规划实现避障的电缆形状。为了使后续的变形伺服收敛，规划出的电缆形状必须物理上合理。             
@@ -90,7 +90,10 @@ bodyClass: page-about
             <td style="padding:0px;width:30%;vertical-align:middle;border-left-style:none;border-bottom-style:none;border-top-style:none;border-right-style:none" align="center">
               <!--此处插入视频链接或图片链接-->
             <div style="position: relative; padding: 30% 45%;">
-              <iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="//player.bilibili.com/player.html?aid=461547644&bvid=BV1pL411W7f8&cid=365350084&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" > </iframe>
+              <iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="//player.bilibili.com/player.html?aid=546637587&bvid=BV13q4y1W7ip&cid=370846986&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" > </iframe>
+            </div>
+              <div style="position: relative; padding: 30% 45%;">
+              <iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="//player.bilibili.com/player.html?aid=419156649&bvid=BV1NV411s7tj&cid=370951068&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" > </iframe>
             </div>
             </td>
             <td style="padding:10px;width:70%;vertical-align:middle;border-left-style:none;border-bottom-style:none;border-top-style:none;border-right-style:none">
@@ -164,7 +167,7 @@ bodyClass: page-about
             <td style="padding:0px;width:30%;vertical-align:middle;border-left-style:none;border-bottom-style:none;border-top-style:none;border-right-style:none" align="center">
               <!--此处插入视频链接或图片链接-->
             <div style="position: relative; padding: 30% 45%;">
-              <iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="//player.bilibili.com/player.html?aid=888969315&bvid=BV1nK4y1M7SM&cid=364457792&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" > </iframe>
+              <iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="//player.bilibili.com/player.html?aid=546708652&bvid=BV1aq4y1W7xf&cid=370963607&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" > </iframe>
            </div> 
             </td>
             <td style="padding:10px;width:70%;vertical-align:middle;border-left-style:none;border-bottom-style:none;border-top-style:none;border-right-style:none">
@@ -180,9 +183,7 @@ bodyClass: page-about
           <tr onmouseout="nightsight_stop()" onmouseover="nightsight_start()">
             <td style="padding:0px;width:30%;vertical-align:middle;border-left-style:none;border-bottom-style:none;border-top-style:none;border-right-style:none" align="center">
               <!--此处插入视频链接或图片链接-->
-            <div style="position: relative; padding: 30% 45%;">
-              <iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="//player.bilibili.com/player.html?aid=888969315&bvid=BV1nK4y1M7SM&cid=364457792&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" > </iframe>
-           </div> 
+            <img src="../images/research/pointCloudProcess.jpg" alt="hpp" style="border-style: none; margin: 20px 0px -5px 0px" width="100%" />
             </td>
             <td style="padding:10px;width:70%;vertical-align:middle;border-left-style:none;border-bottom-style:none;border-top-style:none;border-right-style:none">
                 <papertitle><strong>建筑施工点云数据处理</strong>
@@ -198,7 +199,7 @@ bodyClass: page-about
             <td style="padding:0px;width:30%;vertical-align:middle;border-left-style:none;border-bottom-style:none;border-top-style:none;border-right-style:none" align="center">
               <!--此处插入视频链接或图片链接-->
             <div style="position: relative; padding: 30% 45%;">
-              <iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="//player.bilibili.com/player.html?aid=888969315&bvid=BV1nK4y1M7SM&cid=364457792&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" > </iframe>
+              <iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="//player.bilibili.com/player.html?aid=931671988&bvid=BV1WM4y1K7d6&cid=372151981&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" > </iframe>
            </div> 
             </td>
             <td style="padding:10px;width:70%;vertical-align:middle;border-left-style:none;border-bottom-style:none;border-top-style:none;border-right-style:none">
@@ -241,7 +242,7 @@ bodyClass: page-about
             <td style="padding:0px;width:30%;vertical-align:middle;border-left-style:none;border-bottom-style:none;border-top-style:none;border-right-style:none">
               <!--此处插入视频链接或图片链接-->
               <div style="position: relative; padding: 30% 45%;">
-                <iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="//player.bilibili.com/player.html?aid=759098640&bvid=BV1g64y1X7ee&cid=368448327&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" > </iframe>
+                <iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="//player.bilibili.com/player.html?aid=804299807&bvid=BV1Ky4y1j7gs&cid=372369067&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" > </iframe>
               </div> 
             </td>
             <td style="padding:10px;width:70%;vertical-align:middle;border-left-style:none;border-bottom-style:none;border-top-style:none;border-right-style:none">
@@ -258,7 +259,7 @@ bodyClass: page-about
             <td style="padding:0px;width:30%;vertical-align:middle;border-left-style:none;border-bottom-style:none;border-top-style:none;border-right-style:none">
               <!--此处插入视频链接或图片链接-->
               <div style="position: relative; padding: 30% 45%;">
-                <iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;"  src="//player.bilibili.com/player.html?aid=759098640&bvid=BV1g64y1X7ee&cid=368448327&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" > </iframe>
+                <iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;"  src="//player.bilibili.com/player.html?aid=589206080&bvid=BV1wB4y1K7AN&cid=372158460&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" > </iframe>
               </div> 
             </td>
             <td style="padding:10px;width:70%;vertical-align:middle;border-left-style:none;border-bottom-style:none;border-top-style:none;border-right-style:none">
