@@ -14,14 +14,14 @@
 }
 .logo-mobile {
   display: block;
-  width: 40px;
+  width: auto;
   padding: 10px 0 10px 0;
   @include media-breakpoint-up(sm) {
     display: none;
   }
   img {
-    width: 100%;
-    height: auto;
+    width: auto;
+    height: 30px;
   }
   a {
     display: block;

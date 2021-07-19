@@ -4,8 +4,8 @@
   "description": "Web server of IPRL, Harbin Institute of Technology(Shenzhen) Robotic Laboratory.",
   "main": "index.js",
   "scripts": {
-    "dev":"jekyll serve --port 3000",
-    "build":"jekyll build",
+    "dev": "jekyll serve --port 3000",
+    "build": "jekyll build",
     "serve": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

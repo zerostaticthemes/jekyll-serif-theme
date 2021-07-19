@@ -9,8 +9,35 @@
   
   
   <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
-  <link href="{{ '/assets/css/style.css' | relative_url }}" rel="stylesheet">
+  
 
+  <!--Helium css-->
+  <link rel="stylesheet" href="{{ baseurl }}/assets/css/animate.css" />
+  <link
+    rel="stylesheet"
+    href="{{ baseurl }}/assets/css/bootstrap.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="{{ baseurl }}/assets/css/jasny-bootstrap.min.css"
+  />
+  <link rel="stylesheet" href="{{ baseurl }}/assets/css/main.css" />
+  <link rel="stylesheet" href="{{ baseurl }}/assets/css/owl.carousel.css" />
+  <link rel="stylesheet" href="{{ baseurl }}/assets/css/owl.theme.css" />
+  <link rel="stylesheet" href="{{ baseurl }}/assets/css/responsive.css" />
+  <link
+    rel="stylesheet"
+    href="{{ baseurl }}/assets/css/scrolling-nav.css"
+  />
+  <link href="{{ '/assets/css/style.css' | relative_url }}" rel="stylesheet">
+  <!-- CSS loaded by the children page -->
+  {% if page.css %}
+  <link
+    rel="stylesheet"
+    type="text/css"
+    href="{{ baseurl }}/assets/css/custom/{{ page.css }}"
+  />
+  {% endif %}
   
   {% if page.description %}
   <meta name="description" content="{{ page.description }}" />
@@ -41,6 +68,28 @@
   <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>-->
   <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
 	<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <!-- JS includes -->
+
+  <script src="{{ BASE_PATH }}/assets/js/jquery.min.js"></script>
+  <script src="{{ BASE_PATH }}/assets/js/jquery.nav.js"></script>
+  <script src="{{ BASE_PATH }}/assets/js/owl.carousel.min.js"></script>
+  <script src="{{ BASE_PATH }}/assets/js/form-validator.min.js"></script>
+  <script src="{{ BASE_PATH }}/assets/js/contact-form-script.js"></script>
+  <script src="{{ BASE_PATH }}/assets/js/jasny-bootstrap.min.js"></script>
+  <script src="{{ BASE_PATH }}/assets/js/jquery.mixitup.js"></script>
+  <script src="{{ BASE_PATH }}/assets/js/jquery.countTo.js"></script>
+  <script src="{{ BASE_PATH }}/assets/js/jquery.easing.min.js"></script>
+  <script src="{{ BASE_PATH }}/assets/js/main.js"></script>
+  <script src="{{ BASE_PATH }}/assets/js/scrolling-nav.js"></script>
+  <script src="{{ BASE_PATH }}/assets/js/tether.min.js"></script>
+  <script src="{{ BASE_PATH }}/assets/js/bootstrap.min.js"></script>
+  <!-- ********************* Grads SCRIPTING ******************************-->
+    <!--Custom script loaded by children page-->
+    {% if page.js %}
+    <script src="{{ BASE_PATH }}/assets/js/{{ page.js }}"></script>
+    {% endif %}
+  </body>
 </body>
 	
 
