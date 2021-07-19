@@ -6,6 +6,6 @@ intro_image_absolute: true
 intro_image_hide_on_mobile: false
 ---
 
-# Meet The Team
+# 团队成员
 
-Our team of qualified accountants and financial consultants can help your business at any stage of it's growth.
+<h3>欢迎有兴趣的博士后、博士研究生、硕士研究生和本科生加入我们团队！</h3>

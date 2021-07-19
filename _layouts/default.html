@@ -4,9 +4,14 @@
   <meta charset="utf-8">
   <title>{% if page.title %}{{page.title}}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="icon" type="image/png" href="{{ '/images/favicon-32x32.svg' | relative_url }}">
+  <link rel="icon" type="image/png" href="{{ '/images/index/HitLogo.jpg' | relative_url }}">
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+  
+  
+  <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
   <link href="{{ '/assets/css/style.css' | relative_url }}" rel="stylesheet">
+
+  
   {% if page.description %}
   <meta name="description" content="{{ page.description }}" />
   {% endif %}
@@ -18,8 +23,10 @@
   <meta name="twitter:card" content="{{ site.seo.meta_twitter_card }}" />
   <meta name="twitter:site" content="{{ site.seo.meta_twitter_site }}" />
   <meta name="twitter:creator" content="{{ site.seo.meta_twitter_creator }}" />
+	
+  
 </head>
-<body class='page {{page.bodyClass}}'>
+<body class='page {{page.bodyClass}}' bgcolor="#F9F9F9">
   {% include main-menu-mobile.html %}
   <div id="wrapper" class="wrapper">
     {% include header.html headerClass='header-extra' %}
@@ -30,5 +37,11 @@
   <script type="text/javascript" src="{{ "/assets/js/scripts.js" | relative_url }}"></script>
   {% include google-analytics.html %}
   {% include baidu-analytics.html %}
+  <!--
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>-->
+  <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
+	
+
 </html>

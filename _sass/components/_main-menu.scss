@@ -8,14 +8,16 @@
     align-items: center;
     justify-content: flex-start;
     > li {
+      color: #ffffff;
       list-style: none;
-      font-size: 1rem;
+      font-size: 1.5rem;
+      //font-size: 1rem;
       > a {
         padding: 10px 12px 10px 12px;
         display: inline-block;
         font-weight: normal;
         text-decoration: none;
-        color: $primary;
+        color: #ffffff;
         &:hover {
           text-decoration: underline;
         }
