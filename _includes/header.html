@@ -1,12 +1,16 @@
 <div class='header' >
-  <div class="container" >
-    <div class="logo">
-      <a href="{{ site.baseurl }}"><img height="{{ site.logo.desktop_height }}" alt="{{ site.title }}" src="{{ site.logo.desktop | relative_url }}" /></a>
+  <div class="container" style="background:url(../images/logo/1_主页_头部背景.png);">
+    <div class='row'>
+      <div class="logo">
+       <a href="{{ site.baseurl }}"><img height="{{ site.logo.desktop_height }}" alt="{{ site.title }}" src="{{ site.logo.desktop | relative_url }}" /></a>
+     </div>
+     <div class="logo-mobile">
+       <a href="{{ site.baseurl }}"><img alt="{{ site.title }}" src="{{ site.logo.mobile | relative_url }}" /></a>
+     </div>
     </div>
-    <div class="logo-mobile">
-      <a href="{{ site.baseurl }}"><img alt="{{ site.title }}" src="{{ site.logo.mobile | relative_url }}" /></a>
-    </div>
+    <div class='row'>
     {% include main-menu.html %}
     {% include hamburger.html %}
+    </div>
   </div>
 </div>
