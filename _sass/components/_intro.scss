@@ -2,12 +2,12 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 60px;//60
+  padding-bottom: 0px;//60
   overflow: hidden;
   @include media-breakpoint-up(md) {
-    padding-top: 140px;
-    padding-bottom: 140px;
+    padding-top: 60px;//140
+    padding-bottom:0px;//140
   }
   h1 {
     color: $black;

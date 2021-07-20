@@ -1,12 +1,25 @@
 .footer {
   background: $footer-background-color;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 0px;//15
+  padding-bottom: 0px;//15
   .footer-inner {
+	padding-top: 15px;
     display: flex;
     justify-content: space-between;
-    flex-direction: column;
-    align-items: flex-start;
+    flex-direction: column; //column
+    align-items: flex-start;//flex-start
+    @include media-breakpoint-up(sm) {
+      justify-content: space-between;
+      flex-direction: row;
+      align-items: center;
+    }
+  }
+  .footer-inner-5 {
+	padding-top: 8px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column; //column
+    align-items: flex-start;//flex-start
     @include media-breakpoint-up(sm) {
       justify-content: space-between;
       flex-direction: row;
@@ -18,7 +31,7 @@
     font-size: 1.3rem;
     font-family: $font-family-heading;
     font-weight: bold;
-    margin-bottom: 10px;
+    margin-bottom: 10px;//10
     @include media-breakpoint-up(sm) {
       margin: 0;
     }
@@ -29,11 +42,11 @@
     padding: 0;
     li {
       color: $footer-text-color;
-      font-size: 1rem;
+      font-size: 1.5rem;
       a {
         color: $footer-text-color;
         text-decoration: none;
-        padding: 12px 14px 12px 0;
+        padding: 12px 14px 12px 0;//12px 14px 12px 0
         display: block;
         &:hover {
           text-decoration: underline;
@@ -50,7 +63,7 @@
       justify-content: flex-end;
       li {
         list-style: none;
-        margin-right: 10px;
+        margin-right: 10px;//10
         &:last-of-type {
           margin-right: 0;
         }

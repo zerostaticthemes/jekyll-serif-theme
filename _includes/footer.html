@@ -2,19 +2,41 @@
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <div class="footer-inner">
-          <h3 class="footer-title">{{site.title}}</h3>
-          <ul>
-            {% assign footermenu = site.data.menus.footer | sort: 'weight'  %}
-            {% for item in footermenu %}
-            <li class="{% if item.url == page.url %}active{% endif %}">
-              <a href="{{ item.url | relative_url }}">{{ item.name }}</a>
-            </li>
-            {% endfor %}
-          </ul>
-         <!--<script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=100&t=tt&d=x93krhc5ecdKoQKiHZBkbBTM7KGjKckVSMlrBUrMrI4&co=2d78ad&ct=ffffff&cmo=3acc3a&cmn=ff5353"></script> 
-       --> </div>
-      </div>
+		<div class="row">
+			 <div class="header-logo col-4">
+				<div class="logo">
+					<img  style="height: auto; width: 300px; float: left;" alt="{{ site.title }}" src="{{base_url}}/images/logo/2_主页_头部hitLOGO.png" />
+				</div>
+			 </div>
+       
+      <!--
+      <div class="col-12">-->
+			 <div class="col-4">
+				<div class="footer-inner-5">
+                {% if site.data.social %}
+                   {% include social.html %}
+                {% endif %}
+				</div>
+			 </div>
+          
+			 <div class="col-4">  
+		
+	  
+                 <div class="footer-inner">
+				 
+					<h3 class="footer-title"></h3>
+					<ul>
+						{% assign footermenu = site.data.menus.footer | sort: 'weight'  %}
+						{% for item in footermenu %}
+					<li class="{% if item.url == page.url %}active{% endif %}">
+					<a href="{{ item.url | relative_url }}">{{ item.name }}</a>
+					</li>
+						{% endfor %}
+					</ul>
+				 </div>
+			 </div>
+		</div>
+	  </div>
     </div>
   </div>
 </div>

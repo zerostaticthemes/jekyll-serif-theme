@@ -3,8 +3,8 @@ layout: default
 bodyClass: page-team-list
 ---
 
-<div class="intro">
-    <div class="container">
+
+    <div class="container pb-5 pt-3 pt-md-3 pb-md-5" style="background:#f9f9f9;">
         <div class="row justify-content-start">
             <div class="col">
             <!--<div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">-->
@@ -17,9 +17,11 @@ bodyClass: page-team-list
             {% endif %}
         </div>
     </div>
-</div>
+
 <!--<div class="container pt-6 pb-6">-->
-<div class="container pt-0 pb-6">
+<div class="container pt-0 pb-6" style="background:#f9f9f9;" onselectstart="return false">
+	<h2> </h2>
+	<h2> </h2>
     <h2><b>教授</b></h2>
     <div class="row">
         {% assign promoted_teams = site.team | where: "promoted", true| where: "prof", true | sort: "weight" %}
@@ -35,7 +37,7 @@ bodyClass: page-team-list
                     <h2 class="team-name"><a href="{{ team.url | relative_url }}">{{ team.title }}</a></h2>
                     <p class="team-description">{{ team.jobtitle }}</p>
                     
-                    <img alt="" class="img-fluid mb-2" src="{{ team.email | relative_url }}" width="30%" />
+                   <!-- <img alt="" class="img-fluid mb-2" src="{{ team.email | relative_url }}" width="10%" />-->
                     {% if team.linkedinurl %}
                     <a target="_blank" href="{{ team.linkedinurl }}">LinkedIn</a>
                     {% endif %}
