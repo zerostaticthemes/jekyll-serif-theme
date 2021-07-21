@@ -1,7 +1,7 @@
 baseurl: '/'
 permalink: pretty
-title: '智能感知机器人实验室'
-lab: 'Intelligent Perception Robotic Lab'
+title: '机器人视觉与自动化实验室'
+lab: 'Vision based automation science and engineering'
 
 google_analytics_id: ""
 baidu_analytics_id: "ed33d03fa163ca0f90c97f458e4659fa"
@@ -14,14 +14,19 @@ logo:
   #desktop: "images/logo/Logo.png"
   mobile: "images/logo/logo-mobile.png"
   desktop: "images/logo/logo.png"
+  chinese: "images/logo/3_主页_头部“视觉机器人自动化实验室”.png"
+  english: "images/logo/4_主页_头部英文题目.png"
+  headw: "images/logo/5_主页_头部白色竖条.png"
   desktop_height: "72px"
+  foot_height: "36px"
+  chinese_height: "48px"
   #desktop_height: "36px"
 
 footer:
   copyright_text: '粤ICP备2021094001号</a>'
 
 seo:
-  meta_og_title: "智能感知机器人实验室"
+  meta_og_title: "机器人视觉与自动化实验室"
   meta_og_type: "website"
   meta_og_url: "https://www.hitsz-robotic.top"
   meta_og_image: ""
