@@ -1,0 +1,23 @@
+<div id="newsid" class="col-sm-4">
+  <div class="well" style="background: #f9f9f9; border: 1px solid #f9f9f9">
+    <h3 class="text-center">News</h3>
+    <div style="border: 1px solid #0d4880; background: #0d4880"></div>
+    <div style="border: 5px solid #f9f9f9"></div>
+
+    {% for new in site.categories.news | limit:5 %}
+    <div class="border-bottom pt-1 pb-1">
+      <div style="font-size: small" class="pb-1">{{ new.date | date:'%Y, %m. %d' }}</div>
+      <div>{{ new.title }}</div>
+      <div class="text-right">[ <a href=" {{new.url}} "> 阅读更多 </a> ]</div>
+    </div>
+    {% endfor %}
+    <div class="row">
+      <figure class="fourth">
+        <p></p>
+        <img
+          src="//clustrmaps.com/map_v2.png?cl=3989eb&w=300&t=tt&d=x93krhc5ecdKoQKiHZBkbBTM7KGjKckVSMlrBUrMrI4&co=f9f9f9&ct=808080"
+        />
+      </figure>
+    </div>
+  </div>
+</div>
