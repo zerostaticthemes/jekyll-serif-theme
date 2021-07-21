@@ -3,8 +3,9 @@ layout: default
 bodyClass: page-team-list
 ---
 
+<script src="https://code.jquery.com/jquery-1.8.2.min.js" integrity="sha256-9VTS8JJyxvcUR+v+RTLTsd0ZWbzmafmlzMmeZO9RFyk=" crossorigin="anonymous"></script>
 
-    <div class="container pb-5 pt-3 pt-md-3 pb-md-5" style="background:#f9f9f9;">
+    <div class="container pb-5 pt-3 pt-md-3 pb-md-5" style="background:#ffffff;">
         <div class="row justify-content-start">
             <div class="col">
             <!--<div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">-->
@@ -19,10 +20,64 @@ bodyClass: page-team-list
     </div>
 
 <!--<div class="container pt-6 pb-6">-->
-<div class="container pt-0 pb-6" style="background:#f9f9f9;" onselectstart="return false">
+<div class="container pt-0 pb-6"  >
+  <div class="row" >
+	<div class="col-3">
+			<div class="row" style="height:140px">
+				
+				<div class="nav-bar-team" >
+				
+				<img
+                style="height: auto"
+                width="67px"
+                alt="{{ site.title }}"
+                src="{{ site.baseurl }}{{ site.logo.pubBg }}"
+				/>
+				<div class="img-tip">{{page.title}}</div>
+				</div>
+				
+			</div>
+			<div class="row">
+				<div class="left-nav">
+					<div class="right">
+						<ul>
+							
+						
+							<li>
+								<span><a href="#prof">副教授</a></span>	
+							</li>
+							
+							<li>
+								<span><a href="#ra">科研助理</a></span>								
+							</li>
+							
+							<li>
+								<span><a href="#phd">博士生</a></span>								
+							</li>
+							
+							<li>
+								<span><a href="#master">硕士研究生</a></span>								
+							</li>
+							
+							<li>
+								<span><a href="#grad">本科生</a></span>								
+							</li>
+							
+							<li>
+								<span><a href="#biye">毕业生</a></span>								
+							</li>
+						</ul>
+					</div>
+				</div>
+
+			</div>
+	
+	</div>
+   <div class="col-9">
 	<h2> </h2>
 	<h2> </h2>
-    <h2><b>教授</b></h2>
+	<div class="" id="prof"></div>
+    <h2><b>副教授</b></h2>
     <div class="row">
         {% assign promoted_teams = site.team | where: "promoted", true| where: "prof", true | sort: "weight" %}
         {% for team in promoted_teams %}
@@ -47,6 +102,7 @@ bodyClass: page-team-list
         </div>
         {% endfor %}
     </div>
+	<div class="" id="ra"></div>
     <h2><b>科研助理</b></h2>
     <div class="row">
         {% assign promoted_teams = site.team | where: "ra", true | where: "promoted", true | sort: "weight" %}
@@ -72,6 +128,7 @@ bodyClass: page-team-list
         </div>
         {% endfor %}
     </div>
+	<div class="" id="phd"></div>
     <h2><b>博士生</b></h2>
     <div class="row">
         {% assign promoted_teams = site.team | where: "doc", true | where: "promoted", true| sort: "weight" %}
@@ -97,6 +154,7 @@ bodyClass: page-team-list
         </div>
         {% endfor %}
     </div>
+	<div class="" id="master"></div>
     <h2><b>硕士研究生</b></h2>
     <div class="row">
         {% assign promoted_teams = site.team | where: "master", true | where: "promoted", true|  sort: "weight" %}
@@ -122,6 +180,7 @@ bodyClass: page-team-list
         </div>
         {% endfor %}
     </div>
+	<div class="" id="grad"></div>
     <h2><b>本科生</b></h2>
     <div class="row">
         {% assign promoted_teams = site.team | where: "promoted", true| where: "grad", true | sort: "weight" %}
@@ -147,6 +206,7 @@ bodyClass: page-team-list
         </div>
         {% endfor %}
     </div>
+	<div class="" id="biye"></div>
     <h2><b>毕业生</b></h2>
     <div class="row pt-6 pb-6">
         {% assign teams = site.team | where: "promoted", empty | sort: "weight" %}
@@ -166,4 +226,20 @@ bodyClass: page-team-list
         </div>
         {% endfor %}
     </div>
+  </div>
 </div>
+
+<script>
+//鼠标移入区域时
+$('.left-nav .right ul li').mouseenter(function(){
+    $(this).css({'background':'#3F6299'});
+    $(this).find('div').css({'background':'#fff'}).show();//显示div
+    $('.div2').not($(this).find('div')).hide();
+    $('.left-nav .right ul li').not($(this)).css({'background':'#fff'});
+});
+//鼠标移除区域时
+$('.left-nav .right ul li').mouseleave(function(){
+    $(this).find('div').hide();//隐藏div
+    $(this).css({'background':'#fff'})
+});
+</script>

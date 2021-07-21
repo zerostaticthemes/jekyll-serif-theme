@@ -7,6 +7,7 @@
 //$secondary: #f88379;
 //$primary: #337ab7;
 $primary: #0d4880;
+//$primary: #3F6299;
 $secondary: #e0e8f3;
 $black: #2f2f41;
 $white: #ffffff;
@@ -62,7 +63,11 @@ $sub-footer-text-color: $white;
 @import 'components/strip';
 @import 'components/feature';
 @import 'components/social';
-
+@import 'components/left-nav';
+@import 'components/nav-bar';
+@import 'components/nav-bar-pub';
+@import 'components/nav-bar-teach';
+@import 'components/nav-bar-team';
 // Pages
 @import 'pages/home';
 @import 'pages/team/team-summary';

@@ -17,6 +17,8 @@ logo:
   chinese: "images/logo/3_主页_头部“视觉机器人自动化实验室”.png"
   english: "images/logo/4_主页_头部英文题目.png"
   headw: "images/logo/5_主页_头部白色竖条.png"
+  reaBg: "images/logo/12_研究内容_左侧校徽背景.png"
+  pubBg: "images/logo/13_论文与项目_左侧校徽背景.png"
   desktop_height: "72px"
   foot_height: "36px"
   chinese_height: "48px"

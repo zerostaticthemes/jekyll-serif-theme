@@ -10,6 +10,7 @@ bodyClass: page-about
 
 # 研究内容
 --------
+<div class="" id="rou"></div>
 ## 机器人柔软体操作
 <!--table 2-->
 <!--<h3 id="soft-manipulation">机器人柔性体操作</h3>-->
@@ -108,7 +109,7 @@ bodyClass: page-about
 </html>
 --------------
 <!--table 2-->
-
+<div class="" id="jian"></div>
 ## 建筑机器人
 <!--<h3 id="soft-manipulation">建筑机器人</h3>-->
 <p>目前在建筑装修行业正面临着人力成本高昂，人员日益匮乏的局面。在我国，建筑行业员工流动性强，农民工居多的特点导致施工质量控制困难。针对这些问题，本研究方向研究实现机器人自主建筑施工所需相关技术。主要研究内容包括<strong>自主移动施工平台的设计、建筑场景下移动机器人的导航定位，基于传感器反馈的自主装修施工作业、建筑环境的感知技术</strong>。</p>
@@ -217,6 +218,7 @@ bodyClass: page-about
 
 --------------
 <!--table 3-->
+<div class="" id="zhua"></div>
 ## 机器人抓取
 
 <p>本研究方向主要面向<strong>物流</strong>及<strong>工业装配</strong>领域的应用需求，研究<strong>堆叠状态下物品的抓取方法</strong>及<strong>基于简单机构的零件在手操作方法（In-Hand Manipulation）</strong>。</p>

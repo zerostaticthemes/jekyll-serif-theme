@@ -1,13 +1,13 @@
 ---
 title: 'Publications & Projects'
 date: 2018-02-22T17:01:34+07:00
-layout: page
+layout: page-publication
 bodyClass: page-about
 ---
 
-
-## 论文成果
-
+<div class="" id="publication"></div>
+# 论文成果
+------------------
 ### 2021
 - Guo Yuhao, Xin Jiang*, and Yunhui Liu, "Deformation Control of a Deformable Object Based on Visual and Tactile Feedback”. 2021 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Prague, Czech. (accept）  
 - Shu Miao, Dayuan Chen, Qiang Nie, Xin Jiang, Xulin Sun, Jianjun Dai, Yunhui Liu, Xiang LI, "Development of a Vision-Based Robotic Manipulation System for Transferring of Oocytes", 2021 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Prague, Czech. (accept）
@@ -66,6 +66,7 @@ bodyClass: page-about
 ### 2015
 - Xin Jiang*, Yuki Nagaoka, Kazushi Ishi, Satoko Abiko, Teppei Tsujita, Masaru Uchiyama, "Robotized Recognition of a Wire Harness Utilizing Tracing Operation", Robotics and Computer Integrated Manufacturing, Vol.34, pp.52-61, 2015. (SCI)
 
+<div class="" id="projects"></div>
 ## 科研项目
 
 - 2019-2022 国家自然科学基金 面上项目 “随机场景下线状柔性体自动拓扑形态操作的实现方法”， 课题负责人

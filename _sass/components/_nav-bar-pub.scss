@@ -1,0 +1,31 @@
+.nav-bar-pub{
+			position: relative;  
+			//align-items: center;
+			display: inline-block;
+			width: 195px;
+			//height:300px;
+			
+  
+ 
+ .img-tip{
+	//position: absolute;  
+	bottom: 0;  
+	//background: #333;  
+	color: #ffffff;  
+	//opacity: 0.6;  
+	//display: none;
+	text-align: center;
+	width: 100%;  
+	font-size: 28px;
+	position: relative;
+	//top:50%;
+	transform:translateY(-120%);
+	
+ }
+
+}
+ .img-group:hover .img-tip {  
+				display: block;  
+				width: 100%;  
+				text-align: center;
+}
