@@ -1,36 +1,46 @@
-<div class="" style="background: url(../images/logo/1_主页_头部背景.png)">
-  <div class="header">
+<div class="header" style="background: url(../images/logo/1_主页_头部背景.png)">
+  <div class="header-logo">
     <div class="container border-bottom">
       <div class="row pt-2 pb-2">
-        <div class="header-logo col-sm-12 col-md-5">
+        <div class="col-sm-12 col-md-5">
           <div class="logo">
-            <a href="{{ site.baseurl }}" style="border-right:5px solid #fff;"
+            <a href="{{ site.baseurl }}" style="border-right: 5px solid #fff"
               ><img
-                style="width: auto; "
+                style="width: auto"
                 height="67px"
                 alt="{{ site.title }}"
                 src="{{ site.logo.desktop }}"
-                
-            /></a>
-          </div>
-          <div class="logo-mobile">
-            <a href="{{ site.baseurl }}"
-              ><img
-                alt="{{ site.title }}"
-                src="{{ site.logo.mobile }}"
             /></a>
           </div>
         </div>
 
         <div class="col-sm-12 col-md-7 blog-item-wrapper">
-          <img src="{{base_url}}/images/logo/标题.png" style="height: auto; width: 500px; float: right;" alt="" class="pb-1">
-          <img src="{{base_url}}/images/logo/标题-en.png" style="height: auto; width: 500px; float: right;" alt="">
+          <!-- <img
+            src="{{base_url}}/images/logo/标题.png"
+            style="height: auto; width: 500px; float: right"
+            alt=""
+            class="pb-1"
+          />
+          <img
+            src="{{base_url}}/images/logo/标题-en.png"
+            style="height: auto; width: 500px; float: right"
+            alt=""
+          /> -->
+          <div class="text-right">
+            <div class="text-white" style="font-size:xx-large;">视觉机器人自动化实验室</div>
+            <h3 class="text-white">Vision based automation science and engineering</h3>
+          </div>
         </div>
       </div>
     </div>
   </div>
   <div class="container">
-    <div class="row">
+    <div class="navigator">
+      <div class="logo-mobile">
+        <a href="{{ site.baseurl }}"
+          ><img alt="{{ site.title }}" src="{{ site.logo.mobile }}"
+        /></a>
+      </div>
       <div class="nav">
         {% include main-menu.html %} {% include hamburger.html %}
       </div>
