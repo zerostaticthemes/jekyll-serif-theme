@@ -3,6 +3,8 @@ title: 'Robert Johnson'
 date: 2018-12-20T13:44:23+10:00
 draft: false
 image: 'images/team/vince-fleming-613817-unsplash.jpg'
+image_width: 60
+image_height: 60
 jobtitle: 'Developer'
 linkedinurl: "https://www.linkedin.com/"
 weight: 3
