@@ -30,7 +30,7 @@ defaults:
 
 sass:
   indentWidth: 4
-  style: compact # possible values: nested expanded compact compressed
+  style: compressed # possible values: nested expanded compact compressed
   precision: 10
 
 plugins:

@@ -26,7 +26,7 @@ bodyClass: "page-teams"
             <div class="team team-summary team-summary-large">
                 {% if team.image %}
                 <div class="team-image">
-                    <img width="{{ team.image_width }}" height="{{ team.image_height }}" alt="{{ team.title }}" class="img-fluid mb-2" src="{{ team.image | relative_url }}" />
+                    <img width="90" height="90" alt="{{ team.title }}" class="img-fluid mb-2" src="{{ team.image | relative_url }}" />
                 </div>
                 {% endif %}
                 <div class="team-meta">
@@ -48,7 +48,7 @@ bodyClass: "page-teams"
             <div class="team team-summary">
                 {% if team.image %}
                 <div class="team-image">
-                    <img width="{{ team.image_width }}" height="{{ team.image_height }}" alt="{{ team.title }}" class="img-fluid mb-2" src="{{ team.image | relative_url }}" />
+                    <img width="60" height="60" alt="{{ team.title }}" class="img-fluid mb-2" src="{{ team.image | relative_url }}" />
                 </div>
                 {% endif %}
                 <div class="team-meta">
