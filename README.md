@@ -74,15 +74,21 @@ This theme has been tested to work with Github Pages (and Github Project Pages).
 
 For example the site https://zerostaticthemes.github.io/jekyll-serif-theme would have `baseurl: "/jekyll-serif-theme/"`
 
-## Other
+## License & Credits
 
 ### Credits
 
 - Beautiful royalty free Illustrations by Icons8 - https://icons8.com/illustrations/style--pixeltrue
+- Stock images by Unsplash - https://unsplash.com/
+- Feature icons by Noun Project - https://thenounproject.com/
 
 ### License
 
-This theme is open source under the MIT license. Please be respectful 🙏🏽
+This theme is open source under the MIT license. Please be respectful 🙏🏽 Leave me as an original author in the LICENSE file if you fork or copy this theme. 
 
-* If you fork or copy this theme please leave me as an original author in the LICENSE file on line 3 where I am listed as the author.
-* Please don't create ports of this theme without at least asking me. Yes this theme is open-source but I've had several people "port" this theme (with only minor changes) and then advertise the theme as their own. Then they don't update it and it starts to get old and break etc. Now lots of people are finding these old crappy versions of the theme.
+> Do not create ports of this theme. Do You can't re-distribute or re-sell this theme as a theme, stock, in a tool or as a template.
+
+### Other Versions
+
+- [Hugo Serif Theme](https://github.com/zerostaticthemes/hugo-serif-theme) (official)
+- [Gatsby Serif Theme](https://github.com/zerostaticthemes/gatsby-serif-theme) (official)

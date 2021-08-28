@@ -1,6 +1,6 @@
 ---
 layout: default
-bodyClass: page-team-list
+bodyClass: "page-teams"
 ---
 
 <div class="intro">
@@ -26,14 +26,14 @@ bodyClass: page-team-list
             <div class="team team-summary team-summary-large">
                 {% if team.image %}
                 <div class="team-image">
-                    <img alt="{{ team.title }}" class="img-fluid mb-2" src="{{ team.image | relative_url }}" />
+                    <img width="90" height="90" alt="{{ team.title }}" class="img-fluid mb-2" src="{{ team.image | relative_url }}" />
                 </div>
                 {% endif %}
                 <div class="team-meta">
                     <h2 class="team-name"><a href="{{ team.url | relative_url }}">{{ team.title }}</a></h2>
                     <p class="team-description">{{ team.jobtitle }}</p>
                     {% if team.linkedinurl %}
-                    <a target="_blank" href="{{ team.linkedinurl }}">LinkedIn</a>
+                    <a target="_blank" href="{{ team.linkedinurl }}" rel="noreferrer">LinkedIn</a>
                     {% endif %}
                 </div>
                 <div class="team-content">{{ team.content | truncate: 120 }}</div>
@@ -48,7 +48,7 @@ bodyClass: page-team-list
             <div class="team team-summary">
                 {% if team.image %}
                 <div class="team-image">
-                    <img alt="{{ team.title }}" class="img-fluid mb-2" src="{{ team.image | relative_url }}" />
+                    <img width="60" height="60" alt="{{ team.title }}" class="img-fluid mb-2" src="{{ team.image | relative_url }}" />
                 </div>
                 {% endif %}
                 <div class="team-meta">

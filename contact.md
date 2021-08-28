@@ -1,7 +1,7 @@
 ---
 title: Contact
 layout: contact
-bodyClass: page-contact
+description: Contact
 ---
 
 끌밋은 모두가 쉽게 사용할 수 있는 도구가 되기 위해 매일 매일 노력하고 있습니다.

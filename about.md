@@ -2,6 +2,7 @@
 title: 'About'
 date: 2021-06-05T09:09:39+09:00
 layout: page
+description: About
 bodyClass: page-about
 ---
 
