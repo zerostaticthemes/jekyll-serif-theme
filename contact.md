@@ -1,16 +1,15 @@
 ---
-title: Contact
+title: Contact Us
 layout: contact
 bodyClass: page-contact
 ---
 
-Lorem markdownum aequalis strigis. Saetigeri iubeas, vultu huic alvum nondum de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae crimen habet Priamum nec.
+끌밋은 모두가 쉽게 사용할 수 있는 도구가 되기 위해 매일 매일 노력하고 있습니다.
 
-| Day       | Opening Hours   |
-| --------- | --------------- |
-| Tuesday   | 8:30am - 5:00pm |
-| Wednesday | 8:30am - 5:00pm |
-| Thursday  | 8:30am - 5:00pm |
-| Friday    | 8:30am - 5:00pm |
-| Saturday  | 10:am - 4:00pm  |
-| Saturday  | Closed          |
+우리는 최신 기술을 쉽게 활용할 수 있는 친숙한 서비스로 제공하기 위해 부단히 변화하고, 
+이용자와 함께 호흡하며 항상 새로운 도전을 시도합니다.
+
+우리는 Tool Box으로서 기술과 데이터를 기반으로 비즈니스가 지속 가능한 환경을 제공하며, 
+파트너들의 안정적인 사업과 지속 가능한 사업을 위해 함께 노력하겠습니다.
+
+당신을 응원합니다. 
