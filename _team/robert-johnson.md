@@ -5,6 +5,7 @@ draft: false
 image: "images/team/vince-fleming-613817-unsplash.jpg"
 jobtitle: "Developer"
 linkedinurl: "https://www.linkedin.com/"
+promoted: false
 weight: 3
 ---
 

@@ -5,6 +5,7 @@ draft: false
 image: "images/team/joseph-gonzalez-399972-unsplash.jpg"
 jobtitle: "Art Director"
 linkedinurl: ""
+promoted: false
 weight: 3
 ---
 
