@@ -5,6 +5,8 @@ Serif is a modern business theme for Jekyll. It contains multiple content types 
 [Live Demo](https://jekyll-serif.netlify.app/) | 
 [Zerostatic Themes](https://www.zerostatic.io)
 
+<a href="https://www.buymeacoffee.com/zerostatic" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+
 ![Jekyll Serif Theme screenshot](https://www.zerostatic.io/theme/jekyll-serif/jekyll-serif-screenshot.png)
 
 ### Theme features
@@ -76,21 +78,22 @@ This theme has been tested to work with Github Pages (and Github Project Pages).
 
 For example the site https://zerostaticthemes.github.io/jekyll-serif-theme would have `baseurl: "/jekyll-serif-theme/"`
 
-## License & Credits
+## Extras
 
-### Credits
+### License
+
+- You cannot create ports of this theme
+- You cannot re-sell this theme
+
+### Credits 
 
 - Beautiful royalty free Illustrations by Icons8 - https://icons8.com/illustrations/style--pixeltrue
 - Stock images by Unsplash - https://unsplash.com/
 - Feature icons by Noun Project - https://thenounproject.com/
 
-### License
+### Other Jekyll Themes by Zerostatic
 
-This theme is open source under the MIT license. Please be respectful 🙏🏽 Leave me as an original author in the LICENSE file if you fork or copy this theme. 
+- [Jekyll Serif](https://github.com/zerostaticthemes/jekyll-serif-theme)
+- [Jekyll Advance](https://www.zerostatic.io/theme/jekyll-advance/)
 
-> Do not create ports of this theme. Do You can't re-distribute or re-sell this theme as a theme, stock, in a tool or as a template.
-
-### Other Versions
-
-- [Hugo Serif Theme](https://github.com/zerostaticthemes/hugo-serif-theme) (official)
-- [Gatsby Serif Theme](https://github.com/zerostaticthemes/gatsby-serif-theme) (official)
+🇦🇺 **Made in Australia** by Robert Austin - Support our work - **Star this repo** ⭐
