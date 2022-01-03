@@ -61,12 +61,6 @@ bundle exec jekyll build
 
 ## Deployment
 
-### Stackbit
-
-Use Stackbit to deploy this theme. This theme contains a valid and tested `stackbit.yaml`
-
-[![Create with Stackbit](https://assets.stackbit.com/badge/create-with-stackbit.svg)](https://app.stackbit.com/create?theme=https://github.com/zerostaticthemes/jekyll-serif-theme)
-
 ### Netlify
 
 Use Netlify to deploy this theme. This theme contains a valid and tested `netlify.toml` - Feel free to use the 1-click deploy below.
@@ -96,4 +90,4 @@ For example the site https://zerostaticthemes.github.io/jekyll-serif-theme would
 - [Jekyll Serif](https://github.com/zerostaticthemes/jekyll-serif-theme)
 - [Jekyll Advance](https://www.zerostatic.io/theme/jekyll-advance/)
 
-🇦🇺 **Made in Australia** by Robert Austin - Support our work - **Star this repo** ⭐
+🇦🇺 **Made in Australia** by Robert Austin - leave a star mate!
