@@ -20,8 +20,7 @@ Serif is a modern business theme for Jekyll. It contains multiple content types 
 - Responsive design
 - Responsive hamburger and slide in menu
 - Bootstrap 4.6
-- Only the bootstrap grid and utilites are imported by default. If you want to use more of the Boostrap library you can uncomment the `@import` in `style.scss`
-- 100/100 Google Lighthouse speed score
+- Only the bootstrap grid, utilites,forms and buttons are imported by default. If you want to use more of the Boostrap library you can uncomment the `@import` in `style.scss`
 - 100/100 Google Lighthouse seo score
 - 100/100 Google Lighthouse accessibility score
 - 100/100 Google Lighthouse best practices score
@@ -60,6 +59,14 @@ bundle exec jekyll build
 ```
 
 ## Deployment
+
+## Forms
+[fabform.io](https://fabform.io)
+
+```
+Navigate to https://fabform.io, create an account and endpoint.
+In _layouts/contact.html, replace {insert-endpoint-here} with your new fabform.io endpoint id.
+```
 
 ### Netlify
 
