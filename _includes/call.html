@@ -3,6 +3,8 @@
     {% if site.data.contact.phone %}
         <div class="call-phone"><strong>Phone: </strong> {{ site.data.contact.phone }} </div>
     {% endif %}
+    <br>
+
     {% if site.data.contact.email %}
     <div class="call-email"><strong>Email: </strong>
       <a href="mailto:{{ .site.data.contact.email }}">
@@ -10,6 +12,17 @@
       </a>
     </div>
     {% endif %}
+    <br>
+
+    {% if site.data.contact.calendly %}
+    <div class="call-email"><strong>Calendly: </strong>
+      <a href="{{ .site.data.contact.calendly }}">
+        {{ site.data.contact.calendly }}
+      </a>
+    </div>
+    {% endif %}
+    <br>
+
   </div>
     {% if include.show_button %}
       <div class="call-box-bottom">
