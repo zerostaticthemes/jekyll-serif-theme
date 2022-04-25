@@ -33,8 +33,12 @@ sass:
   style: compressed # possible values: nested expanded compact compressed
   precision: 10
 
+url:
+  - "https://legal-crypto.github.io"
 plugins:
   - jekyll-environment-variables
+  - jekyll-sitemap
+
 
 exclude:
   - Gemfile
