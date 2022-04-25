@@ -1,5 +1,5 @@
-url:
-  - 'https://legal-crypto.github.io'
+#url:
+#  - 'https://legal-crypto.github.io'
 
 baseurl: ''
 permalink: pretty
