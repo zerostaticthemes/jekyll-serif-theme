@@ -1,4 +1,7 @@
-baseurl: '/'
+url:
+  - 'https://legal-crypto.github.io'
+
+baseurl: ''
 permalink: pretty
 title: 'Legal Crypto'
 
@@ -33,8 +36,6 @@ sass:
   style: compressed # possible values: nested expanded compact compressed
   precision: 10
 
-url:
-  - "https://legal-crypto.github.io"
 plugins:
   - jekyll-environment-variables
   - jekyll-sitemap
