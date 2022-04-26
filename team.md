@@ -1,12 +1,13 @@
 ---
-title: Team
+title: Equipo
 layout: teams
-description: Team
+description: Equipo
 permalink: "/team/"
 intro_image_absolute: true
 intro_image_hide_on_mobile: false
 ---
 
-# Meet The Team
+# Conoce a nuestro equipo
 
-Our team of qualified accountants and financial consultants can help you to manage your cryptoassets at any stage of it's growth.
+Nuestro equipo de abogados y consultores financieros te ayudará a administrar tus criptoactivos en cualquier etapa de tu viaje.
+

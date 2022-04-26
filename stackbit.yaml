@@ -185,7 +185,7 @@ models:
         label: Promoted
   contact:
     type: data
-    label: Contact
+    label: Contacto
     file: contact.yml
     fields:
       - type: string
@@ -193,7 +193,7 @@ models:
         label: Email
       - type: string
         name: phone
-        label: Phone
+        label: Télefono
       - type: string
         name: contact_button_link
         label: Contact Button Link

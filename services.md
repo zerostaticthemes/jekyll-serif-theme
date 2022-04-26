@@ -1,12 +1,12 @@
 ---
-title: Services
+title: Servicios
 layout: services
-description: Services
-intro_image: "images/illustrations/reading.svg"
+description: Servicios
+intro_image: "images/illustrations/sergi-andres.jpeg"
 intro_image_absolute: true
 intro_image_hide_on_mobile: true
 ---
 
-# Services that grow with your business
+# Servicios
 
-Aliquam erat volutpat. Morbi nisl tortor, dignissim eget efficitur vel, auctor non felis. Fusce quis viverra mi. Aenean quis massa pretium, ullamcorper nisi eget, hendrerit odio.
+Encuentra aquí todos los servicios que te ofrecemos para optimizar tu criptocartera. Ofrecemos servicios para todos los estados: desde tu iniciación como inversor, hasta la optimización del pago de impuestos. Además, también ofrecemos un servicio de consultoría personalizada. Sea cual sea tu duda, no dudes en ponerte en contacto con nosotros y te ayudaremos!

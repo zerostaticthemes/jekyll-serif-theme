@@ -1,13 +1,13 @@
 ---
-title: Jekyll Serif Theme
+title: Legal Crypto - Sergi Andrés
 layout: home
-description: Jekyll Serif contains content types for a typical business website. The theme is fully responsive, blazing fast and artfully illustrated.
-intro_image: "images/illustrations/pointing.svg"
-intro_image_absolute: true
+description: Si quieres sacar el máximo partido a tus criptomonedas, Legal Crypto es tu despacho.
+intro_image: false
+intro_image_absolute: false
 intro_image_hide_on_mobile: true
-show_call_box: true
+show_call_box: false
 ---
 
 # Sergi Andrés, Abogado Cripto.
 
-Let us help you to manage your cryptoassets. 
+Nuestra misión es ayudarte a administrar tus criptoactivos.

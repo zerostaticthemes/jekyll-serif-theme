@@ -10,4 +10,16 @@ weight: 1
 layout: team
 ---
 
-CryptoSaf AKA Fryyeeekkkk
+Experiencia
+
+- Innovation & Blockchain Manager en Abast Global, 2022 - actualmente
+- Innovation & Blockhain Laywer en Emindset Law, 2021 - 2022
+- Corporate Crime Manager en BPA, 2020 - 2021 
+- Corporate Crime Lawyer en RCD - Rousaud Costas Duran, 2015 - 2022
+
+Formación
+
+- Máster en Derecho por la Universitat d'Andorra
+- Máster en Derecho por la Universitat Oberta de Catalunya
+- Graduado en Derecho por la Universitat Autònoma de Barcelona
+
