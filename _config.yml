@@ -1,14 +1,11 @@
-#url:
-#  - 'https://legal-crypto.github.io'
-
 baseurl: ''
 permalink: pretty
-title: 'Legal Crypto'
+title: 'Abogado Cripto'
 
 logo:
   mobile: "images/logo/sergi-andres-logo.svg"
-  mobile_height: "64px"
-  mobile_width: "64px"
+  mobile_height: "128px"
+  mobile_width: "128px"
   desktop: "images/logo/sergi-andres-logo.svg"
   desktop_height: "128px"
   desktop_width: "240px"
