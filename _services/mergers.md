@@ -1,52 +1,86 @@
 ---
 title: "Mergers"
-date: 2018-11-28T15:15:34+10:00
-featured: true
-weight: 4
+date: 2019-02-28T15:15:34+10:00
+weight: 3
 ---
 
 Lorem markdownum aequalis strigis. Saetigeri iubeas, vultu huic alvum nondum
 de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae
 crimen habet Priamum nec.
 
-## Ne verba patulosque numen vix libet
+![Accounting Services](/images/austin-distel-nGc5RT2HmF0-unsplash.jpg)
 
-Agitabitur signa lympha; **non lacunae** mox cum tumulis quoque triste dictis.
-Ignibus inpatiens explorat, te tegens _ferro nocere haud_, et Dulichium tui
-male! Quo sed [fuit flexit et](#vexant-achivi) hic die solido, gloria?
+# Objectives
 
-1. Cum det dixit Parcarum qui spemque est
-2. Exit ex huic
-3. Quod consiste agitataque claustraque vicina videt lacertis
-4. Loquor videt
-5. Ardua non igne caelesti coniugis cognovi diversorum
-6. Per nunc pariterque saeva vindicet
+Financial accounting and financial reporting are often used as synonyms.
 
-Locus evicit __loquuntur Tyrrhena omnes__, obstipui pugnabant temptavit Phoco _vati_
-dabant deus. Memorata haberet sepulcrales gentisque dum sic, in flumina templa!
-Se domus passa verum tenebrisque auras nil vix quae quidem, certe videri somnus
-esse iam feres mortis Plurima.
+1. According to International Financial Reporting Standards: the objective of financial reporting is:
+2. To provide financial information that is useful to existing and potential investors, lenders and other creditors in making decisions about providing resources to the reporting entity.
+3. According to the European Accounting Association:
 
-## Postquam tamen
+## Relevance
 
-Et nec ingentem est minus faciunt praecipue posse auctoremque sedes transmittere
-et pedes miratur erat animaeque. Tellus admonuit humanam funes, sagittis et
-licet! Inserui quamvis Clymeni.
+Relevance is the capacity of the financial information to influence the decision of its users. The ingredients of relevance are the predictive value and confirmatory value. Materiality is a sub-quality of relevance.
 
-- Parens est studiisque interea
-- Pro istis mediis carnes iste nec imperat
-- Te vocas orat nisi quantumque castra
-- Gestumque crepuscula esse videntur coegit
-- Ambo videtque gerat aquae ferens vagina
-- Adde leviter faciam tetigisse regunt concava in
+> The ingredients of relevance are the predictive value and confirmatory value.
 
-Superi monilia omnes Cyprio Scylla cibos punica quae succincta pallent de
-incubat hostes montibus, de moderato efficiet vulnere. Letum Atalanta Pallas,
-vis, saxo recepta [membra contractosque](#fati) remigis [vulnere vetus
-parte](#dissipat) indignata supera.
+Information is considered material if its omission or misstatement could influence the economic decisions of users taken on the basis of the financial statements.
 
-Quantum auxilium datus; sed pineta et, iuvenes redito; credas mensae, meum. Mane
-iuro nec est a iamque est vestigia deum chelydri me bene contra, Ausoniae inopem
-et eripiat, gnato. Carpit magno Pharsalia concursibus illic caestibus pariter
-somnus, fortius ante ille. Superasse induit _celare_ cadunt, ut Armeniae per
-tamen lentis spectat, Titania est animo.
+## Faithful Representation
+
+Faithful representation means that the actual effects of the transactions shall be properly accounted for and reported in the financial statements. The words and numbers must match what really happened in the transaction. The ingredients of faithful representation are completeness, neutrality and free from error.
+
+## Enhancing Qualitative Characteristics
+
+### Verifiability
+
+Verifiability implies consensus between the different knowledgeable and independent users of financial information. Such information must be supported by sufficient evidence to follow the principle of objectivity.
+
+### Comparability
+
+Comparability is the uniform application of accounting methods across entities in the same industry. The principle of consistency is under comparability. Consistency is the uniform application of accounting across points in time within an entity.
+
+### Understandability
+
+Understandability means that accounting reports should be expressed as clearly as possible and should be understood by those to whom the information is relevant.
+Timeliness: Timeliness implies that financial information must be presented to the users before a decision is to be made.
+
+---
+
+## Statement of cash flows
+
+The statement of cash flows considers the inputs and outputs in concrete cash within a stated period. The general template of a cash flow statement is as follows: Cash Inflow - Cash Outflow + Opening Balance = Closing Balance
+
+| Cash Inflow | Outflow   | Opening Balance |
+| ----------- | --------- | --------------- |
+| _Monday_    | `Tuesday` | **Wednesday**   |
+| 1           | 2         | 3               |
+
+**Example 1:** in the beginning of September, Ellen started out with $5 in her bank account. During that same month, Ellen borrowed $20 from Tom. At the end of the month, Ellen bought a pair of shoes for $7. Ellen's cash flow statement for the month of September looks like this:
+
+- Cash inflow: $20
+- Cash outflow:$7
+- Opening balance: $5
+- Closing balance: $20 – $7 + $5 = $18
+
+**Example 2:** in the beginning of June, WikiTables, a company that buys and resells tables, sold 2 tables. They'd originally bought the tables for $25 each, and sold them at a price of $50 per table. The first table was paid out in cash however the second one was bought in credit terms. WikiTables' cash flow statement for the month of June looks like this:
+
+> **Important:** the cash flow statement only considers the exchange of actual cash, and ignores what the person in question owes or is owed.
+
+## Statement of financial position (balance sheet)
+
+The balance sheet is the financial statement showing a firm's assets, liabilities and equity (capital) at a set point in time, usually the end of the fiscal year reported on the accompanying income statement.
+
+- **fixed assets**
+  - property
+  - building
+  - equipment (such as factory machinery)
+- **intangible assets**
+  - copyrights
+  - trademarks
+  - patents
+    - pending
+    - international
+- goodwill
+
+Owner's equity, sometimes referred to as net assets, is represented differently depending on the type of business ownership. Business ownership can be in the form of a sole proprietorship, partnership, or a corporation. For a corporation, the owner's equity portion usually shows common stock, and retained earnings (earnings kept in the company). Retained earnings come from the retained earnings statement, prepared prior to the balance sheet.

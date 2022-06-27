@@ -1,12 +1,10 @@
 ---
 title: "Bill McDonald"
 date: 2018-11-19T10:47:58+10:00
-draft: false
 image: "images/team/nonsap-visuals-kMJp7620W6U-unsplash.jpg"
 jobtitle: "Graphic Designer"
 linkedinurl: ""
 weight: 7
-layout: team
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.

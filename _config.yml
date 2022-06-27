@@ -10,9 +10,13 @@ logo:
   desktop_height: "32px"
   desktop_width: "120px"
 
+home: 
+  limit_services: 6
+
 collections:
   services:
     output: true
+    sort_by: weight
   team:
     output: true
 
@@ -29,9 +33,7 @@ defaults:
       layout: "team"
 
 sass:
-  indentWidth: 4
   style: compressed # possible values: nested expanded compact compressed
-  precision: 10
 
 plugins:
   - jekyll-environment-variables

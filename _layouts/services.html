@@ -20,8 +20,7 @@ bodyClass: "page-services"
 
 <div class="container pt-6 pb-6">
   <div class="row">
-    {% assign weighted_services = site.services | sort: "weight" %}
-    {% for service in weighted_services %}
+    {% for service in site.services %}
     <div class="col-12 col-md-6 mb-3">
       <div class="service service-summary">
         <div class="service-content">
