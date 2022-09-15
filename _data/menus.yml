@@ -1,1 +1,12 @@
 main:
+  - name: "Team"
+    url: "/team/"
+    weight: 2
+
+footer:
+  - name: "Home"
+    url: "/"
+    weight: 1
+  - name: "Team"
+    url: "/team/"
+    weight: 2
