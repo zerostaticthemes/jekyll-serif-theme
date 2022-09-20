@@ -7,4 +7,5 @@ promoted: true
 weight: 1
 ---
 
-Just to test
+Did "analyst" for job title for now. 
+Need photos of group members.
