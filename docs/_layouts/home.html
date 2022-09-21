@@ -24,10 +24,49 @@ bodyClass: "page-home"
 
 <div class="strip">
   <div class="container pt-6 pb-6 pb-md-10">
-    <<div class="row justify-content-center">
+    <div class="row justify-content-start">
       <div class="col-auto">
-        <h2>AAAAAAAAAAAAAAAAAA</h2>
-        {{ team.content }}
+        <h1>Client</h1>
+        <div class="row justify-content-start">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="strip">
+  <div class="container pt-6 pb-6 pb-md-10">
+    <div class="row justify-content-start">
+      <div class="col-auto">
+        <h1>Project</h1>
+        <div class="row justify-content-start">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="strip">
+  <div class="container pt-6 pb-6 pb-md-10">
+    <div class="row justify-content-start">
+      <div class="col-auto">
+        <h1>Team members</h1>
+        <div class="row justify-content-start">
+          {% assign team = site.team  sort: "jobtitle" | sort: "title" %}
+          {% for member in team %}
+          <div class="col-12 col-md-6 mb-2">
+            <div class="service service-summary">
+              <div class="service-content">
+                <h2 class="service-title">
+                  <a href="{{ member.url | relative_url }}">{{ member.title }}</a>
+                </h2>
+                <h3>{{ member.jobtitle }} - {{ member.role }}</h3>
+                <p>{{ member.content | markdownify | strip_html | truncate: 120 }}</p>
+              </div>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
       </div>
     </div>
   </div>

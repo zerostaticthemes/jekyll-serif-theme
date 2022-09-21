@@ -1,16 +1,25 @@
 main:
+  - name: "Home"
+    url: "/"
+    weight: 1
   - name: "Project"
-    url: "/services/"
+    url: "/gantt/"
     weight: 2
   - name: "Team"
     url: "/team/"
     weight: 3
+  - name: "Meeting Notes"
+    url: "/meeting_notes/"
+    weight: 4
+  - name: "Client Meeting"
+    url: "/client_meetings/"
+    weight: 5
   - name: "About"
     url: "/about/"
-    weight: 4
+    weight: 6
   - name: "Contact"
     url: "/contact/"
-    weight: 5
+    weight: 7
 
 footer:
   - name: "Home"

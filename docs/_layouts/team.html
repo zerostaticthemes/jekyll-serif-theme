@@ -7,9 +7,18 @@ bodyClass: "page-team"
   <div class="row justify-content-start">
     <div class="col-12 col-md-8">
       <div class="team team-single">
-        <h1 class="title">{{page.title}}</h1>
+        <h1 class="service-title">{{page.title}}</h1>
+        <h3>{{page.jobtitle}}</h3>
+        {% if page.githuburl %}
+          <a target="_blank" href="{{ page.githuburl }}" rel="noreferrer">Github</a>
+        {% endif %}
         <div class="content">{{content}}</div>
       </div>
     </div>
+    {% if page.image %}
+      <div class="team-image">
+        <img width="90" height="90" alt="{{ page.title }}" class="img-fluid mb-2" src="{{ page.image | relative_url }}" />
+      </div>
+    {% endif %}
   </div>
 </div>
