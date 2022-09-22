@@ -8,10 +8,10 @@ intro_image_absolute: true
 intro_image_hide_on_mobile: false
 ---
 
-# Meet The Team
+# Meet Our Team
+
+
+Take a look at the teams and members behind **StudyUp** below.
 
 <br>
 <br>
-<br>
-<br>
-Our team of qualified system analysts can help your business at any stage of it's growth.

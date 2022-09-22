@@ -9,7 +9,7 @@ intro_image_hide_on_mobile: true
 
 # Client Meeting
 
-### Record of brief summaries from past meetings and interviews with clients.
+Record of brief summaries from past meetings and interviews with clients.
 
 ----
 ### September 27th, 2022
