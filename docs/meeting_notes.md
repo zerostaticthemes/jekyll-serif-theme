@@ -14,6 +14,8 @@ Record of every meeting.
 ## Sep 13th 2022
 - Discussed about ideas to present on the class.
 
+<br>
+<br>
 ## Sep 17th 2022
 - Assigned everyone a role as either an analyst or a client. 
 - The analysts will be working on a website
