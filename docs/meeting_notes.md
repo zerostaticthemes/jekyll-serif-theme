@@ -20,5 +20,3 @@ Record of brief summaries from past meetings/interactions with team members.
 #### September 17th, 2022
 + Discussion of role and team assignment for both website (Analystics Team) and RFP (Client Team).
   - Held Online via Zoom
-
-
