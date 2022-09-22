@@ -7,4 +7,4 @@ githuburl: "https://github.com/anthonygho"
 role: "Developer"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum arcu vitae elementum curabitur vitae nunc sed. Tortor at risus viverra adipiscing at in.
+Anthony Ho is a third-year Computer Science student at the University of Victoria. 
