@@ -1,87 +1,28 @@
 ---
 title: About
 layout: page
-description: About
+description: About Us
 bodyClass: page-about
 ---
 
-Lorem markdownum aequalis strigis. _Saetigeri iubeas_, vultu huic alvum nondum
-de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae
-crimen habet Priamum nec.
+## What Is '**[organization-name]**'?
 
-![Accounting Services](/images/thom-holmes-Lrfw0U_o9I0-unsplash.jpg)
+Founded by students from the University of Victoria (UVic) on September 9th, 2022; **[organization-name]**’s goal is to unify UVic’s existing study space booking systems under one centralized system that can be both filterable and easy to use for students.
 
-# Objectives
+This goal of ours was motivated by the lacking of a centralized study space booking system, with most of these current UVic systems fragmented across buildings; causing confusion or wasted time for students.
 
-Financial accounting and financial reporting are often used as synonyms.
+To approach this issue, [organization-name] intends to provide UVic students with our developed centralized website, [organization-name], for them to comfortably book study space rooms through.
 
-1. According to International Financial Reporting Standards: the objective of financial reporting is:
-2. To provide financial information that is useful to existing and potential investors, lenders and other creditors in making decisions about providing resources to the reporting entity.
-3. According to the European Accounting Association:
+![Accounting Services](/images/mcphersonLibraryandmearnscentrebooking.jpg)
+> Current Study Space Booking System for UVic's **McPherson Library**, **Mearns Centre**, and **Priestly Law Library**
 
-## Relevance
+## About **UVic**
 
-Relevance is the capacity of the financial information to influence the decision of its users. The ingredients of relevance are the predictive value and confirmatory value. Materiality is a sub-quality of relevance.
+The **University of Victoria** is one of the largest post-secondary institutions in British Columbia, with over twenty thousand undergraduate and graduate students enrolled. 
 
-> The ingredients of relevance are the predictive value and confirmatory value.
+In such a large university like this, it can be challenging for students to find study spaces on campus, especially with how complicated the university has made it; with its current set of systems being spread across different websites.
 
-Information is considered material if its omission or misstatement could influence the economic decisions of users taken on the basis of the financial statements.
+However, with a dedicated website for booking study spaces like **[organization-name]** where everything is centralized and filterable, the process could be streamlined considerably and made easier.
 
-## Faithful Representation
-
-Faithful representation means that the actual effects of the transactions shall be properly accounted for and reported in the financial statements. The words and numbers must match what really happened in the transaction. The ingredients of faithful representation are completeness, neutrality and free from error.
-
-## Enhancing Qualitative Characteristics
-
-### Verifiability
-
-Verifiability implies consensus between the different knowledgeable and independent users of financial information. Such information must be supported by sufficient evidence to follow the principle of objectivity.
-
-### Comparability
-
-Comparability is the uniform application of accounting methods across entities in the same industry. The principle of consistency is under comparability. Consistency is the uniform application of accounting across points in time within an entity.
-
-### Understandability
-
-Understandability means that accounting reports should be expressed as clearly as possible and should be understood by those to whom the information is relevant.
-Timeliness: Timeliness implies that financial information must be presented to the users before a decision is to be made.
-
----
-
-## Statement of cash flows
-
-The statement of cash flows considers the inputs and outputs in concrete cash within a stated period. The general template of a cash flow statement is as follows: Cash Inflow - Cash Outflow + Opening Balance = Closing Balance
-
-| Cash Inflow | Outflow   | Opening Balance |
-| ----------- | --------- | --------------- |
-| _Monday_    | `Tuesday` | **Wednesday**   |
-| 1           | 2         | 3               |
-
-**Example 1:** in the beginning of September, Ellen started out with $5 in her bank account. During that same month, Ellen borrowed $20 from Tom. At the end of the month, Ellen bought a pair of shoes for $7. Ellen's cash flow statement for the month of September looks like this:
-
-- Cash inflow: $20
-- Cash outflow:$7
-- Opening balance: $5
-- Closing balance: $20 – $7 + $5 = $18
-
-**Example 2:** in the beginning of June, WikiTables, a company that buys and resells tables, sold 2 tables. They'd originally bought the tables for $25 each, and sold them at a price of $50 per table. The first table was paid out in cash however the second one was bought in credit terms. WikiTables' cash flow statement for the month of June looks like this:
-
-> **Important:** the cash flow statement only considers the exchange of actual cash, and ignores what the person in question owes or is owed.
-
-## Statement of financial position (balance sheet)
-
-The balance sheet is the financial statement showing a firm's assets, liabilities and equity (capital) at a set point in time, usually the end of the fiscal year reported on the accompanying income statement.
-
-- **fixed assets**
-  - property
-  - building
-  - equipment (such as factory machinery)
-- **intangible assets**
-  - copyrights
-  - trademarks
-  - patents
-    - pending
-    - international
-- goodwill
-
-Owner's equity, sometimes referred to as net assets, is represented differently depending on the type of business ownership. Business ownership can be in the form of a sole proprietorship, partnership, or a corporation. For a corporation, the owner's equity portion usually shows common stock, and retained earnings (earnings kept in the company). Retained earnings come from the retained earnings statement, prepared prior to the balance sheet.
+![Accounting Services](/images/uvic1152-768.jpg)
+> Campus of the **University of Victoria**
