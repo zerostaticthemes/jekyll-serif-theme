@@ -1,6 +1,6 @@
 baseurl: '/'
 permalink: pretty
-title: 'Jekyll Serif'
+title: 'csc375-team8'
 
 logo:
   mobile: "images/logo/logo-mobile.svg"
@@ -10,8 +10,6 @@ logo:
   desktop_height: "32px"
   desktop_width: "120px"
 
-home: 
-  limit_services: 6
 
 collections:
   services:
