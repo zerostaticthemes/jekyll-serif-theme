@@ -1,7 +1,7 @@
 ---
 title: "Lore Schwartz"
 date: 2018-12-20T13:44:55+10:00
-image: "docs/images/Lore_Schwartz.jpg"
+image: "images/team/loreschwartzpfp.jpg"
 jobtitle: "Client"
 role: ""
 ---
