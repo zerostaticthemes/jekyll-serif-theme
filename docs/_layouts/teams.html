@@ -44,7 +44,7 @@ bodyClass: "page-teams"
                     <a target="_blank" href="{{ team.githuburl }}" rel="noreferrer">Github</a>
                     {% endif %}
                 </div>
-                <div class="team-content">{{ team.content | truncate: 120 }}</div>
+                <div class="team-content">{{ team.content | truncate: 200 }}</div>
             </div>
         </div>
         {% endfor %}
@@ -78,7 +78,7 @@ bodyClass: "page-teams"
                     <a target="_blank" href="{{ team.githuburl }}" rel="noreferrer">Github</a>
                     {% endif %}
                 </div>
-                <div class="team-content">{{ team.content | truncate: 120 }}</div>
+                <div class="team-content">{{ team.content | truncate: 200 }}</div>
             </div>
         </div>
         {% endfor %}
