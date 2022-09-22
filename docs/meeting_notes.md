@@ -9,15 +9,16 @@ intro_image_hide_on_mobile: true
 
 # Meeting Notes
 
-Record of every meeting.
+Record of brief summaries from past meetings/interactions with team members.
 
-## Sep 13th 2022
-- Discussed about ideas to present on the class.
+----
+#### September 13th, 2022
++ Discussion of potential ideas to consider as problems for class pitch.
+  - Held Online via Zoom
 
-<br>
-<br>
-## Sep 17th 2022
-- Assigned everyone a role as either an analyst or a client. 
-- The analysts will be working on a website
-- The clients will be working on the RFP
+----
+#### September 17th, 2022
++ Discussion of role and team assignment for both website (Analystics Team) and RFP (Client Team).
+  - Held Online via Zoom
+
 
