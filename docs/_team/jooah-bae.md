@@ -7,4 +7,4 @@ linkedinurl: "www.linkedin.com/in/jooahbae"
 role: "Developer"
 ---
 
-Jooah Bae is a third-year Health Information Science student at the University of Victoria. She previously worked as a system analyst at Vancouver Coastal Health Authority.
+Jooah Bae is a third-year health information science student at the University of Victoria. She previously worked as a system analyst at Vancouver Coastal Health.
