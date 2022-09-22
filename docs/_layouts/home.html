@@ -50,7 +50,7 @@ bodyClass: "page-home"
   <div class="container pt-6 pb-6 pb-md-10">
     <div class="row justify-content-start">
       <div class="col-auto">
-        <h1>Team members</h1>
+        <h1>Team Members</h1>
         <div class="row justify-content-start">
           {% assign team = site.team  sort: "jobtitle" | sort: "title" %}
           {% for member in team %}
@@ -61,7 +61,7 @@ bodyClass: "page-home"
                   <a href="{{ member.url | relative_url }}">{{ member.title }}</a>
                 </h2>
                 <h3>{{ member.jobtitle }} - {{ member.role }}</h3>
-                <p>{{ member.content | markdownify | strip_html | truncate: 120 }}</p>
+                <p>{{ member.content | markdownify | strip_html | truncate: 200 }}</p>
               </div>
             </div>
           </div>
