@@ -9,4 +9,15 @@ intro_image_hide_on_mobile: true
 
 # Client Meeting
 
-Record of every meeting with clients.
+Record of brief summaries from past meetings/interviews with clients.
+
+----
+#### September 27th, 2022
++ Meeting has not yet occured yet.
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
