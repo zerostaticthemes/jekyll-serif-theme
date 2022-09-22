@@ -13,4 +13,4 @@ Record of brief summaries from past meetings/interviews with clients.
 
 ----
 #### September 27th, 2022
-+ Meeting has not taken place yet.
++ Meeting has not yet occured yet.
