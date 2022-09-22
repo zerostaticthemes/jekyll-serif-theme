@@ -1,7 +1,7 @@
 ---
 title: "Jooah Bae"
 date: 2018-12-20T13:44:23+10:00
-image: "docs/images/team/Jooahpfp.jpg"
+image: "images/team/Jooahpfp.jpg"
 jobtitle: "Analyst"
 linkedinurl: "www.linkedin.com/in/jooahbae"
 role: "Developer"
