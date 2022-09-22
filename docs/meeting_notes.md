@@ -9,7 +9,7 @@ intro_image_hide_on_mobile: true
 
 # Meeting Notes
 
-### Record of brief summaries from past meetings and interactions with team members.
+Record of brief summaries from past meetings and interactions with team members.
 
 ----
 ### September 13th, 2022
