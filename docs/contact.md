@@ -4,10 +4,7 @@ layout: contact
 description: Contact
 ---
 
-TESTING !!
-
-
-Want to get in touch? Contact our email to chat with a member of our team. 
+Want to get in touch? We'd love to hear from you. Contact our email to chat with a member of our team. 
 
 | Day       | Opening Hours   |
 | --------- | --------------- |
