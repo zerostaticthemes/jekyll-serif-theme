@@ -16,4 +16,3 @@ We'd **love** to hear from you. Contact our email below to chat with a member of
 | Thursday  | 8:30am - 5:00pm |
 | Friday    | 8:30am - 5:00pm |
 | Saturday  | 10:00am - 4:00pm|
-<br>
