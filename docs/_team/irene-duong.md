@@ -2,7 +2,7 @@
 title: "Irene Duong"
 date: 2022-09-21
 image: "images/team/irenepfp.jpg"
-jobtitle: "Analyst"
+jobtitle: "Tech Lead"
 githuburl: "https://www.github.com/lapis2002"
 role: "Developer"
 ---

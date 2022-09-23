@@ -38,7 +38,8 @@ bodyClass: "page-home"
   <div class="container pt-6 pb-6 pb-md-10">
     <div class="row justify-content-start">
       <div class="col-auto">
-        <h1>Project</h1>
+        <h1><a href="/gantt">Project</a></h1>
+        <h3><a href="/gantt">StudyUp</a>’s goal is to unify UVic’s existing study space booking systems under one centralized system that can be both filterable and easy to use for students.</h3>
         <div class="row justify-content-start">
         </div>
       </div>
@@ -50,7 +51,7 @@ bodyClass: "page-home"
   <div class="container pt-6 pb-6 pb-md-10">
     <div class="row justify-content-start">
       <div class="col-auto">
-        <h1>Team members</h1>
+        <h1><a href="/team">Team members</a></h1>
         <div class="row justify-content-start">
           {% assign team = site.team | sort: "jobtitle" | sort: "title" %}
           {% for member in team %}
