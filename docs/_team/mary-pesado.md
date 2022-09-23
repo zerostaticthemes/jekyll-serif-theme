@@ -1,6 +1,6 @@
 ---
 title: "Mary Pesado"
-date: 2018-11-19T10:47:58+10:00
+date: 2022-09-21
 image: "images/team/marypfp.jpg"
 jobtitle: "Client"
 ---

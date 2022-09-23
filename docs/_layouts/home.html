@@ -26,8 +26,9 @@ bodyClass: "page-home"
   <div class="container pt-6 pb-6 pb-md-10">
     <div class="row justify-content-start">
       <div class="col-auto">
-        <h1>Client</h1>
+        <h1>Who are us?</h1>
         <div class="row justify-content-start">
+          <p>We are a group of Computer Science and Health Information Science at University of Victoria. Our goal is implement new tools and improving available tools to improve the experience of current and future students. </p>
         </div>
       </div>
     </div>
@@ -38,8 +39,10 @@ bodyClass: "page-home"
   <div class="container pt-6 pb-6 pb-md-10">
     <div class="row justify-content-start">
       <div class="col-auto">
-        <h1>Project</h1>
+        <h1>Our Client</h1>
         <div class="row justify-content-start">
+          <p>The University of Victoria is one of the largest post-secondary institutions in British Columbia, with over twenty thousand undergraduate and graduate students enrolled. In such a large university like this, it can be challenging for students to find study spaces on campus, especially with how complicated the university has made it; with its current set of systems being spread across different websites. However, with a dedicated website for booking study spaces like StudyUp where everything is centralized and filterable, the process could be streamlined considerably and made easier.</p>
+          <img alt="uvic" src="/images/uvic1152-768.jpg">
         </div>
       </div>
     </div>
@@ -50,9 +53,23 @@ bodyClass: "page-home"
   <div class="container pt-6 pb-6 pb-md-10">
     <div class="row justify-content-start">
       <div class="col-auto">
-        <h1>Team Members</h1>
+        <h1><a href="/gantt">Project</a></h1>
+        <p>Founded by students from the University of Victoria (UVic) on September 9th, 2022; <a href="/gantt">StudyUp</a>’s goal is to unify UVic’s existing study space booking systems under one centralized system that can be both filterable and easy to use for students.
+          This goal of ours was motivated by the lacking of a centralized study space booking system, with most of these current UVic systems fragmented across buildings; causing confusion or wasted time for students.
+          To approach this issue, StudyUp intends to provide UVic students with our developed centralized website, StudyUp, for them to comfortably book study space rooms through.</p>
+        <img alt="library_booking" src="/images/mcphersonLibraryandmearnscentrebooking.jpg">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="strip">
+  <div class="container pt-6 pb-6 pb-md-10">
+    <div class="row justify-content-start">
+      <div class="col-auto">
+        <h1><a href="/team">Team members</a></h1>
         <div class="row justify-content-start">
-          {% assign team = site.team  sort: "jobtitle" | sort: "title" %}
+          {% assign team = site.team | where: "jobtitle", "Analyst" | sort: "title" %}
           {% for member in team %}
           <div class="col-12 col-md-6 mb-2">
             <div class="service service-summary">
@@ -60,8 +77,22 @@ bodyClass: "page-home"
                 <h2 class="service-title">
                   <a href="{{ member.url | relative_url }}">{{ member.title }}</a>
                 </h2>
-                <h3>{{ member.jobtitle }} - {{ member.role }}</h3>
-                <p>{{ member.content | markdownify | strip_html | truncate: 300 }}</p>
+                <h3>{{ member.jobtitle }} - {% if member.role %} {{ member.role }} {% endif %}</h3>
+                <p>{{ member.content | markdownify | strip_html | truncate: 250 }}</p>
+              </div>
+            </div>
+          </div>
+          {% endfor %}
+          {% assign team = site.team | where: "jobtitle", "Client" | sort: "title" %}
+          {% for member in team %}
+          <div class="col-12 col-md-6 mb-2">
+            <div class="service service-summary">
+              <div class="service-content">
+                <h2 class="service-title">
+                  <a href="{{ member.url | relative_url }}">{{ member.title }}</a>
+                </h2>
+                <h3>{{ member.jobtitle }}</h3>
+                <p>{{ member.content | markdownify | strip_html | truncate: 250 }}</p>
               </div>
             </div>
           </div>
@@ -72,7 +103,8 @@ bodyClass: "page-home"
   </div>
 </div>
 
-<!-- <div class="strip">
+<!-- 
+<div class="strip">
   <div class="container pt-6 pb-6 pb-md-10">
     <div class="row justify-content-start">
       {% assign limit = site.home.limit_services | default: 6 %}
@@ -95,9 +127,9 @@ bodyClass: "page-home"
       </div>
     </div>
   </div>
-</div> -->
-
-<!-- {% if site.data.features %}
+</div>
+-->
+{% if site.data.features %}
 <div class="strip strip-grey">
   <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
     <div class="row justify-content-center">

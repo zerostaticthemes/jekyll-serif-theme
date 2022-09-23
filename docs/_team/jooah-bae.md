@@ -1,10 +1,10 @@
 ---
 title: "Jooah Bae"
-date: 2018-12-20T13:44:23+10:00
+date: 2022-09-21
 image: "images/team/Jooahpfp.jpg"
 jobtitle: "Analyst"
 linkedinurl: "www.linkedin.com/in/jooahbae"
-role: "UX & UI Designer"
+role: "UX&UI Designer"
 ---
 
-Jooah Bae is a third-year health information science student at the University of Victoria. She previously worked as a system analyst at Vancouver Coastal Health.
+Jooah Bae is a third-year Health Information Science student at the University of Victoria. She previously worked as a system analyst at Vancouver Coastal Health.

@@ -20,7 +20,7 @@ To approach this issue, StudyUp intends to provide UVic students with our develo
 
 ## About **UVic**
 
-The **University of Victoria** is one of the largest post-secondary institutions in British Columbia, with over twenty thousand undergraduate and graduate students enrolled. 
+The **University of Victoria** is one of the largest post-secondary institutions in British Columbia, with over twenty thousand undergraduate and graduate students enrolled.
 
 In such a large university like this, it can be challenging for students to find study spaces on campus, especially with how complicated the university has made it; with its current set of systems being spread across different websites.
 
