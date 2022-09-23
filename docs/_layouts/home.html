@@ -61,7 +61,7 @@ bodyClass: "page-home"
                   <a href="{{ member.url | relative_url }}">{{ member.title }}</a>
                 </h2>
                 <h3>{{ member.jobtitle }} - {{ member.role }}</h3>
-                <p>{{ member.content | markdownify | strip_html | truncate: 200 }}</p>
+                <p>{{ member.content | markdownify | strip_html | truncate: 300 }}</p>
               </div>
             </div>
           </div>
@@ -83,7 +83,7 @@ bodyClass: "page-home"
             <h2 class="service-title">
               <a href="{{ service.url | relative_url }}">{{ service.title }}</a>
             </h2>
-            <p>{{ service.content | markdownify | strip_html | truncate: 100 }}</p>
+            <p>{{ service.content | markdownify | strip_html | truncate: 300 }}</p>
           </div>
         </div>
       </div>
