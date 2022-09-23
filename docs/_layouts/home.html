@@ -67,7 +67,7 @@ bodyClass: "page-home"
       <div class="col-auto">
         <h1><a href="/team">Team members</a></h1>
         <div class="row justify-content-start">
-          {% assign team = site.team | where "jobtitle", "Analyst" | sort: "title" %}
+          {% assign team = site.team | where: "jobtitle", "Analyst" | sort: "title" %}
           {% for member in team %}
           <div class="col-12 col-md-6 mb-2">
             <div class="service service-summary">
@@ -81,7 +81,7 @@ bodyClass: "page-home"
             </div>
           </div>
           {% endfor %}
-          {% assign team = site.team | where "jobtitle", "Client" | sort: "title" %}
+          {% assign team = site.team | where: "jobtitle", "Client" | sort: "title" %}
           {% for member in team %}
           <div class="col-12 col-md-6 mb-2">
             <div class="service service-summary">
