@@ -1,10 +1,11 @@
 ---
-title: Contact
+title: Contact Us
 layout: contact
 description: Contact
 ---
 
-Want to get in touch? We'd love to hear from you. Contact our email to chat with a member of our team. 
+## Want to get in touch with us?
+We'd **love** to hear from you. Contact our email below to chat with a member of our team. 
 
 | Day       | Operating Hours |
 | --------- | --------------- |
