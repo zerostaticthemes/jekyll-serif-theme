@@ -52,7 +52,7 @@ bodyClass: "page-home"
       <div class="col-auto">
         <h1>Team members</h1>
         <div class="row justify-content-start">
-          {% assign team = site.team  sort: "jobtitle" | sort: "title" %}
+          {% assign team = site.team | sort: "jobtitle" | sort: "title" %}
           {% for member in team %}
           <div class="col-12 col-md-6 mb-2">
             <div class="service service-summary">
@@ -61,7 +61,7 @@ bodyClass: "page-home"
                   <a href="{{ member.url | relative_url }}">{{ member.title }}</a>
                 </h2>
                 <h3>{{ member.jobtitle }} - {{ member.role }}</h3>
-                <p>{{ member.content | markdownify | strip_html | truncate: 120 }}</p>
+                <p>{{ member.content | markdownify | strip_html | truncate: 250 }}</p>
               </div>
             </div>
           </div>
@@ -72,6 +72,7 @@ bodyClass: "page-home"
   </div>
 </div>
 
+<!-- 
 <div class="strip">
   <div class="container pt-6 pb-6 pb-md-10">
     <div class="row justify-content-start">
@@ -96,7 +97,7 @@ bodyClass: "page-home"
     </div>
   </div>
 </div>
-
+-->
 {% if site.data.features %}
 <div class="strip strip-grey">
   <div class="container pt-6 pb-6 pt-md-10 pb-md-10">

@@ -1,10 +1,10 @@
 ---
 title: "Jooah Bae"
-date: 2018-12-20T13:44:23+10:00
-image: "images/team/vince-fleming-613817-unsplash.jpg"
+date: 2022-09-21
+image: "images/team/Jooahpfp.jpg"
 jobtitle: "Analyst"
-linkedinurl: "https://www.linkedin.com/"
+linkedinurl: "www.linkedin.com/in/jooahbae"
 role: "Developer"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum arcu vitae elementum curabitur vitae nunc sed. Tortor at risus viverra adipiscing at in.
+Jooah Bae is a third-year health information science student at the University of Victoria. She previously worked as a system analyst at Vancouver Coastal Health.

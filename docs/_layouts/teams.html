@@ -20,7 +20,7 @@ bodyClass: "page-teams"
 
 <div class="container">
     <div class="row justify-content-start">
-        <h2>Analyst Team</h2>
+        <h2>Meet The Analyst Team</h2>
     </div>
 </div>
 <div class="container pt-6 pb-6">
@@ -44,7 +44,7 @@ bodyClass: "page-teams"
                     <a target="_blank" href="{{ team.githuburl }}" rel="noreferrer">Github</a>
                     {% endif %}
                 </div>
-                <div class="team-content">{{ team.content | truncate: 120 }}</div>
+                <div class="team-content">{{ team.content | truncate: 250 }}</div>
             </div>
         </div>
         {% endfor %}
@@ -53,7 +53,7 @@ bodyClass: "page-teams"
 
 <div class="container">
     <div class="row justify-content-start">
-        <h2>Client Team</h2>
+        <h2>Meet The Client Team</h2>
     </div>
 </div>
 
@@ -78,7 +78,7 @@ bodyClass: "page-teams"
                     <a target="_blank" href="{{ team.githuburl }}" rel="noreferrer">Github</a>
                     {% endif %}
                 </div>
-                <div class="team-content">{{ team.content | truncate: 120 }}</div>
+                <div class="team-content">{{ team.content | truncate: 250 }}</div>
             </div>
         </div>
         {% endfor %}
