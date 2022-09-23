@@ -61,7 +61,7 @@ bodyClass: "page-home"
                 <h2 class="service-title">
                   <a href="{{ member.url | relative_url }}">{{ member.title }}</a>
                 </h2>
-                <h3>{{ member.jobtitle }} - {{ member.role }}</h3>
+                <h3>{{ member.jobtitle }} - {% if member.role %} {{ member.role }} {% endif %}</h3>
                 <p>{{ member.content | markdownify | strip_html | truncate: 250 }}</p>
               </div>
             </div>
