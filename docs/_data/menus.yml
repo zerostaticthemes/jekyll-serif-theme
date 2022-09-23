@@ -14,9 +14,9 @@ main:
   - name: "Client Meeting"
     url: "/client_meetings/"
     weight: 5
-  - name: "About"
-    url: "/about/"
-    weight: 6
+  # - name: "About"
+  #   url: "/about/"
+  #   weight: 6
   - name: "Contact"
     url: "/contact/"
     weight: 7

@@ -22,20 +22,61 @@ bodyClass: "page-home"
   </div>
 </div>
 
+<hr>
+
 <div class="strip">
   <div class="container pt-6 pb-6 pb-md-10">
     <div class="row justify-content-start">
       <div class="col-auto">
-        <h1>Who are us?</h1>
+        <h1>
+          Who Are We?
+        </h1>
+        <p>
+          We are a group of Computer Science and Health Information Science at University of Victoria. Our goal is implement new tools and improving available tools to improve the experience of current and future students.
+        </p>
+    </div>
+  </div>
+</div>
+
+<!-- <div class="strip">
+  <div class="container pt-6 pb-6 pb-md-10">
+    <div class="row justify-content-start">
+      <div class="col-auto">
+        <h1>Who Are We?</h1>
         <div class="row justify-content-start">
           <p>We are a group of Computer Science and Health Information Science at University of Victoria. Our goal is implement new tools and improving available tools to improve the experience of current and future students. </p>
         </div>
       </div>
     </div>
   </div>
-</div>
+</div> -->
+
+<hr>
 
 <div class="strip">
+  <div class="container pt-6 pb-6 pb-md-10">
+    <div class="row justify-content-start">
+      <div class="col-auto">
+        <h1>
+          About UVic
+        </h1>
+        <p>
+          The <b>University of Victoria</b> is one of the largest post-secondary institutions in British Columbia, with over twenty thousand undergraduate and graduate students enrolled.
+        </p>
+        <p>
+          In such a large university like this, it can be challenging for students to find study spaces on campus, especially with how complicated the university has made it; with its current set of systems being spread across different websites.
+        </p>
+        <p>
+          However, with a dedicated website for booking study spaces like <b>StudyUp</b> where everything is centralized and filterable, the process could be streamlined considerably and made easier.
+        </p>
+          <div class="row justify-content-start">
+            <img src="/images/uvic1152-768.jpg" alt="gannt_chart" width=100%>
+          </div>
+    </div>
+  </div>
+</div>
+
+<!-- <div class="strip">
   <div class="container pt-6 pb-6 pb-md-10">
     <div class="row justify-content-start">
       <div class="col-auto">
@@ -47,27 +88,37 @@ bodyClass: "page-home"
       </div>
     </div>
   </div>
-</div>
+</div> -->
+
+<hr>
 
 <div class="strip">
   <div class="container pt-6 pb-6 pb-md-10">
     <div class="row justify-content-start">
       <div class="col-auto">
-        <h1><a href="/gantt">Project</a></h1>
-        <p>Founded by students from the University of Victoria (UVic) on September 9th, 2022; <a href="/gantt">StudyUp</a>’s goal is to unify UVic’s existing study space booking systems under one centralized system that can be both filterable and easy to use for students.
+        <h1>What is the <a href="/gantt">Study Up</a> Project?</h1>
+        <p>Founded by students from the University of Victoria (UVic) on September 9th, 2022; <b><a href="/gantt">StudyUp</a></b>’s goal is to unify UVic’s existing study space booking systems under one centralized system that can be both filterable and easy to use for students.
+        </p>
+        <p>
           This goal of ours was motivated by the lacking of a centralized study space booking system, with most of these current UVic systems fragmented across buildings; causing confusion or wasted time for students.
-          To approach this issue, StudyUp intends to provide UVic students with our developed centralized website, StudyUp, for them to comfortably book study space rooms through.</p>
+        </p>
+        <p>
+          To approach this issue, StudyUp intends to provide UVic students with our developed centralized website, StudyUp, for them to comfortably book study space rooms through.
+        </p>
         <img alt="library_booking" src="/images/mcphersonLibraryandmearnscentrebooking.jpg">
       </div>
     </div>
+    <em>(Current Study Space Booking System for <b>UVic’s McPherson Library</b>, <b>Mearns Centre</b>, and <b>Priestly Law Library)</b></em>
   </div>
 </div>
+
+<hr>
 
 <div class="strip">
   <div class="container pt-6 pb-6 pb-md-10">
     <div class="row justify-content-start">
       <div class="col-auto">
-        <h1><a href="/team">Team members</a></h1>
+        <h1><a href="/team">Team Members</a></h1>
         <div class="row justify-content-start">
           {% assign team = site.team | where: "jobtitle", "Analyst" | sort: "title" %}
           {% for member in team %}
