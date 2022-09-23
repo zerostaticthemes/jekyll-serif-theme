@@ -1,7 +1,7 @@
 ---
-title: Gantt Chart
+title: Project Info
 layout: gantt
-description: Gantt Chart to keep track of schedule and changes throughout the project.
+description: Project related documents and Gantt Chart to keep track of the progress and changes.
 intro_image: "images/illustrations/reading.svg"
 intro_image_absolute: true
 intro_image_hide_on_mobile: true
