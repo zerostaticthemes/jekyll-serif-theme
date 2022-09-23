@@ -21,18 +21,19 @@ bodyClass: "page-home"
     </div>  
   </div>
 </div>
-<!-- 
+
 <div class="strip">
   <div class="container pt-6 pb-6 pb-md-10">
     <div class="row justify-content-start">
       <div class="col-auto">
         <h1>Who are us?</h1>
         <div class="row justify-content-start">
+          <h3>We are a group of Computer Science and Health Information Science at University of Victoria. Our goal is implement new tools and improving available tools to improve the experience of current and future students. </h3>
         </div>
       </div>
     </div>
   </div>
-</div> -->
+</div>
 
 <div class="strip">
   <div class="container pt-6 pb-6 pb-md-10">
@@ -66,7 +67,7 @@ bodyClass: "page-home"
       <div class="col-auto">
         <h1><a href="/team">Team members</a></h1>
         <div class="row justify-content-start">
-          {% assign team = site.team | sort: "jobtitle" | sort: "title" %}
+          {% assign team = site.team | where "jobtitle", "Analyst" | sort: "title" %}
           {% for member in team %}
           <div class="col-12 col-md-6 mb-2">
             <div class="service service-summary">
@@ -75,6 +76,20 @@ bodyClass: "page-home"
                   <a href="{{ member.url | relative_url }}">{{ member.title }}</a>
                 </h2>
                 <h3>{{ member.jobtitle }} - {% if member.role %} {{ member.role }} {% endif %}</h3>
+                <p>{{ member.content | markdownify | strip_html | truncate: 250 }}</p>
+              </div>
+            </div>
+          </div>
+          {% endfor %}
+          {% assign team = site.team | where "jobtitle", "Client" | sort: "title" %}
+          {% for member in team %}
+          <div class="col-12 col-md-6 mb-2">
+            <div class="service service-summary">
+              <div class="service-content">
+                <h2 class="service-title">
+                  <a href="{{ member.url | relative_url }}">{{ member.title }}</a>
+                </h2>
+                <h3>{{ member.jobtitle }}</h3>
                 <p>{{ member.content | markdownify | strip_html | truncate: 250 }}</p>
               </div>
             </div>
