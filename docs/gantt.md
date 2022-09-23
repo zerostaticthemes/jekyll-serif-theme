@@ -7,6 +7,10 @@ intro_image_absolute: true
 intro_image_hide_on_mobile: true
 ---
 
-# Services that grow with your business
+# StudyUp
 
-Aliquam erat volutpat. Morbi nisl tortor, dignissim eget efficitur vel, auctor non felis. Fusce quis viverra mi. Aenean quis massa pretium, ullamcorper nisi eget, hendrerit odio.
+**StudyUp**’s goal is to unify UVic’s existing study space booking systems under one centralized system that can be both filterable and easy to use for students.
+<br>
+<br>
+<br>
+<br>
