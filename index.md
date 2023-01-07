@@ -1,7 +1,7 @@
 ---
-title: Ние сме дентална клиника, която предлага практичен подход към комплексни проблеми.
+title: "Ние сме дентална клиника, която предлага практичен подход към комплексни проблеми."
 layout: home
-description: Нека да се запознаем.
+description: "Нека да се запознаем."
 intro_image: "images/illustrations/dental-clinic-1.svg"
 intro_image_absolute: true
 intro_image_hide_on_mobile: true
