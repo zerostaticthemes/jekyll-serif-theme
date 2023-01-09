@@ -4,7 +4,7 @@
    */
   .hamburger--slider {
     .hamburger-inner {
-      top: $hamburger-layer-height / 2;
+      top: $hamburger-layer-height * .5;
 
       &::before {
         top: $hamburger-layer-height + $hamburger-layer-spacing;
@@ -25,7 +25,7 @@
         transform: translate3d(0, $y-offset, 0) rotate(45deg);
 
         &::before {
-          transform: rotate(-45deg) translate3d($hamburger-layer-width / -7, $hamburger-layer-spacing * -1, 0);
+          transform: rotate(-45deg) translate3d($hamburger-layer-width * -0.142858, $hamburger-layer-spacing * -1, 0);
           opacity: 0;
         }
 
