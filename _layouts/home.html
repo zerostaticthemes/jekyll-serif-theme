@@ -9,12 +9,14 @@ bodyClass: "page-home"
       <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
         {{ content }}
         {% if page.show_call_box %}
-          {% include call.html show_button=true %}
+        {% include call.html show_button=true %}
         {% endif %}
       </div>
       {% if page.intro_image %}
       <div class="col-12 col-md-5 col-lg-6 order-1 order-md-2 position-relative">
-        <img alt="{{ page.title }}" class="intro-image{% if page.intro_image_absolute %} intro-image-absolute{% endif %}{% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}" src="{{ page.intro_image | relURL }}" />
+        <img alt="{{ page.title }}"
+          class="intro-image{% if page.intro_image_absolute %} intro-image-absolute{% endif %}{% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}"
+          src="{{ page.intro_image | relURL }}" />
       </div>
       {% endif %}
     </div>
@@ -22,6 +24,16 @@ bodyClass: "page-home"
 </div>
 
 <div class="strip">
+  <div class="container pt-6 pb-6 pb-md-10">
+    <div class="row justify-content-center">
+      <div class="col-md-10">
+        <p class="home-text">{{site.data.home.text}}</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- <div class="strip">
   <div class="container pt-6 pb-6 pb-md-10">
     <div class="row justify-content-start">
       {% assign limit = site.home.limit_services | default: 6 %}
@@ -44,18 +56,22 @@ bodyClass: "page-home"
       </div>
     </div>
   </div>
-</div>
+</div> -->
 
 {% if site.data.features %}
 <div class="strip strip-grey">
+  <div class="row justify-content-center">
+    <h1 class="header-book-call"> How we work</h1>
+  </div>
   <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
     <div class="row justify-content-center">
 
       {% for feature in site.data.features %}
-      <div class="col-12 col-md-6 col-lg-4 mb-2">
+      <div class="col-12 col-md-6 col-lg-3 mb-2">
         <div class="feature">
           {% if feature.image %}
-          <div class="feature-image"><img alt="{{ feature.title }} logo" src="{{ feature.image.url | relative_url }}" width="{{ feature.image.width }}" height="{{ feature.image.height }}" /></div>
+          <div class="feature-image"><img alt="{{ feature.title }} logo" src="{{ feature.image.url | relative_url }}"
+              width="{{ feature.image.width }}" height="{{ feature.image.height }}" /></div>
           {% endif %}
           <h2 class="feature-title">{{ feature.title }}</h2>
           <div class="feature-content">{{ feature.description }}</div>
@@ -67,3 +83,40 @@ bodyClass: "page-home"
   </div>
 </div>
 {% endif %}
+
+
+<div class="strip">
+  <div class="row justify-content-center">
+    <h1 class="header-book-call"> Book a call with us</h1>
+  </div>
+  <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
+    <div class="row justify-content-center">
+
+      <div class="col-12 col-md-6 col-lg-4 mb-2">
+        <div class="feature-calendly">
+          <!-- Début de widget en ligne Calendly -->
+          <div class="calendly-inline-widget"
+            data-url="https://calendly.com/maxime-moricarus/discovery-call?hide_event_type_details=1&hide_gdpr_banner=1&background_color=fff6f8&text_color=5c5a5a&primary_color=a01b16"
+            style="min-width:320px;height:630px;"></div>
+          <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+          <!-- Fin de widget en ligne Calendly -->
+        </div>
+      </div>
+
+
+      <!-- <div class="col-12 col-md-6 col-lg-3 mb-2">
+          <div class="feature-content">
+            <p class="home-text">{{site.data.home.text}}</p>
+          </div>
+      </div> -->
+      <div class="col-12 col-md-5 col-lg-6 order-1 order-md-2 position-relative">
+          <div class="feature-content">
+            <p class="home-text">{{site.data.home.speech}}</p>
+          </div>
+        <img alt="{{ page.call }}"
+          class="intro-image{% if page.intro_image_absolute %} intro-image-absolute{% endif %}{% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}"
+          src="{{ page.outro_image | relURL }}" />
+      </div>
+    </div>
+  </div>
+</div>
