@@ -10,6 +10,6 @@ show_call_box: true
 ref: home
 ---
 
-# Serif - A Jekyll Business Theme.
+# Serif - A Jekyll Business Theme DE.
 
 Serif contains content types for a typical business website. The theme is fully responsive, blazing fast and artfully illustrated.
