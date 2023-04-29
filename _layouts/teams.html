@@ -51,12 +51,24 @@ bodyClass: "page-teams"
         <div class="row pt-6 pb-6">
         {% assign teams = site[page_label] | where: "promoted", empty | sort: "weight" %}
         {% for team in teams %}
-        {% assign page_path = team.url | split: "/" %}
-        {%  if page_path[2] == "team" %}
-        {{ team.url }}
-        <p>True</p> -
-        {% endif %}
-
+            {% assign page_path = team.url | split: "/" %}
+            {% if page_path[2] == "team" %}
+                {% if page_path.size > 3 %}
+                <div class="col-12 col-md-4 mb-3">
+                    <div class="team team-summary">
+                        {% if team.image %}
+                        <div class="team-image">
+                            <img width="60" height="60" alt="{{ team.title }}" class="img-fluid mb-2" src="{{ team.image | relative_url }}" />
+                        </div>
+                        {% endif %}
+                        <div class="team-meta">
+                            <h2 class="team-name"><a href="{{ team.url | relative_url }}">{{ team.title }}</a></h2>
+                            <p class="team-description">{{ team.jobtitle }}</p>
+                        </div>
+                    </div>
+                </div>
+                {% endif %}
+            {% endif %}
         {% endfor %}
     </div>
 
