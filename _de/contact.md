@@ -1,5 +1,5 @@
 ---
-title: Contact
+title: Contact DE
 layout: contact
 description: Contact
 ref: contact

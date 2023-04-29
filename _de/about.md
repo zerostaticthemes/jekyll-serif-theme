@@ -1,5 +1,5 @@
 ---
-title: About
+title: About DE
 layout: page
 description: About
 bodyClass: page-about
