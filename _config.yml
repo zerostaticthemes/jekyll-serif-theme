@@ -24,13 +24,15 @@ collections:
 
 defaults:
   - scope:
-      path: ""
-      type: "services"
+      path: "_de/services/"
     values:
       layout: "service"
   - scope:
-      path: ""
-      type: "team"
+      path: "_service"
+    values:
+      layout: "service"
+  - scope:
+      path: "_team"
     values:
       layout: "team"
 
