@@ -17,6 +17,18 @@ bodyClass: "page-teams"
         </div>
     </div>
 </div>
+{% assign split_page_url = page.url | where: split , "/" %}
+<p>{{ split_page_url }}</p>
+
+{% if page.path != page.name %}
+{% comment %}Display translated team members  {% endcomment %}
+<p>{{ page.path }}</p>
+<p>{{ page.name }}</p>
+{% else %}
+{% comment %}Display default language team members {% endcomment %}
+<p>{{ page.path }}</p>
+<p>{{ page.name }}</p>
+{% endif %}
 
 <div class="container pt-6 pb-6">
     <div class="row">

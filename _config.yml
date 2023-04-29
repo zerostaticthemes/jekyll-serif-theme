@@ -28,6 +28,10 @@ defaults:
     values:
       layout: "service"
   - scope:
+      path: "_de/team/"
+    values:
+      layout: "team"
+  - scope:
       path: "_service"
     values:
       layout: "service"
@@ -35,7 +39,6 @@ defaults:
       path: "_team"
     values:
       layout: "team"
-
 sass:
   style: compressed # possible values: nested expanded compact compressed
 
