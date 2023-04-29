@@ -1,6 +1,6 @@
-baseurl: '/'
+baseurl: "/"
 permalink: pretty
-title: 'Jekyll Serif'
+title: "Jekyll Serif"
 
 logo:
   mobile: "images/logo/logo-mobile.svg"
@@ -10,7 +10,7 @@ logo:
   desktop_height: "32px"
   desktop_width: "120px"
 
-home: 
+home:
   limit_services: 6
 
 collections:
@@ -18,6 +18,8 @@ collections:
     output: true
     sort_by: weight
   team:
+    output: true
+  de:
     output: true
 
 defaults:
