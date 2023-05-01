@@ -5,7 +5,7 @@
                 For default language, check for list of pages in sites.pages
             {% endcomment %}
             {% assign langpages= site.pages | where: "ref", page.ref | sort: 'lang' %}
-            {% assign langpagesteam= site.team | where: "ref", page.ref | sort: 'lang' %}
+            {% assign langpagesteams = site.team | where: "ref", page.ref | sort: 'lang' %}
             {% assign langpagesservices= site.services | where: "ref", page.ref | sort: 'lang' %}
             {% for langpage in langpages %}
                 <a href="{{ langpage.url }}">{{ language }}</a>
