@@ -30,7 +30,19 @@
   {% include main-menu-mobile.html %}
   <div id="wrapper" class="wrapper">
     {% include header.html headerClass='header-extra' %}
-    {{ page.lang }}
+    {% for language in site.languages %}
+        {% if language == site.default_lang %}
+            {% assign pages= site.pages | where: "ref", page.ref | sort: 'lang' %}
+            {% for page in pages %}
+                <a href="{{ page.url }}" class="{{ page.lang }}">{{ page.lang }}</a>
+            {% endfor %}
+        {% else %}
+            {% assign pages = site[language] | where: "ref", page.ref | sort: 'lang' %}
+            {% for page in pages %}
+                <a href="{{ page.url }}" class="{{ page.lang }}">{{ page.lang }}</a>
+            {% endfor %}
+        {% endif %}
+    {% endfor %}
 
     {{content}}
   </div>

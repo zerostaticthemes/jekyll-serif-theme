@@ -21,6 +21,8 @@ collections:
     output: true
   de:
     output: true
+  es:
+    output: true
 
 defaults:
   - scope:
@@ -29,6 +31,14 @@ defaults:
       layout: "service"
   - scope:
       path: "_de/team/"
+    values:
+      layout: "team"
+  - scope:
+      path: "_es/services/"
+    values:
+      layout: "service"
+  - scope:
+      path: "_es/team/"
     values:
       layout: "team"
   - scope:
@@ -47,6 +57,14 @@ defaults:
       path: "_de"
     values:
       lang: de
+  - scope:
+      path: "_es"
+    values:
+      lang: es
+
+default_lang: en
+languages: ["en", "de", "es"]
+
 sass:
   style: compressed # possible values: nested expanded compact compressed
 
