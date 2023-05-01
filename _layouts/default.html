@@ -39,6 +39,14 @@
             {% for langpage in langpages %}
                 <a href="{{ langpage.url }}">{{ language }}</a>
             {% endfor %}
+            {% assign langpagesteam= site.team | where: "ref", page.ref | sort: 'lang' %}
+            {% assign langpagesservices= site.services | where: "ref", page.ref | sort: 'lang' %}
+            {% for langpageteam in langpagesteams %}
+                <a href="{{ langpageteam.url }}">{{ language }}</a>
+            {% endfor %}
+            {% for langpageserice in langpagesservices %}
+                <a href="{{ langpageservice.url }}">{{ language }}</a>
+            {% endfor %}
         {% else %}
             {% comment %}
                 For other languages, check for list of pages in sites.language collection
