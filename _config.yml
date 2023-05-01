@@ -62,7 +62,7 @@ defaults:
     values:
       lang: es
 
-default_lang: en
+default_lang: "en"
 languages: ["en", "de", "es"]
 
 sass:
