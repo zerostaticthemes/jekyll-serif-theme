@@ -32,14 +32,20 @@
     {% include header.html headerClass='header-extra' %}
     {% for language in site.languages %}
         {% if language == site.default_lang %}
-            {% assign pages= site.pages | where: "ref", page.ref | sort: 'lang' %}
-            {% for page in pages %}
-                <a href="{{ page.url }}" class="{{ page.lang }}">{{ page.lang }}</a>
+            {% comment %}
+                For default language, check for list of pages in sites.pages
+            {% endcomment %}
+            {% assign langpages= site.pages | where: "ref", page.ref | sort: 'lang' %}
+            {% for langpage in langpages %}
+                <a href="{{ langpage.url }}">{{ language }}</a>
             {% endfor %}
         {% else %}
-            {% assign pages = site[language] | where: "ref", page.ref | sort: 'lang' %}
-            {% for page in pages %}
-                <a href="{{ page.url }}" class="{{ page.lang }}">{{ page.lang }}</a>
+            {% comment %}
+                For other languages, check for list of pages in sites.language collection
+            {% endcomment %}
+            {% assign langpages = site[language] | where: "ref", page.ref | sort: 'lang' %}
+            {% for langpage in langpages %}
+                <a href="{{ langpage.url }}">{{ language }}</a>
             {% endfor %}
         {% endif %}
     {% endfor %}
