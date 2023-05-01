@@ -30,34 +30,6 @@
   {% include main-menu-mobile.html %}
   <div id="wrapper" class="wrapper">
     {% include header.html headerClass='header-extra' %}
-    {% for language in site.languages %}
-        {% if language == site.default_lang %}
-            {% comment %}
-                For default language, check for list of pages in sites.pages
-            {% endcomment %}
-            {% assign langpages= site.pages | where: "ref", page.ref | sort: 'lang' %}
-            {% for langpage in langpages %}
-                <a href="{{ langpage.url }}">{{ language }}</a>
-            {% endfor %}
-            {% assign langpagesteam= site.team | where: "ref", page.ref | sort: 'lang' %}
-            {% assign langpagesservices= site.services | where: "ref", page.ref | sort: 'lang' %}
-            {% for langpageteam in langpagesteams %}
-                <a href="{{ langpageteam.url }}">{{ language }}</a>
-            {% endfor %}
-            {% for langpageserice in langpagesservices %}
-                <a href="{{ langpageservice.url }}">{{ language }}</a>
-            {% endfor %}
-        {% else %}
-            {% comment %}
-                For other languages, check for list of pages in sites.language collection
-            {% endcomment %}
-            {% assign langpages = site[language] | where: "ref", page.ref | sort: 'lang' %}
-            {% for langpage in langpages %}
-                <a href="{{ langpage.url }}">{{ language }}</a>
-            {% endfor %}
-        {% endif %}
-    {% endfor %}
-
     {{content}}
   </div>
   {% include footer.html %}
