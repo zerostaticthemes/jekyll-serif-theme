@@ -39,6 +39,14 @@ defaults:
       path: "_team"
     values:
       layout: "team"
+  - scope:
+      path: ""
+    values:
+      lang: en
+  - scope:
+      path: "_de"
+    values:
+      lang: de
 sass:
   style: compressed # possible values: nested expanded compact compressed
 
