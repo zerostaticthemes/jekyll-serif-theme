@@ -18,19 +18,47 @@ bodyClass: "page-services"
   </div>
 </div>
 
-<div class="container pt-6 pb-6">
-  <div class="row">
-    {% for service in site.services %}
-    <div class="col-12 col-md-6 mb-3">
-      <div class="service service-summary">
-        <div class="service-content">
-          <h2 class="service-title">
-            <a href="{{ service.url | relative_url }}">{{ service.title }}</a>
-          </h2>
-          <p>{{ service.content | markdownify | strip_html | truncate: 100 }}</p>
+{% if page.path != page.name %}
+    {% comment %}Display translated team members  {% endcomment %}
+    {% assign page_label = page.url | where: split , "/" | slice: 1,2 %}
+    <div class="container pt-6 pb-6">
+        {% assign translatedservices = site[page_label] %}
+        <div class="row">
+            {% for service in translatedservices %}
+                {% assign page_path = service.url | split: "/" %}
+                {% if page_path[2] == "services" %}
+                    {% if page_path.size > 3 %}
+                    <div class="col-12 col-md-6 mb-3">
+                        <div class="service service-summary">
+                            <div class="service-content">
+                            <h2 class="service-title">
+                                <a href="{{ service.url | relative_url }}">{{ service.title }}</a>
+                            </h2>
+                            <p>{{ service.content | markdownify | strip_html | truncate: 100 }}</p>
+                            </div>
+                        </div>
+                    </div>
+                    {% endif %}
+                {% endif %}
+            {% endfor %}
         </div>
-      </div>
     </div>
-    {% endfor %}
-  </div>
-</div>
+{% else %}
+    <div class="container pt-6 pb-6">
+        <div class="row">
+            {% for service in site.services %}
+            <div class="col-12 col-md-6 mb-3">
+            <div class="service service-summary">
+                <div class="service-content">
+                <h2 class="service-title">
+                    <a href="{{ service.url | relative_url }}">{{ service.title }}</a>
+                </h2>
+                <p>{{ service.content | markdownify | strip_html | truncate: 100 }}</p>
+                </div>
+            </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+
+{% endif %}
