@@ -1,21 +1,63 @@
 main:
-  - name: "Services"
-    url: "/services/"
-    weight: 2
-  - name: "Team"
-    url: "/team/"
-    weight: 3
-  - name: "About"
-    url: "/about/"
-    weight: 4
-  - name: "Contact"
-    url: "/contact/"
-    weight: 5
+  en:
+    - name: "Services"
+      url: "/services/"
+      weight: 2
+    - name: "Team"
+      url: "/team/"
+      weight: 3
+    - name: "About"
+      url: "/about/"
+      weight: 4
+    - name: "Contact"
+      url: "/contact/"
+      weight: 5
+  de:
+    - name: "Services DE"
+      url: "/de/services/"
+      weight: 2
+    - name: "Team DE"
+      url: "/de/team/"
+      weight: 3
+    - name: "About DE"
+      url: "/de/about/"
+      weight: 4
+    - name: "Contact DE"
+      url: "/de/contact/"
+      weight: 5
+  es:
+    - name: "Services ES"
+      url: "/es/services/"
+      weight: 2
+    - name: "Team ES"
+      url: "/es/team/"
+      weight: 3
+    - name: "About ES"
+      url: "/es/about/"
+      weight: 4
+    - name: "Contact ES"
+      url: "/es/contact/"
+      weight: 5
 
 footer:
-  - name: "Home"
-    url: "/"
-    weight: 1
-  - name: "Contact"
-    url: "/contact/"
-    weight: 2
+  en:
+    - name: "Home"
+      url: "/"
+      weight: 1
+    - name: "Contact"
+      url: "/contact/"
+      weight: 2
+  de:
+    - name: "Home DE"
+      url: "/"
+      weight: 1
+    - name: "Contact DE"
+      url: "/de/contact/"
+      weight: 2
+  es:
+    - name: "Home ES"
+      url: "/es/"
+      weight: 1
+    - name: "Contact ES"
+      url: "/es/contact/"
+      weight: 2

@@ -17,46 +17,98 @@ bodyClass: "page-teams"
         </div>
     </div>
 </div>
-
-<div class="container pt-6 pb-6">
-    <div class="row">
-        {% assign promoted_teams = site.team | where: "promoted", true | sort: "weight" %}
-        {% for team in promoted_teams %}
-        <div class="col-12 col-md-6 mb-2">
-            <div class="team team-summary team-summary-large">
-                {% if team.image %}
-                <div class="team-image">
-                    <img width="90" height="90" alt="{{ team.title }}" class="img-fluid mb-2" src="{{ team.image | relative_url }}" />
-                </div>
-                {% endif %}
-                <div class="team-meta">
-                    <h2 class="team-name"><a href="{{ team.url | relative_url }}">{{ team.title }}</a></h2>
-                    <p class="team-description">{{ team.jobtitle }}</p>
-                    {% if team.linkedinurl %}
-                    <a target="_blank" href="{{ team.linkedinurl }}" rel="noreferrer">LinkedIn</a>
+{% assign split_page_url = page.url | where: split , "/" %}
+{% if page.path != page.name %}
+    {% comment %}Display translated team members  {% endcomment %}
+    {% assign page_label = page.url | where: split , "/" | slice: 1,2 %}
+    <div class="container pt-6 pb-6">
+        <div class="row">
+            {% assign promoted_teams = site[page_label] | where: "promoted", true | sort: "weight" %}
+            {% for team in promoted_teams %}
+            <div class="col-12 col-md-6 mb-2">
+                <div class="team team-summary team-summary-large">
+                    {% if team.image %}
+                    <div class="team-image">
+                        <img width="90" height="90" alt="{{ team.title }}" class="img-fluid mb-2" src="{{ team.image | relative_url }}" />
+                    </div>
                     {% endif %}
+                    <div class="team-meta">
+                        <h2 class="team-name"><a href="{{ team.url | relative_url }}">{{ team.title }}</a></h2>
+                        <p class="team-description">{{ team.jobtitle }}</p>
+                        {% if team.linkedinurl %}
+                        <a target="_blank" href="{{ team.linkedinurl }}" rel="noreferrer">LinkedIn</a>
+                        {% endif %}
+                    </div>
+                    <div class="team-content">{{ team.content | truncate: 120 }}</div>
                 </div>
-                <div class="team-content">{{ team.content | truncate: 120 }}</div>
             </div>
+            {% endfor %}
         </div>
-        {% endfor %}
-    </div>
-    <div class="row pt-6 pb-6">
-        {% assign teams = site.team | where: "promoted", empty | sort: "weight" %}
+        <div class="row pt-6 pb-6">
+        {% assign teams = site[page_label] | where: "promoted", empty | sort: "weight" %}
         {% for team in teams %}
-        <div class="col-12 col-md-4 mb-3">
-            <div class="team team-summary">
-                {% if team.image %}
-                <div class="team-image">
-                    <img width="60" height="60" alt="{{ team.title }}" class="img-fluid mb-2" src="{{ team.image | relative_url }}" />
+            {% assign page_path = team.url | split: "/" %}
+            {% if page_path[2] == "team" %}
+                {% if page_path.size > 3 %}
+                <div class="col-12 col-md-4 mb-3">
+                    <div class="team team-summary">
+                        {% if team.image %}
+                        <div class="team-image">
+                            <img width="60" height="60" alt="{{ team.title }}" class="img-fluid mb-2" src="{{ team.image | relative_url }}" />
+                        </div>
+                        {% endif %}
+                        <div class="team-meta">
+                            <h2 class="team-name"><a href="{{ team.url | relative_url }}">{{ team.title }}</a></h2>
+                            <p class="team-description">{{ team.jobtitle }}</p>
+                        </div>
+                    </div>
                 </div>
                 {% endif %}
-                <div class="team-meta">
-                    <h2 class="team-name"><a href="{{ team.url | relative_url }}">{{ team.title }}</a></h2>
-                    <p class="team-description">{{ team.jobtitle }}</p>
-                </div>
-            </div>
-        </div>
+            {% endif %}
         {% endfor %}
     </div>
-</div>
+{% else %}
+    {% comment %}Display default language team members {% endcomment %}
+    <div class="container pt-6 pb-6">
+        <div class="row">
+            {% assign promoted_teams = site.team | where: "promoted", true | sort: "weight" %}
+            {% for team in promoted_teams %}
+            <div class="col-12 col-md-6 mb-2">
+                <div class="team team-summary team-summary-large">
+                    {% if team.image %}
+                    <div class="team-image">
+                        <img width="90" height="90" alt="{{ team.title }}" class="img-fluid mb-2" src="{{ team.image | relative_url }}" />
+                    </div>
+                    {% endif %}
+                    <div class="team-meta">
+                        <h2 class="team-name"><a href="{{ team.url | relative_url }}">{{ team.title }}</a></h2>
+                        <p class="team-description">{{ team.jobtitle }}</p>
+                        {% if team.linkedinurl %}
+                        <a target="_blank" href="{{ team.linkedinurl }}" rel="noreferrer">LinkedIn</a>
+                        {% endif %}
+                    </div>
+                    <div class="team-content">{{ team.content | truncate: 120 }}</div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        <div class="row pt-6 pb-6">
+            {% assign teams = site.team | where: "promoted", empty | sort: "weight" %}
+            {% for team in teams %}
+            <div class="col-12 col-md-4 mb-3">
+                <div class="team team-summary">
+                    {% if team.image %}
+                    <div class="team-image">
+                        <img width="60" height="60" alt="{{ team.title }}" class="img-fluid mb-2" src="{{ team.image | relative_url }}" />
+                    </div>
+                    {% endif %}
+                    <div class="team-meta">
+                        <h2 class="team-name"><a href="{{ team.url | relative_url }}">{{ team.title }}</a></h2>
+                        <p class="team-description">{{ team.jobtitle }}</p>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+{% endif %}
