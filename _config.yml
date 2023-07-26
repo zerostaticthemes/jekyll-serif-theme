@@ -38,6 +38,8 @@ sass:
 plugins:
   - jekyll-environment-variables
 
+include: [".well-known"]
+
 exclude:
   - Gemfile
   - Gemfile.lock

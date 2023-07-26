@@ -1,0 +1,4 @@
+Contact: security@terraventures.global
+Encryption: https://terraventures.global/publickey.txt
+Canonical: https://terraventures.global/.well-known/security.txt
+Signature: https://terraventures.global/.well-known/security.txt.sig
