@@ -17,6 +17,9 @@ collections:
   services:
     output: true
     sort_by: weight
+  projects:
+    output: true
+    sort_by: weight
   team:
     output: true
 
