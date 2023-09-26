@@ -2,8 +2,8 @@ main:
   - name: "Tech"
     url: "/tech/"
     weight: 2
-  - name: "Team"
-    url: "/team/"
+  - name: "Learning"
+    url: "/learning/"
     weight: 3
   - name: "About"
     url: "/about/"

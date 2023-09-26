@@ -17,7 +17,7 @@ collections:
   tech:
     output: true
     sort_by: weight
-  team:
+  learning: # ここを "team" から "learning" に変更します
     output: true
 
 defaults:
@@ -28,9 +28,9 @@ defaults:
       layout: "service"
   - scope:
       path: ""
-      type: "team"
+      type: "learning" # ここも "team" から "learning" に変更します
     values:
-      layout: "team"
+      layout: "learning" # ここも "team" から "learning" に変更します
 
 sass:
   style: compressed # possible values: nested expanded compact compressed
