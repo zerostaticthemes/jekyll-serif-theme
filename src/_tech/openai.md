@@ -1,6 +1,6 @@
 ---
 layout: category
-title: "C#"
-category: csharp
+title: "OpenAI"
+category: openai
 is_category_index: true
 ---

@@ -1,6 +1,6 @@
 ---
 layout: category
-title: "C#"
-category: csharp
+title: "Go"
+category: golange
 is_category_index: true
 ---

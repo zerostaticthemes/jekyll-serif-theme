@@ -20,27 +20,33 @@ bodyClass: "page-home"
     </div>
   </div>
 </div>
-
 <div class="strip">
   <div class="container pt-6 pb-6 pb-md-10">
     <div class="row justify-content-start">
       {% assign limit = site.home.limit_services | default: 6 %}
-      {% for service in site.tech limit: limit %}
-      <div class="col-12 col-md-4 mb-1">
-        <div class="service service-summary">
-          <div class="service-content">
-            <h2 class="service-title">
-              <a href="{{ service.url | relative_url }}">{{ service.title }}</a>
-            </h2>
-            <p>{{ service.content | markdownify | strip_html | truncate: 100 }}</p>
+      {% assign counter = 0 %}
+      {% for service in site.tech %}
+        {% if service.is_category_index %}
+          {% assign counter = counter | plus: 1 %}
+          <div class="col-12 col-md-4 mb-1">
+            <div class="service service-summary">
+              <div class="service-content">
+                <h2 class="service-title">
+                  <a href="{{ service.url | relative_url }}">{{ service.title }}</a>
+                </h2>
+                <p>{{ service.content | markdownify | strip_html | truncate: 100 }}</p>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
+          {% if counter >= limit %}
+            {% break %}
+          {% endif %}
+        {% endif %}
       {% endfor %}
     </div>
     <div class="row justify-content-center">
       <div class="col-auto">
-        <a class="button button-primary" href="{{ "tech" | relative_url }}">View All Services</a>
+        <a class="button button-primary" href="{{ "tech" | relative_url }}">View All Tech Blog</a>
       </div>
     </div>
   </div>

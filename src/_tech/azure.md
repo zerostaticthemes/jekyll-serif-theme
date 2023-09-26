@@ -1,6 +1,6 @@
 ---
 layout: category
-title: "C#"
-category: csharp
+title: "Azure"
+category: azure
 is_category_index: true
 ---
