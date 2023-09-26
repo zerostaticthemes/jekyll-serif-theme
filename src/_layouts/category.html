@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+<div class="container pt-6 pb-6">
+  <div class="row">
+    {% for post in site.tech %}
+      {% unless post.exclude_from_loop %}
+        {% if post.categories contains page.category %}
+          <div class="col-12 col-md-6 mb-3">
+            <div class="service service-summary">
+              <div class="service-content">
+                <h2 class="service-title">
+                  <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+                </h2>
+                <p>{{ post.content | markdownify | strip_html | truncate: 100 }}</p>
+              </div>
+            </div>
+          </div>
+        {% endif %}
+      {% endunless %}
+    {% endfor %}
+  </div>
+</div>

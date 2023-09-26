@@ -1,7 +1,10 @@
 ---
-title: "Superannuation"
-date: 2019-03-28T15:14:54+10:00
-weight: 5
+title: "Mergers"
+date: 2019-02-28T15:15:34+10:00
+weight: 3
+categories:
+  - tech
+  - golange
 ---
 
 Lorem markdownum aequalis strigis. Saetigeri iubeas, vultu huic alvum nondum
