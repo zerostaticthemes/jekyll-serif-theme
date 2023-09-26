@@ -17,7 +17,7 @@ collections:
   tech:
     output: true
     sort_by: weight
-  learning: # ここを "team" から "learning" に変更します
+  learning:
     output: true
 
 defaults:
@@ -28,12 +28,12 @@ defaults:
       layout: "service"
   - scope:
       path: ""
-      type: "learning" # ここも "team" から "learning" に変更します
+      type: "learning"
     values:
-      layout: "learning" # ここも "team" から "learning" に変更します
+      layout: "learning"
 
 sass:
-  style: compressed # possible values: nested expanded compact compressed
+  style: compressed
 
 plugins:
   - jekyll-environment-variables
