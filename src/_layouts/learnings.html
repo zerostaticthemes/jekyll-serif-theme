@@ -23,18 +23,9 @@ bodyClass: "page-teams"
         {% assign promoted_learnings = site.learning | where: "promoted", true | sort: "weight" %}  
         {% for learning in promoted_learnings %}  
         <div class="col-12 col-md-6 mb-2">
-            <div class="team team-summary team-summary-large">  
-                {% if learning.image %}  
-                <div class="team-image">
-                    <img width="90" height="90" alt="{{ learning.title }}" class="img-fluid mb-2" src="{{ learning.image | relative_url }}" />  
-                </div>
-                {% endif %}
+            <div class="team team-summary team-summary-large">
                 <div class="team-meta">
                     <h2 class="team-name"><a href="{{ learning.url | relative_url }}">{{ learning.title }}</a></h2>  
-                    <p class="team-description">{{ learning.jobtitle }}</p>  
-                    {% if learning.linkedinurl %}  
-                    <a target="_blank" href="{{ learning.linkedinurl }}" rel="noreferrer">LinkedIn</a>
-                    {% endif %}
                 </div>
                 <div class="team-content">{{ learning.content | truncate: 120 }}</div>  
             </div>
@@ -45,15 +36,9 @@ bodyClass: "page-teams"
         {% assign learnings = site.learning | where: "promoted", empty | sort: "weight" %}  
         {% for learning in learnings %}  
         <div class="col-12 col-md-4 mb-3">
-            <div class="team team-summary">  
-                {% if learning.image %}  
-                <div class="team-image">
-                    <img width="60" height="60" alt="{{ learning.title }}" class="img-fluid mb-2" src="{{ learning.image | relative_url }}" />  
-                </div>
-                {% endif %}
+            <div class="team team-summary">
                 <div class="team-meta">
-                    <h2 class="team-name"><a href="{{ learning.url | relative_url }}">{{ learning.title }}</a></h2>  
-                    <p class="team-description">{{ learning.jobtitle }}</p>  
+                    <h2 class="team-name"><a href="{{ learning.url | relative_url }}">{{ learning.title }}</a></h2>
                 </div>
             </div>
         </div>

@@ -1,8 +1,8 @@
 main:
-  - name: "Tech"
+  - name: "技術"
     url: "/tech/"
     weight: 2
-  - name: "Learning"
+  - name: "日記"
     url: "/learning/"
     weight: 3
   - name: "About"
