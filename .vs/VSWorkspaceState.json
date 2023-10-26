@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\images",
+    "\\images\\logo",
+    "\\_layouts"
   ],
   "PreviewInSolutionExplorer": false
 }

@@ -3,23 +3,26 @@ layout: default
 bodyClass: "page-home"
 ---
 
-<div class="intro">
-  <div class="container">
-    <div class="row justify-content-start">
-      <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
-        {{ content }}
-        {% if page.show_call_box %}
-          {% include call.html show_button=true %}
-        {% endif %}
+<!--<div class="intro">-->
+   <div class="container">
+      <div class="row justify-content-start">
+         {% if page.intro_image %}
+         <div class="col-12">
+            <img alt="{{ page.title }}" src="{{ page.intro_image | relURL }}" style="width:100%;margin-bottom:3rem;" />
+            <!--class="intro-image{% if page.intro_image_absolute %} intro-image-absolute{% endif %}{% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}"-->
+         </div>
+         {% endif %}
+         <div class="col-10">
+            {{ content }}
+            {% if page.show_call_box %}
+            {% include call.html show_button=true %}
+            {% endif %}
+         </div>
       </div>
-      <!--{% if page.intro_image %}
-      <div class="col-12 col-md-5 col-lg-6 order-1 order-md-2 position-relative">
-        <img alt="{{ page.title }}" class="intro-image{% if page.intro_image_absolute %} intro-image-absolute{% endif %}{% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}" src="{{ page.intro_image | relURL }}" />
-      </div>
-      {% endif %}-->
-    </div>
-  </div>
-</div>
+   </div>
+<!--</div>-->
+
+
 
 <!--<div class="strip">
   <div class="container pt-6 pb-6 pb-md-10">
