@@ -1,0 +1,20 @@
+---
+layout: default
+bodyClass: "page-service"
+---
+
+<div class="container pb-6 pt-6 pt-md-10 pb-md-10">
+	<div class="row justify-content-start">
+		<div class="col-12 col-md-10">
+			<div class="service service-single">
+				<h1 class="title">{{page.title}}</h1>
+				{% if page.intro_image %}
+				<div class="col-12">
+					<img alt="{{ page.title }}" src="{{ page.intro_image }}" style="width:100%;margin-bottom:3rem;" />
+				</div>
+				{% endif %}
+				<div class="content">{{content}}</div>
+			</div>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,34 @@
+---
+layout: default
+bodyClass: "page-services"
+---
+
+<div class="container">
+	<div class="row justify-content-start">
+		<div class="col-12 mt-2">
+			{{ content }}
+		</div>
+	</div>
+</div>
+
+<div class="container pt-2 pb-2">
+	<div class="row">
+		{% for program in site.programs %}
+		<div class="col-12 col-md-4 mb-3">
+			<div class="service service-summary">
+				<div class="service-content">
+					<h2 class="service-title">
+						<a href="{{ program.url | relative_url }}">{{ program.title }}</a>
+					</h2>
+					{% if service.intro_image %}
+					<div class="col-12">
+						<img alt="{{ program.title }}" src="{{ program.intro_image }}" style="width:100%;margin-bottom:3rem;" />
+					</div>
+					{% endif %}
+					<p>{{ program.content | markdownify | strip_html }}</p>
+				</div>
+			</div>
+		</div>
+		{% endfor %}
+	</div>
+</div>

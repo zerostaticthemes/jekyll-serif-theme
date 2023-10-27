@@ -4,26 +4,23 @@ bodyClass: "page-home"
 ---
 
 <!--<div class="intro">-->
-   <div class="container">
-      <div class="row justify-content-start">
-         {% if page.intro_image %}
-         <div class="col-12">
-            <img alt="{{ page.title }}" src="{{ page.intro_image | relURL }}" style="width:100%;margin-bottom:3rem;" />
-            <!--class="intro-image{% if page.intro_image_absolute %} intro-image-absolute{% endif %}{% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}"-->
-         </div>
+<div class="container">
+   <div class="row justify-content-start">
+      {% if page.intro_image %}
+      <div class="col-12">
+         <img alt="{{ page.title }}" src="{{ page.intro_image | relURL }}" style="width:100%;margin-bottom:3rem;" />
+         <!--class="intro-image{% if page.intro_image_absolute %} intro-image-absolute{% endif %}{% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}"-->
+      </div>
+      {% endif %}
+      <div class="col-10">
+         {{ content }}
+         {% if page.show_call_box %}
+         {% include call.html show_button=true %}
          {% endif %}
-         <div class="col-10">
-            {{ content }}
-            {% if page.show_call_box %}
-            {% include call.html show_button=true %}
-            {% endif %}
-         </div>
       </div>
    </div>
+</div>
 <!--</div>-->
-
-
-
 <!--<div class="strip">
   <div class="container pt-6 pb-6 pb-md-10">
     <div class="row justify-content-start">
@@ -48,7 +45,6 @@ bodyClass: "page-home"
     </div>
   </div>
 </div>-->
-
 <!--{% if site.data.features %}
 <div class="strip strip-grey">
   <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
