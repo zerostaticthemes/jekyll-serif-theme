@@ -1,6 +1,6 @@
 ---
 layout: default
-bodyClass: "page-services"
+bodyClass: "page-programs"
 ---
 
 <div class="container">
@@ -15,12 +15,12 @@ bodyClass: "page-services"
 	<div class="row">
 		{% for program in site.programs %}
 		<div class="col-12 col-md-4 mb-3">
-			<div class="service service-summary">
-				<div class="service-content">
-					<h2 class="service-title">
+			<div class="program program-summary">
+				<div class="program-content">
+					<h2 class="program-title">
 						<a href="{{ program.url | relative_url }}">{{ program.title }}</a>
 					</h2>
-					{% if service.intro_image %}
+					{% if program.intro_image %}
 					<div class="col-12">
 						<img alt="{{ program.title }}" src="{{ program.intro_image }}" style="width:100%;margin-bottom:3rem;" />
 					</div>

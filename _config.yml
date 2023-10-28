@@ -27,6 +27,11 @@ defaults:
       type: "services"
     values:
       layout: "service"
+  - scope:
+      path: ""
+      type: "programs"
+    values:
+      layout: "program"
 
 sass:
   style: compressed # possible values: nested expanded compact compressed

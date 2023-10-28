@@ -1,9 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\images",
+    "\\images\\illustrations",
     "\\images\\logo",
-    "\\_layouts"
+    "\\_layouts",
+    "\\_programs",
+    "\\_services"
   ],
+  "SelectedNode": "\\services.md",
   "PreviewInSolutionExplorer": false
 }
