@@ -1,12 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\images\\illustrations",
-    "\\images\\logo",
     "\\_layouts",
     "\\_programs",
     "\\_services"
   ],
-  "SelectedNode": "\\services.md",
+  "SelectedNode": "\\_config.yml",
   "PreviewInSolutionExplorer": false
 }

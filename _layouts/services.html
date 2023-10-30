@@ -27,11 +27,11 @@ bodyClass: "page-services"
 					<h2 class="service-title">
 						<a href="{{ service.url | relative_url }}">{{ service.title }}</a>
 					</h2>
-					{% if service.intro_image %}
+					<!--{% if service.intro_image %}
 					<div class="col-12">
 						<img alt="{{ service.title }}" src="{{ service.intro_image }}" style="width:100%;margin-bottom:3rem;" />
 					</div>
-					{% endif %}
+					{% endif %}-->
 					<p>{{ service.content | markdownify | strip_html }}</p>
 				</div>
          </div>
