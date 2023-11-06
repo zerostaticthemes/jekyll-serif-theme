@@ -1,0 +1,99 @@
+#particles-js {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: var(--color-particles-background);
+
+  .particles-js-canvas-el {
+    width: 100%;
+    height: 99.5vh !important;
+  }
+
+  .jumbotron {
+    position: absolute;
+    top: 44%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+  }
+}
+
+.fullscreen {
+  min-height: 100vh;
+
+  h1,
+  h2 {
+    color: var(--color-particles-text);
+  }
+}
+
+.particles-photo {
+  width: 50%;
+  border-radius: 50%;
+  margin: auto;
+  margin-bottom: 0.5em;
+}
+
+.particles-title {
+  margin: 0;
+  font-size: 2.5em;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.particles-subtitle {
+  margin: 0 0 1em 0;
+  font-size: 1.25em;
+  font-weight: 400;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.particles-icon {
+  margin: 0 0.5em;
+  pointer-events: all;
+
+  svg {
+    -webkit-transform: scale(1.8);
+    transform: scale(1.8);
+  }
+
+  svg circle,
+  svg path {
+    stroke: var(--color-particles-text) !important;
+    stroke-width: 0.05em;
+  }
+
+  &:focus,
+  &:hover {
+    border: none;
+
+    svg circle,
+    svg path {
+      stroke-width: 0.075em;
+    }
+  }
+}
+
+.particles-scroll {
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+
+  .particles-icon {
+    position: relative;
+    -webkit-animation: pulse 1s infinite;
+    animation: pulse 1s infinite;
+  }
+
+  svg {
+    -webkit-transform: scale(2.7);
+    transform: scale(2.7);
+  }
+}

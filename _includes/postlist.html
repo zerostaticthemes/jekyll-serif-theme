@@ -1,0 +1,8 @@
+<div>
+  {% for post in paginator.posts %}
+  <h1><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h1>
+  <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date: "%B %e, %Y" }}</time>
+  <p class="lead">{{ post.lead }}</p>
+  {{ post.content }}
+  {% endfor %}
+</div>

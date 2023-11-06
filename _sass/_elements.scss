@@ -1,0 +1,102 @@
+a.site-title {
+  font-weight: 500;
+  color: var(--color-heading);
+
+  &:focus,
+  &:hover {
+    border-color: inherit;
+    color: inherit;
+  }
+}
+
+.toggle-bar {
+  display: flex;
+  justify-content: end;
+  padding-top: 1.5em;
+}
+
+.toggle-icon {
+  color: var(--color-heading);
+
+  &:focus,
+  &:hover {
+    cursor: pointer;
+    border: none;
+
+    svg circle,
+    svg path {
+      stroke-width: 0.1em;
+    }
+  }
+}
+
+.message {
+  padding: 0.25em 1em;
+  border-radius: 0.25em;
+  background-color: var(--color-mark);
+  color: var(--color-text);
+}
+
+dd {
+  padding-left: 0.5em;
+}
+
+.archive ul,
+.contact ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.li-icon {
+  margin-right: 0.25em;
+}
+
+a.iconlink {
+  svg circle,
+  svg path {
+    stroke: var(--color-link);
+  }
+
+  &:focus,
+  &:hover {
+    border: none;
+
+    svg circle,
+    svg path {
+      stroke-width: 0.1em;
+    }
+  }
+}
+
+.footnotes {
+  margin-top: 2em;
+
+  p {
+    margin: 0;
+  }
+
+  &::before {
+    content: "Notes";
+  }
+}
+
+a[href^="#fn:"] {
+  margin-left: 0.1em;
+  font-weight: 500;
+
+  &:focus,
+  &:hover {
+    font-weight: 700;
+    border: none;
+  }
+}
+
+a.reversefootnote {
+  font-weight: 500;
+
+  &:focus,
+  &:hover {
+    font-weight: 700;
+    border: none;
+  }
+}

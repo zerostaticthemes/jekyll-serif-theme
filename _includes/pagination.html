@@ -1,0 +1,12 @@
+<div class="pagination">
+  {% if paginator.next_page %}
+  <a class="pagination-item older" href="{{ paginator.next_page_path | relative_url }}">{% include svg/nav-arrow-left.svg %} Older</a>
+  {% else %}
+  <span class="pagination-item older">{% include svg/nav-arrow-left.svg %} Older</span>
+  {% endif %}
+  {% if paginator.previous_page %}
+  <a class="pagination-item newer" href="{{ paginator.previous_page_path | prepend: relative_url }}">Newer {% include svg/nav-arrow-right.svg %}</a>
+  {% else %}
+  <span class="pagination-item newer">Newer {% include svg/nav-arrow-right.svg %}</span>
+  {% endif %}
+</div>

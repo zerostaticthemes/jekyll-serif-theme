@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<article>
+  {% include header.html %}
+  <main>
+    <h1 class="post-title">{{ page.title }}</h1>
+    <time datetime="{{ page.date | date_to_xmlschema }}" class="post-date">{{ page.date | date: "%B %e, %Y" }}</time>
+    <p class="lead">{{ page.lead }}</p>
+    {{ content }}
+  </main>
+  {% include footer.html %}
+</article>
