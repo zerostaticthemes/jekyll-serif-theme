@@ -1,30 +1,30 @@
 # site settings
 
-title: cvless
-description: Jekyll theme for a beautiful online CV
-taglong: Jekyll theme for a beautiful online CV
-tagshort: Jekyll theme
-url: https://cvless.netlify.app
+title: Daniel Micallef CV
+description: A CV of a Full Stack Engineer
+taglong: A CV of a Full Stack Engineer
+tagshort: Daniel's CV
+url: https://danielmicallef.xyz
 baseurl: ""
 permalink: pretty
-repo: https://github.com/username/username.github.io
+repo: https://github.com/danielMicallef/xyz.github.io
 
 # author settings
 
 author:
-  name: Place Holder
-  email: username@domain.com
+  name: Daniel Micallef
+  email: danielmicallef94@gmail.com
 photo: /assets/jpg/photo.jpg
 
 # social media links
 
 social:
-  facebook: username
-  github: username
-  instagram: username
-  linkedin: username
-  stackoverflow: 0000000/username
-  twitter: username
+  # facebook: username
+  github: danielMicallef
+  # instagram: username
+  linkedin: daniel-micallef
+  stackoverflow: 4222959/daniel-micallef
+  twitter: @micallef_daniel
 
 # build settings
 
