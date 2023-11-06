@@ -9,7 +9,7 @@ title: CV
 
 ## On what we can work together
 
-I am a Full Stack developer working with Python3. You would like to contact me if you will be working on a Python API.
+I am a Full Stack developer and love to create different Python APIs, especially if Machine learning is involved.
 
 ### Tools I am currently using
 

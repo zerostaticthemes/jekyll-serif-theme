@@ -1,8 +1,8 @@
 # site settings
 
-title: Daniel Micallef CV
-description: A CV of a Full Stack Engineer
-taglong: A CV of a Full Stack Engineer
+title: Daniel Micallef
+description: Python . Sports . Healthy Food and Coffee!
+taglong: Making life easier with Python and harder with barbells and dumbells.
 tagshort: Daniel's CV
 url: https://danielmicallef.xyz
 baseurl: ""
@@ -24,7 +24,7 @@ social:
   # instagram: username
   linkedin: daniel-micallef
   stackoverflow: 4222959/daniel-micallef
-  twitter: @micallef_daniel
+  twitter: micallef_daniel
 
 # build settings
 

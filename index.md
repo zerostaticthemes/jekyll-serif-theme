@@ -5,14 +5,19 @@ title: Home
 
 # About
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Hi there, I'm Daniel, and here's a bit about me:
 
-This is the home page. It can be used for a short introduction. [Click here](/cv) to see the full CV, and [here](/cv.pdf) to download a print version. The theme also ships with a blog: [click here](/posts) to scroll posts from the most recent. Finally, [click here](/404) to see a page that can't be found.
+- 👨‍💻 I have a passion for Machine Learning, and I'm always eager to explore its endless possibilities.
+- 🌐 During my full-time work, I enjoy crafting APIs and creating websites, turning my ideas into digital reality.
+- 🏋️ I'm an advocate for an active lifestyle. You can often find me hitting the gym or going for a refreshing run to keep both my body and mind in top shape.
+- ☕ I'm a coffee enthusiast, and I have a soft spot for La Pavoni. A good cup of coffee can make any day better.
+- 📈 I'm also keen on analyzing companies and the stock market. It's fascinating to consider investment opportunities.
+- 🏡 Inspired by "Rich Dad, Poor Dad" by Robert Kiyosaki, I've ventured into the world of real estate and made some investments along the way.
 
-By default, the theme only contains these few pages in order to stay lean and flexible. However, it can be easily extended to accommodate more pages, [collections](https://jekyllrb.com/docs/collections/), [categories, and tags](https://jekyllrb.com/docs/posts/#tags-and-categories).
+Feel free to reach out and connect if you share any of these interests or if you simply want to chat about the exciting worlds of tech, sports, or investments. I'm always up for a good conversation!
 
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Looking forward to connecting with like-minded individuals and exploring new opportunities together.
 
-Below is a list of blog posts included for illustrative purposes. Make sure to delete or modify them before deploying your website.
+Apart from thanking LLM's for helping me generate the above, below is a list of blog posts I will be writing.
 
 {% include archive.html %}
