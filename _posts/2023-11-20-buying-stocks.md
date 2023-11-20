@@ -41,3 +41,11 @@ Dilution refers to the reduction in the percentage ownership of the given compan
 ## Current P/E and PEG ratios when compared to similar companies
 
 When all is said and done, we care about the number of years it will take to get our investment back. Compare to similar companies to get an understanding of what is expensive for the industry.
+
+## Is it in a Hot Industry?
+
+This one is directly taken from Peter Lynch (One up on Wall Street). If everyone is talking about it, you're probably not going to have any advantage you can profit from and institutions are all over the industry.
+
+## Does the company rely on one big customer?
+
+The risk here is self-explanotary. But its' better to be explicit. What happens if that customer decides they no longer need the service?

@@ -1,0 +1,29 @@
+[Finance]
+1. Checking for dilution in debt: Finding Warrants, Employee Options etc.
+2. Dividends
+3. Silicon -> Transformers -> Electricity
+4. Hot numbers - Chapter 13 - One Up on Wall Street
+		1. Percent of Sales
+		    1. If you got interested in a company because of a particular product; say you noticed this product doing well, check what percentage of sales is this product accountable for. For example you may be noticing Google Cloud Platform growing every year into becoming a leading cloud provider. If we do some research we find that Google Cloud made 5.5billion in Q4 2021, a 44.6% increase when compared to Q4 2020. This amount of revenue would be huge for a small startup, however for Alphabet, it amounts to just 7% of total revenue. A good question to ask in this case is: ‘Who are the other cloud providers?’
+		2. The P/E Ratio
+		    1. Fairly priced P/E is equal to growth rate. E.g. If P/E of a company is 15, expect 15% growth rate.
+		        1. If P/E ratio < Growth rate ⇒ Bargain
+		        2. If P/E is Half Growth Rate you should get excited
+		        3. If P/E is double the Growth Rate you should not get excited
+		    2. Take Dividend into account:
+		        1. Find Long Term growth rate (e.g. 12%)
+		        2. Add dividend yield (e.g. 3%)
+		        3. Divide by P/E Ratio (e.g 15) ⇒ 12+3/15 = 1. 
+		        4. In General Less then 1 is poor, 1.5 is okay, but what we are really looking for is a 2 or better.
+		3. The Cash Position
+		4. The Debt Factor
+		5. Dividends
+		6. Book Value
+		    1. Hidden Assets
+		7. Cash Flow
+
+
+[Tech]
+1. Piccolo Getting started
+2. MongoDB vs Clickhouse
+3. Crawling
