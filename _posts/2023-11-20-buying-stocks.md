@@ -36,7 +36,13 @@ This is an important question to answer, and albeit we can never be exactly righ
 
 ## Can Shareholders be diluted?
 
-Dilution refers to the reduction in the percentage ownership of the given company when it issues new shares. This is sometimes done through employee stock options, and warrants.
+Dilution refers to the reduction in the percentage ownership of the given company when it issues new shares.
+
+This is considered a major risk. Shareholder dilution occurs when there is an increase in the number of shares on issue that is not proportionally distributed between all shareholders. Often due to the company raising equity capital or some options being converted into stock (think Employee Stock Options). All else being equal, if there are more shares outstanding then each existing share will be entitled to a lower proportion of the company's total earnings, thus reducing earnings per share (EPS). While dilution might not always result in lower EPS (like if the company is using the capital to fund an EPS accretive acquisition) in a lot cases it does, along with lower dividends per share and less voting power at shareholder meetings. 
+
+In Q4 last year I bought Greenwave Technology Solutions (GWAV), a company operating 13 recycling facilities averaging $2.04 per share. The prospects looked good. Management planned to open new facilities and expand to 20+ locations, upgrade technologies and sell directly to consumer to improve margins, install a new automotive shredder, essentially doubling the companies' output and more. However, the stock tanked to $0.48c per share at the time of writing. The reason? The company needed to raise equity, and there was a 55% increase in outstanding shares. 
+
+_Note that this was only one of the reasons. The company has run into financial trouble where its' debt ballooned from $6m to $37m, resulting in company liabilities exceeding its' assets (negative shareholder equity)._
 
 ## Current P/E and PEG ratios when compared to similar companies
 
