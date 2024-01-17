@@ -1,6 +1,6 @@
 ---
 title:  "Nullam id dolor elit id nibh"
-layout: page
+layout: post
 ---
 
 Lorem markdownum aequalis strigis. _Saetigeri iubeas_, vultu huic alvum nondum
