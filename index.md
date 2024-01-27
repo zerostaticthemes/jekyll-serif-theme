@@ -2,7 +2,7 @@
 title: Jekyll Serif Theme
 layout: home
 description: Jekyll Serif contains content types for a typical business website. The theme is fully responsive, blazing fast and artfully illustrated.
-intro_image: "images/illustrations/4421964-removebg-preview.png"
+intro_image: "images/illustrations/78773-removebg-preview(1).png"
 intro_image_absolute: true
 intro_image_hide_on_mobile: true
 show_call_box: true
