@@ -1,6 +1,6 @@
 .header {
   color: $steel;
-  background-color: darken($color: #7e6040, $amount: 0);
+  background-color: darken($color: $primary, $amount: 0);
   display: flex;
   text-decoration-color: white;
   justify-content: space-between;
@@ -13,7 +13,7 @@
     justify-content: space-between;
     align-items: center;
   }
-  &.header-absolute {
+  .header-absolute {
     position: absolute;
     z-index: 10;
     width: 100%;
