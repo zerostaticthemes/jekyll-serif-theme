@@ -24,7 +24,7 @@
   .call-box-bottom {
     flex: auto;
     padding: 20px;
-    border-top: 1px solid darken($white-offset, 5%);
+    border-top: 1px solid darken($black, 5%);
     @include media-breakpoint-up(sm) {
       flex: 0 0 auto;
       border: none;
@@ -36,10 +36,12 @@
   }
   .call-phone {
     margin-bottom: 5px;
+    color: $steel;
   }
   .call-email {
+    color: $steel;
     a {
-      color: $black;
+      color: darken($color: $pure, $amount: 0);
     }
   }
   strong {

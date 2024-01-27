@@ -15,7 +15,7 @@
         display: inline-block;
         font-weight: normal;
         text-decoration: none;
-        color: $primary;
+        color: $steel;
         &:hover {
           text-decoration: underline;
         }
@@ -23,7 +23,7 @@
       &.active {
         > a {
           font-weight: bold;
-          text-decoration: none;
+          text-decoration: underline;
           &:hover {
             text-decoration: none;
             transition: all 225ms ease-in 0s;

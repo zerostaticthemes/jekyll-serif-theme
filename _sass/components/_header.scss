@@ -1,7 +1,8 @@
 .header {
-  color: $primary;
-  background-color: #ffffff;
+  color: $steel;
+  background-color: darken($color: #7e6040, $amount: 5);
   display: flex;
+  text-decoration-color: white;
   justify-content: space-between;
   align-items: center;
   // box-shadow: 0 1px 15px rgba(50, 50, 93, 0.2);
