@@ -2,18 +2,20 @@
 ---
 
 // Colors
-$primary: #e5261f;
+$primary: #7e6040;
 $primary-dark: #a01b16;
 $secondary: #f88379;
-$black: #2f2f41;
-$white: #ffffff;
-$white-offset: #fff6f8;
-$steel: #5c5a5a;
+$black: #7e6040;
+$white: #18242f;
+// #21D0B2
+$white-offset: #233345;
+$steel: white; // TEXT COLOR
+$pure: #c3a789; 
 
 // Links
-$link-color: $primary;
+$link-color: darken($pure, 0%);
 $link-decoration: none;
-$link-hover-color: lighten($primary, 10%);
+$link-hover-color: darken($pure, 20%);
 $link-hover-decoration: underline;
 
 // Fonts
