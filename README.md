@@ -88,7 +88,7 @@ For example the site https://zerostaticthemes.github.io/jekyll-serif-theme would
 I've been building open source themes for all the main static site generators for over 4 years now. My premium themes allow me to continue to allocate time to maintain, improve and build new open source themes.
 
 1. Leave a star ⭐🙏🏻
-2. Make a contribution to this theme, add a feature, fix a bug, nothing is to small 
+2. Make a contribution to this theme, add a feature, fix a bug, nothing is too small 
 2. Mention this theme on twitter [@zerostaticio](https://twitter.com/zerostaticio) 📢
 3. Purchase a premium theme 🔥
 
