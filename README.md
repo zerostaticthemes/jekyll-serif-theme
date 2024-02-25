@@ -18,7 +18,7 @@ Serif is a modern business theme for Jekyll. It contains multiple content types 
 - Features (Data)
 - SCSS
 - 100% Responsive design, animated hamburger and mobile slide in menu
-- Bootstrap 4.6 - _Only the bootstrap grid and utilites are imported by default. If you want to use more of the Boostrap library you can uncomment the `@import` in `style.scss`_
+- Bootstrap 5.3.2 - _Only the bootstrap grid and utilites are imported by default. If you want to use more of the Boostrap library you can uncomment the `@import` in `style.scss`_
 - 100/100 Google Lighthouse speed score
 - 100/100 Google Lighthouse seo score
 - 100/100 Google Lighthouse accessibility score
@@ -88,7 +88,7 @@ For example the site https://zerostaticthemes.github.io/jekyll-serif-theme would
 I've been building open source themes for all the main static site generators for over 4 years now. My premium themes allow me to continue to allocate time to maintain, improve and build new open source themes.
 
 1. Leave a star ⭐🙏🏻
-2. Make a contribution to this theme, add a feature, fix a bug, nothing is to small 
+2. Make a contribution to this theme, add a feature, fix a bug, nothing is too small 
 2. Mention this theme on twitter [@zerostaticio](https://twitter.com/zerostaticio) 📢
 3. Purchase a premium theme 🔥
 
