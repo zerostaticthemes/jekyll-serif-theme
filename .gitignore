@@ -1,22 +1,38 @@
-# NPM
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
 node_modules
-npm-debug.log
+dist
+dist-ssr
+*.local
 
-# Jekyll
-_site
-_site/
-.sass-cache/
-.jekyll-cache/
-.jekyll-metadata
-Gemfile.lock
-**/Gemfile.lock
+# Environment variables
+.env
+.env.local
+.env.production
+.env.development
 
-# Temporary files
-tmp
-.DS_Store
-Desktop.ini
-._*
-Thumbs.db
-.Spotlight-V100
-.Trashes
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
 .idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Build
+build/
+.cache/
