@@ -1,0 +1,166 @@
+@import "tailwindcss";
+
+:root {
+  --page-shadow: 0 24px 60px rgba(1, 18, 29, 0.32);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: auto;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background:
+    radial-gradient(circle at top, rgba(79, 183, 231, 0.12), transparent 30%),
+    linear-gradient(180deg, #eef8fc 0 260px, #020202 260px 100%);
+  color: #f5fbff;
+  font-family:
+    var(--font-space-grotesk), "Segoe UI Variable Display", "Trebuchet MS",
+    sans-serif;
+}
+
+.font-lexend {
+  font-family:
+    var(--font-lexend), "Segoe UI Variable Display", "Trebuchet MS", sans-serif;
+}
+
+.font-space-grotesk {
+  font-family:
+    var(--font-space-grotesk), "Segoe UI Variable Display", "Trebuchet MS",
+    sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+button,
+a {
+  transition:
+    transform 180ms ease,
+    opacity 180ms ease,
+    border-color 180ms ease,
+    background 180ms ease;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
+
+button:hover,
+a:hover {
+  transform: translateY(-1px);
+}
+
+.container {
+  width: min(1200px, calc(100vw - 32px));
+  margin: 0 auto;
+}
+
+@keyframes review-marquee-track {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(calc(-100% - 24px));
+  }
+}
+
+.review-marquee-shell:hover .review-marquee-track {
+  animation-play-state: paused;
+}
+
+.review-marquee-track {
+  animation: review-marquee-track 36s linear infinite;
+  will-change: transform;
+}
+
+@keyframes header-fly-down {
+  from {
+    opacity: 0;
+    transform: translateY(-18px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.header-fly-down {
+  animation: header-fly-down 560ms cubic-bezier(0.22, 1, 0.36, 1) both;
+  will-change: transform, opacity;
+}
+
+@keyframes hero-rise-up {
+  from {
+    opacity: 0;
+    transform: translateY(28px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hero-rise-up {
+  animation: hero-rise-up 760ms cubic-bezier(0.2, 0.9, 0.2, 1) both;
+  will-change: transform, opacity;
+}
+
+@keyframes hero-card-float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-4px);
+  }
+}
+
+@keyframes hero-digit-glow {
+  0%,
+  100% {
+    filter: drop-shadow(0 0 0 rgba(45, 139, 186, 0));
+  }
+
+  50% {
+    filter: drop-shadow(0 0 10px rgba(45, 139, 186, 0.3));
+  }
+}
+
+.hero-countdown-card {
+  animation:
+    hero-rise-up 760ms cubic-bezier(0.2, 0.9, 0.2, 1) both,
+    hero-card-float 4.2s ease-in-out infinite;
+  transition:
+    transform 220ms ease,
+    box-shadow 220ms ease;
+}
+
+.hero-countdown-card:hover {
+  transform: translateY(-4px) scale(1.02);
+  box-shadow: 0 14px 34px rgba(45, 139, 186, 0.24);
+  cursor: pointer;
+}
+
+.hero-countdown-digit {
+  animation: hero-digit-glow 1.9s ease-in-out infinite;
+}
