@@ -1,0 +1,27 @@
+---
+import { getCollection, render } from 'astro:content';
+import EditorialArticle from '../../components/EditorialArticle.astro';
+import SiteLayout from '../../layouts/SiteLayout.astro';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('blog', ({ data }) => !data.draft || !import.meta.env.PROD);
+  return posts.map((post) => ({ params: { slug: post.id }, props: { post } }));
+}
+
+const { post } = Astro.props;
+const { Content } = await render(post);
+---
+
+<SiteLayout title={`${post.data.title} | WeCollab8`} description={post.data.description}>
+  <EditorialArticle
+    section="Blog"
+    sectionHref="/blog/"
+    title={post.data.title}
+    description={post.data.description}
+    pubDate={post.data.pubDate}
+    author={post.data.author}
+    tags={post.data.tags}
+  >
+    <Content />
+  </EditorialArticle>
+</SiteLayout>

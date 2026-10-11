@@ -1,0 +1,49 @@
+---
+import type { CollectionEntry } from 'astro:content';
+
+type EditorialEntry = CollectionEntry<'blog'> | CollectionEntry<'news'>;
+
+interface Props {
+  section: 'Blog' | 'News';
+  collectionPath: 'blog' | 'news';
+  description: string;
+  entries: EditorialEntry[];
+}
+
+const { section, collectionPath, description, entries } = Astro.props;
+const dateFormatter = new Intl.DateTimeFormat('en-ZA', {
+  day: 'numeric',
+  month: 'long',
+  year: 'numeric',
+  timeZone: 'UTC',
+});
+---
+
+<section class="mx-auto max-w-7xl px-5 py-16 md:px-8 md:py-20 lg:px-10">
+  <p class="eyebrow">{section}</p>
+  <h1 class="mt-4 max-w-[13ch] font-display text-5xl leading-tight text-ink md:text-6xl">{section}</h1>
+  <p class="mt-5 max-w-2xl text-base leading-7 text-muted">{description}</p>
+
+  {entries.length > 0 ? (
+    <ol class="mt-10 max-w-4xl list-none border-y border-line p-0">
+      {entries.map((entry) => (
+        <li class="border-b border-line py-7 last:border-0">
+          <a href={`/${collectionPath}/${entry.id}/`} class="font-display text-2xl text-ink underline decoration-rust underline-offset-4">
+            {entry.data.title}
+          </a>
+          <p class="mt-3 text-xs font-semibold uppercase text-muted">
+            {dateFormatter.format(entry.data.pubDate)} <span aria-hidden="true">/</span> {entry.data.author}
+          </p>
+          <p class="mt-3 max-w-3xl text-sm leading-6 text-muted">{entry.data.description}</p>
+          {entry.data.tags.length > 0 && (
+            <p class="mt-3 text-xs font-medium text-forest">{entry.data.tags.join(' / ')}</p>
+          )}
+        </li>
+      ))}
+    </ol>
+  ) : (
+    <p class="mt-10 max-w-3xl border-l-2 border-rust pl-5 text-base leading-7 text-muted">
+      {section === 'News' ? 'No news has been published yet.' : 'No blog posts have been published yet.'}
+    </p>
+  )}
+</section>

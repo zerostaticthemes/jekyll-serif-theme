@@ -1,0 +1,17 @@
+---
+import { getCollection } from 'astro:content';
+import EditorialList from '../../components/EditorialList.astro';
+import SiteLayout from '../../layouts/SiteLayout.astro';
+
+const posts = await getCollection('blog', ({ data }) => !data.draft || !import.meta.env.PROD);
+posts.sort((left, right) => right.data.pubDate.getTime() - left.data.pubDate.getTime());
+---
+
+<SiteLayout title="Blog | WeCollab8" description="Practical perspectives on cloud, integration, automation, security, AI, and data engineering.">
+  <EditorialList
+    section="Blog"
+    collectionPath="blog"
+    description="Practical perspectives and engineering notes from WeCollab8."
+    entries={posts}
+  />
+</SiteLayout>

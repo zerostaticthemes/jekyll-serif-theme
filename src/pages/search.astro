@@ -1,0 +1,32 @@
+---
+import SiteLayout from '../layouts/SiteLayout.astro';
+---
+
+<SiteLayout title="Search | WeCollab8" description="Search WeCollab8 services and practical technology guides." pagefindIgnore>
+  <section class="mx-auto max-w-7xl px-5 py-16 md:px-8 md:py-20 lg:px-10">
+    <p class="eyebrow">Search</p>
+    <h1 class="mt-4 max-w-[13ch] font-display text-5xl leading-tight text-ink md:text-6xl">Find a service or guide.</h1>
+
+    <form id="site-search" action="/search/" method="get" role="search" class="mt-10 max-w-3xl">
+      <label for="search-query" class="mb-3 block text-sm font-semibold text-ink">Search all pages and guides</label>
+      <div class="flex flex-col gap-3 sm:flex-row">
+        <input
+          id="search-query"
+          name="q"
+          type="search"
+          autocomplete="off"
+          aria-describedby="search-status"
+          class="min-w-0 flex-1 border border-line bg-white px-4 py-3 text-base text-ink outline-none focus:border-forest focus:ring-2 focus:ring-forest/20"
+        />
+        <button type="submit" class="inline-flex items-center justify-center gap-3 bg-forest px-5 py-3 text-sm font-semibold text-white transition-colors hover:bg-rust">
+          Search <span aria-hidden="true">&rarr;</span>
+        </button>
+      </div>
+    </form>
+
+    <p id="search-status" class="mt-8 text-sm leading-6 text-muted" role="status" aria-live="polite">Enter a term to search services and guides.</p>
+    <ol id="search-results" class="mt-4 max-w-4xl divide-y divide-line border-y border-line p-0"></ol>
+  </section>
+</SiteLayout>
+
+<script is:inline type="module" src="/search.js"></script>

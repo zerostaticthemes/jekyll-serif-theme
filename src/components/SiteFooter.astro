@@ -1,3 +1,7 @@
+---
+import CookiePreferencesLink from './CookiePreferencesLink.astro';
+---
+
 <footer class="border-t border-line bg-paper">
   <div class="mx-auto grid max-w-7xl gap-10 px-5 py-10 md:grid-cols-[1fr_auto] md:items-end md:px-8 lg:px-10">
     <div>
@@ -11,6 +15,7 @@
         <a href="/about/" class="text-muted no-underline hover:text-forest">About</a>
         <a href="/contact/" class="text-muted no-underline hover:text-forest">Contact</a>
       </nav>
+      <CookiePreferencesLink />
     </div>
     <p class="border-t border-line pt-5 text-xs text-muted md:col-span-2">&copy; {new Date().getFullYear()} WeCollab8 Technology Holdings</p>
   </div>

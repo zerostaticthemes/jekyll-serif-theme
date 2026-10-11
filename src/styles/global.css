@@ -95,6 +95,73 @@ body {
   text-decoration-color: currentColor;
 }
 
+.editorial-content {
+  max-width: 68ch;
+  color: var(--color-ink);
+  font-size: 1.0625rem;
+  line-height: 1.8;
+}
+
+.editorial-content > * + * {
+  margin-top: 1.25rem;
+}
+
+.editorial-content h2,
+.editorial-content h3 {
+  color: var(--color-ink);
+  font-family: var(--font-display);
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.editorial-content h2 {
+  margin-top: 2.5rem;
+  font-size: 2rem;
+}
+
+.editorial-content h3 {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+}
+
+.editorial-content a {
+  color: var(--color-forest);
+  text-decoration-color: #b9624380;
+  text-underline-offset: 4px;
+}
+
+.editorial-content ul,
+.editorial-content ol {
+  padding-left: 1.5rem;
+}
+
+.editorial-content li + li {
+  margin-top: 0.5rem;
+}
+
+.editorial-content blockquote {
+  border-left: 2px solid var(--color-rust);
+  padding-left: 1.25rem;
+  color: var(--color-muted);
+}
+
+.editorial-content :not(pre) > code {
+  border: 1px solid var(--color-line);
+  background: white;
+  padding: 0.1rem 0.3rem;
+  font-size: 0.9em;
+}
+
+.editorial-content pre {
+  overflow-x: auto;
+  border: 1px solid var(--color-line);
+  background: var(--color-forest);
+  padding: 1.25rem;
+  color: white;
+  font-size: 0.875rem;
+  line-height: 1.6;
+}
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;

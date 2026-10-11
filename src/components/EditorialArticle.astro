@@ -1,0 +1,37 @@
+---
+interface Props {
+  section: 'Blog' | 'News';
+  sectionHref: '/blog/' | '/news/';
+  title: string;
+  description: string;
+  pubDate: Date;
+  author: string;
+  tags: string[];
+}
+
+const { section, sectionHref, title, description, pubDate, author, tags } = Astro.props;
+const dateFormatter = new Intl.DateTimeFormat('en-ZA', {
+  day: 'numeric',
+  month: 'long',
+  year: 'numeric',
+  timeZone: 'UTC',
+});
+---
+
+<section class="mx-auto max-w-7xl px-5 py-12 md:px-8 md:py-16 lg:px-10">
+  <article class="max-w-4xl">
+    <a href={sectionHref} class="text-link text-sm font-semibold text-forest">&larr; All {section.toLowerCase()} posts</a>
+    <header class="mt-8 border-b border-line pb-8">
+      <p class="eyebrow">{section} <span aria-hidden="true">/</span> {dateFormatter.format(pubDate)}</p>
+      <h1 class="mt-4 max-w-[18ch] font-display text-4xl leading-tight text-ink sm:text-5xl md:text-6xl">{title}</h1>
+      <p class="mt-5 max-w-3xl text-lg leading-8 text-muted">{description}</p>
+      <div class="mt-5 flex flex-wrap gap-x-3 gap-y-2 text-xs font-semibold uppercase text-muted">
+        <span>{author}</span>
+        {tags.length > 0 && <span>{tags.join(' / ')}</span>}
+      </div>
+    </header>
+    <div class="editorial-content mt-8">
+      <slot />
+    </div>
+  </article>
+</section>

@@ -1,0 +1,78 @@
+---
+import SiteLayout from '../layouts/SiteLayout.astro';
+import '../styles/cookie-consent.css';
+---
+
+<SiteLayout
+  title="Cookie preferences | WeCollab8"
+  description="Review optional analytics and marketing preferences for this device."
+  pagefindIgnore
+  noindex
+>
+  <section class="mx-auto max-w-7xl px-5 py-16 md:px-8 md:py-20 lg:px-10">
+    <p class="eyebrow">Privacy</p>
+    <h1 class="mt-4 max-w-[15ch] font-display text-5xl leading-tight text-ink md:text-6xl">Cookie preferences</h1>
+    <p class="mt-5 max-w-2xl text-base leading-7 text-muted">
+      Essential storage remembers this choice. Analytics and marketing are optional and remain off unless you enable them. No analytics or marketing tracking tools are currently connected to this site.
+    </p>
+
+    <form id="cookie-preferences-form" class="mt-10 max-w-3xl border-y border-line">
+      <div class="flex items-center justify-between gap-6 border-b border-line py-5">
+        <div>
+          <h2 class="font-semibold text-ink">Essential</h2>
+          <p class="mt-1 text-sm leading-6 text-muted">Required to remember your privacy choices.</p>
+        </div>
+        <span class="shrink-0 text-sm font-semibold text-forest">Always on</span>
+      </div>
+      <label class="flex cursor-pointer items-center justify-between gap-6 border-b border-line py-5">
+        <span>
+          <span class="block font-semibold text-ink">Analytics</span>
+          <span class="mt-1 block text-sm leading-6 text-muted">Optional aggregate visit and referral-source measurement.</span>
+        </span>
+        <input class="size-5 shrink-0 accent-forest" type="checkbox" name="analytics" />
+      </label>
+      <label class="flex cursor-pointer items-center justify-between gap-6 py-5">
+        <span>
+          <span class="block font-semibold text-ink">Marketing</span>
+          <span class="mt-1 block text-sm leading-6 text-muted">Optional marketing tools. None are currently connected.</span>
+        </span>
+        <input class="size-5 shrink-0 accent-forest" type="checkbox" name="marketing" />
+      </label>
+      <div class="flex flex-col gap-4 border-t border-line py-5 sm:flex-row sm:items-center">
+        <button type="submit" class="inline-flex w-fit items-center gap-3 bg-forest px-5 py-3 text-sm font-semibold text-white transition-colors hover:bg-rust">Save preferences</button>
+        <p id="cookie-preferences-status" class="text-sm leading-6 text-muted" role="status" aria-live="polite"></p>
+      </div>
+    </form>
+
+    <p class="mt-8 text-sm text-muted">See the <a class="text-link font-semibold text-forest" href="/privacy/">privacy and cookie notice</a>.</p>
+  </section>
+</SiteLayout>
+
+<script>
+  interface ConsentApi {
+    get(): { categories: Record<string, boolean> } | null;
+    set(categories: Record<string, boolean>): void;
+  }
+
+  const consentApi = (window as Window & { astroConsent?: ConsentApi }).astroConsent;
+  const form = document.querySelector<HTMLFormElement>('#cookie-preferences-form');
+  const analytics = form?.elements.namedItem('analytics');
+  const marketing = form?.elements.namedItem('marketing');
+  const status = document.querySelector<HTMLElement>('#cookie-preferences-status');
+
+  if (consentApi && analytics instanceof HTMLInputElement && marketing instanceof HTMLInputElement && status) {
+    const saved = consentApi.get()?.categories;
+    analytics.checked = saved?.analytics === true;
+    marketing.checked = saved?.marketing === true;
+
+    form?.addEventListener('submit', (event) => {
+      event.preventDefault();
+      consentApi.set({
+        essential: true,
+        analytics: analytics.checked,
+        marketing: marketing.checked,
+      });
+      status.textContent = 'Your preferences have been saved on this device.';
+    });
+  }
+</script>

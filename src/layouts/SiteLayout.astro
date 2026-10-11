@@ -6,6 +6,8 @@ import '../styles/global.css';
 const {
   title = 'WeCollab8 | Technology that works together',
   description = 'Hands-on cloud, integration, automation and security expertise for complex enterprise environments.',
+  pagefindIgnore = false,
+  noindex = false,
 } = Astro.props;
 
 const canonicalUrl = new URL(Astro.url.pathname, Astro.site);
@@ -18,6 +20,7 @@ const canonicalUrl = new URL(Astro.url.pathname, Astro.site);
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#f7f8f4" />
     <meta name="description" content={description} />
+    {noindex && <meta name="robots" content="noindex, nofollow" />}
     <meta property="og:type" content="website" />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
@@ -27,9 +30,9 @@ const canonicalUrl = new URL(Astro.url.pathname, Astro.site);
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display&display=swap" rel="stylesheet" />
     <title>{title}</title>
   </head>
-  <body class="bg-paper font-sans text-ink antialiased">
+  <body class="bg-paper font-sans text-ink antialiased" data-pagefind-ignore={pagefindIgnore ? '' : undefined}>
     <SiteHeader />
-    <main id="main-content">
+    <main id="main-content" data-pagefind-body={pagefindIgnore ? undefined : ''}>
       <slot />
     </main>
     <SiteFooter />

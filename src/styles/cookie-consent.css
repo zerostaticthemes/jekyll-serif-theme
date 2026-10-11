@@ -1,0 +1,208 @@
+:root {
+  --cb-font-family: 'DM Sans', sans-serif;
+  --cb-z-index: 9999;
+  --cb-modal-width: 42rem;
+  --cb-toggle-width: 3.25rem;
+  --cb-toggle-height: 1.9rem;
+  --cb-toggle-knob: 1.4rem;
+  --cb-bg: #f7f8f4;
+  --cb-surface: #fff;
+  --cb-text: #1e2c26;
+  --cb-muted: #58665e;
+  --cb-border: #d8dfd8;
+  --cb-shadow: 0 20px 60px #10251c40;
+  --cb-backdrop: #10251c99;
+  --cb-accent: #183d30;
+  --cb-accent-strong: #183d30;
+  --cb-accent-soft: #183d301a;
+  --cb-success: #183d30;
+  --cb-button-bg: #183d30;
+  --cb-button-text: #fff;
+  --cb-button-border: #183d30;
+  --cb-button-secondary-bg: #fff;
+  --cb-button-secondary-text: #1e2c26;
+  --cb-button-secondary-border: #d8dfd8;
+}
+
+#astro-consent-modal {
+  position: fixed;
+  inset: 0;
+  z-index: var(--cb-z-index);
+  display: grid;
+  place-items: center;
+  padding: 1rem;
+  background: var(--cb-backdrop);
+  font-family: var(--cb-font-family);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 180ms ease;
+}
+
+#astro-consent-modal.cb-visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.cb-modal {
+  width: min(100%, var(--cb-modal-width));
+  max-height: min(90vh, 44rem);
+  overflow-y: auto;
+  border: 1px solid var(--cb-border);
+  border-radius: 4px;
+  background: var(--cb-bg);
+  padding: clamp(1.25rem, 4vw, 2rem);
+  color: var(--cb-text);
+  box-shadow: var(--cb-shadow);
+}
+
+.cb-modal-header h3 {
+  margin: 0;
+  font-family: Georgia, serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.cb-modal-header p {
+  margin: 0.75rem 0 0;
+  color: var(--cb-muted);
+  font-size: 0.95rem;
+  line-height: 1.65;
+}
+
+.cb-modal-header a {
+  color: var(--cb-accent);
+  text-underline-offset: 3px;
+}
+
+.cb-panel {
+  margin-top: 1.25rem;
+  overflow: hidden;
+  border: 1px solid var(--cb-border);
+  border-radius: 4px;
+  background: var(--cb-surface);
+}
+
+.cb-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  border-top: 1px solid var(--cb-border);
+  padding: 1rem;
+}
+
+.cb-row:first-child {
+  border-top: 0;
+}
+
+.cb-row span,
+.cb-row strong {
+  font-size: 0.925rem;
+  font-weight: 600;
+}
+
+.cb-row strong {
+  color: var(--cb-muted);
+}
+
+.cb-toggle,
+.cb-actions button {
+  border: 1px solid var(--cb-button-secondary-border);
+  border-radius: 3px;
+  font: inherit;
+  cursor: pointer;
+}
+
+.cb-toggle {
+  position: relative;
+  width: var(--cb-toggle-width);
+  height: var(--cb-toggle-height);
+  flex: 0 0 auto;
+  background: #e8ece8;
+}
+
+.cb-toggle::before {
+  position: absolute;
+  top: 0.2rem;
+  left: 0.2rem;
+  width: var(--cb-toggle-knob);
+  height: var(--cb-toggle-knob);
+  border-radius: 2px;
+  background: #fff;
+  box-shadow: 0 1px 4px #10251c40;
+  content: '';
+  transition: transform 160ms ease;
+}
+
+.cb-toggle.active {
+  border-color: var(--cb-accent);
+  background: var(--cb-accent);
+}
+
+.cb-toggle.active::before {
+  transform: translateX(1.3rem);
+}
+
+.cb-actions-modal {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.75rem;
+  margin-top: 1.25rem;
+}
+
+.cb-actions button {
+  min-height: 2.75rem;
+  padding: 0.7rem 1rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.cb-actions .cb-reject {
+  background: var(--cb-button-secondary-bg);
+  color: var(--cb-button-secondary-text);
+}
+
+.cb-actions .cb-accept {
+  border-color: var(--cb-button-border);
+  background: var(--cb-button-bg);
+  color: var(--cb-button-text);
+}
+
+.cb-toggle:focus-visible,
+.cb-actions button:focus-visible,
+.cookie-preferences-link:focus-visible {
+  outline: 2px solid var(--cb-accent);
+  outline-offset: 3px;
+}
+
+.cookie-preferences-link {
+  width: fit-content;
+  color: #183d30;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-decoration-color: #b9624380;
+  text-underline-offset: 4px;
+}
+
+.starlight-cookie-preferences {
+  display: grid;
+  justify-items: start;
+  gap: 1rem;
+}
+
+@media (max-width: 640px) {
+  .cb-actions-modal {
+    flex-direction: column-reverse;
+  }
+
+  .cb-actions-modal button {
+    width: 100%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #astro-consent-modal,
+  .cb-toggle::before {
+    transition: none;
+  }
+}

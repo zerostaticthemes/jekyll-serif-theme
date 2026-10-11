@@ -1,0 +1,17 @@
+---
+import { getCollection } from 'astro:content';
+import EditorialList from '../../components/EditorialList.astro';
+import SiteLayout from '../../layouts/SiteLayout.astro';
+
+const posts = await getCollection('news', ({ data }) => !data.draft);
+posts.sort((left, right) => right.data.pubDate.getTime() - left.data.pubDate.getTime());
+---
+
+<SiteLayout title="News | WeCollab8" description="Company news and updates from WeCollab8.">
+  <EditorialList
+    section="News"
+    collectionPath="news"
+    description="Company news and updates from WeCollab8."
+    entries={posts}
+  />
+</SiteLayout>

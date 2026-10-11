@@ -1,0 +1,29 @@
+---
+import SiteLayout from '../layouts/SiteLayout.astro';
+import '../styles/cookie-consent.css';
+---
+
+<SiteLayout title="Privacy and cookie notice | WeCollab8" description="How WeCollab8 currently handles preference storage and third-party page resources.">
+  <section class="mx-auto max-w-7xl px-5 py-16 md:px-8 md:py-20 lg:px-10">
+    <article class="max-w-3xl">
+      <p class="eyebrow">Privacy</p>
+      <h1 class="mt-4 max-w-[15ch] font-display text-5xl leading-tight text-ink md:text-6xl">Privacy and cookie notice</h1>
+      <p class="mt-6 text-base leading-7 text-muted">This notice describes the site features currently configured. It is not a statement that analytics or marketing tracking is active.</p>
+
+      <div class="editorial-content mt-10">
+        <h2 id="cookie-storage">Preference storage</h2>
+        <p>The consent manager stores your preference choices in this browser's local storage under <code>wecollab8-consent</code> for 30 days. This preference record is used to remember your selections; the consent manager does not set a cookie.</p>
+
+        <h2>Analytics and marketing</h2>
+        <p>The preference controls include optional analytics and marketing categories. No analytics or marketing tracking provider is currently connected to this site, so changing these choices does not activate a tracking service.</p>
+        <p>If a provider is added later, its scripts must be gated by the relevant saved preference before any optional tracking begins.</p>
+
+        <h2>Third-party resources</h2>
+        <p>The site currently requests font files from Google Fonts. As with other third-party requests, the provider may receive connection information such as the request IP address and browser metadata.</p>
+
+        <h2>Manage your choices</h2>
+        <p>You can review or change your saved choices from the <a href="/cookie-preferences/">cookie preferences page</a>, linked in the site footer.</p>
+      </div>
+    </article>
+  </section>
+</SiteLayout>

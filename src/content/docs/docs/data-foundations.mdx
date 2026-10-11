@@ -1,0 +1,34 @@
+---
+title: Building dependable data foundations
+description: Practical steps for connecting data sources, improving quality, and preparing information for analytics and AI.
+---
+
+Dependable analytics begins with understanding the data's meaning, ownership, and movement. A platform choice is only one part of that work; teams also need explicit expectations for how information is produced, checked, changed, and used.
+
+## Map sources and consumers
+
+Inventory important source systems and the teams responsible for them. For each source, record its purpose, update pattern, access constraints, key fields, and known quality limitations. Identify the reports, applications, and decisions that consume the data.
+
+Use these relationships to distinguish data that needs frequent updates from data that can be loaded in scheduled batches. Streaming adds operational complexity, so choose it when timeliness requirements justify that cost.
+
+## Define data contracts and quality checks
+
+Agree on schemas, identifiers, units, nullability, and change expectations between producers and consumers. Add checks for properties that matter to the use case, such as uniqueness, completeness, valid ranges, referential integrity, and freshness.
+
+Make failures visible to the people who can act on them. Track rejected or delayed records, alert on meaningful changes, and document how to correct and replay affected data without silently hiding the problem.
+
+## Make lineage and ownership usable
+
+Record where critical datasets originate, how they are transformed, and which downstream assets depend on them. Name accountable owners and provide enough context for users to understand definitions, caveats, access rules, and update frequency.
+
+Treat metadata and access controls as part of the pipeline design. Apply least-privilege access, protect sensitive fields, and make retention and deletion requirements visible throughout derived datasets.
+
+## Prepare for analytics and AI use
+
+Before publishing a dataset, check that its definitions are understood by consumers and that its quality is appropriate for the intended decision. Document known gaps rather than implying that a curated dataset is universally reliable.
+
+For AI use cases, additionally evaluate whether the data is representative, permitted for the proposed use, and safe to expose through retrieval or model workflows. Keep source attribution and update processes so that users can trace information back to its origin.
+
+## Improve in small, observable steps
+
+Start with a high-value data flow, agree on ownership and quality expectations, and measure whether those expectations are being met. Extend the same practices to additional sources as the team's operational capacity grows.

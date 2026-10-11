@@ -9,7 +9,10 @@
     "test": "node --test tests/*.test.mjs"
   },
   "dependencies": {
-    "astro": "^7.3.8"
+    "@astrojs/sitemap": "^3.7.4",
+    "@astrojs/starlight": "^0.42.6",
+    "astro": "^7.3.8",
+    "astro-consent": "^2.1.1"
   },
   "devDependencies": {
     "@tailwindcss/vite": "^4.3.3",
