@@ -1,18 +1,10 @@
-# NPM
-node_modules
-npm-debug.log
+# Node.js and Astro
+node_modules/
+dist/
+.astro/
+npm-debug.log*
 
-# Jekyll
-_site
-_site/
-.sass-cache/
-.jekyll-cache/
-.jekyll-metadata
-Gemfile.lock
-**/Gemfile.lock
-
-# Temporary files
-tmp
+# Local files
 .DS_Store
 Desktop.ini
 ._*

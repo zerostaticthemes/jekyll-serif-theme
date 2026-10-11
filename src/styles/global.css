@@ -1,0 +1,102 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-display: 'DM Serif Display', Georgia, serif;
+  --font-sans: 'DM Sans', sans-serif;
+  --color-paper: #f7f8f4;
+  --color-ink: #1e2c26;
+  --color-forest: #183d30;
+  --color-forest-light: #e4ece5;
+  --color-rust: #b96243;
+  --color-line: #d8dfd8;
+  --color-muted: #58665e;
+}
+
+:root {
+  color-scheme: light;
+  font-family: var(--font-sans);
+  color: var(--color-ink);
+  background: var(--color-paper);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-width: 320px;
+  margin: 0;
+}
+
+::selection {
+  color: white;
+  background: var(--color-forest);
+}
+
+.architecture-grid {
+  background-color: #e7eee7;
+  background-image: linear-gradient(#183d3010 1px, transparent 1px), linear-gradient(90deg, #183d3010 1px, transparent 1px);
+  background-size: 28px 28px;
+}
+
+.architecture-node {
+  z-index: 1;
+  border: 1px solid #b9c9bd;
+  background: #f7f8f4;
+}
+
+.architecture-hub {
+  z-index: 2;
+  border: 1px solid #183d30;
+  background: #183d30;
+  color: white;
+}
+
+.architecture-line {
+  position: absolute;
+  z-index: 0;
+  background: #91a899;
+}
+
+.architecture-line-horizontal {
+  top: 50%;
+  left: 13%;
+  right: 13%;
+  height: 1px;
+}
+
+.architecture-line-vertical {
+  top: 14%;
+  bottom: 14%;
+  left: 50%;
+  width: 1px;
+}
+
+.eyebrow {
+  color: var(--color-rust);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
+.text-link {
+  text-decoration-color: #b9624380;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
+}
+
+.text-link:hover {
+  text-decoration-color: currentColor;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}

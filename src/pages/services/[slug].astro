@@ -1,0 +1,48 @@
+---
+import SiteLayout from '../../layouts/SiteLayout.astro';
+import type { Service } from '../../data/services';
+import { services } from '../../data/services';
+
+interface Props {
+  service: Service;
+}
+
+export function getStaticPaths() {
+  return services.map((service) => ({
+    params: { slug: service.slug },
+    props: { service },
+  }));
+}
+
+const { service } = Astro.props;
+---
+
+<SiteLayout title={`${service.title} | WeCollab8`} description={service.summary}>
+  <section class="bg-forest text-white">
+    <div class="mx-auto max-w-7xl px-5 py-16 md:px-8 md:py-20 lg:px-10 lg:py-24">
+      <a href="/services/" class="text-sm text-white/75 no-underline hover:text-white">&larr; All services</a>
+      <p class="mt-10 text-xs font-semibold uppercase tracking-normal text-[#e8a083]">{service.number} / {service.label}</p>
+      <h1 class="mt-4 max-w-3xl font-display text-5xl leading-tight md:text-6xl">{service.title}</h1>
+      <p class="mt-6 max-w-2xl text-lg leading-8 text-white/80">{service.summary}</p>
+    </div>
+  </section>
+
+  <section class="mx-auto grid max-w-7xl gap-10 px-5 py-16 md:grid-cols-[0.7fr_1.3fr] md:px-8 md:py-20 lg:px-10">
+    <div>
+      <p class="eyebrow">Areas of expertise</p>
+      <h2 class="mt-4 max-w-[12ch] font-display text-4xl leading-tight text-ink">Built around your environment.</h2>
+    </div>
+    <ul class="m-0 list-none border-t border-line p-0">
+      {service.capabilities.map((capability: string) => (
+        <li class="border-b border-line py-5 text-base leading-7 text-ink">{capability}</li>
+      ))}
+    </ul>
+  </section>
+
+  <section class="border-y border-line bg-white/70">
+    <div class="mx-auto flex max-w-7xl flex-col gap-6 px-5 py-12 md:flex-row md:items-center md:justify-between md:px-8 lg:px-10">
+      <p class="max-w-2xl font-display text-3xl leading-tight text-ink">Discuss a challenge in {service.label.toLowerCase()}.</p>
+      <a href="mailto:admin@wecollab8.co.za" class="inline-flex w-fit items-center gap-3 bg-forest px-5 py-4 text-sm font-semibold text-white no-underline hover:bg-rust">Contact WeCollab8 <span aria-hidden="true">&rarr;</span></a>
+    </div>
+  </section>
+</SiteLayout>

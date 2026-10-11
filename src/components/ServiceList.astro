@@ -1,0 +1,30 @@
+---
+import type { Service } from '../data/services';
+
+interface Props {
+  services: Service[];
+}
+
+const { services } = Astro.props;
+---
+
+<div class="grid border-y border-line md:grid-cols-2">
+  {services.map((service: Service, index: number) => (
+    <a
+      href={`/services/${service.slug}/`}
+      class:list={[
+        'group border-line py-7 no-underline md:px-7 md:py-8',
+        index < services.length - 1 && 'border-b',
+        index % 2 === 0 && 'md:border-r',
+        index >= services.length - 2 && 'md:border-b-0',
+      ]}
+    >
+      <span class="text-xs font-bold text-rust">{service.number} / {service.label.toUpperCase()}</span>
+      <span class="mt-3 flex items-center justify-between gap-4 font-display text-2xl text-ink">
+        {service.title}
+        <span class="shrink-0 text-rust transition-transform group-hover:translate-x-1" aria-hidden="true">&rarr;</span>
+      </span>
+      <span class="mt-3 block max-w-md text-sm leading-6 text-muted">{service.summary}</span>
+    </a>
+  ))}
+</div>

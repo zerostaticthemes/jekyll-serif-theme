@@ -1,0 +1,45 @@
+---
+const links = [
+  { label: 'Services', href: '/services/' },
+  { label: 'About', href: '/about/' },
+  { label: 'Team', href: '/team/' },
+];
+
+const pathname = Astro.url.pathname;
+---
+
+<header class="border-b border-line bg-paper">
+  <div class="mx-auto flex max-w-7xl items-center justify-between gap-6 px-5 py-4 md:px-8 lg:px-10">
+    <a href="/" class="flex min-w-0 flex-col leading-none text-ink no-underline" aria-label="WeCollab8 home">
+      <span class="font-display text-2xl">WeCollab<span class="text-rust">8</span></span>
+      <span class="mt-1 text-[0.62rem] font-semibold uppercase text-muted">Technology Holdings</span>
+    </a>
+
+    <nav class="hidden items-center gap-8 lg:flex" aria-label="Primary navigation">
+      {links.map((link) => (
+        <a
+          href={link.href}
+          aria-current={pathname.startsWith(link.href) ? 'page' : undefined}
+          class="text-sm font-medium text-ink no-underline transition-colors hover:text-rust"
+        >
+          {link.label}
+        </a>
+      ))}
+      <a href="/contact/" class="inline-flex items-center gap-3 bg-forest px-5 py-3 text-sm font-semibold text-white no-underline transition-colors hover:bg-rust">
+        Contact <span aria-hidden="true">&rarr;</span>
+      </a>
+    </nav>
+
+    <details class="group relative lg:hidden">
+      <summary class="flex cursor-pointer list-none items-center gap-2 border border-line px-3 py-2 text-sm font-semibold text-ink">
+        Menu <span aria-hidden="true" class="text-rust">+</span>
+      </summary>
+      <nav class="absolute right-0 top-full z-20 mt-2 flex min-w-48 flex-col border border-line bg-paper p-2 shadow-lg" aria-label="Mobile navigation">
+        {links.map((link) => (
+          <a href={link.href} class="px-3 py-3 text-sm font-medium text-ink no-underline hover:bg-forest-light">{link.label}</a>
+        ))}
+        <a href="/contact/" class="px-3 py-3 text-sm font-semibold text-rust no-underline hover:bg-forest-light">Contact &rarr;</a>
+      </nav>
+    </details>
+  </div>
+</header>
